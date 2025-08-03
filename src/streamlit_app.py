@@ -7,6 +7,12 @@ import re
 from collections import defaultdict
 import json
 from streamlit_option_menu import option_menu
+from kural_database import KURAL_DATABASE, EMOTION_KEYWORDS, THEME_KEYWORDS, get_all_kurals, get_kural_by_number, get_kurals_by_theme, get_kurals_by_emotion, search_kurals_by_keyword
+from comprehensive_kurals import ADDITIONAL_KURALS, merge_kural_databases
+from extended_kurals import EXTENDED_KURALS, merge_all_kural_databases
+
+# Create comprehensive database by merging all three databases for maximum coverage
+COMPREHENSIVE_KURAL_DATABASE = merge_all_kural_databases(KURAL_DATABASE, ADDITIONAL_KURALS, EXTENDED_KURALS)
 
 # Page configuration
 st.set_page_config(
@@ -59,177 +65,9 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Thirukkural Database
-KURAL_DATABASE = {
-    "love": [
-        {
-            "number": 1,
-            "tamil": "அகர முதல எழுத்தெல்லாம் ஆதி பகவன் முதற்றே உலகு",
-            "transliteration": "Agara mudhala ezhuththellaam aadhi bhagavan mudhatre ulagu",
-            "english": "As the letter A is the first of all letters, so the eternal God is first in the world",
-            "meaning": "Just as 'A' is the foundation of all letters, God is the foundation of all existence",
-            "theme": "divine_love",
-            "emotions": ["grateful", "reverent", "contemplative"]
-        },
-        {
-            "number": 25,
-            "tamil": "அன்பும் அறனும் உடைத்தாயின் இல்வாழ்க்கை பண்பும் பயனும் அது",
-            "transliteration": "Anbum aranum udaitthaayin ilvaazhkkai panbum payanum adu",
-            "english": "If love and virtue dwell in the heart, domestic life will be blessed with beauty and fruit",
-            "meaning": "A household filled with love and righteousness brings beauty and prosperity",
-            "theme": "family_love",
-            "emotions": ["loving", "grateful", "content"]
-        }
-    ],
-    "friendship": [
-        {
-            "number": 781,
-            "tamil": "சிற்றினம் அஞ்சும் பெருமை சிறுமைதான் சுற்றமாச் சூழ்ந்து விடும்",
-            "transliteration": "Sitrinam anjum perumai sirumaithaan sutramaach soozhnthu vidum",
-            "english": "Greatness fears not evil company; meanness will be surrounded by it",
-            "meaning": "Good character avoids bad company, while poor character attracts it",
-            "theme": "friendship_quality",
-            "emotions": ["wise", "cautious", "reflective"]
-        },
-        {
-            "number": 785,
-            "tamil": "நட்பிற்கு வீற்றிருக்கை யாதெனில் கொட்பிற்கும் கொள்வாரைக் கொள்வதே",
-            "transliteration": "Natpirkku veetrirukkai yaadhenil kotpirkkum kollvaaraik kollvadhe",
-            "english": "What is the essence of friendship? It is to choose those who will choose us in adversity",
-            "meaning": "True friendship means choosing friends who will stand by us in difficult times",
-            "theme": "loyalty",
-            "emotions": ["loyal", "trusting", "grateful"]
-        }
-    ],
-    "wisdom": [
-        {
-            "number": 423,
-            "tamil": "எப்பொருள் யார்யார்வாய்க் கேட்பினும் அப்பொருள் மெய்ப்பொருள் காண்பது அறிவு",
-            "transliteration": "Epporul yaar yaarvaaik ketpinum apporul meypporul kaanpadhu arivu",
-            "english": "Whatever be the source, whatever be the speaker, to grasp the truth is wisdom",
-            "meaning": "True wisdom is the ability to discern truth regardless of who speaks it",
-            "theme": "discernment",
-            "emotions": ["wise", "thoughtful", "open_minded"]
-        },
-        {
-            "number": 426,
-            "tamil": "எண்ணிய எண்ணியாங்கு எய்து எண்ணியார் திண்ணியர் ஆகப் பெறின்",
-            "transliteration": "Enniya enniyaangu eidhu enniyaar thinniyar aagap perin",
-            "english": "Whatever one thinks, that one achieves, if one's thoughts are firm",
-            "meaning": "Firm determination leads to the achievement of one's goals",
-            "theme": "determination",
-            "emotions": ["determined", "confident", "focused"]
-        }
-    ],
-    "ethics": [
-        {
-            "number": 31,
-            "tamil": "செல்வத்துள் செல்வம் செவிச்செல்வம் அச்செல்வம் செல்வத்துள் எல்லாம் தலை",
-            "transliteration": "Selvaththul selvan sevich selvan ach selvan selvaththul ellaam thalai",
-            "english": "Among all wealth, the wealth of learning is the highest",
-            "meaning": "Knowledge is the greatest of all riches",
-            "theme": "education",
-            "emotions": ["inspired", "motivated", "humble"]
-        },
-        {
-            "number": 35,
-            "tamil": "யாதானும் நாடாமால் ஊராமால் என்னொருவன் சாந்துணையும் கல்லாத வாறு",
-            "transliteration": "Yaadhaanum naadaamaal uraamaal ennoruvan saanthunaiyum kalladha vaaru",
-            "english": "What does it matter if one does not learn, even if one has all the wealth in the world?",
-            "meaning": "Without learning, even great wealth is meaningless",
-            "theme": "knowledge",
-            "emotions": ["reflective", "humble", "motivated"]
-        }
-    ],
-    "leadership": [
-        {
-            "number": 381,
-            "tamil": "இறந்த மெனினும் எழுந்த மன்னோடு உறந்தாரை உள்ளாள் மகள்",
-            "transliteration": "Irandha meninum ezhuntha mannodu urandhaarai ullaal magal",
-            "english": "Even if dead, a king's daughter will not forget her father's friends",
-            "meaning": "Loyalty to family and friends should be maintained even in difficult times",
-            "theme": "loyalty",
-            "emotions": ["loyal", "grateful", "respectful"]
-        },
-        {
-            "number": 385,
-            "tamil": "ஒழுக்கம் விழுப்பம் தரலான் ஒழுக்கம் உயிரினும் ஓம்பப் படும்",
-            "transliteration": "Ozhukkam vizhuppam tharalaan ozhukkam uyirinum ombap padum",
-            "english": "Good conduct brings esteem; therefore, good conduct should be preserved more than life",
-            "meaning": "Moral character brings respect and should be valued more than life itself",
-            "theme": "integrity",
-            "emotions": ["principled", "respectful", "determined"]
-        }
-    ],
-    "wealth": [
-        {
-            "number": 751,
-            "tamil": "பொருளல்ல வற்றைப் பொருளென்று உணரும் மருளானாம் மாளாத உள்ளம்",
-            "transliteration": "Porulalla vatraip porulendru unarum marulaanaam maalaadha ullam",
-            "english": "The mind that considers what is not wealth as wealth is deluded",
-            "meaning": "True wealth is not material possessions but virtues and wisdom",
-            "theme": "true_wealth",
-            "emotions": ["wise", "content", "reflective"]
-        },
-        {
-            "number": 755,
-            "tamil": "இலமென்று அசைஇ இருப்பாரைக் காணின் நிலமென்னும் நல்லாள் நகும்",
-            "transliteration": "Ilamendru asai iruppaaraik kaanin nilamennum nallaal nagum",
-            "english": "When one sees those who say 'I have nothing' and remain idle, the goddess of wealth laughs",
-            "meaning": "Wealth comes to those who work hard, not to those who are lazy",
-            "theme": "hard_work",
-            "emotions": ["motivated", "determined", "inspired"]
-        }
-    ],
-    "forgiveness": [
-        {
-            "number": 152,
-            "tamil": "ஒறுத்தார்க்கு ஒருநாளை இன்பம் பொறுத்தார்க்குப் பொன்றும் துணையும் புகழ்",
-            "transliteration": "Otruththaarkku orunaalai inbam poruththaarkkup ponrum thunaiyum pugazh",
-            "english": "The pleasure of those who punish lasts for a day; the fame of those who forgive lasts till the end of time",
-            "meaning": "Forgiveness brings lasting fame and peace, while punishment brings only temporary satisfaction",
-            "theme": "forgiveness",
-            "emotions": ["peaceful", "wise", "compassionate"]
-        }
-    ],
-    "patience": [
-        {
-            "number": 156,
-            "tamil": "தன்னை உணர்த்தினான் தம்மை இன்அறுத்தான் தன்னுடையான் வேண்டின் உணர்",
-            "transliteration": "Thannai unarththinaan thammai inaruththaan thannudaiyaan vendin unar",
-            "english": "He who has patience will have what he wants; he who has no patience will have what he does not want",
-            "meaning": "Patience leads to achieving one's goals, while impatience leads to failure",
-            "theme": "patience",
-            "emotions": ["patient", "determined", "calm"]
-        }
-    ]
-}
+# Thirukkural Database is now imported from kural_database.py
 
-# Emotion keywords mapping
-EMOTION_KEYWORDS = {
-    "sad": ["sad", "depressed", "lonely", "heartbroken", "grief", "sorrow", "pain", "hurt", "crying", "tears"],
-    "angry": ["angry", "furious", "rage", "hate", "resentment", "bitter", "hostile", "irritated", "annoyed"],
-    "confused": ["confused", "uncertain", "doubt", "question", "why", "how", "what", "unsure", "puzzled"],
-    "grateful": ["thankful", "grateful", "blessed", "appreciate", "gratitude", "thank", "blessing"],
-    "love": ["love", "romance", "relationship", "marriage", "family", "care", "affection", "heart"],
-    "wisdom": ["wisdom", "knowledge", "learn", "teach", "understand", "truth", "philosophy", "meaning"],
-    "fear": ["fear", "afraid", "scared", "anxiety", "worry", "nervous", "terrified", "panic"],
-    "joy": ["happy", "joy", "excited", "celebrate", "success", "achievement", "victory", "triumph"],
-    "peaceful": ["peaceful", "calm", "serene", "tranquil", "forgiving", "compassionate", "merciful"],
-    "patient": ["patient", "tolerant", "enduring", "persevering", "waiting", "steady"]
-}
-
-# Theme keywords mapping
-THEME_KEYWORDS = {
-    "love": ["love", "romance", "marriage", "relationship", "family", "heart", "affection"],
-    "friendship": ["friend", "friendship", "companion", "ally", "buddy", "mate"],
-    "wisdom": ["wisdom", "knowledge", "learn", "teach", "understand", "truth"],
-    "ethics": ["right", "wrong", "moral", "ethical", "good", "bad", "virtue", "sin"],
-    "leadership": ["leader", "king", "ruler", "govern", "manage", "authority", "power"],
-    "wealth": ["money", "wealth", "rich", "poor", "poverty", "fortune", "prosperity"],
-    "forgiveness": ["forgive", "forgiveness", "pardon", "excuse", "mercy", "compassion"],
-    "patience": ["patience", "patient", "wait", "endure", "persevere", "tolerance"]
-}
+# Emotion and Theme keywords are now imported from kural_database.py
 
 def detect_emotion(text):
     """Detect emotion from user input"""
@@ -273,23 +111,37 @@ def find_relevant_kurals(emotions, themes):
     """Find relevant Kurals based on emotions and themes"""
     relevant_kurals = []
     
-    # Search in themes first
+    # Search in themes first using comprehensive database
     for theme in themes:
-        if theme in KURAL_DATABASE:
-            relevant_kurals.extend(KURAL_DATABASE[theme])
+        if theme in COMPREHENSIVE_KURAL_DATABASE:
+            relevant_kurals.extend(COMPREHENSIVE_KURAL_DATABASE[theme])
     
     # If no theme matches, search by emotions
     if not relevant_kurals:
-        for theme, kurals in KURAL_DATABASE.items():
+        for theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
             for kural in kurals:
                 if any(emotion in kural.get("emotions", []) for emotion in emotions):
                     relevant_kurals.append(kural)
     
     # If still no matches, return wisdom kurals
     if not relevant_kurals:
-        relevant_kurals = KURAL_DATABASE.get("wisdom", [])
+        relevant_kurals = COMPREHENSIVE_KURAL_DATABASE.get("wisdom", [])
     
     return relevant_kurals[:3]  # Return top 3 kurals
+
+def get_total_kural_count():
+    """Get the total number of kurals in the comprehensive database"""
+    total_count = 0
+    for theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
+        total_count += len(kurals)
+    return total_count
+
+def get_theme_counts():
+    """Get the count of kurals for each theme"""
+    theme_counts = {}
+    for theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
+        theme_counts[theme] = len(kurals)
+    return theme_counts
 
 def display_kural(kural, index=0):
     """Display a Kural in a beautiful card format"""
@@ -419,21 +271,83 @@ def main():
     elif selected == "Explore Themes":
         st.markdown('<h1 class="main-header">📚 Explore Themes</h1>', unsafe_allow_html=True)
         
-        # Theme selection
-        theme_options = list(KURAL_DATABASE.keys())
-        selected_theme = st.selectbox("Choose a theme to explore:", theme_options)
+        # Search functionality
+        st.subheader("🔍 Search Kurals")
+        search_option = st.radio("Search by:", ["Theme", "Keyword", "Kural Number"])
         
-        if selected_theme:
-            st.subheader(f"📖 {selected_theme.title()} - Thirukkural Verses")
+        if search_option == "Theme":
+            # Theme selection
+            theme_options = list(COMPREHENSIVE_KURAL_DATABASE.keys())
+            selected_theme = st.selectbox("Choose a theme to explore:", theme_options)
             
-            for kural in KURAL_DATABASE[selected_theme]:
-                display_kural(kural)
+            if selected_theme:
+                st.subheader(f"📖 {selected_theme.title()} - Thirukkural Verses")
+                st.info(f"Found {len(COMPREHENSIVE_KURAL_DATABASE[selected_theme])} kurals in this theme")
                 
-                # Add some spacing
-                st.markdown("<br>", unsafe_allow_html=True)
+                for kural in COMPREHENSIVE_KURAL_DATABASE[selected_theme]:
+                    display_kural(kural)
+                    st.markdown("<br>", unsafe_allow_html=True)
+        
+        elif search_option == "Keyword":
+            keyword = st.text_input("Enter a keyword to search in kurals:")
+            if keyword and st.button("Search"):
+                matching_kurals = search_kurals_by_keyword(keyword)
+                if matching_kurals:
+                    st.subheader(f"🔍 Search Results for '{keyword}'")
+                    st.info(f"Found {len(matching_kurals)} matching kurals")
+                    
+                    for kural in matching_kurals:
+                        display_kural(kural)
+                        st.markdown("<br>", unsafe_allow_html=True)
+                else:
+                    st.warning(f"No kurals found matching '{keyword}'")
+        
+        elif search_option == "Kural Number":
+            kural_number = st.number_input("Enter Kural number (1-1330):", min_value=1, max_value=1330, value=1)
+            if st.button("Find Kural"):
+                kural = get_kural_by_number(kural_number)
+                if kural:
+                    st.subheader(f"📖 Kural #{kural_number}")
+                    display_kural(kural)
+                else:
+                    st.warning(f"Kural #{kural_number} not found in the current database")
+        
+        # Database statistics
+        st.markdown("---")
+        st.subheader("📊 Database Statistics")
+        total_kurals = get_total_kural_count()
+        theme_counts = get_theme_counts()
+        
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric("Total Kurals", total_kurals)
+        with col2:
+            st.metric("Themes", len(theme_counts))
+        with col3:
+            st.metric("Coverage", f"{(total_kurals/1330)*100:.1f}%")
     
     elif selected == "About":
         st.markdown('<h1 class="main-header">ℹ️ About KuralCompanion</h1>', unsafe_allow_html=True)
+        
+        # Database Statistics
+        total_kurals = get_total_kural_count()
+        theme_counts = get_theme_counts()
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.metric("Total Kurals in Database", total_kurals)
+            st.metric("Themes Covered", len(theme_counts))
+        
+        with col2:
+            st.metric("Target Goal", "1,330 Kurals")
+            st.metric("Coverage", f"{(total_kurals/1330)*100:.1f}%")
+        
+        # Theme breakdown
+        st.subheader("📊 Database Coverage by Theme")
+        theme_data = pd.DataFrame(list(theme_counts.items()), columns=['Theme', 'Count'])
+        fig = px.bar(theme_data, x='Theme', y='Count', title='Kurals per Theme')
+        st.plotly_chart(fig, use_container_width=True)
         
         st.markdown("""
         ### 🌟 Vision Statement
@@ -443,6 +357,11 @@ def main():
         A digital sage that listens, understands, and gently guides—through the eternal words of Thiruvalluvar.
         
         ### 🎯 Core Features
+        
+        **Enhanced Kural Database**
+        - Comprehensive collection of Thirukkural verses
+        - Organized by themes and emotions for intelligent matching
+        - Multiple database files for better organization and scalability
         
         **Emotion-to-Kural Mapping**
         - Detects intent, emotion, and theme from your input
@@ -467,6 +386,15 @@ def main():
         ### 🚀 Technology
         
         Built with Streamlit, Python, and AI-powered emotion detection to bridge ancient wisdom with modern technology.
+        
+        ### 📁 Database Structure
+        
+        The Kural database is organized into multiple files for better maintainability:
+        - `kural_database.py` - Main database with core kurals
+        - `comprehensive_kurals.py` - Additional kurals for extended coverage
+        - `extended_kurals.py` - Further kurals for maximum coverage
+        
+        This modular approach allows for easy expansion and maintenance of the database.
         """)
 
 if __name__ == "__main__":
