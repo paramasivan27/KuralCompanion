@@ -127,7 +127,7 @@ def find_relevant_kurals(emotions, themes):
     if not relevant_kurals:
         relevant_kurals = COMPREHENSIVE_KURAL_DATABASE.get("wisdom", [])
     
-    return relevant_kurals[:3]  # Return top 3 kurals
+    return relevant_kurals[:2]  # Return top 2 kurals
 
 def get_total_kural_count():
     """Get the total number of kurals in the comprehensive database"""
@@ -270,21 +270,7 @@ def main():
                 
                 st.markdown("---")
                 
-                # Find and display relevant Kurals
-                relevant_kurals = find_relevant_kurals(emotions, themes)
-                
-                st.subheader("📖 Relevant Thirukkural Verses")
-                for i, kural in enumerate(relevant_kurals):
-                    display_kural(kural, i)
-                
-                # Moral reflection
-                st.markdown("---")
-                st.subheader("💡 Moral Reflection")
-                reflection = get_moral_reflection(emotions, themes)
-                st.info(reflection)
-                
-                # Conversation mode
-                st.markdown("---")
+                # Conversation mode - Moved above the verses
                 st.subheader("🤖 Conversational AI Mode")
                 st.markdown("""
                 **Your Question:** "{}"
@@ -292,6 +278,20 @@ def main():
                 **KuralCompanion's Response:** Based on your emotions and themes, here are the relevant verses from Thirukkural that speak to your situation. 
                 Remember, every challenge is an opportunity for growth, and every question leads to wisdom.
                 """.format(user_input))
+                
+                # Moral reflection
+                st.markdown("---")
+                st.subheader("💡 Moral Reflection")
+                reflection = get_moral_reflection(emotions, themes)
+                st.info(reflection)
+                
+                # Find and display relevant Kurals - Moved below the AI response
+                st.markdown("---")
+                relevant_kurals = find_relevant_kurals(emotions, themes)
+                
+                st.subheader("📖 Relevant Thirukkural Verses")
+                for i, kural in enumerate(relevant_kurals):
+                    display_kural(kural, i)
     
     elif selected == "Explore Themes":
         st.markdown('<h1 class="main-header">📚 Explore Themes</h1>', unsafe_allow_html=True)
