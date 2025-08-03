@@ -144,14 +144,39 @@ def get_theme_counts():
     return theme_counts
 
 def display_kural(kural, index=0):
-    """Display a Kural in a beautiful card format"""
+    """Display a Kural in a beautiful card format with enhanced formatting"""
+    
+    # Format Tamil text in two lines
+    tamil_text = f"{kural.get('line1', '')}<br>{kural.get('line2', '')}" if 'line1' in kural else kural['tamil']
+    
+    # Format transliteration in two lines
+    transliteration_parts = kural['transliteration'].split(' ', 1)
+    transliteration_text = f"{transliteration_parts[0]}<br>{transliteration_parts[1]}" if len(transliteration_parts) > 1 else kural['transliteration']
+    
+    # Get Tamil explanations
+    mv = kural.get('mv', '')
+    sp = kural.get('sp', '')
+    mk = kural.get('mk', '')
+    
+    # Create explanations section
+    explanations_html = ""
+    if mv or sp or mk:
+        explanations_html = "<p><strong>Tamil Explanations:</strong></p>"
+        if mv:
+            explanations_html += f"<p><em>மு.வ:</em> {mv}</p>"
+        if sp:
+            explanations_html += f"<p><em>ச.ப:</em> {sp}</p>"
+        if mk:
+            explanations_html += f"<p><em>மு.க:</em> {mk}</p>"
+    
     st.markdown(f"""
     <div class="kural-card">
         <h3>Kural #{kural['number']}</h3>
-        <p><strong>Tamil:</strong> {kural['tamil']}</p>
-        <p><strong>Transliteration:</strong> {kural['transliteration']}</p>
+        <p><strong>Tamil:</strong><br>{tamil_text}</p>
+        <p><strong>Transliteration:</strong><br>{transliteration_text}</p>
         <p><strong>English:</strong> {kural['english']}</p>
         <p><strong>Meaning:</strong> {kural['meaning']}</p>
+        {explanations_html}
         <p><strong>Theme:</strong> {kural['theme'].replace('_', ' ').title()}</p>
     </div>
     """, unsafe_allow_html=True)
