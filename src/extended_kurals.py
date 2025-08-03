@@ -7994,3 +7994,72 @@ KURAL_DATABASE = {
         }
     ]
 }
+
+# Alias for compatibility with existing code
+EXTENDED_KURALS = KURAL_DATABASE
+
+def merge_all_kural_databases(db1, db2, db3):
+    """Merge three kural databases"""
+    merged = {}
+    
+    # Add all themes from first database
+    for theme, kurals in db1.items():
+        merged[theme] = kurals.copy()
+    
+    # Add themes from second database
+    for theme, kurals in db2.items():
+        if theme in merged:
+            merged[theme].extend(kurals)
+        else:
+            merged[theme] = kurals.copy()
+    
+    # Add themes from third database
+    for theme, kurals in db3.items():
+        if theme in merged:
+            merged[theme].extend(kurals)
+        else:
+            merged[theme] = kurals.copy()
+    
+    return merged
+
+def get_all_kurals():
+    """Get all kurals from the database"""
+    all_kurals = []
+    for theme, kurals in KURAL_DATABASE.items():
+        all_kurals.extend(kurals)
+    return all_kurals
+
+def get_kural_by_number(number):
+    """Get a specific kural by its number"""
+    all_kurals = get_all_kurals()
+    for kural in all_kurals:
+        if kural["number"] == number:
+            return kural
+    return None
+
+def get_kurals_by_theme(theme):
+    """Get all kurals for a specific theme"""
+    return KURAL_DATABASE.get(theme, [])
+
+def get_kurals_by_emotion(emotion):
+    """Get all kurals that match a specific emotion"""
+    matching_kurals = []
+    for theme, kurals in KURAL_DATABASE.items():
+        for kural in kurals:
+            if emotion in kural.get("emotions", []):
+                matching_kurals.append(kural)
+    return matching_kurals
+
+def search_kurals_by_keyword(keyword):
+    """Search kurals by keyword in English meaning or Tamil text"""
+    matching_kurals = []
+    keyword_lower = keyword.lower()
+    
+    for theme, kurals in KURAL_DATABASE.items():
+        for kural in kurals:
+            if (keyword_lower in kural["english"].lower() or 
+                keyword_lower in kural["meaning"].lower() or
+                keyword_lower in kural["tamil"].lower()):
+                matching_kurals.append(kural)
+    
+    return matching_kurals
