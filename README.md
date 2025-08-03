@@ -12,7 +12,7 @@ tags:
 - tamil
 - thirukkural
 pinned: false
-short_description: Ancient Wisdom for Modern Life - AI-powered Thirukkural companion
+short_description: Ancient Wisdom for Modern Life - AI Thirukkural companion
 ---
 
 # 🌟 KuralCompanion
