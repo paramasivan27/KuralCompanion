@@ -209,19 +209,25 @@ def main():
     # Sidebar navigation
     with st.sidebar:
         st.markdown("## 🌟 KuralCompanion")
-        selected = option_menu(
+        sidebar_selected = option_menu(
             menu_title=None,
             options=["Home", "Ask Kural", "Explore Themes", "About"],
             icons=["house", "question-circle", "book", "info-circle"],
             menu_icon="cast",
             default_index=0,
         )
-        
-        # Update session state when sidebar selection changes
-        if selected != st.session_state.selected_page:
-            st.session_state.selected_page = selected
     
-    # Use session state for page selection
+    # Determine which page to show
+    # If sidebar was clicked, use sidebar selection
+    # If button was clicked, use session state
+    if 'last_sidebar_selection' not in st.session_state:
+        st.session_state.last_sidebar_selection = sidebar_selected
+    
+    # Check if sidebar selection changed (user clicked sidebar)
+    if sidebar_selected != st.session_state.last_sidebar_selection:
+        st.session_state.selected_page = sidebar_selected
+        st.session_state.last_sidebar_selection = sidebar_selected
+    
     selected = st.session_state.selected_page
     
     if selected == "Home":
