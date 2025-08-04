@@ -56,6 +56,7 @@ KURAL_DATABASE = {{
             sp = json.dumps(kural["sp"], ensure_ascii=False)[1:-1]
             mk = json.dumps(kural["mk"], ensure_ascii=False)[1:-1]
             couplet = json.dumps(kural["couplet"], ensure_ascii=False)[1:-1]
+            emotion_detail = json.dumps(kural.get("emotion_detail", ""), ensure_ascii=False)[1:-1]
             
             # Remove trailing comma for last item in theme
             comma = ',' if j < len(theme_kurals) - 1 else ''
@@ -67,6 +68,7 @@ KURAL_DATABASE = {{
             "meaning": "{meaning}",
             "theme": "{kural["theme"]}",
             "emotions": {kural["emotions"]},
+            "emotion_detail": "{emotion_detail}",
             "line1": "{line1}",
             "line2": "{line2}",
             "mv": "{mv}",

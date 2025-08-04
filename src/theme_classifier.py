@@ -102,11 +102,20 @@ def process_kural_data(kural_data):
         transliteration1 = kural.get("transliteration1", "")
         transliteration2 = kural.get("transliteration2", "")
         
-        # Classify theme
-        theme = classify_theme(translation, explanation, mv, sp, mk)
+        # Use Chapter as theme instead of classifying
+        theme = kural.get("Chapter", "wisdom")
         
-        # Get emotions
-        emotions = get_emotions_for_theme(theme)
+        # Parse emotions from JSON (comma-separated string)
+        emotions_str = kural.get("emotions", "")
+        if emotions_str:
+            # Split by comma and clean up whitespace
+            emotions = [emotion.strip() for emotion in emotions_str.split(",") if emotion.strip()]
+        else:
+            # Fallback to default emotions if not provided
+            emotions = get_emotions_for_theme(theme)
+        
+        # Get EmotionDetail
+        emotion_detail = kural.get("EmotionDetail", "")
         
         # Create processed kural
         processed_kural = {
@@ -116,6 +125,7 @@ def process_kural_data(kural_data):
             "meaning": explanation,
             "theme": theme,
             "emotions": emotions,
+            "emotion_detail": emotion_detail,
             "line1": line1,
             "line2": line2,
             "mv": mv,
