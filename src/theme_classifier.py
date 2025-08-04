@@ -111,7 +111,6 @@ def process_kural_data(kural_data):
         # Create processed kural
         processed_kural = {
             "number": number,
-            "tamil": f"{line1} {line2}",
             "transliteration": f"{transliteration1} {transliteration2}",
             "english": translation,
             "meaning": explanation,

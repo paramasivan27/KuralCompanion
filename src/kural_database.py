@@ -7,9 +7,7 @@ Organized by themes and emotions for intelligent matching
 KURAL_DATABASE = {
     "divine_love": [
         {
-            "number": 1,
-            "tamil": "அகர முதல எழுத்தெல்லாம் ஆதி பகவன் முதற்றே உலகு.",
-            "transliteration": "Akara Mudhala Ezhuththellaam Aadhi Pakavan Mudhatre Ulaku",
+            "number": 1,            "transliteration": "Akara Mudhala Ezhuththellaam Aadhi Pakavan Mudhatre Ulaku",
             "english": "'A' leads letters; the Ancient Lord Leads and lords the entire world",
             "meaning": "As the letter A is the first of all letters, so the eternal God is first in the world",
             "theme": "divine_love",
@@ -22,9 +20,7 @@ KURAL_DATABASE = {
             "couplet": "A, as its first of letters, every speech maintains;The \"Primal Deity\" is first through all the world's domains"
         },
         {
-            "number": 3,
-            "tamil": "மலர்மிசை ஏகினான் மாணடி சேர்ந்தார் நிலமிசை நீடுவாழ் வார்.",
-            "transliteration": "Malarmisai Ekinaan Maanati Serndhaar Nilamisai Neetuvaazh Vaar",
+            "number": 3,            "transliteration": "Malarmisai Ekinaan Maanati Serndhaar Nilamisai Neetuvaazh Vaar",
             "english": "Long they live on earth who gain The feet of God in florid brain",
             "meaning": "They who are united to the glorious feet of Him who passes swiftly over the flower of the mind, shall flourish long above all worlds",
             "theme": "divine_love",
@@ -37,9 +33,7 @@ KURAL_DATABASE = {
             "couplet": "His feet, 'Who o'er the full-blown flower hath past,' who gainIn bliss long time shall dwell above this earthly plain"
         },
         {
-            "number": 9,
-            "tamil": "கோளில் பொறியின் குணமிலவே எண்குணத்தான் தாளை வணங்காத் தலை.",
-            "transliteration": "Kolil Poriyin Kunamilave Enkunaththaan Thaalai Vanangaath Thalai",
+            "number": 9,            "transliteration": "Kolil Poriyin Kunamilave Enkunaththaan Thaalai Vanangaath Thalai",
             "english": "Like senses stale that head is vain Which bows not to Eight-Virtued Divine",
             "meaning": "The head that worships not the feet of Him who is possessed of eight attributes, is as useless as a sense without the power of sensation",
             "theme": "divine_love",
@@ -52,9 +46,7 @@ KURAL_DATABASE = {
             "couplet": "Before His foot, 'the Eight-fold Excellence,' with unbent head,Who stands, like palsied sense, is to all living functions dead"
         },
         {
-            "number": 10,
-            "tamil": "பிறவிப் பெருங்கடல் நீந்துவர் நீந்தார் இறைவன் அடிசேரா தார்.",
-            "transliteration": "Piravip Perungatal Neendhuvar Neendhaar Iraivan Atiseraa Thaar",
+            "number": 10,            "transliteration": "Piravip Perungatal Neendhuvar Neendhaar Iraivan Atiseraa Thaar",
             "english": "The sea of births they alone swim Who clench His feet and cleave to Him",
             "meaning": "None can swim the great sea of births but those who are united to the feet of God",
             "theme": "divine_love",
@@ -67,9 +59,7 @@ KURAL_DATABASE = {
             "couplet": "They swim the sea of births, the 'Monarch's' foot who gain;None others reach the shore of being's mighty main"
         },
         {
-            "number": 14,
-            "tamil": "ஏரின் உழாஅர் உழவர் புயல்என்னும் வாரி வளங்குன்றிக் கால்.",
-            "transliteration": "Erin Uzhaaar Uzhavar Puyalennum Vaari Valangundrik Kaal",
+            "number": 14,            "transliteration": "Erin Uzhaaar Uzhavar Puyalennum Vaari Valangundrik Kaal",
             "english": "Unless the fruitful shower descend, The ploughman's sacred toil must end",
             "meaning": "If the abundance of wealth imparting rain diminish, the labour of the plough must cease",
             "theme": "divine_love",
@@ -82,9 +72,7 @@ KURAL_DATABASE = {
             "couplet": "If clouds their wealth of waters fail on earth to pour,The ploughers plough with oxen's sturdy team no more"
         },
         {
-            "number": 18,
-            "tamil": "சிறப்பொடு பூசனை செல்லாது வானம் வறக்குமேல் வானோர்க்கும் ஈண்டு.",
-            "transliteration": "Sirappotu Poosanai Sellaadhu Vaanam Varakkumel Vaanorkkum Eentu",
+            "number": 18,            "transliteration": "Sirappotu Poosanai Sellaadhu Vaanam Varakkumel Vaanorkkum Eentu",
             "english": "The earth, beneath a barren sky, Would offerings for the gods deny",
             "meaning": "If the heaven dry up, neither yearly festivals, nor daily worship will be offered in this world, to the celestials",
             "theme": "divine_love",
@@ -97,9 +85,7 @@ KURAL_DATABASE = {
             "couplet": "If heaven grow dry, with feast and offering never more,Will men on earth the heavenly ones adore"
         },
         {
-            "number": 43,
-            "tamil": "தென்புலத்தார் தெய்வம் விருந்தொக்கல் தானென்றாங்கு ஐம்புலத்தாறு ஓம்பல் தலை.",
-            "transliteration": "Thenpulaththaar Theyvam Virundhokkal Thaanendraangu Aimpulaththaaru Ompal Thalai",
+            "number": 43,            "transliteration": "Thenpulaththaar Theyvam Virundhokkal Thaanendraangu Aimpulaththaaru Ompal Thalai",
             "english": "By dutiful householder's aid God, manes, kin, self and guests are served",
             "meaning": "The chief (duty of the householder) is to preserve the five-fold rule (of conduct) towards the manes, the Gods, his guests, his relations and himself",
             "theme": "divine_love",
@@ -112,9 +98,7 @@ KURAL_DATABASE = {
             "couplet": "The manes, God, guests kindred, self, in due degree,These five to cherish well is chiefest charity"
         },
         {
-            "number": 50,
-            "tamil": "வையத்துள் வாழ்வாங்கு வாழ்பவன் வான்உறையும் தெய்வத்துள் வைக்கப் படும்.",
-            "transliteration": "Vaiyaththul Vaazhvaangu Vaazhpavan Vaanu�ryum Theyvaththul Vaikkap Patum",
+            "number": 50,            "transliteration": "Vaiyaththul Vaazhvaangu Vaazhpavan Vaanu�ryum Theyvaththul Vaikkap Patum",
             "english": "He is a man of divine worth Who lives in ideal home on earth",
             "meaning": "He who on earth has lived in the conjugal state as he should live, will be placed among the Gods who dwell in heaven",
             "theme": "divine_love",
@@ -127,9 +111,7 @@ KURAL_DATABASE = {
             "couplet": "Who shares domestic life, by household virtues graced,Shall, mid the Gods, in heaven who dwell, be placed"
         },
         {
-            "number": 55,
-            "tamil": "தெய்வம் தொழாஅள் கொழுநன் தொழுதெழுவாள் பெய்யெனப் பெய்யும் மழை.",
-            "transliteration": "Theyvam Thozhaaal Kozhunan Thozhudhezhuvaal Peyyenap Peyyum Mazhai",
+            "number": 55,            "transliteration": "Theyvam Thozhaaal Kozhunan Thozhudhezhuvaal Peyyenap Peyyum Mazhai",
             "english": "Her spouse before God who adores, Is like rain that at request pours",
             "meaning": "If she, who does not worship God, but who rising worships her husband, say, \"let it rain,\" it will rain",
             "theme": "divine_love",
@@ -142,9 +124,7 @@ KURAL_DATABASE = {
             "couplet": "No God adoring, low she bends before her lord;Then rising, serves: the rain falls instant at her word"
         },
         {
-            "number": 58,
-            "tamil": "பெற்றாற் பெறின்பெறுவர் பெண்டிர் பெருஞ்சிறப்புப் புத்தேளிர் வாழும் உலகு.",
-            "transliteration": "Petraar Perinperuvar Pentir Perunjirappup Puththelir Vaazhum Ulaku",
+            "number": 58,            "transliteration": "Petraar Perinperuvar Pentir Perunjirappup Puththelir Vaazhum Ulaku",
             "english": "Women who win their husbands' heart Shall flourish where the gods resort",
             "meaning": "If women shew reverence to their husbands, they will obtain great excellence in the world where the gods flourish",
             "theme": "divine_love",
@@ -157,9 +137,7 @@ KURAL_DATABASE = {
             "couplet": "If wife be wholly true to him who gained her as his bride,Great glory gains she in the world where gods bliss abide"
         },
         {
-            "number": 84,
-            "tamil": "அகனமர்ந்து செய்யாள் உறையும் முகனமர்ந்து நல்விருந்து ஓம்புவான் இல்.",
-            "transliteration": "Akanamarndhu Seyyaal Uraiyum Mukanamarndhu Nalvirundhu Ompuvaan Il",
+            "number": 84,            "transliteration": "Akanamarndhu Seyyaal Uraiyum Mukanamarndhu Nalvirundhu Ompuvaan Il",
             "english": "The goddess of wealth will gladly rest  Where smiles welcome the worthy guest",
             "meaning": "Lakshmi with joyous mind shall dwell in the house of that man who, with cheerful countenance, entertains the good as guests",
             "theme": "divine_love",
@@ -172,9 +150,7 @@ KURAL_DATABASE = {
             "couplet": "With smiling face he entertains each virtuous guest,'Fortune' with gladsome mind shall in his dwelling rest"
         },
         {
-            "number": 111,
-            "tamil": "தகுதி எனவொன்று நன்றே பகுதியால் பாற்பட்டு ஒழுகப் பெறின்.",
-            "transliteration": "Thakudhi Enavondru Nandre Pakudhiyaal Paarpattu Ozhukap Perin",
+            "number": 111,            "transliteration": "Thakudhi Enavondru Nandre Pakudhiyaal Paarpattu Ozhukap Perin",
             "english": "Equity is supreme virtue  It is to give each man his due",
             "meaning": "That equity which consists in acting with equal regard to each of (the three) divisions of men [enemies, strangers and friends] is a pre-eminent virtue",
             "theme": "divine_love",
@@ -187,9 +163,7 @@ KURAL_DATABASE = {
             "couplet": "If justice, failing not, its quality maintain,Giving to each his due, -'tis man's one highest gain"
         },
         {
-            "number": 121,
-            "tamil": "அடக்கம் அமரருள் உய்க்கும் அடங்காமை ஆரிருள் உய்த்து விடும்.",
-            "transliteration": "Atakkam Amararul Uykkum Atangaamai Aarirul Uyththu Vitum",
+            "number": 121,            "transliteration": "Atakkam Amararul Uykkum Atangaamai Aarirul Uyththu Vitum",
             "english": "Self-rule leads to realms of gods  Indulgence leads to gloomy hades",
             "meaning": "Self-control will place (a man) among the Gods; the want of it will drive (him) into the thickest darkness (of hell)",
             "theme": "divine_love",
@@ -202,9 +176,7 @@ KURAL_DATABASE = {
             "couplet": "Control of self does man conduct to bliss th' immortals share;Indulgence leads to deepest night, and leaves him there"
         },
         {
-            "number": 173,
-            "tamil": "சிற்றின்பம் வெஃகி அறனல்ல செய்யாரே மற்றின்பம் வேண்டு பவர்.",
-            "transliteration": "Sitrinpam Veqki Aranalla Seyyaare Matrinpam Ventu Pavar",
+            "number": 173,            "transliteration": "Sitrinpam Veqki Aranalla Seyyaare Matrinpam Ventu Pavar",
             "english": "For spiritual bliss who long  For fleeting joy commit no wrong",
             "meaning": "Those who desire the higher pleasures (of heaven) will not act unjustly through desire of the trifling joy. (in this life.)",
             "theme": "divine_love",
@@ -217,9 +189,7 @@ KURAL_DATABASE = {
             "couplet": "No deeds of ill, misled by base desire,Do they, whose souls to other joys aspire"
         },
         {
-            "number": 213,
-            "tamil": "புத்தே ளுலகத்தும் ஈண்டும் பெறலரிதே ஒப்புரவின் நல்ல பிற.",
-            "transliteration": "Puththe Lulakaththum Eentum Peralaridhe Oppuravin Nalla Pira",
+            "number": 213,            "transliteration": "Puththe Lulakaththum Eentum Peralaridhe Oppuravin Nalla Pira",
             "english": "In heav'n and earth 'tis hard to find  A greater good than being kind",
             "meaning": "It is difficult to obtain another good equal to benevolence either in this world or in that of the gods",
             "theme": "divine_love",
@@ -232,9 +202,7 @@ KURAL_DATABASE = {
             "couplet": "To 'due beneficence' no equal good we know,Amid the happy gods, or in this world below"
         },
         {
-            "number": 234,
-            "tamil": "நிலவரை நீள்புகழ் ஆற்றின் புலவரைப் போற்றாது புத்தேள் உலகு.",
-            "transliteration": "Nilavarai Neelpukazh Aatrin Pulavaraip Potraadhu Puththel Ulaku",
+            "number": 234,            "transliteration": "Nilavarai Neelpukazh Aatrin Pulavaraip Potraadhu Puththel Ulaku",
             "english": "From hailing gods heavens will cease  To hail the men of lasting praise",
             "meaning": "If one has acquired extensive fame within the limits of this earth, the world of the Gods will no longer praise those sages who have attained that world",
             "theme": "divine_love",
@@ -247,9 +215,7 @@ KURAL_DATABASE = {
             "couplet": "If men do virtuous deeds by world-wide ample glory crowned,The heavens will cease to laud the sage for other gifts renowned"
         },
         {
-            "number": 260,
-            "tamil": "கொல்லான் புலாலை மறுத்தானைக் கைகூப்பி எல்லா உயிருந் தொழும்.",
-            "transliteration": "Kollaan Pulaalai Maruththaanaik Kaikooppi Ellaa Uyirun Thozhum",
+            "number": 260,            "transliteration": "Kollaan Pulaalai Maruththaanaik Kaikooppi Ellaa Uyirun Thozhum",
             "english": "All lives shall lift their palms to him  Who eats not flesh nor kills with whim",
             "meaning": "All creatures will join their hands together, and worship him who has never taken away life, nor eaten flesh",
             "theme": "divine_love",
@@ -262,9 +228,7 @@ KURAL_DATABASE = {
             "couplet": "Who slays nought,- flesh rejects- his feet beforeAll living things with clasped hands adore"
         },
         {
-            "number": 268,
-            "tamil": "தன்னுயிர் தான்அறப் பெற்றானை ஏனைய மன்னுயி ரெல்லாந் தொழும்.",
-            "transliteration": "Thannuyir Thaanarap Petraanai Enaiya Mannuyi Rellaan Thozhum",
+            "number": 268,            "transliteration": "Thannuyir Thaanarap Petraanai Enaiya Mannuyi Rellaan Thozhum",
             "english": "He worship wins from every soul  Who Master is by soul control",
             "meaning": "All other creatures will worship him who has attained the control of his own soul",
             "theme": "divine_love",
@@ -277,9 +241,7 @@ KURAL_DATABASE = {
             "couplet": "Who gains himself in utter self-control,Him worships every other living soul"
         },
         {
-            "number": 269,
-            "tamil": "கூற்றம் குதித்தலும் கைகூடும் நோற்றலின் ஆற்றல் தலைப்பட் டவர்க்குல்.",
-            "transliteration": "Kootram Kudhiththalum Kaikootum Notralin Aatral Thalaippat Tavarkkul",
+            "number": 269,            "transliteration": "Kootram Kudhiththalum Kaikootum Notralin Aatral Thalaippat Tavarkkul",
             "english": "They can even defy death  Who get by penance godly strenth",
             "meaning": "Those who have attained the power which religious discipline confers, will be able also to pass the limit of Yama, (the God of death)",
             "theme": "divine_love",
@@ -292,9 +254,7 @@ KURAL_DATABASE = {
             "couplet": "E'en over death the victory he may gain,If power by penance won his soul obtain"
         },
         {
-            "number": 290,
-            "tamil": "கள்வார்க்குத் தள்ளும் உயிர்நிலை கள்வார்க்குத் தள்ளாது புத்தே ளுளகு.",
-            "transliteration": "Kalvaarkkuth Thallum Uyirnilai Kalvaarkkuth Thallaadhu Puththe Lulaku",
+            "number": 290,            "transliteration": "Kalvaarkkuth Thallum Uyirnilai Kalvaarkkuth Thallaadhu Puththe Lulaku",
             "english": "Even the body rejects thieves;  The honest men, heaven receives",
             "meaning": "Even their body will fail the fraudulent; but even the world of the gods will not fail those who are free from fraud",
             "theme": "divine_love",
@@ -307,9 +267,7 @@ KURAL_DATABASE = {
             "couplet": "The fraudful forfeit life and being here below;Who fraud eschew the bliss of heavenly beings know"
         },
         {
-            "number": 346,
-            "tamil": "யான்எனது என்னும் செருக்குஅறுப்பான் வானோர்க்கு உயர்ந்த உலகம் புகும்.",
-            "transliteration": "Yaan Enadhu Ennum Serukku Aruppaan Vaanorkku Uyarndha Ulakam",
+            "number": 346,            "transliteration": "Yaan Enadhu Ennum Serukku Aruppaan Vaanorkku Uyarndha Ulakam",
             "english": "Who curbs the pride of I and mine  Gets a world rare for gods to gain",
             "meaning": "Shall enter realms above the powers divine",
             "theme": "divine_love",
@@ -322,9 +280,7 @@ KURAL_DATABASE = {
             "couplet": "Who kills conceit that utters 'I' and 'mine',Shall enter realms above the powers divine"
         },
         {
-            "number": 348,
-            "tamil": "தலைப்பட்டார் தீரத் துறந்தார் மயங்கி வலைப்பட்டார் மற்றை யவர்.",
-            "transliteration": "Thalaippattaar Theerath Thurandhaar Mayangi Valaippattaar Matrai Yavar",
+            "number": 348,            "transliteration": "Thalaippattaar Theerath Thurandhaar Mayangi Valaippattaar Matrai Yavar",
             "english": "Who renounce all are free from care  Others suffer delusive snare",
             "meaning": "Those who have entirely renounced (all things and all desire) have obtained (absorption into God); all others wander in confusion, entangled in the net of (many) births",
             "theme": "divine_love",
@@ -337,9 +293,7 @@ KURAL_DATABASE = {
             "couplet": "Who thoroughly 'renounce' on highest height are set;The rest bewildered, lie entangled in the net"
         },
         {
-            "number": 388,
-            "tamil": "முறைசெய்து காப்பாற்றும் மன்னவன் மக்கட்கு இறையென்று வைக்கப் படும்.",
-            "transliteration": "Muraiseydhu Kaappaatrum Mannavan Makkatku Iraiyendru Vaikkap Patum",
+            "number": 388,            "transliteration": "Muraiseydhu Kaappaatrum Mannavan Makkatku Iraiyendru Vaikkap Patum",
             "english": "He is the Lord of men who does  Sound justice and saves his race",
             "meaning": "That king, will be esteemed a God among men, who performs his own duties, and protects (his subjects).",
             "theme": "divine_love",
@@ -354,9 +308,7 @@ KURAL_DATABASE = {
     ],
     "wisdom": [
         {
-            "number": 2,
-            "tamil": "கற்றதனால் ஆய பயனென்கொல் வாலறிவன் நற்றாள் தொழாஅர் எனின்.",
-            "transliteration": "Katradhanaal Aaya Payanenkol Vaalarivan Natraal Thozhaaar Enin",
+            "number": 2,            "transliteration": "Katradhanaal Aaya Payanenkol Vaalarivan Natraal Thozhaaar Enin",
             "english": "That lore is vain which does not fall  At His good feet who knoweth all",
             "meaning": "What Profit have those derived from learning, who worship not the good feet of Him who is possessed of pure knowledge ?",
             "theme": "wisdom",
@@ -369,9 +321,7 @@ KURAL_DATABASE = {
             "couplet": "No fruit have men of all their studied lore,Save they the 'Purely Wise One's' feet adore"
         },
         {
-            "number": 11,
-            "tamil": "வான்நின்று உலகம் வழங்கி வருதலால் தான்அமிழ்தம் என்றுணரற் பாற்று.",
-            "transliteration": "Vaannindru Ulakam Vazhangi Varudhalaal Thaanamizhdham Endrunarar Paatru",
+            "number": 11,            "transliteration": "Vaannindru Ulakam Vazhangi Varudhalaal Thaanamizhdham Endrunarar Paatru",
             "english": "The genial rain ambrosia call: The world but lasts while rain shall fall",
             "meaning": "By the continuance of rain the world is preserved in existence; it is therefore worthy to be called ambrosia",
             "theme": "wisdom",
@@ -384,9 +334,7 @@ KURAL_DATABASE = {
             "couplet": "The world its course maintains through life that rain unfailing gives;Thus rain is known the true ambrosial food of all that lives"
         },
         {
-            "number": 16,
-            "tamil": "விசும்பின் துளிவீழின் அல்லால்மற் றாங்கே பசும்புல் தலைகாண்பு அரிது.",
-            "transliteration": "Visumpin Thuliveezhin Allaalmar Raange Pasumpul Thalaikaanpu Aridhu",
+            "number": 16,            "transliteration": "Visumpin Thuliveezhin Allaalmar Raange Pasumpul Thalaikaanpu Aridhu",
             "english": "No grassy blade its head will rear, If from the cloud no drop appear",
             "meaning": "If no drop falls from the clouds, not even the green blade of grass will be seen",
             "theme": "wisdom",
@@ -399,9 +347,7 @@ KURAL_DATABASE = {
             "couplet": "If from the clouds no drops of rain are shed'Tis rare to see green herb lift up its head"
         },
         {
-            "number": 24,
-            "tamil": "உரனென்னும் தோட்டியான் ஓரைந்தும் காப்பான் வரனென்னும் வைப்பிற்கோர் வித்து.",
-            "transliteration": "Uranennum Thottiyaan Oraindhum Kaappaan Varanennum Vaippirkor Viththu",
+            "number": 24,            "transliteration": "Uranennum Thottiyaan Oraindhum Kaappaan Varanennum Vaippirkor Viththu",
             "english": "With hook of firmness to restrain The senses five, is heaven to gain",
             "meaning": "He who guides his five senses by the hook of wisdom will be a seed in the world of heaven",
             "theme": "wisdom",
@@ -414,9 +360,7 @@ KURAL_DATABASE = {
             "couplet": "He, who with firmness, curb the five restrains,Is seed for soil of yonder happy plains"
         },
         {
-            "number": 26,
-            "tamil": "செயற்கரிய செய்வார் பெரியர் சிறியர் செயற்கரிய செய்கலா தார்.",
-            "transliteration": "Seyarkariya Seyvaar Periyar Siriyar Seyarkariya Seykalaa Thaar",
+            "number": 26,            "transliteration": "Seyarkariya Seyvaar Periyar Siriyar Seyarkariya Seykalaa Thaar",
             "english": "The small the paths of ease pursue The great achieve things rare to do",
             "meaning": "The great will do those things which is difficult to be done; but the mean cannot do them",
             "theme": "wisdom",
@@ -429,9 +373,7 @@ KURAL_DATABASE = {
             "couplet": "Things hard in the doing will great men do;Things hard in the doing the mean eschew"
         },
         {
-            "number": 27,
-            "tamil": "சுவைஒளி ஊறுஓசை நாற்றமென ஐந்தின் வகைதெரிவான் கட்டே உலகு.",
-            "transliteration": "Suvaioli Ooruosai Naatramendru Aindhin Vakaidherivaan Katte Ulaku",
+            "number": 27,            "transliteration": "Suvaioli Ooruosai Naatramendru Aindhin Vakaidherivaan Katte Ulaku",
             "english": "They gain the world, who grasp and tell Of taste, sight, hearing, touch and smell",
             "meaning": "The world is within the knowledge of him who knows the properties of taste, sight, touch, hearing and smell",
             "theme": "wisdom",
@@ -444,9 +386,7 @@ KURAL_DATABASE = {
             "couplet": "Taste, light, touch, sound, and smell: who knows the wayOf all the five,- the world submissive owns his sway"
         },
         {
-            "number": 85,
-            "tamil": "வித்தும் இடல்வேண்டும் கொல்லோ விருந்தோம்பி மிச்சில் மிசைவான் புலம்.",
-            "transliteration": "Viththum Italventum Kollo Virundhompi Michchil Misaivaan Pulam",
+            "number": 85,            "transliteration": "Viththum Italventum Kollo Virundhompi Michchil Misaivaan Pulam",
             "english": "Should his field be sown who first  Feeds the guests and eats the rest?",
             "meaning": "Is it necessary to sow the field of the man who, having feasted his guests, eats what may remain ?",
             "theme": "wisdom",
@@ -459,9 +399,7 @@ KURAL_DATABASE = {
             "couplet": "Who first regales his guest, and then himself supplies,O'er all his fields, unsown, shall plenteous harvests rise"
         },
         {
-            "number": 86,
-            "tamil": "செல்விருந்து ஓம்பி வருவிருந்து பார்த்திருப்பான் நல்வருந்து வானத் தவர்க்கு.",
-            "transliteration": "Selvirundhu Ompi Varuvirundhu Paarththiruppaan Nalvarundhu Vaanath Thavarkku",
+            "number": 86,            "transliteration": "Selvirundhu Ompi Varuvirundhu Paarththiruppaan Nalvarundhu Vaanath Thavarkku",
             "english": "Who tends a guest and looks for next  Is a welcome guest in heaven's feast",
             "meaning": "He who, having entertained the guests that have come, looks out for others who may yet come, will be a welcome guest to the inhabitants of heaven",
             "theme": "wisdom",
@@ -474,9 +412,7 @@ KURAL_DATABASE = {
             "couplet": "The guest arrived he tends, the coming guest expects to see;To those in heavenly homes that dwell a welcome guest is he"
         },
         {
-            "number": 90,
-            "tamil": "மோப்பக் குழையும் அனிச்சம் முகந்திரிந்து நோக்கக் குநழ்யும் விருந்து.",
-            "transliteration": "Moppak Kuzhaiyum Anichcham Mukandhirindhu Nokkak Kuzhaiyum Virundhu",
+            "number": 90,            "transliteration": "Moppak Kuzhaiyum Anichcham Mukandhirindhu Nokkak Kuzhaiyum Virundhu",
             "english": "Anicham smelt withers: like that  A wry-faced look withers the guest",
             "meaning": "As the Anicham flower fades in smelling, so fades the guest when the face is turned away",
             "theme": "wisdom",
@@ -489,9 +425,7 @@ KURAL_DATABASE = {
             "couplet": "The flower of 'Anicha' withers away, If you do but its fragrance inhale;If the face of the host cold welcome convey, The guest's heart within him will fail"
         },
         {
-            "number": 103,
-            "tamil": "பயன்தூக்கார் செய்த உதவி நயன்தூக்கின் நன்மை கடலின் பெரிது.",
-            "transliteration": "Payandhookkaar Seydha Udhavi Nayandhookkin Nanmai Katalin Peridhu",
+            "number": 103,            "transliteration": "Payandhookkaar Seydha Udhavi Nayandhookkin Nanmai Katalin Peridhu",
             "english": "Help rendered without weighing fruits  Outweighs the sea in grand effects",
             "meaning": "If we weigh the excellence of a benefit which is conferred without weighing the return, it is larger than the sea",
             "theme": "wisdom",
@@ -504,9 +438,7 @@ KURAL_DATABASE = {
             "couplet": "Kindness shown by those who weigh not what the return may be:When you ponder right its merit, 'Tis vaster than the sea"
         },
         {
-            "number": 105,
-            "tamil": "உதவி வரைத்தன்று உதவி உதவி செயப்பட்டார் சால்பின் வரைத்து.",
-            "transliteration": "Udhavi Varaiththandru Udhavi Udhavi Seyappattaar Saalpin Varaiththu",
+            "number": 105,            "transliteration": "Udhavi Varaiththandru Udhavi Udhavi Seyappattaar Saalpin Varaiththu",
             "english": "A help is not the help's measure  It is gainer's worth and pleasure",
             "meaning": "The benefit itself is not the measure of the benefit; the worth of those who have received it is its measure",
             "theme": "wisdom",
@@ -519,9 +451,7 @@ KURAL_DATABASE = {
             "couplet": "The kindly aid's extent is of its worth no measure true;Its worth is as the worth of him to whom the act you do"
         },
         {
-            "number": 115,
-            "tamil": "கேடும் பெருக்கமும் இல்லல்ல நெஞ்சத்துக் கோடாமை சான்றோர்க் கணி.",
-            "transliteration": "Ketum Perukkamum Illalla Nenjaththuk Kotaamai Saandrork Kani",
+            "number": 115,            "transliteration": "Ketum Perukkamum Illalla Nenjaththuk Kotaamai Saandrork Kani",
             "english": "Loss and gain by cause arise;  Equal mind adorns the wise",
             "meaning": "Loss and gain come not without cause; it is the ornament of the wise to preserve evenness of mind (under both)",
             "theme": "wisdom",
@@ -534,9 +464,7 @@ KURAL_DATABASE = {
             "couplet": "The gain and loss in life are not mere accident;Just mind inflexible is sages' ornament"
         },
         {
-            "number": 118,
-            "tamil": "சமன்செய்து சீர்தூக்குங் கோல்போல் அமைந்தொருபால் கோடாமை சான்றோர்க் கணி.",
-            "transliteration": "Samanseydhu Seerdhookkung Kolpol Amaindhorupaal Kotaamai Saandrork Kani",
+            "number": 118,            "transliteration": "Samanseydhu Seerdhookkung Kolpol Amaindhorupaal Kotaamai Saandrork Kani",
             "english": "Like balance holding equal scales  A well poised mind is jewel of the wise",
             "meaning": "To incline to neither side, but to rest impartial as the even-fixed scale is the ornament of the wise",
             "theme": "wisdom",
@@ -549,9 +477,7 @@ KURAL_DATABASE = {
             "couplet": "To stand, like balance-rod that level hangs and rightly weighs,With calm unbiassed equity of soul, is sages' praise"
         },
         {
-            "number": 123,
-            "tamil": "செறிவறிந்து சீர்மை பயக்கும் அறிவறிந்து ஆற்றின் அடங்கப் பெறின்.",
-            "transliteration": "Serivarindhu Seermai Payakkum Arivarindhu Aatrin Atangap Perin",
+            "number": 123,            "transliteration": "Serivarindhu Seermai Payakkum Arivarindhu Aatrin Atangap Perin",
             "english": "Knowing wisdom who lives controlled  Name and fame seek him untold",
             "meaning": "Knowing that self-control is knowledge, if a man should control himself, in the prescribed course, such self-control will bring him distinction among the wise",
             "theme": "wisdom",
@@ -564,9 +490,7 @@ KURAL_DATABASE = {
             "couplet": "If versed in wisdom's lore by virtue's law you self restrainYour self-repression known will yield you glory's gain"
         },
         {
-            "number": 130,
-            "tamil": "கதங்காத்துக் கற்றடங்கல் ஆற்றுவான் செவ்வி அறம்பார்க்கும் ஆற்றின் நுழைந்து.",
-            "transliteration": "Kadhangaaththuk Katratangal Aatruvaan Sevvi Arampaarkkum Aatrin Nuzhaindhu",
+            "number": 130,            "transliteration": "Kadhangaaththuk Katratangal Aatruvaan Sevvi Arampaarkkum Aatrin Nuzhaindhu",
             "english": "Virtue seeks and peeps to see  Self-controlled savant anger free",
             "meaning": "Virtue, seeking for an opportunity, will come into the path of that man who, possessed of learning and self-control, guards himself against anger",
             "theme": "wisdom",
@@ -579,9 +503,7 @@ KURAL_DATABASE = {
             "couplet": "Who learns restraint, and guards his soul from wrath,Virtue, a timely aid, attends his path"
         },
         {
-            "number": 140,
-            "tamil": "உலகத்தோடு ஒட்ட ஒழுகல் பலகற்றும் கல்லார் அறிவிலா தார்",
-            "transliteration": "Ulakaththotu Otta Ozhukal Palakatrum Kallaar Arivilaa Thaar",
+            "number": 140,            "transliteration": "Ulakaththotu Otta Ozhukal Palakatrum Kallaar Arivilaa Thaar",
             "english": "Though read much they are ignorant  Whose life is not world-accordant",
             "meaning": "Those who know not how to act agreeably to the world, though they have learnt many things, are still ignorant",
             "theme": "wisdom",
@@ -594,9 +516,7 @@ KURAL_DATABASE = {
             "couplet": "Who know not with the world in harmony to dwell,May many things have learned, but nothing well"
         },
         {
-            "number": 144,
-            "tamil": "எனைத்துணையர் ஆயினும் என்னாம் தினைத்துணையும் தேரான் பிறனில் புகல்.",
-            "transliteration": "Enaiththunaiyar Aayinum Ennaam Thinaiththunaiyum Theraan Piranil Pukal",
+            "number": 144,            "transliteration": "Enaiththunaiyar Aayinum Ennaam Thinaiththunaiyum Theraan Piranil Pukal",
             "english": "Their boasted greatness means nothing  When to another's wife they cling",
             "meaning": "However great one may be, what does it avail if, without at all considering his guilt, he goes unto the wife of another ?",
             "theme": "wisdom",
@@ -609,9 +529,7 @@ KURAL_DATABASE = {
             "couplet": "How great soe'er they be, what gain have they of life,Who, not a whit reflecting, seek a neighbour's wife"
         },
         {
-            "number": 165,
-            "tamil": "அழுக்காறு உடையார்க்கு அதுசாலும் ஒன்னார் வழுக்காயும் கேடீன் பது.",
-            "transliteration": "Azhukkaaru Utaiyaarkku Adhusaalum Onnaar Vazhukka�yum Keteen Padhu",
+            "number": 165,            "transliteration": "Azhukkaaru Utaiyaarkku Adhusaalum Onnaar Vazhukka�yum Keteen Padhu",
             "english": "Man shall be wrecked by envy's whim  Even if enemies spare him",
             "meaning": "To those who cherish envy that is enough Though free from enemies that (envy) will bring destruction",
             "theme": "wisdom",
@@ -624,9 +542,7 @@ KURAL_DATABASE = {
             "couplet": "Envy they have within! Enough to seat their fate!Though foemen fail, envy can ruin consummate"
         },
         {
-            "number": 166,
-            "tamil": "கொடுப்பது அழுக்கறுப்பான் சுற்றம் உடுப்பதூஉம் உண்பதூஉம் இன்றிக் கெடும்.",
-            "transliteration": "Kotuppadhu Azhukkaruppaan Sutram Utuppadhooum Unpadhooum Indrik Ketum",
+            "number": 166,            "transliteration": "Kotuppadhu Azhukkaruppaan Sutram Utuppadhooum Unpadhooum Indrik Ketum",
             "english": "Who envies gifts shall suffer ruin  Without food and clothes with his kin",
             "meaning": "He who is envious at a gift (made to another) will with his relations utterly perish destitute of food and rainment",
             "theme": "wisdom",
@@ -639,9 +555,7 @@ KURAL_DATABASE = {
             "couplet": "Who scans good gifts to others given with envious eye,His kin, with none to clothe or feed them, surely die"
         },
         {
-            "number": 170,
-            "tamil": "அழுக்கற்று அகன்றாரும் இல்லை அஃதுஇல்லார் பெருக்கத்தில் தீர்ந்தாரும் இல்.",
-            "transliteration": "Azhukkatru Akandraarum Illai Aqdhuillaar Perukkaththil Theerndhaarum Il",
+            "number": 170,            "transliteration": "Azhukkatru Akandraarum Illai Aqdhuillaar Perukkaththil Theerndhaarum Il",
             "english": "The envious prosper never  The envyless prosper ever",
             "meaning": "Never have the envious become great; never have those who are free from envy been without greatness",
             "theme": "wisdom",
@@ -654,9 +568,7 @@ KURAL_DATABASE = {
             "couplet": "No envious men to large and full felicity attain;No men from envy free have failed a sure increase to gain"
         },
         {
-            "number": 174,
-            "tamil": "இலமென்று வெஃகுதல் செய்யார் புலம்வென்ற புன்மையில் காட்சி யவர்.",
-            "transliteration": "Ilamendru Veqkudhal Seyyaar Pulamvendra Punmaiyil Kaatchi Yavar",
+            "number": 174,            "transliteration": "Ilamendru Veqkudhal Seyyaar Pulamvendra Punmaiyil Kaatchi Yavar",
             "english": "The truth-knowers of sense-control  Though in want covet not at all",
             "meaning": "The wise who have conquered their senses and are free from crime, will not covet (the things of others), with the thought \"we are destitute.\"",
             "theme": "wisdom",
@@ -669,9 +581,7 @@ KURAL_DATABASE = {
             "couplet": "Men who have conquered sense, with sight from sordid vision freed,Desire not other's goods, e'en in the hour of sorest need"
         },
         {
-            "number": 175,
-            "tamil": "அஃகி அகன்ற அறிவென்னாம் யார்மாட்டும் வெஃகி வெறிய செயின்.",
-            "transliteration": "Aqki Akandra Arivennaam Yaarmaattum Veqki Veriya Seyin",
+            "number": 175,            "transliteration": "Aqki Akandra Arivennaam Yaarmaattum Veqki Veriya Seyin",
             "english": "What is one's subtle wisdom worth  If it deals ill with all on earth",
             "meaning": "What is the advantage of extensive and accurate knowledge if a man through covetousness act senselessly towards all ?",
             "theme": "wisdom",
@@ -684,9 +594,7 @@ KURAL_DATABASE = {
             "couplet": "What gain, though lore refined of amplest reach he learn,His acts towards all mankind if covetous desire to folly turn"
         },
         {
-            "number": 186,
-            "tamil": "பிறன்பழி கூறுவான் தன்பழி யுள்ளும் திறன்தெரிந்து கூறப் படும்.",
-            "transliteration": "Piranpazhi Kooruvaan Thanpazhi Yullum Thirandherindhu Koorap Patum",
+            "number": 186,            "transliteration": "Piranpazhi Kooruvaan Thanpazhi Yullum Thirandherindhu Koorap Patum",
             "english": "His failings will be found and shown,  Who makes another's failings known",
             "meaning": "The character of the faults of that man who publishes abroad the faults of others will be sought out and published",
             "theme": "wisdom",
@@ -699,9 +607,7 @@ KURAL_DATABASE = {
             "couplet": "Who on his neighbours' sins delights to dwell,The story of his sins, culled out with care, the world will tell"
         },
         {
-            "number": 190,
-            "tamil": "ஏதிலார் குற்றம்போல் தங்குற்றங் காண்கிற்பின் தீதுண்டோ மன்னும் உயிர்க்கு.",
-            "transliteration": "Edhilaar Kutrampol Thangutrang Kaankirpin Theedhunto Mannum Uyirkku",
+            "number": 190,            "transliteration": "Edhilaar Kutrampol Thangutrang Kaankirpin Theedhunto Mannum Uyirkku",
             "english": "No harm would fall to any man  If each his own defect could scan",
             "meaning": "If they observed their own faults as they observe the faults of others, would any evil happen to men ?",
             "theme": "wisdom",
@@ -714,9 +620,7 @@ KURAL_DATABASE = {
             "couplet": "If each his own, as neighbours' faults would scan,Could any evil hap to living man"
         },
         {
-            "number": 203,
-            "tamil": "அறிவினுள் எல்லாந் தலையென்ப தீய செறுவார்க்கும் செய்யா விடல்.",
-            "transliteration": "Arivinul Ellaan Thalaiyenpa Theeya Seruvaarkkum Seyyaa Vital",
+            "number": 203,            "transliteration": "Arivinul Ellaan Thalaiyenpa Theeya Seruvaarkkum Seyyaa Vital",
             "english": "The wisest of the wise are those  Who injure not even their foes",
             "meaning": "So shalt thou wisdom's highest law, 'tis said, fulfil",
             "theme": "wisdom",
@@ -729,9 +633,7 @@ KURAL_DATABASE = {
             "couplet": "Even to those that hate make no return of ill;So shalt thou wisdom's highest law, 'tis said, fulfil"
         },
         {
-            "number": 208,
-            "tamil": "தீயவை செய்தார் கெடுதல் நிழல்தன்னை வீயாது அஇஉறைந் தற்று.",
-            "transliteration": "Theeyavai Seydhaar Ketudhal Nizhaldhannai Veeyaadhu Atiurain Thatru",
+            "number": 208,            "transliteration": "Theeyavai Seydhaar Ketudhal Nizhaldhannai Veeyaadhu Atiurain Thatru",
             "english": "Ruin follows who evil do  As shadow follows as they go",
             "meaning": "Destruction will dwell at the heels of those who commit evil even as their shadow that leaves them not",
             "theme": "wisdom",
@@ -744,9 +646,7 @@ KURAL_DATABASE = {
             "couplet": "Man's shadow dogs his steps where'er he wends;Destruction thus on sinful deeds attends"
         },
         {
-            "number": 214,
-            "tamil": "ஒத்த தறவோன் உயிர்வாழ்வான் மற்றையான் செத்தாருள் வைக்கப் படும்.",
-            "transliteration": "Oththa Tharavon Uyirvaazhvaan Matraiyaan Seththaarul Vaikkap Patum",
+            "number": 214,            "transliteration": "Oththa Tharavon Uyirvaazhvaan Matraiyaan Seththaarul Vaikkap Patum",
             "english": "He lives who knows befitting act  Others are deemed as dead in fact",
             "meaning": "He truly lives who knows (and discharges) the proper duties (of benevolence) He who knows them not will be reckoned among the dead",
             "theme": "wisdom",
@@ -759,9 +659,7 @@ KURAL_DATABASE = {
             "couplet": "Who knows what's human life's befitting grace,He lives; the rest 'mongst dead men have their place"
         },
         {
-            "number": 215,
-            "tamil": "ஊருணி நீர்நிறைந் தற்றே உலகவாம் பேரறி வாளன் திரு.",
-            "transliteration": "Ooruni Neernirain Thatre Ulakavaam Perari Vaalan Thiru",
+            "number": 215,            "transliteration": "Ooruni Neernirain Thatre Ulakavaam Perari Vaalan Thiru",
             "english": "The wealth that wise and kind do make  Is like water that fills a lake",
             "meaning": "The wealth of that man of eminent knowledge who desires to exercise the benevolence approved of by the world, is like the full waters of a city-tank",
             "theme": "wisdom",
@@ -774,9 +672,7 @@ KURAL_DATABASE = {
             "couplet": "The wealth of men who love the 'fitting way,' the truly wise,Is as when water fills the lake that village needs supplies"
         },
         {
-            "number": 223,
-            "tamil": "இலனென்னும் எவ்வம் உரையாமை ஈதல் குலனுடையான் கண்ணே யுள.",
-            "transliteration": "Ilanennum Evvam Uraiyaamai Eedhal Kulanutaiyaan Kanne Yula",
+            "number": 223,            "transliteration": "Ilanennum Evvam Uraiyaamai Eedhal Kulanutaiyaan Kanne Yula",
             "english": "No pleading, \\\"I am nothing worth,\\\"  But giving marks a noble birth",
             "meaning": "(Even in a low state) not to adopt the mean expedient of saying \"I have nothing,\" but to give, is the characteristic of the mad of noble birth",
             "theme": "wisdom",
@@ -789,9 +685,7 @@ KURAL_DATABASE = {
             "couplet": "'I've nought' is ne'er the high-born man's reply;He gives to those who raise themselves that cry"
         },
         {
-            "number": 230,
-            "tamil": "சாதலின் இன்னாத தில்லை இனிததூஉம் ஈதல் இயையாக் கடை.",
-            "transliteration": "Saadhalin Innaadha Thillai Inidhadhooum Eedhal Iyaiyaak Katai",
+            "number": 230,            "transliteration": "Saadhalin Innaadha Thillai Inidhadhooum Eedhal Iyaiyaak Katai",
             "english": "Nothing is more painful than death  Yet more is pain of giftless dearth",
             "meaning": "Nothing is more unpleasant than death: yet even that is pleasant where charity cannot be exercised",
             "theme": "wisdom",
@@ -804,9 +698,7 @@ KURAL_DATABASE = {
             "couplet": "'Tis bitter pain to die, 'Tis worse to live.For him who nothing finds to give"
         },
         {
-            "number": 233,
-            "tamil": "ஒன்றா உலகத்து உயர்ந்த புகழல்லால் பொன்றாது நிற்பதொன் றில்.",
-            "transliteration": "Ondraa Ulakaththu Uyarndha Pukazhallaal Pondraadhu Nirpadhon Ril",
+            "number": 233,            "transliteration": "Ondraa Ulakaththu Uyarndha Pukazhallaal Pondraadhu Nirpadhon Ril",
             "english": "Nothing else lasts on earth for e'er  Saving high fame of the giver!",
             "meaning": "There is nothing that stands forth in the world imperishable, except fame, exalted in solitary greatness",
             "theme": "wisdom",
@@ -819,9 +711,7 @@ KURAL_DATABASE = {
             "couplet": "Save praise alone that soars on high,Nought lives on earth that shall not die"
         },
         {
-            "number": 237,
-            "tamil": "புகழ்பட வாழாதார் தந்நோவார் தம்மை இகழ்வாரை நோவது எவன்?",
-            "transliteration": "Pukazhpata Vaazhaadhaar Thannovaar Thammai Ikazhvaarai Novadhu Evan?",
+            "number": 237,            "transliteration": "Pukazhpata Vaazhaadhaar Thannovaar Thammai Ikazhvaarai Novadhu Evan?",
             "english": "Why grieve at those who blame the shame  Of those who cannot live in fame?",
             "meaning": "Why do those who cannot live with praise, grieve those who despise them, instead of grieving themselves for their own inability",
             "theme": "wisdom",
@@ -834,9 +724,7 @@ KURAL_DATABASE = {
             "couplet": "If you your days will spend devoid of goodly fame,When men despise, why blame them? You've yourself to blame"
         },
         {
-            "number": 240,
-            "tamil": "வசையொழிய வாழ்வாரே வாழ்வார் இசையொழிய வாழ்வாரே வாழா தவர்.",
-            "transliteration": "Vasaiyozhiya Vaazhvaare Vaazhvaar Isaiyozhiya Vaazhvaare Vaazhaa Thavar",
+            "number": 240,            "transliteration": "Vasaiyozhiya Vaazhvaare Vaazhvaar Isaiyozhiya Vaazhvaare Vaazhaa Thavar",
             "english": "They live who live without blemish  The blameful ones do not flurish",
             "meaning": "Those live who live without disgrace Those who live without fame live not",
             "theme": "wisdom",
@@ -849,9 +737,7 @@ KURAL_DATABASE = {
             "couplet": "Who live without reproach, them living men we deem;Who live without renown, live not, though living men they seem"
         },
         {
-            "number": 249,
-            "tamil": "தெருளாதான் மெய்ப்பொருள் கண்டற்றால் தேரின் அருளாதான் செய்யும் அறம்.",
-            "transliteration": "Therulaadhaan Meypporul Kantatraal Therin Arulaadhaan Seyyum Aram",
+            "number": 249,            "transliteration": "Therulaadhaan Meypporul Kantatraal Therin Arulaadhaan Seyyum Aram",
             "english": "Like Truth twisted by confused mind  Wisdom is vain in hearts unkind",
             "meaning": "If you consider, the virtue of him who is without kindness is like the perception of the true being by him who is without wisdom",
             "theme": "wisdom",
@@ -864,9 +750,7 @@ KURAL_DATABASE = {
             "couplet": "When souls unwise true wisdom's mystic vision see,The 'graceless' man may work true works of charity"
         },
         {
-            "number": 252,
-            "tamil": "பொருளாட்சி போற்றாதார்க்கு இல்லை அருளாட்சி ஆங்கில்லை ஊன்தின் பவர்க்கு.",
-            "transliteration": "Porulaatchi Potraadhaarkku Illai Arulaatchi Aangillai Oondhin Pavarkku",
+            "number": 252,            "transliteration": "Porulaatchi Potraadhaarkku Illai Arulaatchi Aangillai Oondhin Pavarkku",
             "english": "The thriftless have no property  And flesh-eaters have no pity",
             "meaning": "As those possess no property who do not take care of it, so those possess no kindness who feed on flesh",
             "theme": "wisdom",
@@ -879,9 +763,7 @@ KURAL_DATABASE = {
             "couplet": "No use of wealth have they who guard not their estate;No use of grace have they with flesh who hunger sate"
         },
         {
-            "number": 255,
-            "tamil": "உண்ணாமை உள்ளது உயிர்நிலை ஊனுண்ண அண்ணாத்தல் செய்யாது அளறு.",
-            "transliteration": "Unnaamai Ulladhu Uyirnilai Oonunna Annaaththal Seyyaadhu Alaru",
+            "number": 255,            "transliteration": "Unnaamai Ulladhu Uyirnilai Oonunna Annaaththal Seyyaadhu Alaru",
             "english": "Off with flesh; a life you save  The eater hell's mouth shall not waive!",
             "meaning": "Not to eat flesh contributes to the continuance of life; therefore if a man eat flesh, hell will not open its mouth (to let him escape out, after he has once fallen in)",
             "theme": "wisdom",
@@ -894,9 +776,7 @@ KURAL_DATABASE = {
             "couplet": "If flesh you eat not, life's abodes unharmed remain;Who eats, hell swallows him, and renders not again"
         },
         {
-            "number": 257,
-            "tamil": "உண்ணாமை வேண்டும் புலாஅல் பிறிதொன்றன் புண்ணது உணர்வார்ப் பெறின்.",
-            "transliteration": "Unnaamai Ventum Pulaaal Piridhondran Punnadhu Unarvaarp Perin",
+            "number": 257,            "transliteration": "Unnaamai Ventum Pulaaal Piridhondran Punnadhu Unarvaarp Perin",
             "english": "From eating flesh men must abstain  If they but feel the being's pain",
             "meaning": "If men should come to know that flesh is nothing but the unclean ulcer of a body, let them abstain from eating it",
             "theme": "wisdom",
@@ -909,9 +789,7 @@ KURAL_DATABASE = {
             "couplet": "With other beings' ulcerous wounds their hunger they appease;If this they felt, desire to eat must surely cease"
         },
         {
-            "number": 258,
-            "tamil": "செயிரின் தலைப்பிரிந்த காட்சியார் உண்ணார் உயிரின் தலைப்பிரிந்த ஊன்.",
-            "transliteration": "Seyirin Thalaippirindha Kaatchiyaar Unnaar Uyirin Thalaippirindha Oon",
+            "number": 258,            "transliteration": "Seyirin Thalaippirindha Kaatchiyaar Unnaar Uyirin Thalaippirindha Oon",
             "english": "Whose mind from illusion is freed  Refuse on lifeless flesh to feed",
             "meaning": "The wise, who have freed themselves from mental delusion, will not eat the flesh which has been severed from an animal",
             "theme": "wisdom",
@@ -924,9 +802,7 @@ KURAL_DATABASE = {
             "couplet": "Whose souls the vision pure and passionless perceive,Eat not the bodies men of life bereave"
         },
         {
-            "number": 259,
-            "tamil": "அவிசொரிந் தாயிரம் வேட்டலின் ஒன்றன் உயிர்செகுத் துண்ணாமை நன்று.",
-            "transliteration": "Avisorin Thaayiram Vettalin Ondran Uyirsekuth Thunnaamai Nandru",
+            "number": 259,            "transliteration": "Avisorin Thaayiram Vettalin Ondran Uyirsekuth Thunnaamai Nandru",
             "english": "Not to-kill-and-eat, truly  Excels thousand pourings of ghee!",
             "meaning": "Not to kill and eat (the flesh of) an animal, is better than the pouring forth of ghee etc, in a thousand sacrifices",
             "theme": "wisdom",
@@ -939,9 +815,7 @@ KURAL_DATABASE = {
             "couplet": "Than thousand rich oblations, with libations rare,Better the flesh of slaughtered beings not to share"
         },
         {
-            "number": 262,
-            "tamil": "தவமும் தவமுடையார்க்கு ஆகும் அதனை அஃதிலார் மேற்கொள் வது.",
-            "transliteration": "Thavamum Thavamutaiyaarkku Aakum Adhanai Aqdhilaar Merkol Vadhu",
+            "number": 262,            "transliteration": "Thavamum Thavamutaiyaarkku Aakum Adhanai Aqdhilaar Merkol Vadhu",
             "english": "Penance is fit for penitents  Not for him who in vain pretends",
             "meaning": "Austerities can only be borne, and their benefits enjoyed, by those who have practised them (in a former birth); it will be useless for those who have not done so, to attempt to practise them (now)",
             "theme": "wisdom",
@@ -954,9 +828,7 @@ KURAL_DATABASE = {
             "couplet": "To 'penitents' sincere avails their 'penitence';Where that is not, 'tis but a vain pretence"
         },
         {
-            "number": 265,
-            "tamil": "வேண்டிய வேண்டியாங் கெய்தலால் செய்தவம் ஈண்டு முயலப் படும்.",
-            "transliteration": "Ventiya Ventiyaang Keydhalaal Seydhavam Eentu Muyalap Patum",
+            "number": 265,            "transliteration": "Ventiya Ventiyaang Keydhalaal Seydhavam Eentu Muyalap Patum",
             "english": "What they wish as they wish is won  Here hence by men penance is done",
             "meaning": "Religious dislipline is practised in this world, because it secures the attainment of whatever one may wish to enjoy (in the world to come)",
             "theme": "wisdom",
@@ -969,9 +841,7 @@ KURAL_DATABASE = {
             "couplet": "That what they wish may, as they wish, be won,By men on earth are works of painful 'penance' done"
         },
         {
-            "number": 285,
-            "tamil": "அருள்கருதி அன்புடைய ராதல் பொருள்கருதிப் பொச்சாப்புப் பார்ப்பார்கண் இல்.",
-            "transliteration": "Arulkarudhi Anputaiya Raadhal Porulkarudhip Pochchaappup Paarppaarkan Il",
+            "number": 285,            "transliteration": "Arulkarudhi Anputaiya Raadhal Porulkarudhip Pochchaappup Paarppaarkan Il",
             "english": "Love and Grace are not their worth  Who watch to waylay dozer's wealth",
             "meaning": "The study of kindness and the exercise of benevolence is not with those who watch for another's forgetfulness, though desire of his property",
             "theme": "wisdom",
@@ -984,9 +854,7 @@ KURAL_DATABASE = {
             "couplet": "'Grace' is not in their thoughts, nor know they kind affection's power,Who neighbour's goods desire, and watch for his unguarded hour"
         },
         {
-            "number": 287,
-            "tamil": "களவென்னும் காரறி வாண்மை அளவென்னும் ஆற்றல் புரிந்தார்கண்ட இல்.",
-            "transliteration": "Kalavennum Kaarari Vaanmai Alavennum Aatral Purindhaarkanta Il",
+            "number": 287,            "transliteration": "Kalavennum Kaarari Vaanmai Alavennum Aatral Purindhaarkanta Il",
             "english": "Men of measured wisdom shun  Black art of fraud and what it won",
             "meaning": "That black-knowledge which is called fraud, is not in those who desire that greatness which is called rectitude",
             "theme": "wisdom",
@@ -999,9 +867,7 @@ KURAL_DATABASE = {
             "couplet": "Practice of fraud's dark cunning arts they shun,Who long for power by 'measured wisdom' won"
         },
         {
-            "number": 289,
-            "tamil": "அளவல்ல செய்தாங்கே வீவர் களவல்ல மற்றைய தேற்றா தவர்.",
-            "transliteration": "Alavalla Seydhaange Veevar Kalavalla Matraiya Thetraa Thavar",
+            "number": 289,            "transliteration": "Alavalla Seydhaange Veevar Kalavalla Matraiya Thetraa Thavar",
             "english": "They perish in their perfidy  Who know nothing but pilfery",
             "meaning": "Those, who are acquainted with nothing but fraud, will perish in the very commission of transgression",
             "theme": "wisdom",
@@ -1014,9 +880,7 @@ KURAL_DATABASE = {
             "couplet": "Who have no lore save that which fraudful arts supply,Acts of unmeasured vice committing straightway die"
         },
         {
-            "number": 293,
-            "tamil": "தன்நெஞ் சறிவது பொய்யற்க பொய்த்தபின் தன்நெஞ்சே தன்னைச் சுடும்.",
-            "transliteration": "Thannenj Charivadhu Poiyarka Poiththapin Thannenje Thannaich Chutum",
+            "number": 293,            "transliteration": "Thannenj Charivadhu Poiyarka Poiththapin Thannenje Thannaich Chutum",
             "english": "Let not a man knowingly lie;  Conscience will scorch and make him sigh",
             "meaning": "Let not a man knowingly tell a lie; for after he has told the lie, his mind will burn him (with the memory of his guilt)",
             "theme": "wisdom",
@@ -1029,9 +893,7 @@ KURAL_DATABASE = {
             "couplet": "Speak not a word which false thy own heart knowsSelf-kindled fire within the false one's spirit glows"
         },
         {
-            "number": 298,
-            "tamil": "புறள்தூய்மை நீரான் அமையும் அகந்தூய்மை வாய்மையால் காணப் படும்.",
-            "transliteration": "Puraldhooimai Neeraan Amaiyum Akandhooimai Vaaimaiyaal Kaanap Patum",
+            "number": 298,            "transliteration": "Puraldhooimai Neeraan Amaiyum Akandhooimai Vaaimaiyaal Kaanap Patum",
             "english": "Water makes you pure outward  Truth renders you pure inward",
             "meaning": "Purity of body is produced by water and purity of mind by truthfulness",
             "theme": "wisdom",
@@ -1044,9 +906,7 @@ KURAL_DATABASE = {
             "couplet": "Outward purity the water will bestow;Inward purity from truth alone will flow"
         },
         {
-            "number": 315,
-            "tamil": "அறிவினான் ஆகுவ துண்டோ பிறிதின்நோய் தந்நோய்போல் போற்றாக் கடை.",
-            "transliteration": "Arivinaan Aakuva Thunto Piridhinnoi Thannoipol Potraak Katai",
+            "number": 315,            "transliteration": "Arivinaan Aakuva Thunto Piridhinnoi Thannoipol Potraak Katai",
             "english": "What does a man from wisdom gain  If he pines not at other's pain?",
             "meaning": "What benefit has he derived from his knowledge, who does not endeavour to keep off pain from another as much as from himself ?",
             "theme": "wisdom",
@@ -1059,9 +919,7 @@ KURAL_DATABASE = {
             "couplet": "From wisdom's vaunted lore what doth the learner gain,If as his own he guard not others' souls from pain"
         },
         {
-            "number": 316,
-            "tamil": "இன்னா எனத்தான் உணர்ந்தவை துன்னாமை வேண்டும் பிறன்கண் செயல்.",
-            "transliteration": "Innaa Enaththaan Unarndhavai Thunnaamai Ventum Pirankan Seyal",
+            "number": 316,            "transliteration": "Innaa Enaththaan Unarndhavai Thunnaamai Ventum Pirankan Seyal",
             "english": "What you feel as pain to yourself  Do it not to the other-self",
             "meaning": "Let not a man consent to do those things to another which, he knows, will cause sorrow",
             "theme": "wisdom",
@@ -1074,9 +932,7 @@ KURAL_DATABASE = {
             "couplet": "What his own soul has felt as bitter pain,From making others feel should man abstain"
         },
         {
-            "number": 318,
-            "tamil": "தன்னுயிர்ககு ஏன்னாமை தானறிவான் என்கொலோ மன்னுயிர்க்கு இன்னா செயல்.",
-            "transliteration": "Thannuyirkaku Ennaamai Thaanarivaan Enkolo Mannuyirkku Innaa Seyal",
+            "number": 318,            "transliteration": "Thannuyirkaku Ennaamai Thaanarivaan Enkolo Mannuyirkku Innaa Seyal",
             "english": "How can he injure other souls  Who in his life injury feels",
             "meaning": "Why does a man inflict upon other creatures those sufferings, which he has found by experience are sufferings to himself ?",
             "theme": "wisdom",
@@ -1089,9 +945,7 @@ KURAL_DATABASE = {
             "couplet": "Whose soul has felt the bitter smart of wrong, how canHe wrongs inflict on ever-living soul of man"
         },
         {
-            "number": 319,
-            "tamil": "பிறர்க்கின்னா முற்பகல் செய்யின் தமக்குஇன்னா பிற்பகல் தாமே வரும்.",
-            "transliteration": "Pirarkkinnaa Murpakal Seyyin Thamakku Innaa Pirpakal Thaame Varum",
+            "number": 319,            "transliteration": "Pirarkkinnaa Murpakal Seyyin Thamakku Innaa Pirpakal Thaame Varum",
             "english": "Harm others in the forenoon  Harm seeks thee in afternoon",
             "meaning": "If a man inflict sorrow upon others in the morning, it will come upon him unsought in the very evening",
             "theme": "wisdom",
@@ -1104,9 +958,7 @@ KURAL_DATABASE = {
             "couplet": "If, ere the noontide, you to others evil do,Before the eventide will evil visit you"
         },
         {
-            "number": 326,
-            "tamil": "கொல்லாமை மேற்கொண் டொழுகுவான் வாழ்நாள்மேல் செல்லாது உயிருண்ணுங் கூற்று.",
-            "transliteration": "Kollaamai Merkon Tozhukuvaan Vaazhnaalmel Sellaadhu Uyirunnung Kootru",
+            "number": 326,            "transliteration": "Kollaamai Merkon Tozhukuvaan Vaazhnaalmel Sellaadhu Uyirunnung Kootru",
             "english": "Life-eating-Death shall spare the breath  Of him who no life puts to death",
             "meaning": "Yama, the destroyer of life, will not attack the life of him, who acts under the determination of never destroying life",
             "theme": "wisdom",
@@ -1119,9 +971,7 @@ KURAL_DATABASE = {
             "couplet": "Ev'n death that life devours, their happy days shall spare,Who law, 'Thou shall not kill', uphold with reverent care"
         },
         {
-            "number": 327,
-            "tamil": "தன்னுயிர் நீப்பினும் செய்யற்க தான்பிறிது இன்னுயிர் நீக்கும் வினை.",
-            "transliteration": "Thannuyir Neeppinum Seyyarka Thaanpiridhu Innuyir Neekkum Vinai",
+            "number": 327,            "transliteration": "Thannuyir Neeppinum Seyyarka Thaanpiridhu Innuyir Neekkum Vinai",
             "english": "Kill not life that others cherish  Even when your life must perish",
             "meaning": "Let no one do that which would destroy the life of another, although he should by so doing, lose his own life",
             "theme": "wisdom",
@@ -1134,9 +984,7 @@ KURAL_DATABASE = {
             "couplet": "Though thine own life for that spared life the price must pay,Take not from aught that lives gift of sweet life away"
         },
         {
-            "number": 329,
-            "tamil": "கொலைவினைய ராகிய மாக்கள் புலைவினையர் புன்மை தெரிவா ரகத்து.",
-            "transliteration": "Kolaivinaiya Raakiya Maakkal Pulaivinaiyar Punmai Therivaa Rakaththu",
+            "number": 329,            "transliteration": "Kolaivinaiya Raakiya Maakkal Pulaivinaiyar Punmai Therivaa Rakaththu",
             "english": "Those who live by slaying are  Eaters of carrion bizarre!",
             "meaning": "To minds of them who what is vileness know",
             "theme": "wisdom",
@@ -1149,9 +997,7 @@ KURAL_DATABASE = {
             "couplet": "Whose trade is 'killing', always vile they show,To minds of them who what is vileness know"
         },
         {
-            "number": 331,
-            "tamil": "நில்லாத வற்றை நிலையின என்றுணரும் புல்லறி வாண்மை கடை.",
-            "transliteration": "Nillaadha Vatrai Nilaiyina Endrunarum Pullari Vaanmai Katai",
+            "number": 331,            "transliteration": "Nillaadha Vatrai Nilaiyina Endrunarum Pullari Vaanmai Katai",
             "english": "The worst of follies it is told  The fleeting as lasting to hold",
             "meaning": "That ignorance which considers those things to be stable which are not so, is dishonourable (to the wise)",
             "theme": "wisdom",
@@ -1164,9 +1010,7 @@ KURAL_DATABASE = {
             "couplet": "Lowest and meanest lore, that bids men trust secure,In things that pass away, as things that shall endure"
         },
         {
-            "number": 341,
-            "tamil": "யாதனின் யாதனின் நீங்கியான் நோதல் அதனின் அதனின் இலன்.",
-            "transliteration": "Yaadhanin Yaadhanin Neengiyaan Nodhal Adhanin Adhanin Ilan",
+            "number": 341,            "transliteration": "Yaadhanin Yaadhanin Neengiyaan Nodhal Adhanin Adhanin Ilan",
             "english": "From what from what a man is free  From that, from that his torments flee",
             "meaning": "Whatever thing, a man has renounced, by that thing; he cannot suffer pain",
             "theme": "wisdom",
@@ -1179,9 +1023,7 @@ KURAL_DATABASE = {
             "couplet": "From whatever, aye, whatever, man gets free,From what, aye, from that, no more of pain hath he"
         },
         {
-            "number": 345,
-            "tamil": "மற்றும் தொடர்ப்பாடு எவன்கொல் பிறப்பறுக்கல் உற்றார்க்கு உடம்பும் மிகை.",
-            "transliteration": "Matrum Thotarppaatu Evankol Pirapparukkal Utraarkku Utampum Mikai",
+            "number": 345,            "transliteration": "Matrum Thotarppaatu Evankol Pirapparukkal Utraarkku Utampum Mikai",
             "english": "Why add to bonds while this body  Is too much for saints to be birth-free",
             "meaning": "What means the addition of other things those who are attempting to cut off (future) births, when even their body is too much (for them)",
             "theme": "wisdom",
@@ -1194,9 +1036,7 @@ KURAL_DATABASE = {
             "couplet": "To those who sev'rance seek from being's varied strife,Flesh is burthen sore; what then other bonds of life"
         },
         {
-            "number": 351,
-            "tamil": "பொருளல்ல வற்றைப் பொருளென்று உணரும் மருளானாம் மாணாப் பிறப்பு.",
-            "transliteration": "Porulalla Vatraip Porulendru Unarum Marulaanaam Maanaap Pirappu",
+            "number": 351,            "transliteration": "Porulalla Vatraip Porulendru Unarum Marulaanaam Maanaap Pirappu",
             "english": "That error entails ignoble birth  Which deems vain things as things of worth",
             "meaning": "Inglorious births are produced by the confusion (of mind) which considers those things to be real which are not real",
             "theme": "wisdom",
@@ -1209,9 +1049,7 @@ KURAL_DATABASE = {
             "couplet": "Of things devoid of truth as real things men deem;-Cause of degraded birth the fond delusive dream"
         },
         {
-            "number": 352,
-            "tamil": "இருள்நீங்கி இன்பம் பயக்கும் மருள்நீங்கி மாசறு காட்சி யவர்க்கு.",
-            "transliteration": "Irulneengi Inpam Payakkum Marulneengi Maasaru Kaatchi Yavarkku",
+            "number": 352,            "transliteration": "Irulneengi Inpam Payakkum Marulneengi Maasaru Kaatchi Yavarkku",
             "english": "Men of spotless pure insight  Enjoy delight devoid of night",
             "meaning": "A clear, undimmed vision of things will deliver its possessors from the darkness of future births, and confer the felicity (of heaven)",
             "theme": "wisdom",
@@ -1224,9 +1062,7 @@ KURAL_DATABASE = {
             "couplet": "Darkness departs, and rapture springs to men who see,The mystic vision pure, from all delusion free"
         },
         {
-            "number": 354,
-            "tamil": "ஐயுணர்வு எய்தியக் கண்ணும் பயமின்றே மெய்யுணர்வு இல்லா தவர்க்கு.",
-            "transliteration": "Aiyunarvu Eydhiyak Kannum Payamindre Meyyunarvu Illaa Thavarkku",
+            "number": 354,            "transliteration": "Aiyunarvu Eydhiyak Kannum Payamindre Meyyunarvu Illaa Thavarkku",
             "english": "Knowledge of five senses is vain  Without knowing the Truth within",
             "meaning": "Even those who have all the knowledge which can be attained by the five senses, will derive no benefit from it, if they are without a knowledge of the true nature of things",
             "theme": "wisdom",
@@ -1239,9 +1075,7 @@ KURAL_DATABASE = {
             "couplet": "Five-fold perception gained, what benefits accrueTo them whose spirits lack perception of the true"
         },
         {
-            "number": 355,
-            "tamil": "எப்பொருள் எத்தன்மைத் தாயினும் அப்பொருள் மெய்ப்பொருள் காண்பது அறிவு.",
-            "transliteration": "Epporul Eththanmaith Thaayinum Apporul Meypporul Kaanpadhu Arivu",
+            "number": 355,            "transliteration": "Epporul Eththanmaith Thaayinum Apporul Meypporul Kaanpadhu Arivu",
             "english": "Knowledge is truth of things to find  In every case of every kind",
             "meaning": "(True) knowledge is the perception concerning every thing of whatever kind, that that thing is the true thing",
             "theme": "wisdom",
@@ -1254,9 +1088,7 @@ KURAL_DATABASE = {
             "couplet": "Whatever thing, of whatsoever kind it be,'Tis wisdom's part in each the very thing to see"
         },
         {
-            "number": 356,
-            "tamil": "கற்றீண்டு மெய்ப்பொருள் கண்டார் தலைப்படுவர் மற்றீண்டு வாரா நெறி.",
-            "transliteration": "Katreentu Meypporul Kantaar Thalaippatuvar Matreentu Vaaraa Neri",
+            "number": 356,            "transliteration": "Katreentu Meypporul Kantaar Thalaippatuvar Matreentu Vaaraa Neri",
             "english": "Who learn and here the Truth discern  Enter the path of non-return",
             "meaning": "They, who in this birth have learned to know the True Being, enter the road which returns not into this world",
             "theme": "wisdom",
@@ -1269,9 +1101,7 @@ KURAL_DATABASE = {
             "couplet": "Who learn, and here the knowledge of the true obtain,Shall find the path that hither cometh not again"
         },
         {
-            "number": 357,
-            "tamil": "ஓர்த்துள்ளம் உள்ளது உணரின் ஒருதலையாப் பேர்த்துள்ள வேண்டா பிறப்பு.",
-            "transliteration": "Orththullam Ulladhu Unarin Orudhalaiyaap Perththulla Ventaa Pirappu",
+            "number": 357,            "transliteration": "Orththullam Ulladhu Unarin Orudhalaiyaap Perththulla Ventaa Pirappu",
             "english": "One-minded sage sees inner-truth  He is free from thoughts of rebirth",
             "meaning": "Let it not be thought that there is another birth for him whose mind having thoroughly considered (all it has been taught) has known the True Being",
             "theme": "wisdom",
@@ -1284,9 +1114,7 @@ KURAL_DATABASE = {
             "couplet": "The mind that knows with certitude what is, and ponders well,Its thoughts on birth again to other life need not to dwell"
         },
         {
-            "number": 358,
-            "tamil": "பிறப்பென்னும் பேதைமை நீங்கச் சிறப்பென்னும் செம்பொருள் காண்பது அறிவு.",
-            "transliteration": "Pirappennum Pedhaimai Neengach Chirappennum Semporul Kaanpadhu Arivu",
+            "number": 358,            "transliteration": "Pirappennum Pedhaimai Neengach Chirappennum Semporul Kaanpadhu Arivu",
             "english": "It is knowledge to know Self-Truth  And remove the folly of birth",
             "meaning": "True knowledge consists in the removal of ignorance; which is (the cause of) births, and the perception of the True Being who is (the bestower of) heaven",
             "theme": "wisdom",
@@ -1299,9 +1127,7 @@ KURAL_DATABASE = {
             "couplet": "When folly, cause of births, departs; and soul can viewThe truth of things, man's dignity- 'tis wisdom true"
         },
         {
-            "number": 372,
-            "tamil": "பேதைப் படுக்கும் இழவூழ் அறிவகற்றும் ஆகலூழ் உற்றக் கடை.",
-            "transliteration": "Pedhaip Patukkum Izhavoozh Arivakatrum Aakaloozh Utrak Katai",
+            "number": 372,            "transliteration": "Pedhaip Patukkum Izhavoozh Arivakatrum Aakaloozh Utrak Katai",
             "english": "Loss-fate makes a dull fool of us  Gain-fate makes us prosperous, wise!",
             "meaning": "An adverse fate produces folly, and a prosperous fate produces enlarged knowledge",
             "theme": "wisdom",
@@ -1314,9 +1140,7 @@ KURAL_DATABASE = {
             "couplet": "The fate that loss ordains makes wise men's wisdom foolishness;The fate that gain bestows with ampler powers will wisdom bless"
         },
         {
-            "number": 373,
-            "tamil": "நுண்ணிய நூல்பல கற்பினும் மற்றுந்தன் உண்மை யறிவே மிகும்.",
-            "transliteration": "Nunniya Noolpala Karpinum Matrundhan Unmai Yarive Mikum",
+            "number": 373,            "transliteration": "Nunniya Noolpala Karpinum Matrundhan Unmai Yarive Mikum",
             "english": "What matters subtle study deep?  Levels of innate wisdom-keep",
             "meaning": "Although (a man) may study the most polished treatises, the knowledge which fate has decreed to him will still prevail",
             "theme": "wisdom",
@@ -1329,9 +1153,7 @@ KURAL_DATABASE = {
             "couplet": "In subtle learning manifold though versed man be,'The wisdom, truly his, will gain supremacy"
         },
         {
-            "number": 374,
-            "tamil": "இருவேறு உலகத்து இயற்கை திருவேறு தெள்ளிய ராதலும் வேறு.",
-            "transliteration": "Iruveru Ulakaththu Iyarkai Thiruveru Thelliya Raadhalum Veru",
+            "number": 374,            "transliteration": "Iruveru Ulakaththu Iyarkai Thiruveru Thelliya Raadhalum Veru",
             "english": "Two natures in the world obtain  Some wealth and others wisdom gain",
             "meaning": "There are (through fate) two different natures in the world, hence the difference (observable in men) in (their acquisition of) wealth, and in their attainment of knowledge",
             "theme": "wisdom",
@@ -1344,9 +1166,7 @@ KURAL_DATABASE = {
             "couplet": "Two fold the fashion of the world: some live in fortune's light;While other some have souls in wisdom's radiance bright"
         },
         {
-            "number": 376,
-            "tamil": "பரியினும் ஆகாவாம் பாலல்ல உய்த்துச் சொரியினும் போகா தம.",
-            "transliteration": "Pariyinum Aakaavaam Paalalla Uyththuch Choriyinum Pokaa Thama",
+            "number": 376,            "transliteration": "Pariyinum Aakaavaam Paalalla Uyththuch Choriyinum Pokaa Thama",
             "english": "Things not thine never remain  Things destined are surely thine",
             "meaning": "Whatever is not conferred by fate cannot be preserved although it be guarded with most painful care; and that, which fate has made his, cannot be lost, although one should even take it and throw it away",
             "theme": "wisdom",
@@ -1359,9 +1179,7 @@ KURAL_DATABASE = {
             "couplet": "Things not your own will yield no good, howe'er you guard with pain;Your own, howe'er you scatter them abroad, will yours remain"
         },
         {
-            "number": 377,
-            "tamil": "வகுத்தான் வகுத்த வகையல்லால் கோடி தொகுத்தார்க்கு துய்த்தல் அரிது.",
-            "transliteration": "Vakuththaan Vakuththa Vakaiyallaal Koti Thokuththaarkku Thuyththal Aridhu",
+            "number": 377,            "transliteration": "Vakuththaan Vakuththa Vakaiyallaal Koti Thokuththaarkku Thuyththal Aridhu",
             "english": "Who crores amass enjoy but what  The Dispenser's decrees allot",
             "meaning": "Even those who gather together millions will only enjoy them, as it has been determined by the disposer (of all things)",
             "theme": "wisdom",
@@ -1374,9 +1192,7 @@ KURAL_DATABASE = {
             "couplet": "Save as the 'sharer' shares to each in due degree,To those who millions store enjoyment scarce can be"
         },
         {
-            "number": 382,
-            "tamil": "அஞ்சாமை ஈகை அறிவூக்கம் இந்நான்கும் எஞ்சாமை வேந்தர்க் கியல்பு.",
-            "transliteration": "Anjaamai Eekai Arivookkam Innaankum Enjaamai Vendhark Kiyalpu",
+            "number": 382,            "transliteration": "Anjaamai Eekai Arivookkam Innaankum Enjaamai Vendhark Kiyalpu",
             "english": "Courage, giving, knowledge and zeal  Are four failless features royal",
             "meaning": "Never to fail in these four things, fearlessness, liberality, wisdom, and energy, is the kingly character",
             "theme": "wisdom",
@@ -1389,9 +1205,7 @@ KURAL_DATABASE = {
             "couplet": "Courage, a liberal hand, wisdom, and energy: these fourAre qualities a king adorn for evermore"
         },
         {
-            "number": 383,
-            "tamil": "தூங்காமை கல்வி துணிவுடைமை இம்மூன்றும் நீங்கா நிலனான் பவர்க்கு.",
-            "transliteration": "Thoongaamai Kalvi Thunivutaimai Immoondrum Neengaa Nilanaan Pavarkku",
+            "number": 383,            "transliteration": "Thoongaamai Kalvi Thunivutaimai Immoondrum Neengaa Nilanaan Pavarkku",
             "english": "Alertness, learning bravery  Are adjuncts three of monarchy",
             "meaning": "These three things, viz, vigilance, learning, and bravery, should never be wanting in the ruler of a country",
             "theme": "wisdom",
@@ -1404,9 +1218,7 @@ KURAL_DATABASE = {
             "couplet": "A sleepless promptitude, knowledge, decision strong:These three for aye to rulers of the land belong"
         },
         {
-            "number": 391,
-            "tamil": "கற்க கசடறக் கற்பவை கற்றபின் நிற்க அதற்குத் தக.",
-            "transliteration": "Karka Kasatarak Karpavai Katrapin Nirka Adharkuth Thaka",
+            "number": 391,            "transliteration": "Karka Kasatarak Karpavai Katrapin Nirka Adharkuth Thaka",
             "english": "Lore worth learning, learn flawlessly  Live by that learning thoroughly",
             "meaning": "Let a man learn thoroughly whatever he may learn, and let his conduct be worthy of his learning",
             "theme": "wisdom",
@@ -1419,9 +1231,7 @@ KURAL_DATABASE = {
             "couplet": "So learn that you may full and faultless learning gain,Then in obedience meet to lessons learnt remain"
         },
         {
-            "number": 392,
-            "tamil": "எண்ணென்ப ஏனை எழுத்தென்ப இவ்விரண்டும் கண்ணென்ப வாழும் உயிர்க்கு.",
-            "transliteration": "Ennenpa Enai Ezhuththenpa Ivvirantum Kannenpa Vaazhum Uyirkku",
+            "number": 392,            "transliteration": "Ennenpa Enai Ezhuththenpa Ivvirantum Kannenpa Vaazhum Uyirkku",
             "english": "Letter, number, art and science  Of living kind both are the eyes",
             "meaning": "Letters and numbers are the two eyes of man",
             "theme": "wisdom",
@@ -1434,9 +1244,7 @@ KURAL_DATABASE = {
             "couplet": "The twain that lore of numbers and of letters giveAre eyes, the wise declare, to all on earth that live"
         },
         {
-            "number": 393,
-            "tamil": "கண்ணுடையர் என்பவர் கற்றோர் முகத்திரண்டு புண்ணுடையர் கல்லா தவர்.",
-            "transliteration": "Kannutaiyar Enpavar Katror Mukaththirantu Punnutaiyar Kallaa Thavar",
+            "number": 393,            "transliteration": "Kannutaiyar Enpavar Katror Mukaththirantu Punnutaiyar Kallaa Thavar",
             "english": "The learned alone have eyes on face  The ignorant two sores of disgrace",
             "meaning": "The learned are said to have eyes, but the unlearned have (merely) two sores in their face",
             "theme": "wisdom",
@@ -1449,9 +1257,7 @@ KURAL_DATABASE = {
             "couplet": "Men who learning gain have eyes, men say;Blockheads' faces pairs of sores display"
         },
         {
-            "number": 394,
-            "tamil": "உவப்பத் தலைக்கூடி உள்ளப் பிரிதல் அனைத்தே புலவர் தொழில்.",
-            "transliteration": "Uvappath Thalaikkooti Ullap Piridhal Anaiththe Pulavar Thozhil",
+            "number": 394,            "transliteration": "Uvappath Thalaikkooti Ullap Piridhal Anaiththe Pulavar Thozhil",
             "english": "To meet with joy and part with thought  Of learned men this is the art",
             "meaning": "It is the part of the learned to give joy to those whom they meet, and on leaving, to make them think (Oh! when shall we meet them again.)",
             "theme": "wisdom",
@@ -1464,9 +1270,7 @@ KURAL_DATABASE = {
             "couplet": "You meet with joy, with pleasant thought you part;Such is the learned scholar's wonderous art"
         },
         {
-            "number": 396,
-            "tamil": "தொட்டனைத் தூறும் மணற்கேணி மாந்தர்க்குக் கற்றனைத் தூறும் அறிவு.",
-            "transliteration": "Thottanaith Thoorum Manarkeni Maandharkkuk Katranaith Thoorum Arivu",
+            "number": 396,            "transliteration": "Thottanaith Thoorum Manarkeni Maandharkkuk Katranaith Thoorum Arivu",
             "english": "As deep you dig the sand spring flows  As deep you learn the knowledge grows",
             "meaning": "Water will flow from a well in the sand in proportion to the depth to which it is dug, and knowledge will flow from a man in proportion to his learning",
             "theme": "wisdom",
@@ -1479,9 +1283,7 @@ KURAL_DATABASE = {
             "couplet": "In sandy soil, when deep you delve, you reach the springs below;The more you learn, the freer streams of wisdom flow"
         },
         {
-            "number": 397,
-            "tamil": "யாதானும் நாடாமால் ஊராமால் என்னொருவன் சாந்துணையுங் கல்லாத வாறு.",
-            "transliteration": "Yaadhaanum Naataamaal Ooraamaal Ennoruvan Saandhunaiyung Kallaadha Vaaru",
+            "number": 397,            "transliteration": "Yaadhaanum Naataamaal Ooraamaal Ennoruvan Saandhunaiyung Kallaadha Vaaru",
             "english": "All lands and towns are learner's own  Why not till death learning go on!",
             "meaning": "How is it that any one can remain without learning, even to his death, when (to the learned man) every country is his own (country), and every town his own (town) ?",
             "theme": "wisdom",
@@ -1494,9 +1296,7 @@ KURAL_DATABASE = {
             "couplet": "The learned make each land their own, in every city find a home;Who, till they die; learn nought, along what weary ways they roam"
         },
         {
-            "number": 398,
-            "tamil": "ஒருமைக்கண் தான்கற்ற கல்வி ஒருவற்கு எழுமையும் ஏமாப் புடைத்து.",
-            "transliteration": "Orumaikkan Thaan Katra Kalvi Oruvarku Ezhumaiyum Emaap Putaiththu",
+            "number": 398,            "transliteration": "Orumaikkan Thaan Katra Kalvi Oruvarku Ezhumaiyum Emaap Putaiththu",
             "english": "The joy of learning in one birth  Exalts man upto his seventh",
             "meaning": "The learning, which a man has acquired in one birth, will yield him pleasure during seven births",
             "theme": "wisdom",
@@ -1509,9 +1309,7 @@ KURAL_DATABASE = {
             "couplet": "The man who store of learning gains,In one, through seven worlds, bliss attains"
         },
         {
-            "number": 399,
-            "tamil": "தாமின் புறுவது உலகின் புறக்கண்டு காமுறுவர் கற்றறிந் தார்.",
-            "transliteration": "Thaamin Puruvadhu Ulakin Purak Kantu Kaamuruvar Katrarin Thaar",
+            "number": 399,            "transliteration": "Thaamin Puruvadhu Ulakin Purak Kantu Kaamuruvar Katrarin Thaar",
             "english": "The learned foster learning more  On seeing the world enjoy their lore",
             "meaning": "The learned will long (for more learning), when they see that while it gives pleasure to themselves, the world also derives pleasure from it",
             "theme": "wisdom",
@@ -1526,9 +1324,7 @@ KURAL_DATABASE = {
     ],
     "anger": [
         {
-            "number": 4,
-            "tamil": "வேண்டுதல் வேண்டாமை இலானடி சேர்ந்தார்க்கு யாண்டும் இடும்பை இல.",
-            "transliteration": "Ventudhal Ventaamai Ilaanati Serndhaarkku Yaantum Itumpai Ila",
+            "number": 4,            "transliteration": "Ventudhal Ventaamai Ilaanati Serndhaarkku Yaantum Itumpai Ila",
             "english": "Who hold His feet who likes nor loathes Are free from woes of human births",
             "meaning": "To those who meditate the feet of Him who is void of desire or aversion, evil shall never come",
             "theme": "anger",
@@ -1541,9 +1337,7 @@ KURAL_DATABASE = {
             "couplet": "His foot, 'Whom want affects not, irks not grief,' who gainShall not, through every time, of any woes complain"
         },
         {
-            "number": 6,
-            "tamil": "பொறிவாயில் ஐந்தவித்தான் பொய்தீர் ஒழுக்க நெறிநின்றார் நீடுவாழ் வார்.",
-            "transliteration": "Porivaayil Aindhaviththaan Poidheer Ozhukka Nerinindraar Neetuvaazh Vaar",
+            "number": 6,            "transliteration": "Porivaayil Aindhaviththaan Poidheer Ozhukka Nerinindraar Neetuvaazh Vaar",
             "english": "They prosper long who walk His way Who has the senses signed away",
             "meaning": "Those shall long proposer who abide in the faultless way of Him who has destroyed the five desires of the senses",
             "theme": "anger",
@@ -1556,9 +1350,7 @@ KURAL_DATABASE = {
             "couplet": "Long live they blest, who 've stood in path from falsehood freed;His, 'Who quenched lusts that from the sense-gates five proceed'"
         },
         {
-            "number": 22,
-            "tamil": "துறந்தார் பெருமை துணைக்கூறின் வையத்து இறந்தாரை எண்ணிக்கொண் டற்று.",
-            "transliteration": "Thurandhaar Perumai Thunaikkoorin Vaiyaththu Irandhaarai Ennikkon Tatru",
+            "number": 22,            "transliteration": "Thurandhaar Perumai Thunaikkoorin Vaiyaththu Irandhaarai Ennikkon Tatru",
             "english": "To con ascetic glory here Is to count the dead upon the sphere",
             "meaning": "To describe the measure of the greatness of those who have forsaken the two-fold desires, is like counting the dead",
             "theme": "anger",
@@ -1571,9 +1363,7 @@ KURAL_DATABASE = {
             "couplet": "As counting those that from the earth have passed away,'Tis vain attempt the might of holy men to say"
         },
         {
-            "number": 129,
-            "tamil": "தீயினாற் சுட்டபுண் உள்ளாறும் ஆறாதே நாவினாற் சுட்ட வடு.",
-            "transliteration": "Theeyinaar Suttapun Ullaarum Aaraadhe Naavinaar Sutta Vatu",
+            "number": 129,            "transliteration": "Theeyinaar Suttapun Ullaarum Aaraadhe Naavinaar Sutta Vatu",
             "english": "The fire-burnt wounds do find a cure  Tongue-burnt wound rests a running sore",
             "meaning": "The wound which has been burnt in by fire may heal, but a wound burnt in by the tongue will never heal",
             "theme": "anger",
@@ -1586,9 +1376,7 @@ KURAL_DATABASE = {
             "couplet": "In flesh by fire inflamed, nature may thoroughly heal the sore;In soul by tongue inflamed, the ulcer healeth never more"
         },
         {
-            "number": 145,
-            "tamil": "எளிதென இல்லிறப்பான் எய்துமெஞ் ஞான்றும் விளியாது நிற்கும் பழி.",
-            "transliteration": "Elidhena Illirappaan Eydhumenj Gnaandrum Viliyaadhu Nirkum Pazhi",
+            "number": 145,            "transliteration": "Elidhena Illirappaan Eydhumenj Gnaandrum Viliyaadhu Nirkum Pazhi",
             "english": "Who trifles with another's wife  His guilty stain will last for life",
             "meaning": "He who thinks lightly of going into the wife of another acquires guilt that will abide with him imperishably and for ever",
             "theme": "anger",
@@ -1601,9 +1389,7 @@ KURAL_DATABASE = {
             "couplet": "'Mere triflel' saying thus, invades the home, so he ensuresA gain of guilt that deathless aye endures"
         },
         {
-            "number": 206,
-            "tamil": "தீப்பால தான்பிறர்கண் செய்யற்க நோய்ப்பால தன்னை அடல்வேண்டா தான்.",
-            "transliteration": "Theeppaala Thaanpirarkan Seyyarka Noippaala Thannai Atalventaa Thaan",
+            "number": 206,            "transliteration": "Theeppaala Thaanpirarkan Seyyarka Noippaala Thannai Atalventaa Thaan",
             "english": "From wounding others let him refrain  Who would from harm himself remain",
             "meaning": "Let him not do evil to others who desires not that sorrows should pursue him",
             "theme": "anger",
@@ -1616,9 +1402,7 @@ KURAL_DATABASE = {
             "couplet": "What ranks as evil spare to do, if thou would'st shunAffliction sore through ill to thee by others done"
         },
         {
-            "number": 281,
-            "tamil": "எள்ளாமை வேண்டுவான் என்பான் எனைத்தொன்றும் கள்ளாமை காக்கதன் நெஞ்சு.",
-            "transliteration": "Ellaamai Ventuvaan Enpaan Enaiththondrum Kallaamai Kaakkadhan Nenju",
+            "number": 281,            "transliteration": "Ellaamai Ventuvaan Enpaan Enaiththondrum Kallaamai Kaakkadhan Nenju",
             "english": "Let him who would reproachless be  From all frauds guard his conscience free",
             "meaning": "Let him, who desires not to be despised, keep his mind from (the desire of) defrauding another of the smallest thing",
             "theme": "anger",
@@ -1631,9 +1415,7 @@ KURAL_DATABASE = {
             "couplet": "Who seeks heaven's joys, from impious levity secure,Let him from every fraud preserve his spirit pure"
         },
         {
-            "number": 283,
-            "tamil": "களவினால் ஆகிய ஆக்கம் அளவிறந்து ஆவது போலக் கெடும்.",
-            "transliteration": "Kalavinaal Aakiya Aakkam Alavirandhu Aavadhu Polak Ketum",
+            "number": 283,            "transliteration": "Kalavinaal Aakiya Aakkam Alavirandhu Aavadhu Polak Ketum",
             "english": "The gain by fraud may overflow  But swift to ruin it shall go",
             "meaning": "The property, which is acquired by fraud, will entirely perish, even while it seems to increase",
             "theme": "anger",
@@ -1646,9 +1428,7 @@ KURAL_DATABASE = {
             "couplet": "The gain that comes by fraud, although it seems to growWith limitless increase, to ruin swift shall go"
         },
         {
-            "number": 305,
-            "tamil": "தன்னைத்தான் காக்கின் சினங்காக்க காவாக்கால் தன்னையே கொல்லுஞ் சினம்.",
-            "transliteration": "Thannaiththaan Kaakkin Sinangaakka Kaavaakkaal Thannaiye Kollunj Chinam",
+            "number": 305,            "transliteration": "Thannaiththaan Kaakkin Sinangaakka Kaavaakkaal Thannaiye Kollunj Chinam",
             "english": "Thyself to save, from wrath away!  If not thyself the wrath will slay",
             "meaning": "If a man would guard himself, let him guard against anger; if he do not guard it, anger will kill him",
             "theme": "anger",
@@ -1661,9 +1441,7 @@ KURAL_DATABASE = {
             "couplet": "If thou would'st guard thyself, guard against wrath alway;'Gainst wrath who guards not, him his wrath shall slay"
         },
         {
-            "number": 308,
-            "tamil": "இணர்எரி தோய்வன்ன இன்னா செயினும் புணரின் வெகுளாமை நன்று.",
-            "transliteration": "Inareri Thoivanna Innaa Seyinum Punarin Vekulaamai Nandru",
+            "number": 308,            "transliteration": "Inareri Thoivanna Innaa Seyinum Punarin Vekulaamai Nandru",
             "english": "Save thy soul from burning ire  Though tortured like the touch of fire",
             "meaning": "Though one commit things against you as painful (to bear) as if a bundle of fire had been thrust upon you, it will be well, to refrain, if possible, from anger",
             "theme": "anger",
@@ -1676,9 +1454,7 @@ KURAL_DATABASE = {
             "couplet": "Though men should work thee woe, like touch of tongues of fire'Tis well if thou canst save thy soul from burning ire"
         },
         {
-            "number": 310,
-            "tamil": "இறந்தார் இறந்தார் அனையர் சினத்தைத் துறந்தார் துறந்தார் துணை.",
-            "transliteration": "Irandhaar Irandhaar Anaiyar Sinaththaith Thurandhaar Thurandhaar Thunai",
+            "number": 310,            "transliteration": "Irandhaar Irandhaar Anaiyar Sinaththaith Thurandhaar Thurandhaar Thunai",
             "english": "Dead are they who are anger-fed  Saints are they from whom wrath has fled",
             "meaning": "Those, who give way to excessive anger, are no better than dead men; but those, who are freed from it, are equal to those who are freed (from death)",
             "theme": "anger",
@@ -1691,9 +1467,7 @@ KURAL_DATABASE = {
             "couplet": "Men of surpassing wrath are like the men who've passed away;Who wrath renounce, equals of all-renouncing sages they"
         },
         {
-            "number": 347,
-            "tamil": "பற்றி விடாஅ இடும்பைகள் பற்றினைப் பற்றி விடாஅ தவர் க்கு.",
-            "transliteration": "Patri Vitaaa Itumpaikal Patrinaip Patri Vitaaa Thavarkku",
+            "number": 347,            "transliteration": "Patri Vitaaa Itumpaikal Patrinaip Patri Vitaaa Thavarkku",
             "english": "Grief clings on and on to those  Who cling to bonds without release",
             "meaning": "Sorrows will never let go their hold of those who give not up their hold of desire",
             "theme": "anger",
@@ -1706,9 +1480,7 @@ KURAL_DATABASE = {
             "couplet": "Who cling to things that cling and eager clasp,Griefs cling to them with unrelaxing grasp"
         },
         {
-            "number": 350,
-            "tamil": "பற்றுக பற்றற்றான் பற்றினை அப்பற்றைப் பற்றுக பற்று விடற்கு.",
-            "transliteration": "Patruka Patratraan Patrinai Appatraip Patruka Patru Vitarku",
+            "number": 350,            "transliteration": "Patruka Patratraan Patrinai Appatraip Patruka Patru Vitarku",
             "english": "Bind Thyself to the unbound one  That binding breaks all bonds anon",
             "meaning": "Desire the desire of Him who is without desire; in order to renounce desire, desire that desire",
             "theme": "anger",
@@ -1721,9 +1493,7 @@ KURAL_DATABASE = {
             "couplet": "Cling thou to that which He, to Whom nought clings, hath bid thee cling,Cling to that bond, to get thee free from every clinging thing"
         },
         {
-            "number": 360,
-            "tamil": "காமம் வெகுளி மயக்கம் இவ்மூன்றன் நாமம் கெடக்கெடும் நோய்.",
-            "transliteration": "Kaamam Vekuli Mayakkam Ivaimundran Naamam Ketakketum Noi",
+            "number": 360,            "transliteration": "Kaamam Vekuli Mayakkam Ivaimundran Naamam Ketakketum Noi",
             "english": "Woes expire when lust, wrath, folly  Expire even to name, fully",
             "meaning": "If the very names of these three things, desire, anger, and confusion of mind, be destroyed, then will also perish evils (which flow from them)",
             "theme": "anger",
@@ -1736,9 +1506,7 @@ KURAL_DATABASE = {
             "couplet": "When lust and wrath and error's triple tyranny is o'er,Their very names for aye extinct, then pain shall be no more"
         },
         {
-            "number": 362,
-            "tamil": "வேண்டுங்கால் வேண்டும் பிறவாமை மற்றது வேண்டாமை வேண்ட வரும்.",
-            "transliteration": "Ventungaal Ventum Piravaamai Matradhu Ventaamai Venta Varum",
+            "number": 362,            "transliteration": "Ventungaal Ventum Piravaamai Matradhu Ventaamai Venta Varum",
             "english": "If long thou must, long for non-birth  It comes by longing no more for earth",
             "meaning": "If anything be desired, freedom from births should be desired; that (freedom from births) will be attained by desiring to be without desire",
             "theme": "anger",
@@ -1751,9 +1519,7 @@ KURAL_DATABASE = {
             "couplet": "If desire you feel, freedom from changing birth require!'I' will come, if you desire to 'scape, set free from all desire"
         },
         {
-            "number": 365,
-            "tamil": "அற்றவர் என்பார் அவாஅற்றார் மற்றையார் அற்றாக அற்றது இலர்.",
-            "transliteration": "Atravar Enpaar Avaaatraar Matraiyaar Atraaka Atradhu Ilar",
+            "number": 365,            "transliteration": "Atravar Enpaar Avaaatraar Matraiyaar Atraaka Atradhu Ilar",
             "english": "The free are those who desire not  The rest not free in bonds are caught",
             "meaning": "They are said to be free (from future birth) who are freed from desire; all others (who, whatever else they may be free from, are not freed from desire) are not thus free",
             "theme": "anger",
@@ -1766,9 +1532,7 @@ KURAL_DATABASE = {
             "couplet": "Men freed from bonds of strong desire are free;None other share such perfect liberty"
         },
         {
-            "number": 368,
-            "tamil": "அவாஇல்லார்க் கில்லாகுந் துன்பம் அஃதுண்டேல் தவாஅது மேன்மேல் வரும்.",
-            "transliteration": "Avaaillaark Killaakun Thunpam Aqdhuntel Thavaaadhu Menmel Varum",
+            "number": 368,            "transliteration": "Avaaillaark Killaakun Thunpam Aqdhuntel Thavaaadhu Menmel Varum",
             "english": "Desire extinct no sorrow-taints  Grief comes on grief where it pretends",
             "meaning": "There is no sorrow to those who are without desire; but where that is, (sorrow) will incessantly come, more and more",
             "theme": "anger",
@@ -1781,9 +1545,7 @@ KURAL_DATABASE = {
             "couplet": "Affliction is not known where no desires abide;Where these are, endless rises sorrow's tide"
         },
         {
-            "number": 369,
-            "tamil": "இன்பம் இடையறா தீண்டும் அவாவென்னும் துன்பத்துள் துன்பங் கெடின்.",
-            "transliteration": "Inpam Itaiyaraa Theentum Avaavennum Thunpaththul Thunpang Ketin",
+            "number": 369,            "transliteration": "Inpam Itaiyaraa Theentum Avaavennum Thunpaththul Thunpang Ketin",
             "english": "Desire, the woe of woes destroy  Joy of joys here you enjoy",
             "meaning": "Even while in this body, joy will never depart (from the mind, in which) desire, that sorrow of sorrows, has been destroyed",
             "theme": "anger",
@@ -1796,9 +1558,7 @@ KURAL_DATABASE = {
             "couplet": "When dies away desire, that woe of woesEv'n here the soul unceasing rapture knows"
         },
         {
-            "number": 370,
-            "tamil": "ஆரா இயற்கை அவாநீப்பின் அந்நிலையே பேரா இயற்கை தரும்.",
-            "transliteration": "Aaraa Iyarkai Avaaneeppin Annilaiye Peraa Iyarkai Tharum",
+            "number": 370,            "transliteration": "Aaraa Iyarkai Avaaneeppin Annilaiye Peraa Iyarkai Tharum",
             "english": "Off with desire insatiate  You gain the native blissful state",
             "meaning": "The removal of desire, whose nature it is never to be satisfied, will immediately confer a nature that can never be changed",
             "theme": "anger",
@@ -1811,9 +1571,7 @@ KURAL_DATABASE = {
             "couplet": "Drive from thy soul desire insatiate;Straight'way is gained the moveless blissful state"
         },
         {
-            "number": 378,
-            "tamil": "துறப்பார்மன் துப்புர வில்லார் உறற்பால ஊட்டா கழியு மெனின்.",
-            "transliteration": "Thurappaarman Thuppura Villaar Urarpaala Oottaa Kazhiyu Menin",
+            "number": 378,            "transliteration": "Thurappaarman Thuppura Villaar Urarpaala Oottaa Kazhiyu Menin",
             "english": "The destitute desire will quit  If fate with ills visit them not",
             "meaning": "The destitute will renounce desire (and become ascetics), if (fate) do not make them suffer the hindrances to which they are liable, and they pass away",
             "theme": "anger",
@@ -1828,9 +1586,7 @@ KURAL_DATABASE = {
     ],
     "ethics": [
         {
-            "number": 5,
-            "tamil": "இருள்சேர் இருவினையும் சேரா இறைவன் பொருள்சேர் புகழ்புரிந்தார் மாட்டு.",
-            "transliteration": "Irulser Iruvinaiyum Seraa Iraivan Porulser Pukazhpurindhaar Maattu",
+            "number": 5,            "transliteration": "Irulser Iruvinaiyum Seraa Iraivan Porulser Pukazhpurindhaar Maattu",
             "english": "God's praise who tell, are free from right  And wrong, the twins of dreaming night",
             "meaning": "The two-fold deeds that spring from darkness shall not adhere to those who delight in the true praise of God",
             "theme": "ethics",
@@ -1843,9 +1599,7 @@ KURAL_DATABASE = {
             "couplet": "The men, who on the 'King's' true praised delight to dwell,Affects not them the fruit of deeds done ill or well"
         },
         {
-            "number": 8,
-            "tamil": "அறவாழி அந்தணன் தாள்சேர்ந்தார்க் கல்லால் பிறவாழி நீந்தல் அரிது.",
-            "transliteration": "Aravaazhi Andhanan Thaalserndhaark Kallaal Piravaazhi Neendhal Aridhu",
+            "number": 8,            "transliteration": "Aravaazhi Andhanan Thaalserndhaark Kallaal Piravaazhi Neendhal Aridhu",
             "english": "Who swims the sea of vice is he Who clasps the feet of Virtue's sea",
             "meaning": "None can swim the sea of vice, but those who are united to the feet of that gracious Being who is a sea of virtue",
             "theme": "ethics",
@@ -1858,9 +1612,7 @@ KURAL_DATABASE = {
             "couplet": "Unless His feet 'the Sea of Good, the Fair and Bountiful,' men gain,'Tis hard the further bank of being's changeful sea to attain"
         },
         {
-            "number": 12,
-            "tamil": "துப்பார்க்குத் துப்பாய துப்பாக்கித் துப்பார்க்குத் துப்பாய தூஉம் மழை.",
-            "transliteration": "Thuppaarkkuth Thuppaaya Thuppaakkith Thuppaarkkuth Thuppaaya Thooum Mazhai",
+            "number": 12,            "transliteration": "Thuppaarkkuth Thuppaaya Thuppaakkith Thuppaarkkuth Thuppaaya Thooum Mazhai",
             "english": "The rain begets the food we eat",
             "meaning": "Rain produces good food, and is itself food",
             "theme": "ethics",
@@ -1873,9 +1625,7 @@ KURAL_DATABASE = {
             "couplet": "The rain makes pleasant food for eaters rise;As food itself, thirst-quenching draught supplies"
         },
         {
-            "number": 23,
-            "tamil": "இருமை வகைதெரிந்து ஈண்டுஅறம் பூண்டார் பெருமை பிறங்கிற்று உலகு.",
-            "transliteration": "Irumai Vakaidherindhu Eentuaram Poontaar Perumai Pirangitru Ulaku",
+            "number": 23,            "transliteration": "Irumai Vakaidherindhu Eentuaram Poontaar Perumai Pirangitru Ulaku",
             "english": "No lustre can with theirs compare Who know the right and virtue wear",
             "meaning": "The greatness of those who have discovered the properties of both states of being, and renounced the world, shines forth on earth (beyond all others)",
             "theme": "ethics",
@@ -1888,9 +1638,7 @@ KURAL_DATABASE = {
             "couplet": "Their greatness earth transcends, who, way of both worlds weighed,In this world take their stand, in virtue's robe arrayed"
         },
         {
-            "number": 29,
-            "tamil": "குணமென்னும் குன்றேறி நின்றார் வெகுளி கணமேயும் காத்தல் அரிது.",
-            "transliteration": "Kunamennum Kundreri Nindraar Vekuli Kanameyum Kaaththal Aridhu",
+            "number": 29,            "transliteration": "Kunamennum Kundreri Nindraar Vekuli Kanameyum Kaaththal Aridhu",
             "english": "Their wrath, who've climb'd the mount of good, Though transient, cannot be withstood",
             "meaning": "The anger of those who have ascended the mountain of goodness, though it continue but for a moment, cannot be resisted",
             "theme": "ethics",
@@ -1903,9 +1651,7 @@ KURAL_DATABASE = {
             "couplet": "The wrath 'tis hard e'en for an instant to endure,Of those who virtue's hill have scaled, and stand secure"
         },
         {
-            "number": 31,
-            "tamil": "சிறப்புஈனும் செல்வமும் ஈனும் அறத்தினூஉங்கு ஆக்கம் எவனோ உயிர்க்கு.",
-            "transliteration": "Sirappu Eenum Selvamum Eenum Araththinooungu Aakkam Evano Uyirkku",
+            "number": 31,            "transliteration": "Sirappu Eenum Selvamum Eenum Araththinooungu Aakkam Evano Uyirkku",
             "english": "From virtue weal and wealth outflow; What greater good can mankind know?",
             "meaning": "Virtue will confer heaven and wealth; what greater source of happiness can man possess ?",
             "theme": "ethics",
@@ -1918,9 +1664,7 @@ KURAL_DATABASE = {
             "couplet": "It yields distinction, yields prosperity; what gainGreater than virtue can a living man obtain"
         },
         {
-            "number": 32,
-            "tamil": "அறத்தினூஉங்கு ஆக்கமும் இல்லை அதனை மறத்தலின் ஊங்கில்லை கேடு.",
-            "transliteration": "Araththinooungu Aakkamum Illai Adhanai Maraththalin Oongillai Ketu",
+            "number": 32,            "transliteration": "Araththinooungu Aakkamum Illai Adhanai Maraththalin Oongillai Ketu",
             "english": "Virtue enhances joy and gain; Forsaking it is fall and pain",
             "meaning": "There can be no greater source of good than (the practice of) virtue; there can be no greater source of evil than the forgetfulness of it",
             "theme": "ethics",
@@ -1933,9 +1677,7 @@ KURAL_DATABASE = {
             "couplet": "No greater gain than virtue aught can cause;No greater loss than life oblivious of her laws"
         },
         {
-            "number": 33,
-            "tamil": "ஒல்லும் வகையான் அறவினை ஓவாதே செல்லும்வாய் எல்லாஞ் செயல்.",
-            "transliteration": "Ollum Vakaiyaan Aravinai Ovaadhe Sellumvaai Ellaanj Cheyal",
+            "number": 33,            "transliteration": "Ollum Vakaiyaan Aravinai Ovaadhe Sellumvaai Ellaanj Cheyal",
             "english": "Perform good deeds as much you can Always and everywhere, o man!",
             "meaning": "As much as possible, in every way, incessantly practise virtue",
             "theme": "ethics",
@@ -1948,9 +1690,7 @@ KURAL_DATABASE = {
             "couplet": "To finish virtue's work with ceaseless effort strive,What way thou may'st, where'er thou see'st the work may thrive"
         },
         {
-            "number": 34,
-            "tamil": "மனத்துக்கண் மாசிலன் ஆதல் அனைத்தறன் ஆகுல நீர பிற.",
-            "transliteration": "Manaththukkan Maasilan Aadhal Anaiththu Aran Aakula Neera Pira",
+            "number": 34,            "transliteration": "Manaththukkan Maasilan Aadhal Anaiththu Aran Aakula Neera Pira",
             "english": "In spotless mind virtue is found And not in show and swelling sound",
             "meaning": "Let him who does virtuous deeds be of spotless mind; to that extent is virtue; all else is vain show",
             "theme": "ethics",
@@ -1963,9 +1703,7 @@ KURAL_DATABASE = {
             "couplet": "Spotless be thou in mind! This only merits virtue's name;All else, mere pomp of idle sound, no real worth can claim"
         },
         {
-            "number": 36,
-            "tamil": "அன்றறிவாம் என்னாது அறஞ்செய்க மற்றது பொன்றுங்கால் பொன்றாத் துணை.",
-            "transliteration": "Andrarivaam Ennaadhu Aranjeyka Matradhu Pondrungaal Pondraath Thunai",
+            "number": 36,            "transliteration": "Andrarivaam Ennaadhu Aranjeyka Matradhu Pondrungaal Pondraath Thunai",
             "english": "Do good enow; defer it not A deathless aid in death if sought",
             "meaning": "Defer not virtue to another day; receive her now; and at the dying hour she will be your undying friend",
             "theme": "ethics",
@@ -1978,9 +1716,7 @@ KURAL_DATABASE = {
             "couplet": "Do deeds of virtue now Say not, 'To-morrow we'll be wise';Thus, when thou diest, shalt thou find a help that never dies"
         },
         {
-            "number": 37,
-            "tamil": "அறத்தாறு இதுவென வேண்டா சிவிகை பொறுத்தானோடு ஊர்ந்தான் இடை.",
-            "transliteration": "Araththaaru Ithuvena Ventaa Sivikai Poruththaanotu Oorndhaan Itai",
+            "number": 37,            "transliteration": "Araththaaru Ithuvena Ventaa Sivikai Poruththaanotu Oorndhaan Itai",
             "english": "Litter-bearer and rider say  Without a word, the fortune's way",
             "meaning": "The fruit of virtue need not be described in books; it may be inferred from seeing the bearer of a palanquin and the rider therein",
             "theme": "ethics",
@@ -1993,9 +1729,7 @@ KURAL_DATABASE = {
             "couplet": "Needs not in words to dwell on virtue's fruits: compareThe man in litter borne with them that toiling bear"
         },
         {
-            "number": 38,
-            "tamil": "வீழ்நாள் படாஅமை நன்றாற்றின் அஃதொருவன் வாழ்நாள் வழியடைக்கும் கல்.",
-            "transliteration": "Veezhnaal Pataaamai Nandraatrin Aqdhoruvan Vaazhnaal Vazhiyataikkum Kal",
+            "number": 38,            "transliteration": "Veezhnaal Pataaamai Nandraatrin Aqdhoruvan Vaazhnaal Vazhiyataikkum Kal",
             "english": "Like stones that block rebirth and pain Are doing good and good again",
             "meaning": "If one allows no day to pass without some good being done, his conduct will be a stone to block up the passage to other births",
             "theme": "ethics",
@@ -2008,9 +1742,7 @@ KURAL_DATABASE = {
             "couplet": "If no day passing idly, good to do each day you toil,A stone it will be to block the way of future days of moil"
         },
         {
-            "number": 39,
-            "tamil": "அறத்தான் வருவதே இன்பம் மற்றெல்லாம் புறத்த புகழும் இல.",
-            "transliteration": "Araththaan Varuvadhe Inpam Mar Rellaam Puraththa Pukazhum Ila",
+            "number": 39,            "transliteration": "Araththaan Varuvadhe Inpam Mar Rellaam Puraththa Pukazhum Ila",
             "english": "Weal flows only from virtue done The rest is rue and renown gone",
             "meaning": "Only that pleasure which flows from domestic virtue is pleasure; all else is not pleasure, and it is without praise",
             "theme": "ethics",
@@ -2023,9 +1755,7 @@ KURAL_DATABASE = {
             "couplet": "What from virtue floweth, yieldeth dear delight;All else extern, is void of glory's light"
         },
         {
-            "number": 40,
-            "tamil": "செயற்பால தோரும் அறனே ஒருவற்கு உயற்பால தோரும் பழி.",
-            "transliteration": "Seyarpaala Thorum Arane Oruvarku Uyarpaala Thorum Pazhi",
+            "number": 40,            "transliteration": "Seyarpaala Thorum Arane Oruvarku Uyarpaala Thorum Pazhi",
             "english": "Worthy act is virtue done Vice is what we ought to shun",
             "meaning": "That is virtue which each ought to do, and that is vice which each should shun",
             "theme": "ethics",
@@ -2038,9 +1768,7 @@ KURAL_DATABASE = {
             "couplet": "'Virtue' sums the things that should be done;'Vice' sums the things that man should shun"
         },
         {
-            "number": 42,
-            "tamil": "துறந்தார்க்கும் துவ்வாதவர்க்கும் இறந்தார்க்கும் இல்வாழ்வான் என்பான் துணை.",
-            "transliteration": "Thurandhaarkkum Thuvvaa Dhavarkkum Irandhaarkkum Ilvaazhvaan Enpaan Thunai",
+            "number": 42,            "transliteration": "Thurandhaarkkum Thuvvaa Dhavarkkum Irandhaarkkum Ilvaazhvaan Enpaan Thunai",
             "english": "His help the monk and retired share, And celibate students are his care",
             "meaning": "He will be said to flourish in domestic virtue who aids the forsaken, the poor, and the dead",
             "theme": "ethics",
@@ -2053,9 +1781,7 @@ KURAL_DATABASE = {
             "couplet": "To anchorites, to indigent, to those who've passed away,The man for household virtue famed is needful held and stay"
         },
         {
-            "number": 44,
-            "tamil": "பழியஞ்சிப் பாத்தூண் உடைத்தாயின் வாழ்க்கை வழியெஞ்சல் எஞ்ஞான்றும் இல்.",
-            "transliteration": "Pazhiyanjip Paaththoon Utaiththaayin Vaazhkkai Vazhiyenjal Egngnaandrum Il",
+            "number": 44,            "transliteration": "Pazhiyanjip Paaththoon Utaiththaayin Vaazhkkai Vazhiyenjal Egngnaandrum Il",
             "english": "Sin he shuns and food he shares His home is bright and brighter fares",
             "meaning": "His descendants shall never fail who, living in the domestic state, fears vice (in the acquisition of property) and shares his food (with others)",
             "theme": "ethics",
@@ -2068,9 +1794,7 @@ KURAL_DATABASE = {
             "couplet": "Who shares his meal with other, while all guilt he shuns,His virtuous line unbroken though the ages runs"
         },
         {
-            "number": 45,
-            "tamil": "அன்பும் அறனும் உடைத்தாயின் இல்வாழ்க்கை பண்பும் பயனும் அது.",
-            "transliteration": "Anpum Aranum Utaiththaayin Ilvaazhkkai Panpum Payanum Adhu",
+            "number": 45,            "transliteration": "Anpum Aranum Utaiththaayin Ilvaazhkkai Panpum Payanum Adhu",
             "english": "In grace and gain the home excels, Where love with virtue sweetly dwells",
             "meaning": "If the married life possess love and virtue, these will be both its duty and reward",
             "theme": "ethics",
@@ -2083,9 +1807,7 @@ KURAL_DATABASE = {
             "couplet": "If love and virtue in the household reign,This is of life the perfect grace and gain"
         },
         {
-            "number": 48,
-            "tamil": "ஆற்றின் ஒழுக்கி அறனிழுக்கா இல்வாழ்க்கை நோற்பாரின் நோன்மை உடைத்து.",
-            "transliteration": "Aatrin Ozhukki Aranizhukkaa Ilvaazhkkai Norpaarin Nonmai Utaiththu",
+            "number": 48,            "transliteration": "Aatrin Ozhukki Aranizhukkaa Ilvaazhkkai Norpaarin Nonmai Utaiththu",
             "english": "Straight in virtue, right in living Make men brighter than monks praying",
             "meaning": "The householder who, not swerving from virtue, helps the ascetic in his way, endures more than those who endure penance",
             "theme": "ethics",
@@ -2098,9 +1820,7 @@ KURAL_DATABASE = {
             "couplet": "Others it sets upon their way, itself from virtue ne'er declines;Than stern ascetics' pains such life domestic brighter shines"
         },
         {
-            "number": 49,
-            "tamil": "அறனெனப் பட்டதே இல்வாழ்க்கை அஃதும் பிறன்பழிப்ப தில்லாயின் நன்று.",
-            "transliteration": "Aran Enap Pattadhe Ilvaazhkkai Aqdhum Piranpazhippa Thillaayin Nandru",
+            "number": 49,            "transliteration": "Aran Enap Pattadhe Ilvaazhkkai Aqdhum Piranpazhippa Thillaayin Nandru",
             "english": "Home-life and virtue, are the same; Which spotless monkhood too can claim",
             "meaning": "The marriage state is truly called virtue The other state is also good, if others do not reproach it",
             "theme": "ethics",
@@ -2113,9 +1833,7 @@ KURAL_DATABASE = {
             "couplet": "The life domestic rightly bears true virtue's name;That other too, if blameless found, due praise may claim"
         },
         {
-            "number": 51,
-            "tamil": "மனைக்தக்க மாண்புடையள் ஆகித்தற் கொண்டான் வளத்தக்காள் வாழ்க்கைத் துணை.",
-            "transliteration": "Manaikdhakka Maanputaiyal Aakiththar Kontaan Valaththakkaal Vaazhkkaith Thunai",
+            "number": 51,            "transliteration": "Manaikdhakka Maanputaiyal Aakiththar Kontaan Valaththakkaal Vaazhkkaith Thunai",
             "english": "A good housewife befits the house, Spending with thrift the mate's resource",
             "meaning": "She who has the excellence of home virtues, and can expend within the means of her husband, is a help in the domestic state",
             "theme": "ethics",
@@ -2128,9 +1846,7 @@ KURAL_DATABASE = {
             "couplet": "As doth the house beseem, she shows her wifely dignity;As doth her husband's wealth befit, she spends: help - meet is she"
         },
         {
-            "number": 53,
-            "tamil": "இல்லதென் இல்லவள் மாண்பானால் உள்ளதென் இல்லவள் மாணாக் கடை?",
-            "transliteration": "Illadhen Illaval Maanpaanaal Ulladhen Illaval Maanaak Katai?",
+            "number": 53,            "transliteration": "Illadhen Illaval Maanpaanaal Ulladhen Illaval Maanaak Katai?",
             "english": "What is rare when wife is good What can be there when she is bad?",
             "meaning": "If his wife be eminent (in virtue), what does (that man) not possess ? If she be without excellence, what does (he) possess ?",
             "theme": "ethics",
@@ -2143,9 +1859,7 @@ KURAL_DATABASE = {
             "couplet": "There is no lack within the house, where wife in worth excels,There is no luck within the house, where wife dishonoured dwells"
         },
         {
-            "number": 56,
-            "tamil": "தற்காத்துத் தற்கொண்டாற் பேணித் தகைசான்ற சொற்காத்துச் சோர்விலாள் பெண்.",
-            "transliteration": "Tharkaaththuth Tharkontaar Penith Thakaisaandra Sorkaaththuch Chorvilaal Pen",
+            "number": 56,            "transliteration": "Tharkaaththuth Tharkontaar Penith Thakaisaandra Sorkaaththuch Chorvilaal Pen",
             "english": "The good wife guards herself from blame, She tends her spouse and brings him fame",
             "meaning": "She is a wife who unweariedly guards herself, takes care of her husband, and preserves an unsullied fame",
             "theme": "ethics",
@@ -2158,9 +1872,7 @@ KURAL_DATABASE = {
             "couplet": "Who guards herself, for husband's comfort cares, her household's fame,In perfect wise with sleepless soul preserves, -give her a woman's name"
         },
         {
-            "number": 59,
-            "tamil": "புகழ்புரிந்த இல்லிலோர்க்கு இல்லை இகழ்வார்முன் ஏறுபோல் பீடு நடை.",
-            "transliteration": "Pukazhpurindha Illilorkku Illai Ikazhvaarmun Erupol Peetu Natai",
+            "number": 59,            "transliteration": "Pukazhpurindha Illilorkku Illai Ikazhvaarmun Erupol Peetu Natai",
             "english": "A cuckold has not the lion-like gait Before his detractors aright",
             "meaning": "The man whose wife seeks not the praise (of chastity) cannot walk with lion-like stately step, before those who revile them",
             "theme": "ethics",
@@ -2173,9 +1885,7 @@ KURAL_DATABASE = {
             "couplet": "Who have not spouses that in virtue's praise delight,They lion-like can never walk in scorner's sight"
         },
         {
-            "number": 60,
-            "tamil": "மங்கலம் என்ப மனைமாட்சி மற்று அதன் நன்கலம் நன்மக்கட் பேறு.",
-            "transliteration": "Mangalam Enpa Manaimaatchi Matru Adhan Nankalam Nanmakkat Peru",
+            "number": 60,            "transliteration": "Mangalam Enpa Manaimaatchi Matru Adhan Nankalam Nanmakkat Peru",
             "english": "An honest wife is home's delight And children good are jewels abright",
             "meaning": "The excellence of a wife is the good of her husband; and good children are the jewels of that goodness",
             "theme": "ethics",
@@ -2188,9 +1898,7 @@ KURAL_DATABASE = {
             "couplet": "The house's 'blessing', men pronounce the house-wife excellent;The gain of blessed children is its goodly ornament"
         },
         {
-            "number": 73,
-            "tamil": "அன்போடு இயைந்த வழக்கென்ப ஆருயிர்க்கு என்போடு இயைந்த தொடர்பு.",
-            "transliteration": "Anpotu Iyaindha Vazhakkenpa Aaruyirkku Enpotu Iyaindha Thotarpu",
+            "number": 73,            "transliteration": "Anpotu Iyaindha Vazhakkenpa Aaruyirkku Enpotu Iyaindha Thotarpu",
             "english": "Soul is encased in frame of bone  To taste the life of love alone",
             "meaning": "They say that the union of soul and body in man is the fruit of the union of love and virtue (in a former birth)",
             "theme": "ethics",
@@ -2203,9 +1911,7 @@ KURAL_DATABASE = {
             "couplet": "Of precious soul with body's flesh and bone,The union yields one fruit, the life of love alone"
         },
         {
-            "number": 82,
-            "tamil": "விருந்து புறத்ததாத் தானுண்டல் சாவா மருந்தெனினும் வேண் டற்பாற் றன்று.",
-            "transliteration": "Virundhu Puraththadhaath Thaanuntal Saavaa Marundheninum Ventarpaar Randru",
+            "number": 82,            "transliteration": "Virundhu Puraththadhaath Thaanuntal Saavaa Marundheninum Ventarpaar Randru",
             "english": "To keep out guests cannot be good  Albeit you eat nector-like food",
             "meaning": "It is not fit that one should wish his guests to be outside (his house) even though he were eating the food of immortality",
             "theme": "ethics",
@@ -2218,9 +1924,7 @@ KURAL_DATABASE = {
             "couplet": "Though food of immortality should crown the board,Feasting alone, the guests without unfed, is thing abhorred"
         },
         {
-            "number": 87,
-            "tamil": "இனைத்துணைத் தென்பதொன் றில்லை விருந்தின் துணைத்துணை வேள்விப் பயன்.",
-            "transliteration": "Inaiththunaith Thenpadhon Rillai Virundhin Thunaiththunai Velvip Payan",
+            "number": 87,            "transliteration": "Inaiththunaith Thenpadhon Rillai Virundhin Thunaiththunai Velvip Payan",
             "english": "Worth of the guest of quality  Is worth of hospitality",
             "meaning": "The advantages of benevolence cannot be measured; the measure (of the virtue) of the guests (entertained) is the only measure",
             "theme": "ethics",
@@ -2233,9 +1937,7 @@ KURAL_DATABASE = {
             "couplet": "To reckon up the fruit of kindly deeds were all in vain;Their worth is as the worth of guests you entertain"
         },
         {
-            "number": 96,
-            "tamil": "அல்லவை தேய அறம்பெருகும் நல்லவை நாடி இனிய சொலின்",
-            "transliteration": "Allavai Theya Aramperukum Nallavai Naati Iniya Solin",
+            "number": 96,            "transliteration": "Allavai Theya Aramperukum Nallavai Naati Iniya Solin",
             "english": "His sins vanish, his virtues grow  Whose fruitful words with sweetness flow",
             "meaning": "If a man, while seeking to speak usefully, speaks also sweetly, his sins will diminish and his virtue increase",
             "theme": "ethics",
@@ -2248,9 +1950,7 @@ KURAL_DATABASE = {
             "couplet": "Who seeks out good, words from his lips of sweetness flow;In him the power of vice declines, and virtues grow"
         },
         {
-            "number": 97,
-            "tamil": "நயன்ஈன்று நன்றி பயக்கும் பயன்ஈன்று பண்பின் தலைப்பிரியாச் சொல்.",
-            "transliteration": "Nayan Eendru Nandri Payakkum Payaneendru Panpin Thalaippiriyaach Chol",
+            "number": 97,            "transliteration": "Nayan Eendru Nandri Payakkum Payaneendru Panpin Thalaippiriyaach Chol",
             "english": "The fruitful courteous kindly words  Lead to goodness and graceful deeds",
             "meaning": "That speech which, while imparting benefits ceases not to please, will yield righteousness (for this world) and merit (for the next world)",
             "theme": "ethics",
@@ -2263,9 +1963,7 @@ KURAL_DATABASE = {
             "couplet": "The words of sterling sense, to rule of right that strict adhere,To virtuous action prompting, blessings yield in every sphere"
         },
         {
-            "number": 101,
-            "tamil": "செய்யாமல் செய்த உதவிக்கு வையகமும் வானகமும் ஆற்றல் அரிது.",
-            "transliteration": "Seyyaamal Seydha Udhavikku Vaiyakamum Vaanakamum Aatral Aridhu",
+            "number": 101,            "transliteration": "Seyyaamal Seydha Udhavikku Vaiyakamum Vaanakamum Aatral Aridhu",
             "english": "Unhelped in turn good help given  Exceeds in worth earth and heaven",
             "meaning": "(The gift of) heaven and earth is not an equivalent for a benefit which is conferred where none had been received",
             "theme": "ethics",
@@ -2278,9 +1976,7 @@ KURAL_DATABASE = {
             "couplet": "Assistance given by those who ne'er received our aid,Is debt by gift of heaven and earth but poorly paid"
         },
         {
-            "number": 104,
-            "tamil": "தினைத்துணை நன்றி செயினும் பனைத்துணையாக் கொள்வர் பயன்தெரி வார்.",
-            "transliteration": "Thinaiththunai Nandri Seyinum Panaiththunaiyaak Kolvar Payandheri Vaar",
+            "number": 104,            "transliteration": "Thinaiththunai Nandri Seyinum Panaiththunaiyaak Kolvar Payandheri Vaar",
             "english": "Help given though millet-small  Knowers count its good palm-tree tall",
             "meaning": "Though the benefit conferred be as small as a millet seed, those who know its advantage will consider it as large as a palmyra fruit",
             "theme": "ethics",
@@ -2293,9 +1989,7 @@ KURAL_DATABASE = {
             "couplet": "Each benefit to those of actions' fruit who rightly deem,Though small as millet-seed, as palm-tree vast will seem"
         },
         {
-            "number": 108,
-            "tamil": "நன்றி மறப்பது நன்றன்று நன்றல்லது அன்றே மறப்பது நன்று.",
-            "transliteration": "Nandri Marappadhu Nandrandru Nandralladhu Andre Marappadhu Nandru",
+            "number": 108,            "transliteration": "Nandri Marappadhu Nandrandru Nandralladhu Andre Marappadhu Nandru",
             "english": "To forget good turns is not good  Good it is over wrong not to brood",
             "meaning": "It is not good to forget a benefit; it is good to forget an injury even in the very moment (in which it is inflicted)",
             "theme": "ethics",
@@ -2308,9 +2002,7 @@ KURAL_DATABASE = {
             "couplet": "'Tis never good to let the thought of good things done thee pass away;Of things not good, 'tis good to rid thy memory that very day"
         },
         {
-            "number": 109,
-            "tamil": "கொன்றன்ன இன்னா செயினும் அவர்செய்த ஒன்றுநன்று உள்ளக் கெடும்.",
-            "transliteration": "Kondranna Innaa Seyinum Avarseydha Ondrunandru Ullak Ketum",
+            "number": 109,            "transliteration": "Kondranna Innaa Seyinum Avarseydha Ondrunandru Ullak Ketum",
             "english": "Let deadly harms be forgotten  While remembering one good-turn",
             "meaning": "Though one inflict an injury great as murder, it will perish before the thought of one benefit (formerly) conferred",
             "theme": "ethics",
@@ -2323,9 +2015,7 @@ KURAL_DATABASE = {
             "couplet": "Effaced straightway is deadliest injury,By thought of one kind act in days gone by"
         },
         {
-            "number": 110,
-            "tamil": "எந்நன்றி கொன்றார்க்கும் உய்வுண்டாம் உய்வில்லை செய்ந்நன்றி கொன்ற மகற்கு.",
-            "transliteration": "Ennandri Kondraarkkum Uyvuntaam Uyvillai Seynnandri Kondra Makarku",
+            "number": 110,            "transliteration": "Ennandri Kondraarkkum Uyvuntaam Uyvillai Seynnandri Kondra Makarku",
             "english": "The virtue-killer may be saved  Not benefit-killer who is damned",
             "meaning": "He who has killed every virtue may yet escape; there is no escape for him who has killed a benefit",
             "theme": "ethics",
@@ -2338,9 +2028,7 @@ KURAL_DATABASE = {
             "couplet": "Who every good have killed, may yet destruction flee;Who 'benefit' has killed, that man shall ne'er 'scape free"
         },
         {
-            "number": 114,
-            "tamil": "தக்கார் தகவிலர் என்பது அவரவர் எச்சத்தாற் காணப்ப படும்.",
-            "transliteration": "Thakkaar Thakavilar Enpadhu Avaravar Echchaththaar Kaanap Patum",
+            "number": 114,            "transliteration": "Thakkaar Thakavilar Enpadhu Avaravar Echchaththaar Kaanap Patum",
             "english": "The worthy and the unworthy  Are seen in their posterity",
             "meaning": "The worthy and unworthy may be known by the existence or otherwise of good offsprings",
             "theme": "ethics",
@@ -2353,9 +2041,7 @@ KURAL_DATABASE = {
             "couplet": "Who just or unjust lived shall soon appear:By each one's offspring shall the truth be clear"
         },
         {
-            "number": 122,
-            "tamil": "காக்க பொருளா அடக்கத்தை ஆக்கம் அதனினூஉங் கில்லை உயிர்க்கு.",
-            "transliteration": "Kaakka Porulaa Atakkaththai Aakkam Adhaninooung Killai Uyirkku",
+            "number": 122,            "transliteration": "Kaakka Porulaa Atakkaththai Aakkam Adhaninooung Killai Uyirkku",
             "english": "No gains with self-control measure  Guard with care this great treasure",
             "meaning": "Let self-control be guarded as a treasure; there is no greater source of good for man than that",
             "theme": "ethics",
@@ -2368,9 +2054,7 @@ KURAL_DATABASE = {
             "couplet": "Guard thou as wealth the power of self-control;Than this no greater gain to living soul"
         },
         {
-            "number": 126,
-            "tamil": "ஒருமையுள் ஆமைபோல் ஐந்தடக்கல் ஆற்றின் எழுமையும் ஏமாப் புடைத்து.",
-            "transliteration": "Orumaiyul Aamaipol Aindhatakkal Aatrin Ezhumaiyum Emaap Putaiththu",
+            "number": 126,            "transliteration": "Orumaiyul Aamaipol Aindhatakkal Aatrin Ezhumaiyum Emaap Putaiththu",
             "english": "Who senses five like tortoise hold  Their joy prolongs to births sevenfold",
             "meaning": "Should one throughout a single birth, like a tortoise keep in his five senses, the fruit of it will prove a safe-guard to him throughout the seven-fold births.",
             "theme": "ethics",
@@ -2383,9 +2067,7 @@ KURAL_DATABASE = {
             "couplet": "Like tortoise, who the five restrainsIn one, through seven world bliss obtains"
         },
         {
-            "number": 128,
-            "tamil": "ஒன்றானுந் தீச்சொல் பொருட்பயன் உண்டாயின் நன்றாகா தாகி விடும்.",
-            "transliteration": "Ondraanun Theechchol Porutpayan Untaayin Nandraakaa Thaaki Vitum",
+            "number": 128,            "transliteration": "Ondraanun Theechchol Porutpayan Untaayin Nandraakaa Thaaki Vitum",
             "english": "Even a single evil word  Will turn all good results to bad",
             "meaning": "If a man's speech be productive of a single evil, all the good by him will be turned into evil",
             "theme": "ethics",
@@ -2398,9 +2080,7 @@ KURAL_DATABASE = {
             "couplet": "Though some small gain of good it seem to bring,The evil word is parent still of evil thing"
         },
         {
-            "number": 133,
-            "tamil": "ஒழுக்கம் உடைமை குடிமை இழுக்கம் இழிந்த பிறப்பாய் விடும்.",
-            "transliteration": "Ozhukkam Utaimai Kutimai Izhukkam Izhindha Pirappaai Vitum",
+            "number": 133,            "transliteration": "Ozhukkam Utaimai Kutimai Izhukkam Izhindha Pirappaai Vitum",
             "english": "Good conduct shows good family  Low manners mark anomaly",
             "meaning": "Propriety of conduct is true greatness of birth, and impropriety will sink into a mean birth",
             "theme": "ethics",
@@ -2413,9 +2093,7 @@ KURAL_DATABASE = {
             "couplet": "'Decorum's' true nobility on earth;'Indecorum's' issue is ignoble birth"
         },
         {
-            "number": 135,
-            "tamil": "அழுக்கா றுடையான்கண் ஆக்கம்போன்று இல்லை ஒழுக்க மிலான்கண் உயர்வு.",
-            "transliteration": "Azhukkaa Rutaiyaankan Aakkampondru Illai Ozhukka Milaankan Uyarvu",
+            "number": 135,            "transliteration": "Azhukkaa Rutaiyaankan Aakkampondru Illai Ozhukka Milaankan Uyarvu",
             "english": "The envious prosper but ill  The ill-behaved sinks lower still",
             "meaning": "Just as the envious man will be without wealth, so will the man of destitute of propriety of conduct be without greatness",
             "theme": "ethics",
@@ -2428,9 +2106,7 @@ KURAL_DATABASE = {
             "couplet": "The envious soul in life no rich increase of blessing gains,So man of 'due decorum' void no dignity obtains"
         },
         {
-            "number": 136,
-            "tamil": "ஒழுக்கத்தின் ஒல்கார் உரவோர் இழுக்கத்தின் ஏதம் படுபாக் கறிந்து.",
-            "transliteration": "Ozhukkaththin Olkaar Uravor Izhukkaththin Edham Patupaak Karindhu",
+            "number": 136,            "transliteration": "Ozhukkaththin Olkaar Uravor Izhukkaththin Edham Patupaak Karindhu",
             "english": "The firm from virtue falter not  They know the ills of evil thought",
             "meaning": "Those firm in mind will not slacken in their observance of the proprieties of life, knowing, as they do, the misery that flows from the transgression from them",
             "theme": "ethics",
@@ -2443,9 +2119,7 @@ KURAL_DATABASE = {
             "couplet": "The strong of soul no jot abate of 'strict decorum's' laws,Knowing that 'due decorum's' breach foulest disgrace will cause"
         },
         {
-            "number": 137,
-            "tamil": "ஒழுக்கத்தின் எய்துவர் மேன்மை இழுக்கத்தின் எய்துவர் எய்தாப் பழி.",
-            "transliteration": "Ozhukkaththin Eydhuvar Menmai Izhukkaththin Eydhuvar Eydhaap Pazhi",
+            "number": 137,            "transliteration": "Ozhukkaththin Eydhuvar Menmai Izhukkaththin Eydhuvar Eydhaap Pazhi",
             "english": "Conduct good ennobles man,  Bad conduct entails disgrace mean",
             "meaning": "From propriety of conduct men obtain greatness; from impropriety comes insufferable disgrace",
             "theme": "ethics",
@@ -2458,9 +2132,7 @@ KURAL_DATABASE = {
             "couplet": "'Tis source of dignity when 'true decorum' is preserved;Who break 'decorum's' rules endure e'en censures undeserved"
         },
         {
-            "number": 138,
-            "tamil": "நன்றிக்கு வித்தாகும் நல்லொழுக்கம் தீயொழுக்கம் என்றும் இடும்பை தரும்.",
-            "transliteration": "Nandrikku Viththaakum Nallozhukkam Theeyozhukkam Endrum Itumpai Tharum",
+            "number": 138,            "transliteration": "Nandrikku Viththaakum Nallozhukkam Theeyozhukkam Endrum Itumpai Tharum",
             "english": "Good conduct sows seeds of blessings  Bad conduct endless evil brings",
             "meaning": "Propriety of conduct is the seed of virtue; impropriety will ever cause sorrow",
             "theme": "ethics",
@@ -2473,9 +2145,7 @@ KURAL_DATABASE = {
             "couplet": "'Decorum true' observed a seed of good will be;'Decorum's breach' will sorrow yield eternally"
         },
         {
-            "number": 141,
-            "tamil": "பிறன்பொருளாள் பெட்டொழுகும் பேதைமை ஞாலத்து அறம்பொருள் கண்டார்கண் இல்.",
-            "transliteration": "Piranporulaal Pettozhukum Pedhaimai Gnaalaththu Aramporul Kantaarkan Il",
+            "number": 141,            "transliteration": "Piranporulaal Pettozhukum Pedhaimai Gnaalaththu Aramporul Kantaarkan Il",
             "english": "Who know the wealth and virtue's way  After other's wife do not stray",
             "meaning": "The folly of desiring her who is the property of another will not be found in those who know (the attributes of) virtue and (the rights of) property",
             "theme": "ethics",
@@ -2488,9 +2158,7 @@ KURAL_DATABASE = {
             "couplet": "Who laws of virtue and possession's rights have known,Indulge no foolish love of her by right another's own"
         },
         {
-            "number": 142,
-            "tamil": "அறன்கடை நின்றாருள் எல்லாம் பிறன்கடை நின்றாரின் பேதையார் இல்.",
-            "transliteration": "Arankatai Nindraarul Ellaam Pirankatai Nindraarin Pedhaiyaar Il",
+            "number": 142,            "transliteration": "Arankatai Nindraarul Ellaam Pirankatai Nindraarin Pedhaiyaar Il",
             "english": "He is the worst law breaking boor  Who haunts around his neighbour's door",
             "meaning": "Among all those who stand on the outside of virtue, there are no greater fools than those who stand outside their neighbour's door",
             "theme": "ethics",
@@ -2503,9 +2171,7 @@ KURAL_DATABASE = {
             "couplet": "No fools, of all that stand from virtue's pale shut out,Like those who longing lurk their neighbour's gate without"
         },
         {
-            "number": 146,
-            "tamil": "பகைபாவம் அச்சம் பழியென நான்கும் இகவாவாம் இல்லிறப்பான் கண்.",
-            "transliteration": "Pakaipaavam Achcham Pazhiyena Naankum Ikavaavaam Illirappaan Kan",
+            "number": 146,            "transliteration": "Pakaipaavam Achcham Pazhiyena Naankum Ikavaavaam Illirappaan Kan",
             "english": "Hatred, sin, fear, and shame-these four  Stain adulterers ever more",
             "meaning": "Hatred, sin, fear, disgrace; these four will never leave him who goes in to his neighbour's wife",
             "theme": "ethics",
@@ -2518,9 +2184,7 @@ KURAL_DATABASE = {
             "couplet": "Who home ivades, from him pass nevermore,Hatred and sin, fear, foul disgrace; these four"
         },
         {
-            "number": 147,
-            "tamil": "அறனியலான் இல்வாழ்வான் என்பான் பிறனியலாள் பெண்மை நயவா தவன்.",
-            "transliteration": "Araniyalaan Ilvaazhvaan Enpaan Piraniyalaal Penmai Nayavaa Thavan",
+            "number": 147,            "transliteration": "Araniyalaan Ilvaazhvaan Enpaan Piraniyalaal Penmai Nayavaa Thavan",
             "english": "He is the righteous householder  His neighbour's wife who covets never",
             "meaning": "He who desires not the womanhood of her who should walk according to the will of another will be praised as a virtuous house-holder",
             "theme": "ethics",
@@ -2533,9 +2197,7 @@ KURAL_DATABASE = {
             "couplet": "Who sees the wife, another's own, with no desiring eyeIn sure domestic bliss he dwelleth ever virtuously"
         },
         {
-            "number": 148,
-            "tamil": "பிறன்மனை நோக்காத பேராண்மை சான்றோர்க்கு அறனொன்றோ ஆன்ற வொழுக்கு.",
-            "transliteration": "Piranmanai Nokkaadha Peraanmai Saandrorkku Aranondro Aandra Vozhukku",
+            "number": 148,            "transliteration": "Piranmanai Nokkaadha Peraanmai Saandrorkku Aranondro Aandra Vozhukku",
             "english": "They lead a high-souled manly life  The pure who eye not another's wife",
             "meaning": "That noble manliness which looks not at the wife of another is the virtue and dignity of the great",
             "theme": "ethics",
@@ -2548,9 +2210,7 @@ KURAL_DATABASE = {
             "couplet": "Manly excellence, that looks not on another's wife,Is not virtue merely, 'tis full 'propriety' of life"
         },
         {
-            "number": 149,
-            "tamil": "நலக்குரியார் யாரெனின் நாமநீர் வைப்பின் பிறர்க்குரியாள் தோள்தோயா தார்.",
-            "transliteration": "Nalakkuriyaar Yaarenin Naamaneer Vaippin Pirarkkuriyaal Tholdhoyaa Thaar",
+            "number": 149,            "transliteration": "Nalakkuriyaar Yaarenin Naamaneer Vaippin Pirarkkuriyaal Tholdhoyaa Thaar",
             "english": "Good in storm bound earth is with those  Who clasp not arms of another's spouse",
             "meaning": "Is it asked, \"who are those who shall obtain good in this world surrounded by the terror-producing sea ?\" Those who touch not the shoulder of her who belongs to another",
             "theme": "ethics",
@@ -2563,9 +2223,7 @@ KURAL_DATABASE = {
             "couplet": "Who 're good indeed, on earth begirt by ocean's gruesome tide?The men who touch not her that is another's bride"
         },
         {
-            "number": 150,
-            "tamil": "அறன்வரையான் அல்ல செயினும் பிறன்வரையாள் பெண்மை நயவாமை நன்று.",
-            "transliteration": "Aranvaraiyaan Alla Seyinum Piranvaraiyaal Penmai Nayavaamai Nandru",
+            "number": 150,            "transliteration": "Aranvaraiyaan Alla Seyinum Piranvaraiyaal Penmai Nayavaamai Nandru",
             "english": "Sinners breaking virtue's behest  Lust not for another's wife at least",
             "meaning": "Though a man perform no virtuous deeds and commit (every) vice, it will be well if he desire not the womanhood of her who is within the limit (of the house) of another",
             "theme": "ethics",
@@ -2578,9 +2236,7 @@ KURAL_DATABASE = {
             "couplet": "Though virtue's bounds he pass, and evil deeds hath wrought;At least, 'tis good if neighbour's wife he covet not"
         },
         {
-            "number": 151,
-            "tamil": "அகழ்வாரைத் தாங்கும் நிலம்போலத் தம்மை இகழ்வார்ப் பொறுத்தல் தலை.",
-            "transliteration": "Akazhvaaraith Thaangum Nilampolath Thammai Ikazhvaarp Poruththal Thalai",
+            "number": 151,            "transliteration": "Akazhvaaraith Thaangum Nilampolath Thammai Ikazhvaarp Poruththal Thalai",
             "english": "As earth bears up with diggers too  To bear revilers is prime virtue",
             "meaning": "To bear with those who revile us, just as the earth bears up those who dig it, is the first of virtues",
             "theme": "ethics",
@@ -2593,9 +2249,7 @@ KURAL_DATABASE = {
             "couplet": "As earth bears up the men who delve into her breast,To bear with scornful men of virtues is the best"
         },
         {
-            "number": 152,
-            "tamil": "பொறுத்தல் இறப்பினை என்றும் அதனை மறத்தல் அதனினும் நன்று.",
-            "transliteration": "Poruththal Irappinai Endrum Adhanai Maraththal Adhaninum Nandru",
+            "number": 152,            "transliteration": "Poruththal Irappinai Endrum Adhanai Maraththal Adhaninum Nandru",
             "english": "Forgive insults is a good habit  Better it is to forget it",
             "meaning": "Bear with reproach even when you can retaliate; but to forget it will be still better than that",
             "theme": "ethics",
@@ -2608,9 +2262,7 @@ KURAL_DATABASE = {
             "couplet": "Forgiving trespasses is good always;Forgetting them hath even higher praise;"
         },
         {
-            "number": 157,
-            "tamil": "திறனல்ல தற்பிறர் செய்யினும் நோநொந்து அறனல்ல செய்யாமை நன்று.",
-            "transliteration": "Thiranalla Tharpirar Seyyinum Nonondhu Aranalla Seyyaamai Nandru",
+            "number": 157,            "transliteration": "Thiranalla Tharpirar Seyyinum Nonondhu Aranalla Seyyaamai Nandru",
             "english": "Though others cause you wanton pain  Grieve not; from unjust harm refrain",
             "meaning": "Though others inflict injuries on you, yet compassionating the evil (that will come upon them) it will be well not to do them anything contrary to virtue",
             "theme": "ethics",
@@ -2623,9 +2275,7 @@ KURAL_DATABASE = {
             "couplet": "Though others work thee ill, thus shalt thou blessing reap;Grieve for their sin, thyself from vicious action keep"
         },
         {
-            "number": 163,
-            "tamil": "அறன்ஆக்கம் வேண்டாதான் என்பான் பிறனாக்கம் பேணாது அழுக்கறுப் பான்.",
-            "transliteration": "Aranaakkam Ventaadhaan Enpaan Piranaakkam Penaadhu Azhukkarup Paan",
+            "number": 163,            "transliteration": "Aranaakkam Ventaadhaan Enpaan Piranaakkam Penaadhu Azhukkarup Paan",
             "english": "Who envies others' good fortune  Can't prosper in virtue of his own",
             "meaning": "Of him who instead of rejoicing in the wealth of others, envies it, it will be said \"he neither desires virtue not wealth.\"",
             "theme": "ethics",
@@ -2638,9 +2288,7 @@ KURAL_DATABASE = {
             "couplet": "Nor wealth nor virtue does that man desire 'tis plain,Whom others' wealth delights not, feeling envious pain"
         },
         {
-            "number": 164,
-            "tamil": "அழுக்காற்றின் அல்லவை செய்யார் இழுக்காற்றின் ஏதம் படுபாக்கு அறிந்து.",
-            "transliteration": "Azhukkaatrin Allavai Seyyaar Izhukkaatrin Edham Patupaakku Arindhu",
+            "number": 164,            "transliteration": "Azhukkaatrin Allavai Seyyaar Izhukkaatrin Edham Patupaakku Arindhu",
             "english": "The wise through envy don't others wrong  Knowing that woes from evils throng",
             "meaning": "(The wise) knowing the misery that comes from transgression will not through envy commit unrighteous deeds",
             "theme": "ethics",
@@ -2653,9 +2301,7 @@ KURAL_DATABASE = {
             "couplet": "The wise through envy break not virtue's laws,Knowing ill-deeds of foul disgrace the cause"
         },
         {
-            "number": 172,
-            "tamil": "படுபயன் வெஃகிப் பழிப்படுவ செய்யார் நடுவன்மை நாணு பவர்.",
-            "transliteration": "Patupayan Veqkip Pazhippatuva Seyyaar Natuvanmai Naanu Pavar",
+            "number": 172,            "transliteration": "Patupayan Veqkip Pazhippatuva Seyyaar Natuvanmai Naanu Pavar",
             "english": "Who shrink with shame from sin, refrain  From coveting which brings ruin",
             "meaning": "Those who blush at the want of equity will not commit disgraceful acts through desire of the profit that may be gained",
             "theme": "ethics",
@@ -2668,9 +2314,7 @@ KURAL_DATABASE = {
             "couplet": "Through lust of gain, no deeds that retribution bring,Do they, who shrink with shame from every unjust thing"
         },
         {
-            "number": 176,
-            "tamil": "அருள்வெஃகி ஆற்றின்கண் நின்றான் பொருள்வெஃகிப் பொல்லாத சூழக் கெடும்.",
-            "transliteration": "Arulveqki Aatrinkan Nindraan Porulveqkip Pollaadha Soozhak Ketum",
+            "number": 176,            "transliteration": "Arulveqki Aatrinkan Nindraan Porulveqkip Pollaadha Soozhak Ketum",
             "english": "Who seeks for grace on righteous path  Suffers by evil covetous wealth",
             "meaning": "If he, who through desire of the virtue of kindness abides in the domestic state ie, the path in which it may be obtained, covet (the property of others) and think of evil methods (to obtain it), he will perish",
             "theme": "ethics",
@@ -2683,9 +2327,7 @@ KURAL_DATABASE = {
             "couplet": "Though, grace desiring, he in virtue's way stand strong,He's lost who wealth desires, and ponders deeds of wrong"
         },
         {
-            "number": 179,
-            "tamil": "அறனறிந்து வெஃகா அறிவுடையார்ச் சேரும் திறன்அறிந் தாங்கே திரு.",
-            "transliteration": "Aranarindhu Veqkaa Arivutaiyaarch Cherum Thiranarin Thaange Thiru",
+            "number": 179,            "transliteration": "Aranarindhu Veqkaa Arivutaiyaarch Cherum Thiranarin Thaange Thiru",
             "english": "Fortune seeks the just and wise  Who are free from coveting vice",
             "meaning": "Lakshmi, knowing the manner (in which she may approach) will immediately come to those wise men who, knowing that it is virtue, covet not the property of others",
             "theme": "ethics",
@@ -2698,9 +2340,7 @@ KURAL_DATABASE = {
             "couplet": "Good fortune draws anigh in helpful time of need,To him who, schooled in virtue, guards his soul from greed"
         },
         {
-            "number": 181,
-            "tamil": "அறங்கூறான் அல்ல செயினும் ஒருவன் புறங்கூறான் என்றல் இனிது.",
-            "transliteration": "Arangooraan Alla Seyinum Oruvan Purangooraan Endral Inidhu",
+            "number": 181,            "transliteration": "Arangooraan Alla Seyinum Oruvan Purangooraan Endral Inidhu",
             "english": "Though a man from virtue strays,  To keep from slander brings him praise",
             "meaning": "Though one do not even speak of virtue and live in sin, it will be well if it be said of him \"he does not backbite.\"",
             "theme": "ethics",
@@ -2713,9 +2353,7 @@ KURAL_DATABASE = {
             "couplet": "Though virtuous words his lips speak not, and all his deeds are illIf neighbour he defame not, there's good within him still"
         },
         {
-            "number": 182,
-            "tamil": "அறனழீஇ அல்லவை செய்தலின் தீதே புறனழீஇப் பொய்த்து நகை.",
-            "transliteration": "Aranazheei Allavai Seydhalin Theedhe Puranazheeip Poiththu Nakai",
+            "number": 182,            "transliteration": "Aranazheei Allavai Seydhalin Theedhe Puranazheeip Poiththu Nakai",
             "english": "Who bite behind, and before smile  Are worse than open traitors vile",
             "meaning": "To smile deceitfully (in another's presence) after having reviled him to his destruction (behind his back) is a greater evil than the commission of (every other) sin and the destruction of (every) virtue",
             "theme": "ethics",
@@ -2728,9 +2366,7 @@ KURAL_DATABASE = {
             "couplet": "Than he who virtue scorns, and evil deeds performs, more vile,Is he that slanders friend, then meets him with false smile"
         },
         {
-            "number": 183,
-            "tamil": "புறங்கூறிப் பொய்த்துயிர் வாழ்தலின் சாதல் அறங்கூற்றும் ஆக்கத் தரும்.",
-            "transliteration": "Purangoorip Poiththuyir Vaazhdhalin Saadhal Arangootrum Aakkath Tharum",
+            "number": 183,            "transliteration": "Purangoorip Poiththuyir Vaazhdhalin Saadhal Arangootrum Aakkath Tharum",
             "english": "Virtue thinks it better to die,  Than live to backbite and to lie",
             "meaning": "Death rather than life will confer upon the deceitful backbiter the profit which (the treatises on) virtue point out",
             "theme": "ethics",
@@ -2743,9 +2379,7 @@ KURAL_DATABASE = {
             "couplet": "'Tis greater gain of virtuous good for man to die,Than live to slander absent friend, and falsely praise when nigh"
         },
         {
-            "number": 185,
-            "tamil": "அறஞ்சொல்லும் நெஞ்சத்தான் அன்மை புறஞ்சொல்லும் புன்மையாற் காணப் படும்.",
-            "transliteration": "Aranjollum Nenjaththaan Anmai Puranjollum Punmaiyaar Kaanap Patum",
+            "number": 185,            "transliteration": "Aranjollum Nenjaththaan Anmai Puranjollum Punmaiyaar Kaanap Patum",
             "english": "Who turns to slander makes it plain  His praise of virtue is in vain",
             "meaning": "The emptiness of that man's mind who (merely) praises virtue will be seen from the meanness of reviling another behind his back",
             "theme": "ethics",
@@ -2758,9 +2392,7 @@ KURAL_DATABASE = {
             "couplet": "The slanderous meanness that an absent friend defames,'This man in words owns virtue, not in heart,' proclaims"
         },
         {
-            "number": 193,
-            "tamil": "நயனிலன் என்பது சொல்லும் பயனில பாரித் துரைக்கும் உரை.",
-            "transliteration": "Nayanilan Enpadhu Sollum Payanila Paarith Thuraikkum Urai",
+            "number": 193,            "transliteration": "Nayanilan Enpadhu Sollum Payanila Paarith Thuraikkum Urai",
             "english": "The babbler's hasty lips proclaim  That \\\"good-for-nothing\\\" is his name",
             "meaning": "That conversation in which a man utters forth useless things will say of him \"he is without virtue.\"",
             "theme": "ethics",
@@ -2773,9 +2405,7 @@ KURAL_DATABASE = {
             "couplet": "Diffusive speech of useless words proclaimsA man who never righteous wisdom gains"
         },
         {
-            "number": 194,
-            "tamil": "நயன்சாரா நன்மையின் நீக்கும் பயன்சாராப் பண்பில்சொல் பல்லா ரகத்து.",
-            "transliteration": "Nayansaaraa Nanmaiyin Neekkum Payansaaraap Panpilsol Pallaa Rakaththu",
+            "number": 194,            "transliteration": "Nayansaaraa Nanmaiyin Neekkum Payansaaraap Panpilsol Pallaa Rakaththu",
             "english": "Vain words before an assembly  Will make all gains and goodness flee",
             "meaning": "The words devoid of profit or pleasure which a man speaks will, being inconsistent with virtue,",
             "theme": "ethics",
@@ -2788,9 +2418,7 @@ KURAL_DATABASE = {
             "couplet": "Unmeaning, worthless words, said to the multitude,To none delight afford, and sever men from good"
         },
         {
-            "number": 202,
-            "tamil": "தீயவை தீய பயத்தலால் தீயவை தீயினும் அஞ்சப் படும்.",
-            "transliteration": "Theeyavai Theeya Payaththalaal Theeyavai Theeyinum Anjap Patum",
+            "number": 202,            "transliteration": "Theeyavai Theeya Payaththalaal Theeyavai Theeyinum Anjap Patum",
             "english": "Since evil begets evil dire  Fear ye evil more than fire",
             "meaning": "Because evil produces evil, therefore should evil be feared more than fire",
             "theme": "ethics",
@@ -2803,9 +2431,7 @@ KURAL_DATABASE = {
             "couplet": "Since evils new from evils ever grow,Evil than fire works out more dreaded woe"
         },
         {
-            "number": 204,
-            "tamil": "மறந்தும் பிறன்கேடு சூழற்க சூழின் அறஞ்சூழம் சூழ்ந்தவன் கேடு.",
-            "transliteration": "Marandhum Piranketu Soozharka Soozhin Aranjoozham Soozhndhavan Ketu",
+            "number": 204,            "transliteration": "Marandhum Piranketu Soozharka Soozhin Aranjoozham Soozhndhavan Ketu",
             "english": "His ruin virtue plots who plans  The ruin of another man's",
             "meaning": "Even though forgetfulness meditate not the ruin of another Virtue will meditate the ruin of him who thus meditates",
             "theme": "ethics",
@@ -2818,9 +2444,7 @@ KURAL_DATABASE = {
             "couplet": "Though good thy soul forget, plot not thy neighbour's fall,Thy plans shall 'virtue's Power' by ruin to thyself forestall"
         },
         {
-            "number": 207,
-            "tamil": "எனைப்பகை யுற்றாரும் உய்வர் வினைப்பகை வீயாது பின்சென்று அடும்.",
-            "transliteration": "Enaippakai Yutraarum Uyvar Vinaippakai Veeyaadhu Pinsendru Atum",
+            "number": 207,            "transliteration": "Enaippakai Yutraarum Uyvar Vinaippakai Veeyaadhu Pinsendru Atum",
             "english": "Men may escape other foes and live  But sin its deadly blow will give",
             "meaning": "However great be the enmity men have incurred they may still live The enmity of sin will incessantly pursue and kill",
             "theme": "ethics",
@@ -2833,9 +2457,7 @@ KURAL_DATABASE = {
             "couplet": "From every enmity incurred there is to 'scape, a way;The wrath of evil deeds will dog men's steps, and slay"
         },
         {
-            "number": 209,
-            "tamil": "தன்னைத்தான் காதல னாயின் எனைத்தொன்றும் துன்னற்க தீவினைப் பால்.",
-            "transliteration": "Thannaiththaan Kaadhala Naayin Enaiththondrum Thunnarka Theevinaip Paal",
+            "number": 209,            "transliteration": "Thannaiththaan Kaadhala Naayin Enaiththondrum Thunnarka Theevinaip Paal",
             "english": "Let none who loves himself at all  Think of evil however small",
             "meaning": "If a man love himself, let him not commit any sin however small",
             "theme": "ethics",
@@ -2848,9 +2470,7 @@ KURAL_DATABASE = {
             "couplet": "Beware, if to thyself thyself is dear,Lest thou to aught that ranks as ill draw near"
         },
         {
-            "number": 210,
-            "tamil": "அருங்கேடன் என்பது அறிக மருங்கோடித் தீவினை செய்யான் எனின்.",
-            "transliteration": "Arungetan Enpadhu Arika Marungotith Theevinai Seyyaan Enin",
+            "number": 210,            "transliteration": "Arungetan Enpadhu Arika Marungotith Theevinai Seyyaan Enin",
             "english": "He is secure, know ye, from ills  Who slips not right path to do evils",
             "meaning": "Know ye that he is freed from destruction who commits no evil, going to neither side of the right path",
             "theme": "ethics",
@@ -2863,9 +2483,7 @@ KURAL_DATABASE = {
             "couplet": "The man, to devious way of sin that never turned aside,From ruin rests secure, whatever ills betide"
         },
         {
-            "number": 211,
-            "tamil": "கைம்மாறு வேண்டா கடப்பாடு மாரிமாட்டு என் ஆற்றுங் கொல்லோ உலகு.",
-            "transliteration": "Kaimmaaru Ventaa Katappaatu Maarimaattu En Aatrung Kollo Ulaku",
+            "number": 211,            "transliteration": "Kaimmaaru Ventaa Katappaatu Maarimaattu En Aatrung Kollo Ulaku",
             "english": "Duty demands nothing in turn;  How can the world recompense rain?",
             "meaning": "Benevolence seeks not a return. What does the world give back to the clouds ?",
             "theme": "ethics",
@@ -2878,9 +2496,7 @@ KURAL_DATABASE = {
             "couplet": "Duty demands no recompense; to clouds of heaven,By men on earth, what answering gift is given"
         },
         {
-            "number": 216,
-            "tamil": "பயன்மரம் உள்ளூர்ப் பழுத்தற்றால் செல்வம் நயனுடை யான்கண் படின்.",
-            "transliteration": "Payanmaram Ulloorp Pazhuththatraal Selvam Nayanutai Yaankan Patin",
+            "number": 216,            "transliteration": "Payanmaram Ulloorp Pazhuththatraal Selvam Nayanutai Yaankan Patin",
             "english": "Who plenty gets and plenty gives  Is like town-tree teeming with fruits",
             "meaning": "The wealth of a man (possessed of the virtue) of benevolence is like the ripening of a fruitful tree in the midst of a town",
             "theme": "ethics",
@@ -2893,9 +2509,7 @@ KURAL_DATABASE = {
             "couplet": "A tree that fruits in th' hamlet's central mart,Is wealth that falls to men of liberal heart"
         },
         {
-            "number": 218,
-            "tamil": "இடனில் பருவத்தும் ஒப்புரவிற்கு ஒல்கார் கடனறி காட்சி யவர்.",
-            "transliteration": "Itanil Paruvaththum Oppuravirku Olkaar Katanari Kaatchi Yavar",
+            "number": 218,            "transliteration": "Itanil Paruvaththum Oppuravirku Olkaar Katanari Kaatchi Yavar",
             "english": "Though seers may fall on evil days  Their sense of duty never strays",
             "meaning": "The wise who know what is duty will not scant their benevolence even when they are without wealth",
             "theme": "ethics",
@@ -2908,9 +2522,7 @@ KURAL_DATABASE = {
             "couplet": "E'en when resources fall, they weary not of 'kindness due,'-They to whom Duty's self appears in vision true"
         },
         {
-            "number": 219,
-            "tamil": "நயனுடையான் நல்கூர்ந்தா னாதல் செயும்நீர செய்யாது அமைகலா வாறு.",
-            "transliteration": "Nayanutaiyaan Nalkoorndhaa Naadhal Seyumneera Seyyaadhu Amaikalaa Vaaru",
+            "number": 219,            "transliteration": "Nayanutaiyaan Nalkoorndhaa Naadhal Seyumneera Seyyaadhu Amaikalaa Vaaru",
             "english": "The good man's poverty and grief  Is want of means to give relief",
             "meaning": "The poverty of a benevolent man, is nothing but his inability to exercise the same",
             "theme": "ethics",
@@ -2923,9 +2535,7 @@ KURAL_DATABASE = {
             "couplet": "The kindly-hearted man is poor in this alone,When power of doing deeds of goodness he finds none"
         },
         {
-            "number": 220,
-            "tamil": "ஒப்புரவி னால்வரும் கேடெனின் அஃதொருவன் விற்றுக்கோள் தக்க துடைத்து.",
-            "transliteration": "Oppuravi Naalvarum Ketenin Aqdhoruvan Vitrukkol Thakka Thutaiththu",
+            "number": 220,            "transliteration": "Oppuravi Naalvarum Ketenin Aqdhoruvan Vitrukkol Thakka Thutaiththu",
             "english": "By good if ruin comes across  Sell yourself to save that loss",
             "meaning": "If it be said that loss will result from benevolence, such loss is worth being procured even by the sale of one's self",
             "theme": "ethics",
@@ -2938,9 +2548,7 @@ KURAL_DATABASE = {
             "couplet": "Though by 'beneficence,' the loss of all should come,'Twere meet man sold himself, and bought it with the sum"
         },
         {
-            "number": 222,
-            "tamil": "நல்லாறு எனினும் கொளல்தீது மேலுலகம் இல்லெனினும் ஈதலே நன்று.",
-            "transliteration": "Nallaaru Eninum Kolaldheedhu Melulakam Illeninum Eedhale Nandru",
+            "number": 222,            "transliteration": "Nallaaru Eninum Kolaldheedhu Melulakam Illeninum Eedhale Nandru",
             "english": "To beg is bad e'en from the good  To give is good, were heaven forbid",
             "meaning": "To beg is evil, even though it were said that it is a good path (to heaven) To give is good, even though it were said that those who do so cannot obtain heaven",
             "theme": "ethics",
@@ -2953,9 +2561,7 @@ KURAL_DATABASE = {
             "couplet": "Though men declare it heavenward path, yet to receive is ill;Though upper heaven were not, to give is virtue still"
         },
         {
-            "number": 224,
-            "tamil": "இன்னாது இரக்கப் படுதல் இரந்தவர் இன்முகங் காணும் அளவு.",
-            "transliteration": "Innaadhu Irakkap Patudhal Irandhavar Inmukang Kaanum Alavu",
+            "number": 224,            "transliteration": "Innaadhu Irakkap Patudhal Irandhavar Inmukang Kaanum Alavu",
             "english": "The cry for alms is painful sight  Until the giver sees him bright",
             "meaning": "To see men begging from us in disagreeable, until we see their pleasant countenance",
             "theme": "ethics",
@@ -2968,9 +2574,7 @@ KURAL_DATABASE = {
             "couplet": "The suppliants' cry for aid yields scant delight,Until you see his face with grateful gladness bright"
         },
         {
-            "number": 242,
-            "tamil": "நல்லாற்றாள் நாடி அருளாள்க பல்லாற்றால் தேரினும் அஃதே துணை.",
-            "transliteration": "Nallaatraal Naati Arulaalka Pallaatraal Therinum Aqdhe Thunai",
+            "number": 242,            "transliteration": "Nallaatraal Naati Arulaalka Pallaatraal Therinum Aqdhe Thunai",
             "english": "Seek by sound ways good compassion;  All faiths mark that for-salvation",
             "meaning": "(Stand) in the good path, consider, and be kind. Even considering according to the conflicting tenets of the different sects, kindness will be your best aid, (in the acquisition of heavenly bliss.)",
             "theme": "ethics",
@@ -2983,9 +2587,7 @@ KURAL_DATABASE = {
             "couplet": "The law of 'grace' fulfil, by methods good due trial made,Though many systems you explore, this is your only aid"
         },
         {
-            "number": 244,
-            "tamil": "மன்னுயிர் ஓம்பி அருளாள்வார்க்கு இல்லென்ப தன்னுயிர் அஞ்சும் வினை.",
-            "transliteration": "Mannuyir Ompi Arulaalvaarkku Illenpa Thannuyir Anjum Vinai",
+            "number": 244,            "transliteration": "Mannuyir Ompi Arulaalvaarkku Illenpa Thannuyir Anjum Vinai",
             "english": "His soul is free from dread of sins  Whose mercy serveth all beings",
             "meaning": "(The wise) say that the evils, which his soul would dread, will never come upon the man who exercises kindness and protects the life (of other creatures)",
             "theme": "ethics",
@@ -2998,9 +2600,7 @@ KURAL_DATABASE = {
             "couplet": "Who for undying souls of men provides with gracious zeal,In his own soul the dreaded guilt of sin shall never feel"
         },
         {
-            "number": 246,
-            "tamil": "பொருள்நீங்கிப் பொச்சாந்தார் என்பர் அருள்நீங்கி அல்லவை செய்தொழுகு வார்.",
-            "transliteration": "Porulneengip Pochchaandhaar Enpar Arulneengi Allavai Seydhozhuku Vaar",
+            "number": 246,            "transliteration": "Porulneengip Pochchaandhaar Enpar Arulneengi Allavai Seydhozhuku Vaar",
             "english": "Who grace forsake and graceless act  The former loss and woes forget",
             "meaning": "(The wise) say that those who neglect kindness and practise cruelties, neglected virtue (in their former birth), and forgot (the sorrows which they must suffer.)",
             "theme": "ethics",
@@ -3013,9 +2613,7 @@ KURAL_DATABASE = {
             "couplet": "Gain of true wealth oblivious they eschew,Who 'grace' forsake, and graceless actions do"
         },
         {
-            "number": 250,
-            "tamil": "வலியார்முன் தன்னை நினைக்கதான் தன்னின் மெலியார்மேல் செல்லு மிடத்து.",
-            "transliteration": "Valiyaarmun Thannai Ninaikka Thaan Thannin Meliyaarmel Sellu Mitaththu",
+            "number": 250,            "transliteration": "Valiyaarmun Thannai Ninaikka Thaan Thannin Meliyaarmel Sellu Mitaththu",
             "english": "Think how you feel before the strong  When to the feeble you do wrong",
             "meaning": "When a man is about to rush upon those who are weaker than himself, let him remember how he has stood (trembling) before those who are stronger than himself",
             "theme": "ethics",
@@ -3028,9 +2626,7 @@ KURAL_DATABASE = {
             "couplet": "When weaker men you front with threat'ning brow,Think how you felt in presence of some stronger foe"
         },
         {
-            "number": 253,
-            "tamil": "படைகொண்டார் நெஞ்சம்போல் நன்னூக்காது ஒன்றன் உடல்சுவை உண்டார் மனம்.",
-            "transliteration": "Pataikontaar Nenjampol Nannookkaadhu Ondran Utalsuvai Untaar Manam",
+            "number": 253,            "transliteration": "Pataikontaar Nenjampol Nannookkaadhu Ondran Utalsuvai Untaar Manam",
             "english": "Who wields a steel is steel-hearted  Who tastes body is hard-hearted",
             "meaning": "Like the (murderous) mind of him who carries a weapon (in his hand), the mind of him who feasts with pleasure on the body of another (creature), has no regard for goodness",
             "theme": "ethics",
@@ -3043,9 +2639,7 @@ KURAL_DATABASE = {
             "couplet": "Like heart of them that murderous weapons bear, his mind,Who eats of savoury meat, no joy in good can find"
         },
         {
-            "number": 254,
-            "tamil": "அருளல்ல தியாதெனிற் கொல்லாமை கோறல் பொருளல்லது அவ்வூன் தினல்.",
-            "transliteration": "Arulalladhu Yaadhenin Kollaamai Koral Porulalladhu Avvoon Thinal",
+            "number": 254,            "transliteration": "Arulalladhu Yaadhenin Kollaamai Koral Porulalladhu Avvoon Thinal",
             "english": "If merciless it is to kill,  To kill and eat is disgraceful",
             "meaning": "If it be asked what is kindness and what its opposite, the answer would be preservation and destruction of life; and therefore it is not right to feed on the flesh (obtained by taking away life)",
             "theme": "ethics",
@@ -3058,9 +2652,7 @@ KURAL_DATABASE = {
             "couplet": "'What's grace, or lack of grace'? 'To kill' is this, that 'not to kill';To eat dead flesh can never worthy end fulfil"
         },
         {
-            "number": 267,
-            "tamil": "சுடச்சுடரும் பொன்போல் ஒளிவிடும் துன்பஞ் சுடச்சுட நோற்கிற் பவர்க்கு.",
-            "transliteration": "Sutachchutarum Ponpol Olivitum Thunpanjjch Utachchuta Norkir Pavarkku",
+            "number": 267,            "transliteration": "Sutachchutarum Ponpol Olivitum Thunpanjjch Utachchuta Norkir Pavarkku",
             "english": "Pure and bright gets the gold in fire;  and so the life by pain austere",
             "meaning": "Just as gold is purified as heated in the fire, will those shine, who have endured the burning of pain (in frequent austerities)",
             "theme": "ethics",
@@ -3073,9 +2665,7 @@ KURAL_DATABASE = {
             "couplet": "The hotter glows the fining fire, the gold the brighter shines;The pain of penitence, like fire, the soul of man refines"
         },
         {
-            "number": 272,
-            "tamil": "வானுயர் தோற்றம் எவன்செய்யும் தன்னெஞ்சம் தான்அறி குற்றப் படின்.",
-            "transliteration": "Vaanuyar Thotram Evanseyyum Thannenjam Thaanari Kutrap Patin",
+            "number": 272,            "transliteration": "Vaanuyar Thotram Evanseyyum Thannenjam Thaanari Kutrap Patin",
             "english": "Of what avail are sky-high shows  When guild the conscience gnaws and knows",
             "meaning": "What avails an appearance (of sanctity) high as heaven, if his mind suffers (the indulgence) of conscious sin",
             "theme": "ethics",
@@ -3088,9 +2678,7 @@ KURAL_DATABASE = {
             "couplet": "What gain, though virtue's semblance high as heaven his fame exalt,If heart dies down through sense of self-detected fault"
         },
         {
-            "number": 274,
-            "tamil": "தவமறைந்து அல்லவை செய்தல் புதல்மறைந்து வேட்டுவன் புள்சிமிழ்த் தற்று.",
-            "transliteration": "Thavamaraindhu Allavai Seydhal Pudhalmaraindhu Vettuvan Pulsimizhth Thatru",
+            "number": 274,            "transliteration": "Thavamaraindhu Allavai Seydhal Pudhalmaraindhu Vettuvan Pulsimizhth Thatru",
             "english": "Sinning in saintly show is like  Fowlers in ambush birds to strike",
             "meaning": "He who hides himself under the mask of an ascetic and commits sins, like a sportsman who conceals himself in the thicket to catch birds",
             "theme": "ethics",
@@ -3103,9 +2691,7 @@ KURAL_DATABASE = {
             "couplet": "'Tis as a fowler, silly birds to snare, in thicket lurksWhen, clad in stern ascetic garb, one secret evil works"
         },
         {
-            "number": 278,
-            "tamil": "மனத்தது மாசாக மாண்டார் நீராடி மறைந்தொழுகு மாந்தர் பலர்.",
-            "transliteration": "Manaththadhu Maasaaka Maantaar Neeraati Maraindhozhuku Maandhar Palar",
+            "number": 278,            "transliteration": "Manaththadhu Maasaaka Maantaar Neeraati Maraindhozhuku Maandhar Palar",
             "english": "Filthy in mind some bathe in streams  Hiding sins in showy extremes",
             "meaning": "There are many men of masked conduct, who perform their ablutions, and (make a show) of",
             "theme": "ethics",
@@ -3118,9 +2704,7 @@ KURAL_DATABASE = {
             "couplet": "Many wash in hollowed waters, living lives of hidden shame;Foul in heart, yet high upraised of men in virtuous fame"
         },
         {
-            "number": 279,
-            "tamil": "கணைகொடிது யாழ்கோடு செவ்விதுஆங் கன்ன வினைபடு பாலால் கொளல்.",
-            "transliteration": "Kanaikotidhu Yaazhkotu Sevvidhuaang Kanna Vinaipatu Paalaal Kolal",
+            "number": 279,            "transliteration": "Kanaikotidhu Yaazhkotu Sevvidhuaang Kanna Vinaipatu Paalaal Kolal",
             "english": "Know men by acts and not by forms  Strait arrow kills, bent lute but charms",
             "meaning": "As, in its use, the arrow is crooked, and the curved lute is straight, so by their deeds, (and not by their appearance) let (the uprightness or crookedness of) men be estimated",
             "theme": "ethics",
@@ -3133,9 +2717,7 @@ KURAL_DATABASE = {
             "couplet": "Cruel is the arrow straight, the crooked lute is sweet,Judge by their deeds the many forms of men you meet"
         },
         {
-            "number": 282,
-            "tamil": "உள்ளத்தால் உள்ளலும் தீதே பிறன்பொருளைக் கள்ளத்தால் கள்வேம் எனல்.",
-            "transliteration": "Ullaththaal Ullalum Theedhe Piranporulaik Kallaththaal Kalvem Enal",
+            "number": 282,            "transliteration": "Ullaththaal Ullalum Theedhe Piranporulaik Kallaththaal Kalvem Enal",
             "english": "\\\"We will by fraud win other's wealth\\\"  Even this thought is sin and stealth",
             "meaning": "Even the thought (of sin) is sin; think not then of crafiily stealing the property of another",
             "theme": "ethics",
@@ -3148,9 +2730,7 @@ KURAL_DATABASE = {
             "couplet": "'Tis sin if in the mind man but thought conceive;'By fraud I will my neighbour of his wealth bereave.'"
         },
         {
-            "number": 288,
-            "tamil": "அளவறிந்தார் நெஞ்சத் தறம்போல நிற்கும் களவறிந்தார் நெஞ்சில் கரவு.",
-            "transliteration": "Alavarindhaar Nenjath Tharampola Nirkum Kalavarindhaar Nenjil Karavu",
+            "number": 288,            "transliteration": "Alavarindhaar Nenjath Tharampola Nirkum Kalavarindhaar Nenjil Karavu",
             "english": "Virtue abides in righteous hearts  Into minds of frauds deceit darts",
             "meaning": "Deceit dwells in the mind of those who are conversant with fraud, even as virtue in the minds of those who are conversant with rectitude",
             "theme": "ethics",
@@ -3163,9 +2743,7 @@ KURAL_DATABASE = {
             "couplet": "As virtue dwells in heart that 'measured wisdom' gains;Deceit in hearts of fraudful men established reigns"
         },
         {
-            "number": 292,
-            "tamil": "பொய்மையும் வாய்மை யிடத்த புரைதீர்ந்த நன்மை பயக்கும் எனின்.",
-            "transliteration": "Poimaiyum Vaaimai Yitaththa Puraidheerndha Nanmai Payakkum Enin",
+            "number": 292,            "transliteration": "Poimaiyum Vaaimai Yitaththa Puraidheerndha Nanmai Payakkum Enin",
             "english": "E'en falsehood may for truth suffice,  When good it brings removing vice",
             "meaning": "Even falsehood has the nature of truth, if it confer a benefit that is free from fault",
             "theme": "ethics",
@@ -3178,9 +2756,7 @@ KURAL_DATABASE = {
             "couplet": "Falsehood may take the place of truthful word,If blessing, free from fault, it can afford"
         },
         {
-            "number": 295,
-            "tamil": "மனத்தொடு வாய்மை மொழியின் தவத்தொடு தானஞ்செய் வாரின் தலை.",
-            "transliteration": "Manaththotu Vaaimai Mozhiyin Thavaththotu Thaananjey Vaarin Thalai",
+            "number": 295,            "transliteration": "Manaththotu Vaaimai Mozhiyin Thavaththotu Thaananjey Vaarin Thalai",
             "english": "To speak the truth from heart sincere  Is more than giving and living austere",
             "meaning": "He, who speaks truth with all his heart, is superior to those who make gifts and practise austerities",
             "theme": "ethics",
@@ -3193,9 +2769,7 @@ KURAL_DATABASE = {
             "couplet": "Greater is he who speaks the truth with full consenting mindThan men whose lives have penitence and charity combined"
         },
         {
-            "number": 296,
-            "tamil": "பொய்யாமை அன்ன புகழில்லை எய்யாமை எல்லா அறமுந் தரும்.",
-            "transliteration": "Poiyaamai Anna Pukazhillai Eyyaamai Ellaa Aramun Tharum",
+            "number": 296,            "transliteration": "Poiyaamai Anna Pukazhillai Eyyaamai Ellaa Aramun Tharum",
             "english": "Not to lie brings all the praise  All virtues from Truth arise",
             "meaning": "There is no praise like the praise of never uttering a falsehood: without causing any suffering, it will lead to every virtue",
             "theme": "ethics",
@@ -3208,9 +2782,7 @@ KURAL_DATABASE = {
             "couplet": "No praise like that of words from falsehood free;This every virtue yields spontaneously"
         },
         {
-            "number": 297,
-            "tamil": "பொய்யாமை பொய்யாமை ஆற்றின் அறம்பிற செய்யாமை செய்யாமை நன்று.",
-            "transliteration": "Poiyaamai Poiyaamai Aatrin Arampira Seyyaamai Seyyaamai Nandru",
+            "number": 297,            "transliteration": "Poiyaamai Poiyaamai Aatrin Arampira Seyyaamai Seyyaamai Nandru",
             "english": "Lie not lie not Naught else you need  All virtues are in Truth indeed",
             "meaning": "If a man has the power to abstain from falsehood, it will be well with him, even though he practise no other virtue",
             "theme": "ethics",
@@ -3223,9 +2795,7 @@ KURAL_DATABASE = {
             "couplet": "If all your life be utter truth, the truth alone,'Tis well, though other virtuous acts be left undone"
         },
         {
-            "number": 299,
-            "tamil": "எல்லா விளக்கும் விளக்கல்ல சான்றோர்க்குப் பொய்யா விளக்கே விளக்கு.",
-            "transliteration": "Ellaa Vilakkum Vilakkalla Saandrorkkup Poiyaa Vilakke Vilakku",
+            "number": 299,            "transliteration": "Ellaa Vilakkum Vilakkalla Saandrorkkup Poiyaa Vilakke Vilakku",
             "english": "All lights are not lights for the wise;  Truth light is light bright like Sun-light",
             "meaning": "All lamps of nature are not lamps; the lamp of truth is the lamp of the wise",
             "theme": "ethics",
@@ -3238,9 +2808,7 @@ KURAL_DATABASE = {
             "couplet": "Every lamp is not a lamp in wise men's sight;That's the lamp with truth's pure radiance bright"
         },
         {
-            "number": 300,
-            "tamil": "யாமெய்யாக் கண்டவற்றுள் இல்லை எனைத்தொன்றும் வாய்மையின் நல்ல பிற.",
-            "transliteration": "Yaameyyaak Kantavatrul Illai Enaiththondrum Vaaimaiyin Nalla Pira",
+            "number": 300,            "transliteration": "Yaameyyaak Kantavatrul Illai Enaiththondrum Vaaimaiyin Nalla Pira",
             "english": "Of all the things we here have seen  Nothing surpasses Truth serene!",
             "meaning": "Amidst all that we have seen (described) as real (excellence), there is nothing so good as truthfulness",
             "theme": "ethics",
@@ -3253,9 +2821,7 @@ KURAL_DATABASE = {
             "couplet": "Of all good things we've scanned with studious care,There's nought that can with truthfulness compare"
         },
         {
-            "number": 301,
-            "tamil": "செல்லிடத்துக் காப்பான் சினங்காப்பான் அல்லிடத்துக் காக்கின்என் காவாக்கால் என்?",
-            "transliteration": "Sellitaththuk Kaappaan Sinangaappaan Allitaththuk Kaakkinen Kaavaakkaal En?",
+            "number": 301,            "transliteration": "Sellitaththuk Kaappaan Sinangaappaan Allitaththuk Kaakkinen Kaavaakkaal En?",
             "english": "Anger against the weak is wrong  It is futile against the strong",
             "meaning": "He restrains his anger who restrains it when it can injure; when it cannot injure, what does it matter whether he restrain it, or not ?",
             "theme": "ethics",
@@ -3268,9 +2834,7 @@ KURAL_DATABASE = {
             "couplet": "Where thou hast power thy angry will to work, thy wrath restrain;Where power is none, what matter if thou check or give it rein"
         },
         {
-            "number": 302,
-            "tamil": "செல்லா இடத்துச் சினந்தீது செல்லிடத்தும் இல்அதனின் தீய பிற.",
-            "transliteration": "Sellaa Itaththuch Chinandheedhu Sellitaththum Iladhanin Theeya Pira",
+            "number": 302,            "transliteration": "Sellaa Itaththuch Chinandheedhu Sellitaththum Iladhanin Theeya Pira",
             "english": "Vain is wrath against men of force  Against the meek it is still worse",
             "meaning": "Anger is bad, even when it cannot injure; when it can injure; there is no greater evil",
             "theme": "ethics",
@@ -3283,9 +2847,7 @@ KURAL_DATABASE = {
             "couplet": "Where power is none to wreak thy wrath, wrath importent is ill;Where thou hast power thy will to work, 'tis greater, evil still"
         },
         {
-            "number": 303,
-            "tamil": "மறத்தல் வெகுளியை யார்மாட்டும் தீய பிறத்தல் அதனான் வரும்.",
-            "transliteration": "Maraththal Vekuliyai Yaarmaattum Theeya Piraththal Adhanaan Varum",
+            "number": 303,            "transliteration": "Maraththal Vekuliyai Yaarmaattum Theeya Piraththal Adhanaan Varum",
             "english": "Off with wrath with any one  It is the source of sin and pain",
             "meaning": "Forget anger towards every one, as fountains of evil spring from it",
             "theme": "ethics",
@@ -3298,9 +2860,7 @@ KURAL_DATABASE = {
             "couplet": "If any rouse thy wrath, the trespass straight forget;For wrath an endless train of evils will beget"
         },
         {
-            "number": 307,
-            "tamil": "சினத்தைப் பொருளென்று கொண்டவன் கேடு நிலத்தறைந்தான் கைபிழையா தற்று.",
-            "transliteration": "Sinaththaip Porulendru Kontavan Ketu Nilaththaraindhaan Kaipizhaiyaa Thatru",
+            "number": 307,            "transliteration": "Sinaththaip Porulendru Kontavan Ketu Nilaththaraindhaan Kaipizhaiyaa Thatru",
             "english": "The wrath-lover to doom is bound  Like failless-hand that strikes the ground",
             "meaning": "Destruction will come upon him who ragards anger as a good thing, as surely as the hand of him who strikes the ground will not fail",
             "theme": "ethics",
@@ -3313,9 +2873,7 @@ KURAL_DATABASE = {
             "couplet": "The hand that smites the earth unfailing feels the sting;So perish they who nurse their wrath as noble thing"
         },
         {
-            "number": 311,
-            "tamil": "சிறப்பீனும் செல்வம் பெறினும் பிறர்க்குஇன்னா செய்யாமை மாசற்றார் கோள்.",
-            "transliteration": "Sirappeenum Selvam Perinum Pirarkku Innaa Seyyaamai Maasatraar Kol",
+            "number": 311,            "transliteration": "Sirappeenum Selvam Perinum Pirarkku Innaa Seyyaamai Maasatraar Kol",
             "english": "The pure by faith mean pain to none  Though princely wealth by that is won",
             "meaning": "It is the determination of the spotless not to cause sorrow to others, although they could (by so causing) obtain the wealth which confers greatness",
             "theme": "ethics",
@@ -3328,9 +2886,7 @@ KURAL_DATABASE = {
             "couplet": "Though ill to neighbour wrought should glorious pride of wealth secure,No ill to do is fixed decree of men in spirit pure"
         },
         {
-            "number": 313,
-            "tamil": "செய்யாமல் செற்றார்க்கும் இன்னாத செய்தபின் உய்யா விழுமந் தரும்.",
-            "transliteration": "Seyyaamal Setraarkkum Innaadha Seydhapin Uyyaa Vizhuman Tharum",
+            "number": 313,            "transliteration": "Seyyaamal Setraarkkum Innaadha Seydhapin Uyyaa Vizhuman Tharum",
             "english": "Revenging even causeless hate  Bad-blood breeds and baneful heat",
             "meaning": "In an ascetic inflict suffering even on those who hate him, when he has not done them any evil, it will afterwards give him irretrievable sorrow",
             "theme": "ethics",
@@ -3343,9 +2899,7 @@ KURAL_DATABASE = {
             "couplet": "Though unprovoked thy soul malicious foes should sting,Retaliation wrought inevitable woes will bring"
         },
         {
-            "number": 314,
-            "tamil": "இன்னாசெய் தாரை ஒறுத்தல் அவர்நாண நன்னயஞ் செய்து விடல்.",
-            "transliteration": "Innaasey Thaarai Oruththal Avarnaana Nannayanj Cheydhu Vital",
+            "number": 314,            "transliteration": "Innaasey Thaarai Oruththal Avarnaana Nannayanj Cheydhu Vital",
             "english": "Doing good-turns, put them to shame  Thus chide the evil who do harm",
             "meaning": "The (proper) punishment to those who have done evil (to you), is to put them to shame by showing them kindness, in return and to forget both the evil and the good done on both sides",
             "theme": "ethics",
@@ -3358,9 +2912,7 @@ KURAL_DATABASE = {
             "couplet": "To punish wrong, with kindly benefits the doers ply;Thus shame their souls; but pass the ill unheeded by"
         },
         {
-            "number": 317,
-            "tamil": "எனைத்தானும் எஞ்ஞான்றும் யார்க்கும் மனத்தானாம் மாணாசெய் யாமை தலை.",
-            "transliteration": "Enaiththaanum Egngnaandrum Yaarkkum Manaththaanaam Maanaasey Yaamai Thalai",
+            "number": 317,            "transliteration": "Enaiththaanum Egngnaandrum Yaarkkum Manaththaanaam Maanaasey Yaamai Thalai",
             "english": "Any, anywhere injure not  At any time even in thought",
             "meaning": "It is the chief of all virtues not knowingly to do any person evil, even in the lowest degree, and at any time",
             "theme": "ethics",
@@ -3373,9 +2925,7 @@ KURAL_DATABASE = {
             "couplet": "To work no wilful woe, in any wise, through all the days,To any living soul, is virtue's highest praise"
         },
         {
-            "number": 321,
-            "tamil": "அறவினை யாதெனின் கொல்லாமை கோறல் பிறவினை எல்லாந் தரும்.",
-            "transliteration": "Aravinai Yaadhenin Kollaamai Koral Piravinai Ellaan Tharum",
+            "number": 321,            "transliteration": "Aravinai Yaadhenin Kollaamai Koral Piravinai Ellaan Tharum",
             "english": "What is Virtue? 'Tis not to kill  For killing causes every ill",
             "meaning": "Never to destroy life is the sum of all virtuous conduct The destruction of life leads to every evil",
             "theme": "ethics",
@@ -3388,9 +2938,7 @@ KURAL_DATABASE = {
             "couplet": "What is the work of virtue? 'Not to kill';For 'killing' leads to every work of ill"
         },
         {
-            "number": 322,
-            "tamil": "பகுத்துண்டு பல்லுயிர் ஓம்புதல் நூலோர் தொகுத்தவற்றுள் எல்லாந் தலை.",
-            "transliteration": "Pakuththuntu Palluyir Ompudhal Noolor Thokuththavatrul Ellaan Thalai",
+            "number": 322,            "transliteration": "Pakuththuntu Palluyir Ompudhal Noolor Thokuththavatrul Ellaan Thalai",
             "english": "Share the food and serve all lives  This is the law of all the laws",
             "meaning": "The chief of all (the virtues) which authors have summed up, is the partaking of food that has been shared with others, and the preservation of the mainfold life of other creatures",
             "theme": "ethics",
@@ -3403,9 +2951,7 @@ KURAL_DATABASE = {
             "couplet": "Let those that need partake your meal; guard every-thing that lives;This the chief and sum of lore that hoarded wisdom gives"
         },
         {
-            "number": 323,
-            "tamil": "ஒன்றாக நல்லது கொல்லாமை மற்றதன் பின்சாரப் பொய்யாமை நன்று.",
-            "transliteration": "Ondraaka Nalladhu Kollaamai Matradhan Pinsaarap Poiyaamai Nandru",
+            "number": 323,            "transliteration": "Ondraaka Nalladhu Kollaamai Matradhan Pinsaarap Poiyaamai Nandru",
             "english": "Not to kill is unique good  The next, not to utter falsehood",
             "meaning": "Not to destroy life is an incomparably (great) good next to it in goodness ranks freedom from falsehood",
             "theme": "ethics",
@@ -3418,9 +2964,7 @@ KURAL_DATABASE = {
             "couplet": "Alone, first of goods things, is 'not to slay';The second is, no untrue word to say"
         },
         {
-            "number": 324,
-            "tamil": "நல்லாறு எனப்படுவது யாதெனின் யாதொன்றும் கொல்லாமை சூழும் நெறி.",
-            "transliteration": "Nallaaru Enappatuvadhu Yaadhenin Yaadhondrum Kollaamai Soozhum Neri",
+            "number": 324,            "transliteration": "Nallaaru Enappatuvadhu Yaadhenin Yaadhondrum Kollaamai Soozhum Neri",
             "english": "What way is good? That we can say  The way away from heat to slay",
             "meaning": "Good path is that which considers how it may avoid killing any creature",
             "theme": "ethics",
@@ -3433,9 +2977,7 @@ KURAL_DATABASE = {
             "couplet": "You ask, What is the good and perfect way?'Tis path of him who studies nought to slay"
         },
         {
-            "number": 328,
-            "tamil": "நன்றாகும் ஆக்கம் பெரிதெனினும் சான்றோர்க்குக் கொன்றாகும் ஆக்கங் கடை.",
-            "transliteration": "Nandraakum Aakkam Peridheninum Saandrorkkuk Kondraakum Aakkang Katai",
+            "number": 328,            "transliteration": "Nandraakum Aakkam Peridheninum Saandrorkkuk Kondraakum Aakkang Katai",
             "english": "The gain of slaughter is a vice  Though deemed good in sacrifice",
             "meaning": "The advantage which might flow from destroying life in sacrifice, is dishonourable to the wise (who renounced the world), even although it should be said to be productive of great good",
             "theme": "ethics",
@@ -3448,9 +2990,7 @@ KURAL_DATABASE = {
             "couplet": "Though great the gain of good should seem, the wiseWill any gain by staughter won despise"
         },
         {
-            "number": 332,
-            "tamil": "கூத்தாட்டு அவைக்குழாத் தற்றே பெருஞ்செல்வம் போக்கும் அதுவிளிந் தற்று.",
-            "transliteration": "Kooththaattu Avaik Kuzhaath Thatre Perunjelvam Pokkum Adhuvilin Thatru",
+            "number": 332,            "transliteration": "Kooththaattu Avaik Kuzhaath Thatre Perunjelvam Pokkum Adhuvilin Thatru",
             "english": "Like a drama-crowd wealth gathers  Like passing show its pride too goes",
             "meaning": "The acquisition of wealth is like the gathering together of an assembly for a theatre; its expenditure is like the breaking up of that assembly",
             "theme": "ethics",
@@ -3463,9 +3003,7 @@ KURAL_DATABASE = {
             "couplet": "As crowds round dancers fill the hall, is wealth's increase;Its loss, as throngs dispersing, when the dances cease"
         },
         {
-            "number": 333,
-            "tamil": "அற்கா இயல்பிற்றுச் செல்வம் அதுபெற்றால் அற்குப ஆங்கே செயல்.",
-            "transliteration": "Arkaa Iyalpitruch Chelvam Adhupetraal Arkupa Aange Seyal",
+            "number": 333,            "transliteration": "Arkaa Iyalpitruch Chelvam Adhupetraal Arkupa Aange Seyal",
             "english": "Wealth wanes away; but when it comes  Take care to do enduring things",
             "meaning": "Wealth is perishable; let those who obtain it immediately practise those (virtues) which are imperishable",
             "theme": "ethics",
@@ -3478,9 +3016,7 @@ KURAL_DATABASE = {
             "couplet": "Unenduring is all wealth; if you wealth enjoy,Enduring works in working wealth straightway employ"
         },
         {
-            "number": 335,
-            "tamil": "நாச்செற்று விக்குள்மேல் வாராமுன் நல்வினை மேற்சென்று செய்யப் படும்",
-            "transliteration": "Naachchetru Vikkulmel Vaaraamun Nalvinai Mersendru Seyyap Patum",
+            "number": 335,            "transliteration": "Naachchetru Vikkulmel Vaaraamun Nalvinai Mersendru Seyyap Patum",
             "english": "Ere tongue benumbs and hiccough comes  Rise up to do good deeds betimes",
             "meaning": "Let virtuous deeds be done quickly, before the hiccup comes making the tongue silent",
             "theme": "ethics",
@@ -3493,9 +3029,7 @@ KURAL_DATABASE = {
             "couplet": "Before the tongue lie powerless, 'mid the gasp of gurgling breath,Arouse thyself, and do good deeds beyond the power of death"
         },
         {
-            "number": 361,
-            "tamil": "அவாஎன்ப எல்லா உயிர்க்கும் எஞ்ஞான்றும் தவாஅப் பிறப்பீனும் வித்து.",
-            "transliteration": "Avaaenpa Ellaa Uyirkkum Enj Gnaandrum Thavaaap Pirappeenum Viththu",
+            "number": 361,            "transliteration": "Avaaenpa Ellaa Uyirkkum Enj Gnaandrum Thavaaap Pirappeenum Viththu",
             "english": "Desire to all, always is seed  From which ceaseless births proceed",
             "meaning": "(The wise) say that the seed, which produces unceasing births, at all times, to all creatures, is desire",
             "theme": "ethics",
@@ -3508,9 +3042,7 @@ KURAL_DATABASE = {
             "couplet": "The wise declare, through all the days, to every living thingThat ceaseless round of birth from seed of strong desire doth spring"
         },
         {
-            "number": 366,
-            "tamil": "அஞ்சுவ தோரும் அறனே ஒருவனை வஞ்சிப்ப தோரும் அவா.",
-            "transliteration": "Anjuva Thorum Arane Oruvanai Vanjippa Thorum Avaa",
+            "number": 366,            "transliteration": "Anjuva Thorum Arane Oruvanai Vanjippa Thorum Avaa",
             "english": "Dread desire; Virtue is there  To every soul desire is snare!",
             "meaning": "It is the chief duty of (an ascetic) to watch against desire with (jealous) fear; for it has power to deceive (and destroy) him",
             "theme": "ethics",
@@ -3523,9 +3055,7 @@ KURAL_DATABASE = {
             "couplet": "Desire each soul beguiles;True virtue dreads its wiles"
         },
         {
-            "number": 371,
-            "tamil": "ஆகூழால் தோன்றும் அசைவின்மை கைப்பொருள் போகூழால் தோன்றும் மடி.",
-            "transliteration": "Aakoozhaal Thondrum Asaivinmai Kaipporul Pokoozhaal Thondrum Mati",
+            "number": 371,            "transliteration": "Aakoozhaal Thondrum Asaivinmai Kaipporul Pokoozhaal Thondrum Mati",
             "english": "Efforts succeed by waxing star  Wealth-losing brings waning star",
             "meaning": "Perseverance comes from a prosperous fate, and idleness from an adverse fate",
             "theme": "ethics",
@@ -3538,9 +3068,7 @@ KURAL_DATABASE = {
             "couplet": "Wealth-giving fate power of unflinching effort brings;From fate that takes away idle remissness springs"
         },
         {
-            "number": 375,
-            "tamil": "நல்லவை எல்லாஅந் தீயவாம் தீயவும் நல்லவாம் செல்வம் செயற்கு.",
-            "transliteration": "Nallavai Ellaaan Theeyavaam Theeyavum Nallavaam Selvam Seyarku",
+            "number": 375,            "transliteration": "Nallavai Ellaaan Theeyavaam Theeyavum Nallavaam Selvam Seyarku",
             "english": "In making wealth fate changes mood;  The good as bad and bad as good",
             "meaning": "In the acquisition of property, every thing favourable becomes unfavourable, and (on the other hand) everything unfavourable becomes favourable, (through the power of fate)",
             "theme": "ethics",
@@ -3553,9 +3081,7 @@ KURAL_DATABASE = {
             "couplet": "All things that good appear will oft have ill success;All evil things prove good for gain of happiness"
         },
         {
-            "number": 379,
-            "tamil": "நன்றாங்கால் நல்லவாக் காண்பவர் அன்றாங்கால் அல்லற் படுவ தெவன்?",
-            "transliteration": "Nandraangaal Nallavaak Kaanpavar Andraangaal Allar Patuva Thevan?",
+            "number": 379,            "transliteration": "Nandraangaal Nallavaak Kaanpavar Andraangaal Allar Patuva Thevan?",
             "english": "Who good in time of good perceive  In evil time why should they grieve?",
             "meaning": "How is it that those, who are pleased with good fortune, trouble themselves when evil comes, (since both are equally the decree of fate) ?",
             "theme": "ethics",
@@ -3570,9 +3096,7 @@ KURAL_DATABASE = {
     ],
     "fear": [
         {
-            "number": 7,
-            "tamil": "தனக்குவமை இல்லாதான் தாள்சேர்ந்தார்க் கல்லால் மனக்கவலை மாற்றல் அரிது.",
-            "transliteration": "Thanakkuvamai Illaadhaan Thaalserndhaark Kallaal Manakkavalai Maatral Aridhu",
+            "number": 7,            "transliteration": "Thanakkuvamai Illaadhaan Thaalserndhaark Kallaal Manakkavalai Maatral Aridhu",
             "english": "His feet, whose likeness none can find, Alone can ease the anxious mind",
             "meaning": "Anxiety of mind cannot be removed, except from those who are united to the feet of Him who is incomparable",
             "theme": "fear",
@@ -3585,9 +3109,7 @@ KURAL_DATABASE = {
             "couplet": "Unless His foot, 'to Whom none can compare,' men gain,'Tis hard for mind to find relief from anxious pain"
         },
         {
-            "number": 201,
-            "tamil": "தீவினையார் அஞ்சார் விழுமியார் அஞ்சுவர் தீவினை என்னும் செருக்கு.",
-            "transliteration": "Theevinaiyaar Anjaar Vizhumiyaar Anjuvar Theevinai Ennum Serukku",
+            "number": 201,            "transliteration": "Theevinaiyaar Anjaar Vizhumiyaar Anjuvar Theevinai Ennum Serukku",
             "english": "Sinners fear not the pride of sin  The worthy dread the ill within",
             "meaning": "Those who have experience of evil deeds will not fear, but the excellent will fear the pride of sin",
             "theme": "fear",
@@ -3600,9 +3122,7 @@ KURAL_DATABASE = {
             "couplet": "With sinful act men cease to feel the dread of ill within,The excellent will dread the wanton pride of cherished sin"
         },
         {
-            "number": 325,
-            "tamil": "நிலைஅஞ்சி நீத்தாருள் எல்லாம் கொலைஅஞ்சிக் கொல்லாமை சூழ்வான் தலை.",
-            "transliteration": "Nilaianji Neeththaarul Ellaam Kolaianjik Kollaamai Soozhvaan Thalai",
+            "number": 325,            "transliteration": "Nilaianji Neeththaarul Ellaam Kolaianjik Kollaamai Soozhvaan Thalai",
             "english": "Of saints who renounce birth-fearing  The head is he who dreads killing",
             "meaning": "Of all those who, fearing the permanence of earthly births, have abandoned desire, he is the chief who, fearing (the guilt of) murder, considers how he may avoid the destruction of life",
             "theme": "fear",
@@ -3617,9 +3137,7 @@ KURAL_DATABASE = {
     ],
     "greed": [
         {
-            "number": 13,
-            "tamil": "விண்இன்று பொய்ப்பின் விரிநீர் வியனுலகத்து உள்நின்று உடற்றும் பசி.",
-            "transliteration": "Vinindru Poippin Virineer Viyanulakaththu Ulnindru Utatrum Pasi",
+            "number": 13,            "transliteration": "Vinindru Poippin Virineer Viyanulakaththu Ulnindru Utatrum Pasi",
             "english": "Let clouds their visits stay, and dearth Distresses all the sea-girt earth",
             "meaning": "If the cloud, withholding rain, deceive (our hopes) hunger will long distress the sea-girt spacious world",
             "theme": "greed",
@@ -3632,9 +3150,7 @@ KURAL_DATABASE = {
             "couplet": "If clouds, that promised rain, deceive, and in the sky remain,Famine, sore torment, stalks o'er earth's vast ocean-girdled plain"
         },
         {
-            "number": 35,
-            "tamil": "அழுக்காறு அவாவெகுளி இன்னாச்சொல் நான்கும் இழுக்கா இயன்றது அறம்.",
-            "transliteration": "Azhukkaaru Avaavekuli Innaachchol Naankum Izhukkaa Iyandradhu Aram",
+            "number": 35,            "transliteration": "Azhukkaaru Avaavekuli Innaachchol Naankum Izhukkaa Iyandradhu Aram",
             "english": "Four ills eschew and virtue reach, Lust, anger, envy, evil-speech",
             "meaning": "That conduct is virtue which is free from these four things, viz, malice, desire, anger and bitter speech",
             "theme": "greed",
@@ -3647,9 +3163,7 @@ KURAL_DATABASE = {
             "couplet": "'Tis virtue when, his footsteps sliding not through envy, wrath,Lust, evil speech-these four, man onwards moves in ordered path"
         },
         {
-            "number": 177,
-            "tamil": "வேண்டற்க வெஃகியாம் ஆக்கம் விளைவயின் மாண்டற் கரிதாம் பயன்.",
-            "transliteration": "Ventarka Veqkiyaam Aakkam Vilaivayin Maantar Karidhaam Payan",
+            "number": 177,            "transliteration": "Ventarka Veqkiyaam Aakkam Vilaivayin Maantar Karidhaam Payan",
             "english": "Shun the fruit of covetousness  All its yield is inglorious",
             "meaning": "Desire not the gain of covetousness In the enjoyment of its fruits there is no glory",
             "theme": "greed",
@@ -3662,9 +3176,7 @@ KURAL_DATABASE = {
             "couplet": "Seek not increase by greed of gain acquired;That fruit matured yields never good desired"
         },
         {
-            "number": 284,
-            "tamil": "களவின்கண் கன்றிய காதல் விளைவின்கண் வீயா விழுமம் தரும்.",
-            "transliteration": "Kalavinkan Kandriya Kaadhal Vilaivinkan Veeyaa Vizhumam Tharum",
+            "number": 284,            "transliteration": "Kalavinkan Kandriya Kaadhal Vilaivinkan Veeyaa Vizhumam Tharum",
             "english": "The fruit that fraud and greed obtain  Shall end in endless grief and pain",
             "meaning": "The eager desire of defrauding others will, when it brings forth its fruit, produce undying sorrow",
             "theme": "greed",
@@ -3679,9 +3191,7 @@ KURAL_DATABASE = {
     ],
     "wealth": [
         {
-            "number": 15,
-            "tamil": "கெடுப்பதூஉம் கெட்டார்க்குச் சார்வாய்மற் றாங்கே எடுப்பதூஉம் எல்லாம் மழை.",
-            "transliteration": "Ketuppadhooum Kettaarkkuch Chaarvaaimar Raange Etuppadhooum Ellaam Mazhai",
+            "number": 15,            "transliteration": "Ketuppadhooum Kettaarkkuch Chaarvaaimar Raange Etuppadhooum Ellaam Mazhai",
             "english": "Destruction it may sometimes pour But only rain can life restore",
             "meaning": "Rain by its absence ruins men; and by its existence restores them to fortune",
             "theme": "wealth",
@@ -3694,9 +3204,7 @@ KURAL_DATABASE = {
             "couplet": "'Tis rain works all: it ruin spreads, then timely aid supplies;As, in the happy days before, it bids the ruined rise"
         },
         {
-            "number": 17,
-            "tamil": "நெடுங்கடலும் தன்நீர்மை குன்றும் தடிந்தெழிலி தான்நல்கா தாகி விடின்.",
-            "transliteration": "Netungatalum Thanneermai Kundrum Thatindhezhili Thaannalkaa Thaaki Vitin",
+            "number": 17,            "transliteration": "Netungatalum Thanneermai Kundrum Thatindhezhili Thaannalkaa Thaaki Vitin",
             "english": "The ocean's wealth will waste away, Except the cloud its stores repay",
             "meaning": "Even the wealth of the wide sea will be diminished, if the cloud that has drawn (its waters) up gives them not back again (in rain)",
             "theme": "wealth",
@@ -3709,9 +3217,7 @@ KURAL_DATABASE = {
             "couplet": "If clouds restrain their gifts and grant no rain,The treasures fail in ocean's wide domain"
         },
         {
-            "number": 54,
-            "tamil": "பெண்ணின் பெருந்தக்க யாவுள கற்பென்னும் திண்மைஉண் டாகப் பெறின்.",
-            "transliteration": "Pennin Perundhakka Yaavula Karpennum Thinmaiun Taakap Perin",
+            "number": 54,            "transliteration": "Pennin Perundhakka Yaavula Karpennum Thinmaiun Taakap Perin",
             "english": "What greater fortune is for men Than a constant chaste woman?",
             "meaning": "What is more excellent than a wife, if she possess the stability of chastity ?",
             "theme": "wealth",
@@ -3724,9 +3230,7 @@ KURAL_DATABASE = {
             "couplet": "If woman might of chastity retain,What choicer treasure doth the world contain"
         },
         {
-            "number": 83,
-            "tamil": "வருவிருந்து வைகலும் ஓம்புவான் வாழ்க்கை பருவந்து பாழ்படுதல் இன்று.",
-            "transliteration": "Varuvirundhu Vaikalum Ompuvaan Vaazhkkai Paruvandhu Paazhpatudhal Indru",
+            "number": 83,            "transliteration": "Varuvirundhu Vaikalum Ompuvaan Vaazhkkai Paruvandhu Paazhpatudhal Indru",
             "english": "Who tends his guests day in and out  His life in want never wears out",
             "meaning": "The domestic life of the man that daily entertains the guests who come to him shall not be laid waste by poverty",
             "theme": "wealth",
@@ -3739,9 +3243,7 @@ KURAL_DATABASE = {
             "couplet": "Each day he tends the coming guest with kindly care;Painless, unfailing plenty shall his household share"
         },
         {
-            "number": 88,
-            "tamil": "பரிந்தோம்பிப் பற்றற்றேம் என்பர் விருந்தோம்பி வேள்வி தலைப்படா தார்.",
-            "transliteration": "Parindhompip Patratrem Enpar Virundhompi Velvi Thalaippataa Thaar",
+            "number": 88,            "transliteration": "Parindhompip Patratrem Enpar Virundhompi Velvi Thalaippataa Thaar",
             "english": "Who loathe guest-service one day cry:  \\\"We toil and store; but life is dry\\\"",
             "meaning": "Those who have taken no part in the benevolence of hospitality shall (at length lament) saying, \"we have laboured and laid up wealth and are now without support.\"",
             "theme": "wealth",
@@ -3754,9 +3256,7 @@ KURAL_DATABASE = {
             "couplet": "With pain they guard their stores, yet 'All forlorn are we,' they'll cry,Who cherish not their guests, nor kindly help supply"
         },
         {
-            "number": 89,
-            "tamil": "உடைமையுள் இன்மை விருந்தோம்பல் ஓம்பா மடமை மடவார்கண் உண்டு.",
-            "transliteration": "Utaimaiyul Inmai Virundhompal Ompaa Matamai Matavaarkan Untu",
+            "number": 89,            "transliteration": "Utaimaiyul Inmai Virundhompal Ompaa Matamai Matavaarkan Untu",
             "english": "The man of wealth is poor indeed  Whose folly fails the guest to feed",
             "meaning": "That stupidity which excercises no hospitality is poverty in the midst of wealth It is the property of the stupid",
             "theme": "wealth",
@@ -3769,9 +3269,7 @@ KURAL_DATABASE = {
             "couplet": "To turn from guests is penury, though worldly goods abound;'Tis senseless folly, only with the senseless found"
         },
         {
-            "number": 112,
-            "tamil": "செப்பம் உடையவன் ஆக்கஞ் சிதைவின்றி எச்சத்திற் கேமாப்பு உடைத்து.",
-            "transliteration": "Seppam Utaiyavan Aakkanj Chidhaivindri Echchaththir Kemaappu Utaiththu",
+            "number": 112,            "transliteration": "Seppam Utaiyavan Aakkanj Chidhaivindri Echchaththir Kemaappu Utaiththu",
             "english": "Wealth of the man of equity  Grows and lasts to posterity",
             "meaning": "The wealth of the man of rectitude will not perish, but will bring happiness also to his posterity",
             "theme": "wealth",
@@ -3784,9 +3282,7 @@ KURAL_DATABASE = {
             "couplet": "The just man's wealth unwasting shall endure,And to his race a lasting joy ensure"
         },
         {
-            "number": 125,
-            "tamil": "எல்லார்க்கும் நன்றாம் பணிதல் அவருள்ளும் செல்வர்க்கே செல்வம் தகைத்து.",
-            "transliteration": "Ellaarkkum Nandraam Panidhal Avarullum Selvarkke Selvam Thakaiththu",
+            "number": 125,            "transliteration": "Ellaarkkum Nandraam Panidhal Avarullum Selvarkke Selvam Thakaiththu",
             "english": "Humility is good for all  To the rich it adds a wealth special",
             "meaning": "Humility is good in all; but especially in the rich it is (the excellence of) higher riches",
             "theme": "wealth",
@@ -3799,9 +3295,7 @@ KURAL_DATABASE = {
             "couplet": "To all humility is goodly grace; but chief to themWith fortune blessed, -'tis fortune's diadem"
         },
         {
-            "number": 153,
-            "tamil": "இன்மையுள் இன்மை விருந்தொரால் வன்மையுள் வன்மை மடவார்ப் பொறை.",
-            "transliteration": "Inmaiyul Inmai Virundhoraal Vanmaiyul Vanmai Matavaarp Porai",
+            "number": 153,            "transliteration": "Inmaiyul Inmai Virundhoraal Vanmaiyul Vanmai Matavaarp Porai",
             "english": "Neglect the guest is dearth of dearth  To bear with fools is strength of strength",
             "meaning": "To neglect hospitality is poverty of poverty To bear with the ignorant is might of might",
             "theme": "wealth",
@@ -3814,9 +3308,7 @@ KURAL_DATABASE = {
             "couplet": "The sorest poverty is bidding guest unfed depart;The mightiest might to bear with men of foolish heart"
         },
         {
-            "number": 167,
-            "tamil": "அவ்வித்து அழுக்காறு உடையானைச் செய்யவள் தவ்வையைக் காட்டி விடும்.",
-            "transliteration": "Avviththu Azhukkaaru Utaiyaanaich Cheyyaval Thavvaiyaik Kaatti Vitum",
+            "number": 167,            "transliteration": "Avviththu Azhukkaaru Utaiyaanaich Cheyyaval Thavvaiyaik Kaatti Vitum",
             "english": "Fortune deserts the envious  Leaving misfortune omnious",
             "meaning": "Lakshmi envying (the prosperity) of the envious man will depart and introduce him to her sister",
             "theme": "wealth",
@@ -3829,9 +3321,7 @@ KURAL_DATABASE = {
             "couplet": "From envious man good fortune's goddess turns away,Grudging him good, and points him out misfortune's prey"
         },
         {
-            "number": 168,
-            "tamil": "அழுக்காறு எனஒரு பாவி திருச்செற்றுத் தீயுழி உய்த்து விடும்.",
-            "transliteration": "Azhukkaaru Enaoru Paavi Thiruchchetruth Theeyuzhi Uyththu Vitum",
+            "number": 168,            "transliteration": "Azhukkaaru Enaoru Paavi Thiruchchetruth Theeyuzhi Uyththu Vitum",
             "english": "Caitiff envy despoils wealth  And drags one into evil path",
             "meaning": "Envy will destroy (a man's) wealth (in his world) and drive him into the pit of fire (in the world to come.)",
             "theme": "wealth",
@@ -3844,9 +3334,7 @@ KURAL_DATABASE = {
             "couplet": "Envy, embodied ill, incomparable bane,Good fortune slays, and soul consigns to fiery pain"
         },
         {
-            "number": 169,
-            "tamil": "அவ்விய நெஞ்சத்தான் ஆக்கமும் செவ்வியான் கேடும் நினைக்கப் படும்.",
-            "transliteration": "Avviya Nenjaththaan Aakkamum Sevviyaan Ketum Ninaikkap Patum",
+            "number": 169,            "transliteration": "Avviya Nenjaththaan Aakkamum Sevviyaan Ketum Ninaikkap Patum",
             "english": "Why is envy rich, goodmen poor  People with surprise think over",
             "meaning": "The wealth of a man of envious mind and the poverty of the righteous will be pondered",
             "theme": "wealth",
@@ -3859,9 +3347,7 @@ KURAL_DATABASE = {
             "couplet": "To men of envious heart, when comes increase of joy,Or loss to blameless men, the 'why' will thoughtful hearts employ"
         },
         {
-            "number": 171,
-            "tamil": "நடுவின்றி நன்பொருள் வெஃகின் குடிபொன்றிக் குற்றமும் ஆங்கே தரும்.",
-            "transliteration": "Natuvindri Nanporul Veqkin Kutipondrik Kutramum Aange Tharum",
+            "number": 171,            "transliteration": "Natuvindri Nanporul Veqkin Kutipondrik Kutramum Aange Tharum",
             "english": "Who covets others' honest wealth  That greed ruins his house forthwith",
             "meaning": "If a man departing from equity covet the property (of others), at that very time will his family be destroyed and guilt be incurred",
             "theme": "wealth",
@@ -3874,9 +3360,7 @@ KURAL_DATABASE = {
             "couplet": "With soul unjust to covet others' well-earned store,Brings ruin to the home, to evil opes the door"
         },
         {
-            "number": 178,
-            "tamil": "அஃகாமை செல்வத்திற்கு யாதெனின் வெஃகாமை வேண்டும் பிறன்கைப் பொருள்.",
-            "transliteration": "Aqkaamai Selvaththirku Yaadhenin Veqkaamai Ventum Pirankaip Porul",
+            "number": 178,            "transliteration": "Aqkaamai Selvaththirku Yaadhenin Veqkaamai Ventum Pirankaip Porul",
             "english": "The mark of lasting wealth is shown  By not coveting others' own",
             "meaning": "If it is weighed, \"what is the indestructibility of wealth,\" it is freedom from covetousness",
             "theme": "wealth",
@@ -3889,9 +3373,7 @@ KURAL_DATABASE = {
             "couplet": "What saves prosperity from swift decline?Absence of lust to make another's cherished riches thine"
         },
         {
-            "number": 180,
-            "tamil": "இறலீனும் எண்ணாது வெஃகின் விறல்ஈனும் வேண்டாமை என்னுஞ் செருக்கு.",
-            "transliteration": "Iraleenum Ennaadhu Veqkin Viraleenum Ventaamai Ennunj Cherukku",
+            "number": 180,            "transliteration": "Iraleenum Ennaadhu Veqkin Viraleenum Ventaamai Ennunj Cherukku",
             "english": "Desireless, greatness conquers all;  Coveting misers ruined fall",
             "meaning": "To covet (the wealth of another) regardless of consequences will bring destruction That greatness (of mind) which covets not will give victory",
             "theme": "wealth",
@@ -3904,9 +3386,7 @@ KURAL_DATABASE = {
             "couplet": "From thoughtless lust of other's goods springs fatal ill,Greatness of soul that covets not shall triumph still"
         },
         {
-            "number": 205,
-            "tamil": "இலன்என்று தீயவை செய்யற்க செய்யின் இலனாகும் மற்றும் பெயர்த்து.",
-            "transliteration": "Ilan Endru Theeyavai Seyyarka Seyyin Ilanaakum Matrum Peyarththu",
+            "number": 205,            "transliteration": "Ilan Endru Theeyavai Seyyarka Seyyin Ilanaakum Matrum Peyarththu",
             "english": "Who makes poverty plea for ill  Shall reduce himself poorer still",
             "meaning": "Commit not evil, saying, \"I am poor\": if you do, you will become poorer still",
             "theme": "wealth",
@@ -3919,9 +3399,7 @@ KURAL_DATABASE = {
             "couplet": "Make not thy poverty a plea for ill;Thy evil deeds will make thee poorer still"
         },
         {
-            "number": 212,
-            "tamil": "தாளாற்றித் தந்த பொருளெல்லாம் தக்கார்க்கு வேளாண்மை செய்தற் பொருட்டு.",
-            "transliteration": "Thaalaatrith Thandha Porulellaam Thakkaarkku Velaanmai Seydhar Poruttu",
+            "number": 212,            "transliteration": "Thaalaatrith Thandha Porulellaam Thakkaarkku Velaanmai Seydhar Poruttu",
             "english": "All the wealth that toils give  Is meant to serve those who deserve",
             "meaning": "All the wealth acquired with perseverance by the worthy is for the exercise of benevolence",
             "theme": "wealth",
@@ -3934,9 +3412,7 @@ KURAL_DATABASE = {
             "couplet": "The worthy say, when wealth rewards their toil-spent hours,For uses of beneficence alone 'tis ours"
         },
         {
-            "number": 217,
-            "tamil": "மருந்தாகித் தப்பா மரத்தற்றால் செல்வம் பெருந்தகை யான்கண் படின்.",
-            "transliteration": "Marundhaakith Thappaa Maraththatraal Selvam Perundhakai Yaankan Patin",
+            "number": 217,            "transliteration": "Marundhaakith Thappaa Maraththatraal Selvam Perundhakai Yaankan Patin",
             "english": "The wealth of a wide-hearted soul  Is a herbal tree that healeth all",
             "meaning": "If wealth be in the possession of a man who has the great excellence (of benevolence), it is like a tree which as a medicine is an infallible cure for disease",
             "theme": "wealth",
@@ -3949,9 +3425,7 @@ KURAL_DATABASE = {
             "couplet": "Unfailing tree that healing balm distils from every part,Is ample wealth that falls to him of large and noble heart"
         },
         {
-            "number": 221,
-            "tamil": "வறியார்க்கொன்று ஈவதே ஈகைமற் றெல்லாம் குறியெதிர்ப்பை நீர துடைத்து.",
-            "transliteration": "Variyaarkkondru Eevadhe Eekaimar Rellaam Kuriyedhirppai Neera Thutaiththu",
+            "number": 221,            "transliteration": "Variyaarkkondru Eevadhe Eekaimar Rellaam Kuriyedhirppai Neera Thutaiththu",
             "english": "To give the poor is charity  The rest is loan and vanity",
             "meaning": "To give to the destitute is true charity All other gifts have the nature of (what is done for) a measured return",
             "theme": "wealth",
@@ -3964,9 +3438,7 @@ KURAL_DATABASE = {
             "couplet": "Call that a gift to needy men thou dost dispense,All else is void of good, seeking for recompense"
         },
         {
-            "number": 226,
-            "tamil": "அற்றார் அழிபசி தீர்த்தல் அஃதொருவன் பெற்றான் பொருள்வைப் புழி.",
-            "transliteration": "Atraar Azhipasi Theerththal Aqdhoruvan Petraan Porulvaip Puzhi",
+            "number": 226,            "transliteration": "Atraar Azhipasi Theerththal Aqdhoruvan Petraan Porulvaip Puzhi",
             "english": "Drive from the poor their gnawing pains  If room you seek to store your gains",
             "meaning": "The removal of the killing hunger of the poor is the place for one to lay up his wealth",
             "theme": "wealth",
@@ -3979,9 +3451,7 @@ KURAL_DATABASE = {
             "couplet": "Let man relieve the wasting hunger men endure;For treasure gained thus finds he treasure-house secure"
         },
         {
-            "number": 228,
-            "tamil": "ஈத்துவக்கும் இன்பம் அறியார்கொல் தாமுடைமை வைத்திழக்கும் வன்க ணவர்.",
-            "transliteration": "Eeththuvakkum Inpam Ariyaarkol Thaamutaimai Vaiththizhakkum Vanka Navar",
+            "number": 228,            "transliteration": "Eeththuvakkum Inpam Ariyaarkol Thaamutaimai Vaiththizhakkum Vanka Navar",
             "english": "The joy of give and take they lose  Hard-hearted rich whose hoarding fails",
             "meaning": "Do the hard-eyed who lay up and lose their possessions not know the happiness which springs from the pleasure of giving ?",
             "theme": "wealth",
@@ -3994,9 +3464,7 @@ KURAL_DATABASE = {
             "couplet": "Delight of glad'ning human hearts with gifts do they not know.Men of unpitying eye, who hoard their wealth and lose it so"
         },
         {
-            "number": 229,
-            "tamil": "இரத்தலின் இன்னாது மன்ற நிரப்பிய தாமே தமியர் உணல்.",
-            "transliteration": "Iraththalin Innaadhu Mandra Nirappiya Thaame Thamiyar Unal",
+            "number": 229,            "transliteration": "Iraththalin Innaadhu Mandra Nirappiya Thaame Thamiyar Unal",
             "english": "Worse than begging is that boarding  Alone what one's greed is hoarding",
             "meaning": "Solitary and unshared eating for the sake of filling up one's own riches is certainly much more",
             "theme": "wealth",
@@ -4009,9 +3477,7 @@ KURAL_DATABASE = {
             "couplet": "They keep their garners full, for self alone the board they spread;-'Tis greater pain, be sure, than begging daily bread"
         },
         {
-            "number": 231,
-            "tamil": "ஈதல் இசைபட வாழ்தல் அதுவல்லது ஊதியம் இல்லை உயிர்க்கு.",
-            "transliteration": "Eedhal Isaipata Vaazhdhal Adhuvalladhu Oodhiyam Illai Uyirkku",
+            "number": 231,            "transliteration": "Eedhal Isaipata Vaazhdhal Adhuvalladhu Oodhiyam Illai Uyirkku",
             "english": "They gather fame who freely give  The greatest gain for all that live",
             "meaning": "Give to the poor and live with praise There is no greater profit to man than that",
             "theme": "wealth",
@@ -4024,9 +3490,7 @@ KURAL_DATABASE = {
             "couplet": "See that thy life the praise of generous gifts obtain;Save this for living man exists no real gain"
         },
         {
-            "number": 232,
-            "tamil": "உரைப்பார் உரைப்பவை எல்லாம் இரப்பார்க்கொன்று ஈவார்மேல் நிற்கும் புகழ்.",
-            "transliteration": "Uraippaar Uraippavai Ellaam Irappaarkkondru Eevaarmel Nirkum Pukazh",
+            "number": 232,            "transliteration": "Uraippaar Uraippavai Ellaam Irappaarkkondru Eevaarmel Nirkum Pukazh",
             "english": "The glory of the alms-giver  Is praised aloud as popular",
             "meaning": "Whatsoever is spoken in the world will abide as praise upon that man who gives alms to the poor",
             "theme": "wealth",
@@ -4039,9 +3503,7 @@ KURAL_DATABASE = {
             "couplet": "The speech of all that speak agrees to crownThe men that give to those that ask, with fair renown"
         },
         {
-            "number": 235,
-            "tamil": "நத்தம்போல் கேடும் உளதாகும் சாக்காடும் வித்தகர்க் கல்லால் அரிது.",
-            "transliteration": "Naththampol Ketum Uladhaakum Saakkaatum Viththakark Kallaal Aridhu",
+            "number": 235,            "transliteration": "Naththampol Ketum Uladhaakum Saakkaatum Viththakark Kallaal Aridhu",
             "english": "Fame in fall and life in death  Are rare but for the soulful worth",
             "meaning": "Prosperity to the body of fame, resulting in poverty to the body of flesh and the stability to the former arising from the death of the latter, are achievable only by the wise",
             "theme": "wealth",
@@ -4054,9 +3516,7 @@ KURAL_DATABASE = {
             "couplet": "Loss that is gain, and death of life's true bliss fulfilled,Are fruits which only wisdom rare can yield"
         },
         {
-            "number": 239,
-            "tamil": "வசையிலா வண்பயன் குன்றும் இசையிலா யாக்கை பொறுத்த நிலம்.",
-            "transliteration": "Vasaiyilaa Vanpayan Kundrum Isaiyilaa Yaakkai Poruththa Nilam",
+            "number": 239,            "transliteration": "Vasaiyilaa Vanpayan Kundrum Isaiyilaa Yaakkai Poruththa Nilam",
             "english": "The land will shrink in yield if men  O'erburden it without renown",
             "meaning": "The ground which supports a body without fame will diminish in its rich produce",
             "theme": "wealth",
@@ -4069,9 +3529,7 @@ KURAL_DATABASE = {
             "couplet": "The blameless fruits of fields' increase will dwindle down,If earth the burthen bear of men without renown"
         },
         {
-            "number": 241,
-            "tamil": "அருட்செல்வம் செல்வத்துள் செல்வம் பொருட்செல்வம் பூரியார் கண்ணும் உள.",
-            "transliteration": "Arutchelvam Selvaththul Selvam Porutchelvam Pooriyaar Kannum Ula",
+            "number": 241,            "transliteration": "Arutchelvam Selvaththul Selvam Porutchelvam Pooriyaar Kannum Ula",
             "english": "The wealth of wealth is wealth of grace  Earthly wealth e'en the basest has",
             "meaning": "The wealth of kindness is wealth of wealth, in as much as the wealth of property is possessed by the basest of men",
             "theme": "wealth",
@@ -4084,9 +3542,7 @@ KURAL_DATABASE = {
             "couplet": "Wealth 'mid wealth is wealth 'kindliness';Wealth of goods the vilest too possess"
         },
         {
-            "number": 245,
-            "tamil": "அல்லல் அருளாள்வார்க்கு இல்லை வளிவழங்கும் மல்லன்மா ஞாலங் கரி.",
-            "transliteration": "Allal Arulaalvaarkku Illai Valivazhangum Mallanmaa Gnaalang Kari",
+            "number": 245,            "transliteration": "Allal Arulaalvaarkku Illai Valivazhangum Mallanmaa Gnaalang Kari",
             "english": "The wide wind-fed world witness bears:  Men of mercy meet not sorrows",
             "meaning": "This great rich earth over which the wind blows, is a witness that sorrow never comes upon the kindhearted",
             "theme": "wealth",
@@ -4099,9 +3555,7 @@ KURAL_DATABASE = {
             "couplet": "The teeming earth's vast realm, round which the wild winds blow,Is witness, men of 'grace' no woeful want shall know"
         },
         {
-            "number": 247,
-            "tamil": "அருளில்லார்க்கு அவ்வுலகம் இல்லை பொருளில்லார்க்கு இவ்வுலகம் இல்லாகி யாங்கு.",
-            "transliteration": "Arulillaarkku Avvulakam Illai Porulillaarkku Ivvulakam Illaaki Yaangu",
+            "number": 247,            "transliteration": "Arulillaarkku Avvulakam Illai Porulillaarkku Ivvulakam Illaaki Yaangu",
             "english": "This world is not for weathless ones  That world is not for graceless swines",
             "meaning": "As this world is not for those who are without wealth, so that world is not for those who are without kindness",
             "theme": "wealth",
@@ -4114,9 +3568,7 @@ KURAL_DATABASE = {
             "couplet": "As to impoverished men this present world is not;The 'graceless' in you world have neither part nor lot"
         },
         {
-            "number": 256,
-            "tamil": "தினற்பொருட்டால் கொல்லாது உலகெனின் யாரும் விலைப்பொருட்டால் ஊன்றருவா ரில்.",
-            "transliteration": "Thinarporuttaal Kollaadhu Ulakenin Yaarum Vilaipporuttaal Oondraruvaa Ril",
+            "number": 256,            "transliteration": "Thinarporuttaal Kollaadhu Ulakenin Yaarum Vilaipporuttaal Oondraruvaa Ril",
             "english": "None would kill and sell the flesh  For eating it if they don't wish",
             "meaning": "If the world does not destroy life for the purpose of eating, then no one would sell flesh for the sake of money",
             "theme": "wealth",
@@ -4129,9 +3581,7 @@ KURAL_DATABASE = {
             "couplet": "'We eat the slain,' you say, by us no living creatures die;Who'd kill and sell, I pray, if none came there the flesh to buy"
         },
         {
-            "number": 266,
-            "tamil": "தவஞ்செய்வார் தங்கருமஞ் செய்வார்மற் றல்லார் அவஞ்செய்வார் ஆசையுட் பட்டு.",
-            "transliteration": "Thavanj Cheyvaar Thangarumanj Cheyvaarmar Rallaar Avanjeyvaar Aasaiyut Pattu",
+            "number": 266,            "transliteration": "Thavanj Cheyvaar Thangarumanj Cheyvaarmar Rallaar Avanjeyvaar Aasaiyut Pattu",
             "english": "Who do penance achieve their aim  Others desire-rid themselves harm",
             "meaning": "Those discharge their duty who perform austerities; all others accomplish their own destruction, through the entanglement of the desire (of riches and sensual pleasure)",
             "theme": "wealth",
@@ -4144,9 +3594,7 @@ KURAL_DATABASE = {
             "couplet": "Who works of 'penance' do, their end attain,Others in passion's net enshared, toil but in vain"
         },
         {
-            "number": 270,
-            "tamil": "இலர்பல ராகிய காரணம் நோற்பார் சிலர்பலர் நோலா தவர்.",
-            "transliteration": "Ilarpala Raakiya Kaaranam Norpaar Silarpalar Nolaa Thavar",
+            "number": 270,            "transliteration": "Ilarpala Raakiya Kaaranam Norpaar Silarpalar Nolaa Thavar",
             "english": "Many are poor and few are rich  For they care not for penance much",
             "meaning": "Because there are few who practise austerity and many who do not, there are many destitute and few rich in this world",
             "theme": "wealth",
@@ -4159,9 +3607,7 @@ KURAL_DATABASE = {
             "couplet": "The many all things lack! The cause is plain,The 'penitents' are few The many shun such pain"
         },
         {
-            "number": 330,
-            "tamil": "உயிருடம்பின் நீக்கியா ரென்ப செயிருடம்பின் செல்லாத்தீ வாழ்க்கை யவர்.",
-            "transliteration": "Uyir Utampin Neekkiyaar Enpa Seyir Utampin Sellaaththee Vaazhkkai",
+            "number": 330,            "transliteration": "Uyir Utampin Neekkiyaar Enpa Seyir Utampin Sellaaththee Vaazhkkai",
             "english": "The loathsome poor sickly and sore  Are killers stained by blood before",
             "meaning": "(The wise) will say that men of diseased bodies, who live in degradation and in poverty, are those who separated the life from the body of animals (in a former birth)",
             "theme": "wealth",
@@ -4174,9 +3620,7 @@ KURAL_DATABASE = {
             "couplet": "Who lead a loathed life in bodies sorely pained,Are men, the wise declare, by guilt of slaughter stained"
         },
         {
-            "number": 363,
-            "tamil": "வேண்டாமை அன்ன விழுச்செல்வம் ஈண்டில்லை ஆண்டும் அஃதொப்பது இல்.",
-            "transliteration": "Ventaamai Anna Vizhuchchelvam Eentillai Aantum Aqdhoppadhu Il",
+            "number": 363,            "transliteration": "Ventaamai Anna Vizhuchchelvam Eentillai Aantum Aqdhoppadhu Il",
             "english": "No such wealth is here and there  As peerless wealth of non-desire",
             "meaning": "There is in this world no excellence equal to freedom from desire; and even in that world, there is nothing like it",
             "theme": "wealth",
@@ -4189,9 +3633,7 @@ KURAL_DATABASE = {
             "couplet": "No glorious wealth is here like freedom from desire;To bliss like this not even there can soul aspire"
         },
         {
-            "number": 395,
-            "tamil": "உடையார்முன் இல்லார்போல் ஏக்கற்றுங் கற்றார் கடையரே கல்லா தவர்.",
-            "transliteration": "Utaiyaarmun Illaarpol Ekkatrung Katraar Kataiyare Kallaa Thavar",
+            "number": 395,            "transliteration": "Utaiyaarmun Illaarpol Ekkatrung Katraar Kataiyare Kallaa Thavar",
             "english": "Like poor before rich they yearn:  For knowledge: the low never learn",
             "meaning": "The unlearned are inferior to the learned, before whom they stand begging, as the destitute before the wealthy",
             "theme": "wealth",
@@ -4204,9 +3646,7 @@ KURAL_DATABASE = {
             "couplet": "With soul submiss they stand, as paupers front a rich man's face;Yet learned men are first; th'unlearned stand in lowest place"
         },
         {
-            "number": 400,
-            "tamil": "கேடில் விழுச்செல்வம் கல்வி யொருவற்கு மாடல்ல மற்றை யவை.",
-            "transliteration": "Ketil Vizhuchchelvam Kalvi Yoruvarku Maatalla Matrai Yavai",
+            "number": 400,            "transliteration": "Ketil Vizhuchchelvam Kalvi Yoruvarku Maatalla Matrai Yavai",
             "english": "Learning is wealth none could destroy  Nothing else gives genuine joy",
             "meaning": "Learning is the true imperishable riches; all other things are not riches",
             "theme": "wealth",
@@ -4221,9 +3661,7 @@ KURAL_DATABASE = {
     ],
     "action": [
         {
-            "number": 19,
-            "tamil": "தானம் தவம்இரண்டும் தங்கா வியன்உலகம் வானம் வழங்கா தெனின்.",
-            "transliteration": "Thaanam Thavamirantum Thangaa Viyanulakam Vaanam Vazhangaa Thenin",
+            "number": 19,            "transliteration": "Thaanam Thavamirantum Thangaa Viyanulakam Vaanam Vazhangaa Thenin",
             "english": "Were heaven above to fail below Nor alms nor penance earth would show",
             "meaning": "If rain fall not, penance and alms-deeds will not dwell within this spacious world",
             "theme": "action",
@@ -4236,9 +3674,7 @@ KURAL_DATABASE = {
             "couplet": "If heaven its watery treasures ceases to dispense,Through the wide world cease gifts, and deeds of 'penitence'"
         },
         {
-            "number": 131,
-            "tamil": "ஒழுக்கம் விழுப்பந் தரலான் ஒழுக்கம் உயிரினும் ஓம்பப் படும்.",
-            "transliteration": "Ozhukkam Vizhuppan Tharalaan Ozhukkam Uyirinum Ompap Patum",
+            "number": 131,            "transliteration": "Ozhukkam Vizhuppan Tharalaan Ozhukkam Uyirinum Ompap Patum",
             "english": "Decorum does one dignity  More than life guard its purity",
             "meaning": "Propriety of conduct leads to eminence, it should therefore be preserved more carefully than life",
             "theme": "action",
@@ -4251,9 +3687,7 @@ KURAL_DATABASE = {
             "couplet": "'Decorum' gives especial excellence; with greater care'Decorum' should men guard than life, which all men share"
         },
         {
-            "number": 132,
-            "tamil": "பரிந்தோம்பிக் காக்க ஒழுக்கம் தெரிந்தோம்பித் தேரினும் அஃதே துணை.",
-            "transliteration": "Parindhompik Kaakka Ozhukkam Therindhompith Therinum Aqdhe Thunai",
+            "number": 132,            "transliteration": "Parindhompik Kaakka Ozhukkam Therindhompith Therinum Aqdhe Thunai",
             "english": "Virtues of conduct all excel;  The soul aid should be guarded well",
             "meaning": "Let propriety of conduct be laboriously preserved and guarded; though one know and practise and excel in many virtues, that will be an eminent aid",
             "theme": "action",
@@ -4266,9 +3700,7 @@ KURAL_DATABASE = {
             "couplet": "Searching, duly watching, learning, 'decorum' still we find;Man's only aid; toiling, guard thou this with watchful mind"
         },
         {
-            "number": 134,
-            "tamil": "மறப்பினும் ஓத்துக் கொளலாகும் பார்ப்பான் பிறப்பொழுக்கங் குன்றக் கெடும்.",
-            "transliteration": "Marappinum Oththuk Kolalaakum Paarppaan Pirappozhukkang Kundrak Ketum",
+            "number": 134,            "transliteration": "Marappinum Oththuk Kolalaakum Paarppaan Pirappozhukkang Kundrak Ketum",
             "english": "Readers recall forgotten lore,  But conduct lost returns no more",
             "meaning": "A Brahman though he should forget the Vedas may recover it by reading; but, if he fail in propriety of conduct even his high birth will be destroyed",
             "theme": "action",
@@ -4281,9 +3713,7 @@ KURAL_DATABASE = {
             "couplet": "Though he forget, the Brahman may regain his Vedic lore;Failing in 'decorum due,' birthright's gone for evermore"
         },
         {
-            "number": 236,
-            "tamil": "தோன்றின் புகழொடு தோன்றுக அஃதிலார் தோன்றலின் தோன்றாமை நன்று.",
-            "transliteration": "Thondrin Pukazhotu Thondruka Aqdhilaar Thondralin Thondraamai Nandru",
+            "number": 236,            "transliteration": "Thondrin Pukazhotu Thondruka Aqdhilaar Thondralin Thondraamai Nandru",
             "english": "Be born with fame if birth you want  If not of birth you must not vaunt",
             "meaning": "If you are born (in this world), be born with qualities conductive to fame From those who are destitute of them it will be better not to be born",
             "theme": "action",
@@ -4296,9 +3726,7 @@ KURAL_DATABASE = {
             "couplet": "If man you walk the stage, appear adorned with glory's grace;Save glorious you can shine, 'twere better hide your face"
         },
         {
-            "number": 271,
-            "tamil": "வஞ்ச மனத்தான் படிற்றொழுக்கம் பூதங்கள் ஐந்தும் அகத்தே நகும்.",
-            "transliteration": "Vanja Manaththaan Patitrozhukkam Poodhangal Aindhum Akaththe Nakum",
+            "number": 271,            "transliteration": "Vanja Manaththaan Patitrozhukkam Poodhangal Aindhum Akaththe Nakum",
             "english": "Elements five of feigned life  Of a sly hypocrite within laugh",
             "meaning": "The five elements (of his body) will laugh within him at the feigned conduct of the deceitful minded man",
             "theme": "action",
@@ -4311,9 +3739,7 @@ KURAL_DATABASE = {
             "couplet": "Who with deceitful mind in false way walks of covert sin,The five-fold elements his frame compose, decide within"
         },
         {
-            "number": 275,
-            "tamil": "பற்றற்றேம் என்பார் படிற்றொழுக்கம் எற்றெற்றென்று ஏதம் பலவுந் தரும்.",
-            "transliteration": "Patratrem Enpaar Patitrozhukkam Etretrendru Edham Palavun Tharum",
+            "number": 275,            "transliteration": "Patratrem Enpaar Patitrozhukkam Etretrendru Edham Palavun Tharum",
             "english": "Who false within but freedom feign  Shall moan \\\"What have we done\\\" with pain",
             "meaning": "The false conduct of those who say they have renounced all desire will one day bring them sorrows that will make them cry out, \"Oh! what have we done, what have we done.\"",
             "theme": "action",
@@ -4326,9 +3752,7 @@ KURAL_DATABASE = {
             "couplet": "'Our souls are free,' who say, yet practise evil secretly,'What folly have we wrought!' by many shames o'er-whelmed, shall cry"
         },
         {
-            "number": 280,
-            "tamil": "மழித்தலும் நீட்டலும் வேண்டா உலகம் பழித்தது ஒழித்து விடின்.",
-            "transliteration": "Mazhiththalum Neettalum Ventaa Ulakam Pazhiththadhu Ozhiththu Vitin",
+            "number": 280,            "transliteration": "Mazhiththalum Neettalum Ventaa Ulakam Pazhiththadhu Ozhiththu Vitin",
             "english": "No balding nor tangling the hair!  Abstain from condemned acts with care",
             "meaning": "There is no need of a shaven crown, nor of tangled hair, if a man abstain from those deeds which the wise have condemned",
             "theme": "action",
@@ -4341,9 +3765,7 @@ KURAL_DATABASE = {
             "couplet": "What's the worth of shaven head or tresses long,If you shun what all the world condemns as wrong"
         },
         {
-            "number": 304,
-            "tamil": "நகையும் உவகையும் கொல்லும் சினத்தின் பகையும் உளவோ பிற.",
-            "transliteration": "Nakaiyum Uvakaiyum Kollum Sinaththin Pakaiyum Ulavo Pira",
+            "number": 304,            "transliteration": "Nakaiyum Uvakaiyum Kollum Sinaththin Pakaiyum Ulavo Pira",
             "english": "Is there a foe like harmful ire  Which kills the smile and joyful cheer?",
             "meaning": "What other foe to man works such annoy?",
             "theme": "action",
@@ -4356,9 +3778,7 @@ KURAL_DATABASE = {
             "couplet": "Wrath robs the face of smiles, the heart of joy,What other foe to man works such annoy"
         },
         {
-            "number": 359,
-            "tamil": "சார்புணர்ந்து சார்பு கெடஒழுகின் மற்றழித்துச் சார்தரா சார்தரு நோய்.",
-            "transliteration": "Saarpunarndhu Saarpu Ketaozhukin Matrazhiththuch Chaardharaa Saardharu Noi",
+            "number": 359,            "transliteration": "Saarpunarndhu Saarpu Ketaozhukin Matrazhiththuch Chaardharaa Saardharu Noi",
             "english": "Know the Refuge; off with bondage  Be free from ills of thraldom, O sage",
             "meaning": "He who so lives as to know Him who is the support of all things and abandon all desire, will be freed from the evils which would otherwise cleave to him and destroy (his efforts after absorption)",
             "theme": "action",
@@ -4371,9 +3791,7 @@ KURAL_DATABASE = {
             "couplet": "The true 'support' who knows- rejects 'supports' he sought before-Sorrow that clings all destroys, shall cling to him no more"
         },
         {
-            "number": 367,
-            "tamil": "அவாவினை ஆற்ற அறுப்பின் தவாவினை தான்வேண்டு மாற்றான் வரும்.",
-            "transliteration": "Avaavinai Aatra Aruppin Thavaavinai Thaanventu Maatraan Varum",
+            "number": 367,            "transliteration": "Avaavinai Aatra Aruppin Thavaavinai Thaanventu Maatraan Varum",
             "english": "Destroy desire; deliverance  Comes as much as you aspire hence",
             "meaning": "If a man thoroughly cut off all desire, the deeds, which confer immortality, will come to him, in the path in which he seeks them",
             "theme": "action",
@@ -4388,9 +3806,7 @@ KURAL_DATABASE = {
     ],
     "family": [
         {
-            "number": 20,
-            "tamil": "நீர்இன்று அமையாது உலகெனின் யார்யார்க்கும் வான்இன்று அமையாது ஒழுக்கு.",
-            "transliteration": "Neerindru Amaiyaadhu Ulakenin Yaaryaarkkum Vaanindru Amaiyaadhu Ozhukku",
+            "number": 20,            "transliteration": "Neerindru Amaiyaadhu Ulakenin Yaaryaarkkum Vaanindru Amaiyaadhu Ozhukku",
             "english": "Water is life that comes from rain Sans rain our duties go in vain",
             "meaning": "If it be said that the duties of life cannot be discharged by any person without water, so without rain there cannot be the flowing of water",
             "theme": "family",
@@ -4403,9 +3819,7 @@ KURAL_DATABASE = {
             "couplet": "When water fails, functions of nature cease, you say;Thus when rain fails, no men can walk in 'duty's ordered way'"
         },
         {
-            "number": 41,
-            "tamil": "இல்வாழ்வான் என்பான் இயல்புடைய மூவர்க்கும் நல்லாற்றின் நின்ற துணை.",
-            "transliteration": "Ilvaazhvaan Enpaan Iyalputaiya Moovarkkum Nallaatrin Nindra Thunai",
+            "number": 41,            "transliteration": "Ilvaazhvaan Enpaan Iyalputaiya Moovarkkum Nallaatrin Nindra Thunai",
             "english": "The ideal householder is he Who aids the natural orders there",
             "meaning": "He will be called a (true) householder, who is a firm support to the virtuous of the three orders in",
             "theme": "family",
@@ -4418,9 +3832,7 @@ KURAL_DATABASE = {
             "couplet": "The men of household virtue, firm in way of good, sustainThe other orders three that rule professed maintain"
         },
         {
-            "number": 46,
-            "tamil": "அறத்தாற்றின் இல்வாழ்க்கை ஆற்றின் புறத்தாற்றில் போஒய்ப் பெறுவ தெவன்?",
-            "transliteration": "Araththaatrin Ilvaazhkkai Aatrin Puraththaatril Pooip Peruva Thevan?",
+            "number": 46,            "transliteration": "Araththaatrin Ilvaazhkkai Aatrin Puraththaatril Pooip Peruva Thevan?",
             "english": "Who turns from righteous family To be a monk, what profits he?",
             "meaning": "What will he who lives virtuously in the domestic state gain by going into the other, (ascetic) state ?",
             "theme": "family",
@@ -4433,9 +3845,7 @@ KURAL_DATABASE = {
             "couplet": "If man in active household life a virtuous soul retain,What fruit from other modes of virtue can he gain"
         },
         {
-            "number": 47,
-            "tamil": "இயல்பினான் இல்வாழ்க்கை வாழ்பவன் என்பான் முயல்வாருள் எல்லாம் தலை.",
-            "transliteration": "Iyalpinaan Ilvaazhkkai Vaazhpavan Enpaan Muyalvaarul Ellaam Thalai",
+            "number": 47,            "transliteration": "Iyalpinaan Ilvaazhkkai Vaazhpavan Enpaan Muyalvaarul Ellaam Thalai",
             "english": "Of all who strive for bliss, the great Is he who leads the married state",
             "meaning": "Among all those who labour (for future happiness) he is greatest who lives well in the household state",
             "theme": "family",
@@ -4448,9 +3858,7 @@ KURAL_DATABASE = {
             "couplet": "In nature's way who spends his calm domestic days,'Mid all that strive for virtue's crown hath foremost place"
         },
         {
-            "number": 52,
-            "tamil": "மனைமாட்சி இல்லாள்கண் இல்லாயின் வாழ்க்கை எனைமாட்சித் தாயினும் இல்.",
-            "transliteration": "Manaimaatchi Illaalkan Illaayin Vaazhkkai Enaimaatchith Thaayinum Il",
+            "number": 52,            "transliteration": "Manaimaatchi Illaalkan Illaayin Vaazhkkai Enaimaatchith Thaayinum Il",
             "english": "Bright is home when wife is chaste If not all greatness is but waste",
             "meaning": "If the wife be devoid of domestic excellence, whatever (other) greatness be possessed, the conjugal state, is nothing",
             "theme": "family",
@@ -4463,9 +3871,7 @@ KURAL_DATABASE = {
             "couplet": "If household excellence be wanting in the wife,Howe'er with splendour lived, all worthless is the life"
         },
         {
-            "number": 57,
-            "tamil": "சிறைகாக்கும் காப்பெவன் செய்யும் மகளிர் நிறைகாக்கும் காப்பே தலை.",
-            "transliteration": "Siraikaakkum Kaappevan Seyyum Makalir Niraikaakkum Kaappe Thalai",
+            "number": 57,            "transliteration": "Siraikaakkum Kaappevan Seyyum Makalir Niraikaakkum Kaappe Thalai",
             "english": "Of what avail are watch and ward? Their purity is women's guard",
             "meaning": "What avails the guard of a prison ? The chief guard of a woman is her chastity",
             "theme": "family",
@@ -4478,9 +3884,7 @@ KURAL_DATABASE = {
             "couplet": "Of what avail is watch and ward?Honour's woman's safest guard"
         },
         {
-            "number": 61,
-            "tamil": "பெறுமவற்றுள் யாமறிவது இல்லை அறிவறிந்த மக்கட்பேறு அல்ல பிற.",
-            "transliteration": "Perumavatrul Yaamarivadhu Illai Arivarindha Makkatperu Alla Pira",
+            "number": 61,            "transliteration": "Perumavatrul Yaamarivadhu Illai Arivarindha Makkatperu Alla Pira",
             "english": "The world no higher bliss bestows Than children virtuous and wise",
             "meaning": "Among all the benefits that may be acquired, we know no greater benefit than the acquisition of intelligent children",
             "theme": "family",
@@ -4493,9 +3897,7 @@ KURAL_DATABASE = {
             "couplet": "Of all that men acquire, we know not any greater gain,Than that which by the birth of learned children men obtain"
         },
         {
-            "number": 62,
-            "tamil": "எழுபிறப்பும் தீயவை தீண்டா பழிபிறங்காப் பண்புடை மக்கட் பெறின்.",
-            "transliteration": "Ezhupirappum Theeyavai Theentaa Pazhipirangaap Panputai Makkat Perin",
+            "number": 62,            "transliteration": "Ezhupirappum Theeyavai Theentaa Pazhipirangaap Panputai Makkat Perin",
             "english": "No evil comes and no blemish; Noble sons bring all we wish",
             "meaning": "The evils of the seven births shall not touch those who abtain children of a good disposition, free from vice",
             "theme": "family",
@@ -4508,9 +3910,7 @@ KURAL_DATABASE = {
             "couplet": "Who children gain, that none reproach, of virtuous worth,No evils touch them, through the sev'n-fold maze of birth"
         },
         {
-            "number": 63,
-            "tamil": "தம்பொருள் என்பதம் மக்கள் அவர்பொருள் தம்தம் வினையான் வரும்.",
-            "transliteration": "Thamporul Enpadham Makkal Avarporul Thamdham Vinaiyaan Varum",
+            "number": 63,            "transliteration": "Thamporul Enpadham Makkal Avarporul Thamdham Vinaiyaan Varum",
             "english": "Children are one's wealth indeed Their wealth is measured by their deed",
             "meaning": "Men will call their sons their wealth, because it flows to them through the deeds which they (sons) perform on their behalf",
             "theme": "family",
@@ -4523,9 +3923,7 @@ KURAL_DATABASE = {
             "couplet": "'Man's children are his fortune,' say the wise;From each one's deeds his varied fortunes rise"
         },
         {
-            "number": 64,
-            "tamil": "அமிழ்தினும் ஆற்ற இனிதேதம் மக்கள் சிறுகை அளாவிய கூழ்.",
-            "transliteration": "Amizhdhinum Aatra Inidhedham Makkal Sirukai Alaaviya Koozh",
+            "number": 64,            "transliteration": "Amizhdhinum Aatra Inidhedham Makkal Sirukai Alaaviya Koozh",
             "english": "The food is more than nectar sweet In which one's children hands insert",
             "meaning": "The rice in which the little hand of their children has dabbled will be far sweeter (to the parent) than ambrosia",
             "theme": "family",
@@ -4538,9 +3936,7 @@ KURAL_DATABASE = {
             "couplet": "Than God's ambrosia sweeter far the food before men laid,In which the little hands of children of their own have play'd"
         },
         {
-            "number": 65,
-            "tamil": "மக்கள்மெய் தீண்டல் உடற்கின்பம் மற்றுஅவர் சொற்கேட்டல் இன்பம் செவிக்கு.",
-            "transliteration": "Makkalmey Theental Utarkinpam Matru Avar Sorkettal Inpam Sevikku",
+            "number": 65,            "transliteration": "Makkalmey Theental Utarkinpam Matru Avar Sorkettal Inpam Sevikku",
             "english": "Children's touch delights the body Sweet to ears are their words lovely",
             "meaning": "The touch of children gives pleasure to the body, and the hearing of their words, pleasure to the ear",
             "theme": "family",
@@ -4553,9 +3949,7 @@ KURAL_DATABASE = {
             "couplet": "To patent sweet the touch of children dear;Their voice is sweetest music to his ear"
         },
         {
-            "number": 66,
-            "tamil": "குழல்இனிது யாழ்இனிது என்பதம் மக்கள் மழலைச்சொல் கேளா தவர்.",
-            "transliteration": "Kuzhal Inidhu Yaazhinidhu Enpadham Makkal Mazhalaichchol Kelaa Thavar",
+            "number": 66,            "transliteration": "Kuzhal Inidhu Yaazhinidhu Enpadham Makkal Mazhalaichchol Kelaa Thavar",
             "english": "The flute and lute are sweet they say Deaf to baby's babble's lay!",
             "meaning": "\"The pipe is sweet, the lute is sweet,\" say those who have not heard the prattle of their own children",
             "theme": "family",
@@ -4568,9 +3962,7 @@ KURAL_DATABASE = {
             "couplet": "'The pipe is sweet,' 'the lute is sweet,' by them't will be averred,Who music of their infants' lisping lips have never heard"
         },
         {
-            "number": 67,
-            "tamil": "தந்தை மகற்காற்றும் நன்றி அவையத்து முந்தி இருப்பச் செயல்.",
-            "transliteration": "Thandhai Makarkaatrum Nandri Avaiyaththu Mundhi Iruppach Cheyal",
+            "number": 67,            "transliteration": "Thandhai Makarkaatrum Nandri Avaiyaththu Mundhi Iruppach Cheyal",
             "english": "A father's duty to his son is  To seat him in front of the wise",
             "meaning": "The benefit which a father should confer on his son is to give him precedence in the assembly of the learned",
             "theme": "family",
@@ -4583,9 +3975,7 @@ KURAL_DATABASE = {
             "couplet": "Sire greatest boon on son confers, who makes him meet,In councils of the wise to fill the highest seat"
         },
         {
-            "number": 68,
-            "tamil": "தம்மின்தம் மக்கள் அறிவுடைமை மாநிலத்து மன்னுயிர்க் கெல்லாம் இனிது.",
-            "transliteration": "Thammindham Makkal Arivutaimai Maanilaththu Mannuyirk Kellaam Inidhu",
+            "number": 68,            "transliteration": "Thammindham Makkal Arivutaimai Maanilaththu Mannuyirk Kellaam Inidhu",
             "english": "With joy the hearts of parents swell  To see their children themselves excel",
             "meaning": "That their children should possess knowledge is more pleasing to all men of this great earth than to themselves",
             "theme": "family",
@@ -4598,9 +3988,7 @@ KURAL_DATABASE = {
             "couplet": "Their children's wisdom greater than their own confessed,Through the wide world is sweet to every human breast"
         },
         {
-            "number": 69,
-            "tamil": "ஈன்ற பொழுதின் பெரிதுவக்கும் தன்மகனைச் சான்றோன் எனக்கேட்ட தாய்.",
-            "transliteration": "Eendra Pozhudhin Peridhuvakkum Thanmakanaich Chaandron Enakketta Thaai",
+            "number": 69,            "transliteration": "Eendra Pozhudhin Peridhuvakkum Thanmakanaich Chaandron Enakketta Thaai",
             "english": "The mother, hearing her son's merit  Delights more than when she begot",
             "meaning": "The mother who hears her son called \"a wise man\" will rejoice more than she did at his birth",
             "theme": "family",
@@ -4613,9 +4001,7 @@ KURAL_DATABASE = {
             "couplet": "When mother hears him named 'fulfill'd of wisdom's lore,'Far greater joy she feels, than when her son she bore"
         },
         {
-            "number": 70,
-            "tamil": "மகன்தந்தைக்கு ஆற்றும் உதவி இவன்தந்தை என்நோற்றான் கொல் எனும் சொல்.",
-            "transliteration": "Makandhandhaikku Aatrum Udhavi Ivandhandhai Ennotraan Kol Enum Sol",
+            "number": 70,            "transliteration": "Makandhandhaikku Aatrum Udhavi Ivandhandhai Ennotraan Kol Enum Sol",
             "english": "The son to sire this word is debt  \\\"What penance such a son begot!\\\"",
             "meaning": "(So to act) that it may be said \"by what great penance did his father beget him,\" is the benefit which a son should render to his father",
             "theme": "family",
@@ -4628,9 +4014,7 @@ KURAL_DATABASE = {
             "couplet": "To sire, what best requital can by grateful child be done?To make men say, 'What merit gained the father such a son?'"
         },
         {
-            "number": 75,
-            "tamil": "அன்புற்று அமர்ந்த வழக்கென்ப வையகத்து இன்புற்றார் எய்தும் சிறப்பு.",
-            "transliteration": "Anputru Amarndha Vazhakkenpa Vaiyakaththu Inputraar Eydhum Sirappu",
+            "number": 75,            "transliteration": "Anputru Amarndha Vazhakkenpa Vaiyakaththu Inputraar Eydhum Sirappu",
             "english": "The crowning joy of home life flows  From peaceful psychic love always",
             "meaning": "These are the fruits of tranquil life of love",
             "theme": "family",
@@ -4643,9 +4027,7 @@ KURAL_DATABASE = {
             "couplet": "Sweetness on earth and rarest bliss above,These are the fruits of tranquil life of love"
         },
         {
-            "number": 78,
-            "tamil": "அன்பகத் தில்லா உயிர்வாழ்க்கை வன்பாற்கண் வற்றல் மரந்தளிர்த் தற்று.",
-            "transliteration": "Anpakath Thillaa Uyirvaazhkkai Vanpaarkan Vatral Marandhalirth Thatru",
+            "number": 78,            "transliteration": "Anpakath Thillaa Uyirvaazhkkai Vanpaarkan Vatral Marandhalirth Thatru",
             "english": "Life bereft of love is gloom  Can sapless tree in desert bloom?",
             "meaning": "The domestic state of that man whose mind is without love is like the flourishing of a withered tree upon the parched desert",
             "theme": "family",
@@ -4658,9 +4040,7 @@ KURAL_DATABASE = {
             "couplet": "The loveless soul, the very joys of life may know,When flowers, in barren soil, on sapless trees, shall blow"
         },
         {
-            "number": 81,
-            "tamil": "இருந்தோம்பி இல்வாழ்வ தெல்லாம் விருந்தோம்பி வேளாண்மை செய்தற் பொருட்டு.",
-            "transliteration": "Irundhompi Ilvaazhva Thellaam Virundhompi Velaanmai Seydhar Poruttu",
+            "number": 81,            "transliteration": "Irundhompi Ilvaazhva Thellaam Virundhompi Velaanmai Seydhar Poruttu",
             "english": "Men set up home, toil and earn  To tend the guests and do good turn",
             "meaning": "The whole design of living in the domestic state and laying up (property) is (to be able) to exercise the benevolence of hospitality",
             "theme": "family",
@@ -4673,9 +4053,7 @@ KURAL_DATABASE = {
             "couplet": "All household cares and course of daily life have this in viewGuests to receive with courtesy, and kindly acts to do"
         },
         {
-            "number": 124,
-            "tamil": "நிலையின் திரியாது அடங்கியான் தோற்றம் மலையினும் மாணப் பெரிது.",
-            "transliteration": "Nilaiyin Thiriyaadhu Atangiyaan Thotram Malaiyinum Maanap Peridhu",
+            "number": 124,            "transliteration": "Nilaiyin Thiriyaadhu Atangiyaan Thotram Malaiyinum Maanap Peridhu",
             "english": "Firmly fixed in self serene  The sage looks grander than mountain",
             "meaning": "More lofty than a mountain will be the greatness of that man who without swerving from his domestic state, controls himself",
             "theme": "family",
@@ -4688,9 +4066,7 @@ KURAL_DATABASE = {
             "couplet": "In his station, all unswerving, if man self subdue,Greater he than mountain proudly rising to the view"
         },
         {
-            "number": 238,
-            "tamil": "வசையென்ப வையத்தார்க் கெல்லாம் இசையென்னும் எச்சம் பெறாஅ விடின்.",
-            "transliteration": "Vasaiyenpa Vaiyaththaark Kellaam Isaiyennum Echcham Peraaa Vitin",
+            "number": 238,            "transliteration": "Vasaiyenpa Vaiyaththaark Kellaam Isaiyennum Echcham Peraaa Vitin",
             "english": "To men on earth it is a shame  Not to beget the child of fame",
             "meaning": "Not to beget fame will be esteemed a disgrace by the wise in this world",
             "theme": "family",
@@ -4703,9 +4079,7 @@ KURAL_DATABASE = {
             "couplet": "Fame is virtue's child, they say; if, then,You childless live, you live the scorn of men"
         },
         {
-            "number": 263,
-            "tamil": "துறந்தார்க்குத் துப்புரவு வேண்டி மறந்தார்கொல் மற்றை யவர்கள் தவம்.",
-            "transliteration": "Thurandhaarkkuth Thuppuravu Venti Marandhaarkol Matrai Yavarkal Thavam",
+            "number": 263,            "transliteration": "Thurandhaarkkuth Thuppuravu Venti Marandhaarkol Matrai Yavarkal Thavam",
             "english": "Is it to true penitent's aid,  That others austere path avoid?",
             "meaning": "It is to provide food etc, for the ascetics who have abandoned (the desire of earthly possessions) that other persons have forgotten (to practise) austerity ?",
             "theme": "family",
@@ -4718,9 +4092,7 @@ KURAL_DATABASE = {
             "couplet": "Have other men forgotten 'penitence' who striveTo earn for penitents the things by which they live"
         },
         {
-            "number": 277,
-            "tamil": "புறங்குன்றி கண்டனைய ரேனும் அகங்குன்றி முக்கிற் கரியார் உடைத்து.",
-            "transliteration": "Purangundri Kantanaiya Renum Akangundri Mukkir Kariyaar Utaiththu",
+            "number": 277,            "transliteration": "Purangundri Kantanaiya Renum Akangundri Mukkir Kariyaar Utaiththu",
             "english": "Berry-red is his outward view,  Black like its nose his inward hue",
             "meaning": "(The world) contains persons whose outside appears (as fair) as the (red) berry of the Abrus, but whose inside is as black as the nose of that berry",
             "theme": "family",
@@ -4733,9 +4105,7 @@ KURAL_DATABASE = {
             "couplet": "Outward, they shine as 'kunri' berry's scarlet bright;Inward, like tip of 'kunri' bead, as black as night"
         },
         {
-            "number": 340,
-            "tamil": "புக்கில் அமைந்தின்று கொல்லோ உடம்பினுள் துச்சில் இருந்த உயிர்க்கு.",
-            "transliteration": "Pukkil Amaindhindru Kollo Utampinul Thuchchil Irundha Uyirkku",
+            "number": 340,            "transliteration": "Pukkil Amaindhindru Kollo Utampinul Thuchchil Irundha Uyirkku",
             "english": "The life berthed in this body shows  A fixed home it never knows",
             "meaning": "It seems as if the soul, which takes a temporary shelter in a body, had not attained a home",
             "theme": "family",
@@ -4750,9 +4120,7 @@ KURAL_DATABASE = {
     ],
     "leadership": [
         {
-            "number": 21,
-            "tamil": "ஒழுக்கத்து நீத்தார் பெருமை விழுப்பத்து வேண்டும் பனுவல் துணிவு.",
-            "transliteration": "Ozhukkaththu Neeththaar Perumai Vizhuppaththu Ventum Panuval Thunivu",
+            "number": 21,            "transliteration": "Ozhukkaththu Neeththaar Perumai Vizhuppaththu Ventum Panuval Thunivu",
             "english": "No merit can be held so high As theirs who sense and self deny",
             "meaning": "The end and aim of all treatise is to extol beyond all other excellence, the greatness of those who, while abiding in the rule of conduct peculiar to their state, have abandoned all desire",
             "theme": "leadership",
@@ -4765,9 +4133,7 @@ KURAL_DATABASE = {
             "couplet": "The settled rule of every code requires, as highest good,Their greatness who, renouncing all, true to their rule have stood"
         },
         {
-            "number": 25,
-            "tamil": "ஐந்தவித்தான் ஆற்றல் அகல்விசும்பு ளார்கோமான் இந்திரனே சாலுங் கரி.",
-            "transliteration": "Aindhaviththaan Aatral Akalvisumpu Laarkomaan Indhirane Saalung Kari",
+            "number": 25,            "transliteration": "Aindhaviththaan Aatral Akalvisumpu Laarkomaan Indhirane Saalung Kari",
             "english": "Indra himself has cause to say How great the power ascetics' sway",
             "meaning": "Indra, the king of the inhabitants of the spacious heaven, is himself, a sufficient proof of the strength of him who has subdued his five senses",
             "theme": "leadership",
@@ -4780,9 +4146,7 @@ KURAL_DATABASE = {
             "couplet": "Their might who have destroyed 'the five', shall soothly tellIndra, the lord of those in heaven's wide realms that dwell"
         },
         {
-            "number": 225,
-            "tamil": "ஆற்றுவார் ஆற்றல் பசிஆற்றல் அப்பசியை மாற்றுவார் ஆற்றலின் பின்.",
-            "transliteration": "Aatruvaar Aatral Pasiaatral Appasiyai Maatruvaar Aatralin Pin",
+            "number": 225,            "transliteration": "Aatruvaar Aatral Pasiaatral Appasiyai Maatruvaar Aatralin Pin",
             "english": "Higher's power which hunger cures  Than that of penance which endures",
             "meaning": "The power of those who perform penance is the power of enduring hunger It is inferior to the power of those who remove the hunger (of others)",
             "theme": "leadership",
@@ -4795,9 +4159,7 @@ KURAL_DATABASE = {
             "couplet": "'Mid devotees they're great who hunger's pangs sustain,Who hunger's pangs relieve a higher merit gain"
         },
         {
-            "number": 251,
-            "tamil": "தன்னூன் பெருக்கற்குத் தான்பிறிது ஊனுண்பான் எங்ஙனம் ஆளும் அருள்?",
-            "transliteration": "Thannoon Perukkarkuth Thaanpiridhu Oonunpaan Engnganam Aalum Arul?",
+            "number": 251,            "transliteration": "Thannoon Perukkarkuth Thaanpiridhu Oonunpaan Engnganam Aalum Arul?",
             "english": "What graciousness can one command  who feeds his flesh by flesh gourmand",
             "meaning": "How can he be possessed of kindness, who to increase his own flesh, eats the flesh of other creatures",
             "theme": "leadership",
@@ -4810,9 +4172,7 @@ KURAL_DATABASE = {
             "couplet": "How can the wont of 'kindly grace' to him be known,Who other creatures' flesh consumes to feed his own"
         },
         {
-            "number": 264,
-            "tamil": "ஒன்னார்த் தெறலும் உவந்தாரை ஆக்கலும் எண்ணின் தவத்தான் வரும்.",
-            "transliteration": "Onnaarth Theralum Uvandhaarai Aakkalum Ennin Thavaththaan Varum",
+            "number": 264,            "transliteration": "Onnaarth Theralum Uvandhaarai Aakkalum Ennin Thavaththaan Varum",
             "english": "In penance lies the power to save  The friends and foil the foe and knave",
             "meaning": "If (the ascetic) desire the destruction of his enemies, or the aggrandizement of his friends, it will be effected by (the power of) his austerities",
             "theme": "leadership",
@@ -4825,9 +4185,7 @@ KURAL_DATABASE = {
             "couplet": "Destruction to his foes, to friends increase of joyThe 'penitent' can cause, if this his thoughts employ"
         },
         {
-            "number": 273,
-            "tamil": "வலியில் நிலைமையான் வல்லுருவம் பெற்றம் புலியின்தோல் போர்த்துமேய்ந் தற்று.",
-            "transliteration": "Valiyil Nilaimaiyaan Valluruvam Petram Puliyindhol Porththumeyn Thatru",
+            "number": 273,            "transliteration": "Valiyil Nilaimaiyaan Valluruvam Petram Puliyindhol Porththumeyn Thatru",
             "english": "Vaunting sainthood while week within  Seems a grazer with tiger skin",
             "meaning": "The assumed appearance of power, by a man who has no power (to restrain his senses and perform austerity), is like a cow feeding on grass covered with a tiger's skin",
             "theme": "leadership",
@@ -4840,9 +4198,7 @@ KURAL_DATABASE = {
             "couplet": "As if a steer should graze wrapped round with tiger's skin,Is show of virtuous might when weakness lurks within"
         },
         {
-            "number": 276,
-            "tamil": "நெஞ்சின் துறவார் துறந்தார்போல் வஞ்சித்து வாழ்வாரின் வன்கணார் இல்.",
-            "transliteration": "Nenjin Thuravaar Thurandhaarpol Vanjiththu Vaazhvaarin Vankanaar Il",
+            "number": 276,            "transliteration": "Nenjin Thuravaar Thurandhaarpol Vanjiththu Vaazhvaarin Vankanaar Il",
             "english": "Vilest is he who seems a saint  Cheating the world without restraint",
             "meaning": "Amongst living men there are none so hard-hearted as those who without to saking (desire) in their heart, falsely take the appearance of those who have forsaken (it)",
             "theme": "leadership",
@@ -4855,9 +4211,7 @@ KURAL_DATABASE = {
             "couplet": "In mind renouncing nought, in speech renouncing every tie,Who guileful live,- no men are found than these of 'harder eye'"
         },
         {
-            "number": 286,
-            "tamil": "அளவின்கண் நின்றொழுகல் ஆற்றார் களவின்கண் கன்றிய காத லவர்.",
-            "transliteration": "Alavinkan Nindrozhukal Aatraar Kalavinkan Kandriya Kaadha Lavar",
+            "number": 286,            "transliteration": "Alavinkan Nindrozhukal Aatraar Kalavinkan Kandriya Kaadha Lavar",
             "english": "They cannot walk in measured bounds  who crave and have covetous ends",
             "meaning": "They cannot walk steadfastly, according to rule, who eagerly desire to defraud others",
             "theme": "leadership",
@@ -4870,9 +4224,7 @@ KURAL_DATABASE = {
             "couplet": "They cannot walk restrained in wisdom's measured bound,In whom inveterate lust of fraudful gain is found"
         },
         {
-            "number": 339,
-            "tamil": "உறங்கு வதுபோலுஞ் சாக்காடு உறங்கி விழிப்பது போலும் பிறப்பு.",
-            "transliteration": "Urangu Vadhupolunj Chaakkaatu Urangi Vizhippadhu Polum Pirappu",
+            "number": 339,            "transliteration": "Urangu Vadhupolunj Chaakkaatu Urangi Vizhippadhu Polum Pirappu",
             "english": "Death is like a slumber deep  And birth like waking from that sleep",
             "meaning": "Death is like sleep; birth is like awaking from it",
             "theme": "leadership",
@@ -4885,9 +4237,7 @@ KURAL_DATABASE = {
             "couplet": "Death is sinking into slumbers deep;Birth again is waking out of sleep"
         },
         {
-            "number": 380,
-            "tamil": "ஊழிற் பெருவலி யாவுள மற்றொன்று சூழினுந் தான்முந் துறும்.",
-            "transliteration": "Oozhir Peruvali Yaavula Matrondru Soozhinun Thaanmun Thurum",
+            "number": 380,            "transliteration": "Oozhir Peruvali Yaavula Matrondru Soozhinun Thaanmun Thurum",
             "english": "What power surpasses fate? Its will  Persists against the human skill",
             "meaning": "What is stronger than fate ? If we think of an expedient (to avert it), it will itself be with us before (the thought)",
             "theme": "leadership",
@@ -4900,9 +4250,7 @@ KURAL_DATABASE = {
             "couplet": "What powers so great as those of Destiny? Man's skillSome other thing contrives; but fate's beforehand still"
         },
         {
-            "number": 381,
-            "tamil": "படைகுடி கூழ்அமைச்சு நட்பரண் ஆறும் உடையான் அரசருள் ஏறு.",
-            "transliteration": "Pataikuti Koozhamaichchu Natparan Aarum Utaiyaan Arasarul Eru",
+            "number": 381,            "transliteration": "Pataikuti Koozhamaichchu Natparan Aarum Utaiyaan Arasarul Eru",
             "english": "People, troops, wealth, forts, council, friends  Who owns these six is lion of kings",
             "meaning": "He who possesses these six things, an army, a people, wealth, ministers, friends and a fortress, is a lion among kings",
             "theme": "leadership",
@@ -4915,9 +4263,7 @@ KURAL_DATABASE = {
             "couplet": "An army, people, wealth, a minister, friends, fort: six things-Who owns them all, a lion lives amid the kings"
         },
         {
-            "number": 385,
-            "tamil": "இயற்றலும் ஈட்டலுங் காத்தலும் காத்த வகுத்தலும் வல்ல தரசு.",
-            "transliteration": "Iyatralum Eettalung Kaaththalum Kaaththa Vakuththalum Valla Tharasu",
+            "number": 385,            "transliteration": "Iyatralum Eettalung Kaaththalum Kaaththa Vakuththalum Valla Tharasu",
             "english": "The able king gets, stores and guards  And spends them for people's safeguards",
             "meaning": "He is a king who is able to acquire (wealth), to lay it up, to guard, and to distribute it",
             "theme": "leadership",
@@ -4930,9 +4276,7 @@ KURAL_DATABASE = {
             "couplet": "A king is he who treasure gains, stores up, defends,And duly for his kingdom's weal expends"
         },
         {
-            "number": 387,
-            "tamil": "இன்சொலால் ஈத்தளிக்க வல்லார்க்குத் தன்சொலால் தான்கண் டனைத்திவ் வுலகு.",
-            "transliteration": "Insolaal Eeththalikka Vallaarkkuth Thansolaal Thaankan Tanaiththiv Vulaku",
+            "number": 387,            "transliteration": "Insolaal Eeththalikka Vallaarkkuth Thansolaal Thaankan Tanaiththiv Vulaku",
             "english": "The world commends and acts his phrase  Who sweetly speaks and gives with grace",
             "meaning": "The world will praise and submit itself to the mind of the king who is able to give with affability, and to protect all who come to him",
             "theme": "leadership",
@@ -4945,9 +4289,7 @@ KURAL_DATABASE = {
             "couplet": "With pleasant speech, who gives and guards with powerful liberal hand,He sees the world obedient all to his command"
         },
         {
-            "number": 389,
-            "tamil": "செவிகைப்பச் சொற்பொறுக்கும் பண்புடை வேந்தன் கவிகைக்கீழ்த் தங்கும் உலகு.",
-            "transliteration": "Sevikaippach Chorporukkum Panputai Vendhan Kavikaikkeezhth Thangum Ulaku",
+            "number": 389,            "transliteration": "Sevikaippach Chorporukkum Panputai Vendhan Kavikaikkeezhth Thangum Ulaku",
             "english": "Under his shelter thrives the world  Who bears remarks bitter and bold",
             "meaning": "The whole world will dwell under the umbrella of the king, who can bear words that embitter the ear",
             "theme": "leadership",
@@ -4962,9 +4304,7 @@ KURAL_DATABASE = {
     ],
     "speech": [
         {
-            "number": 28,
-            "tamil": "நிறைமொழி மாந்தர் பெருமை நிலத்து மறைமொழி காட்டி விடும்.",
-            "transliteration": "Niraimozhi Maandhar Perumai Nilaththu Maraimozhi Kaatti Vitum",
+            "number": 28,            "transliteration": "Niraimozhi Maandhar Perumai Nilaththu Maraimozhi Kaatti Vitum",
             "english": "Full-worded men by what they say, Their greatness to the world display",
             "meaning": "The hidden words of the men whose words are full of effect, will shew their greatness to the world",
             "theme": "speech",
@@ -4977,9 +4317,7 @@ KURAL_DATABASE = {
             "couplet": "The might of men whose word is never vain,The 'secret word' shall to the earth proclaim"
         },
         {
-            "number": 92,
-            "tamil": "அகன்அமர்ந்து ஈதலின் நன்றே முகனமர்ந்து இன்சொலன் ஆகப் பெறின்.",
-            "transliteration": "Akanamarndhu Eedhalin Nandre Mukanamarndhu Insolan Aakap Perin",
+            "number": 92,            "transliteration": "Akanamarndhu Eedhalin Nandre Mukanamarndhu Insolan Aakap Perin",
             "english": "Sweet words from smiling lips dispense  More joys than heart's beneficence",
             "meaning": "Sweet speech, with a cheerful countenance is better than a gift made with a joyous mind",
             "theme": "speech",
@@ -4992,9 +4330,7 @@ KURAL_DATABASE = {
             "couplet": "A pleasant word with beaming smile's preferred,Even to gifts with liberal heart conferred"
         },
         {
-            "number": 93,
-            "tamil": "முகத்தான் அமர்ந்து இனிதுநோக்கி அகத்தானாம் இன்சொ லினதே அறம்.",
-            "transliteration": "Mukaththaan Amarndhuinidhu Nokki Akaththaanaam Inso Linadhe Aram",
+            "number": 93,            "transliteration": "Mukaththaan Amarndhuinidhu Nokki Akaththaanaam Inso Linadhe Aram",
             "english": "Calm face, sweet look, kind words from heart  Such is the gracious virtue's part",
             "meaning": "Sweet speech, flowing from the heart (uttered) with a cheerful countenance and a sweet look, is true virtue",
             "theme": "speech",
@@ -5007,9 +4343,7 @@ KURAL_DATABASE = {
             "couplet": "With brightly beaming smile, and kindly light of loving eye,And heart sincere, to utter pleasant words is charity"
         },
         {
-            "number": 94,
-            "tamil": "துன்புறூஉம் துவ்வாமை இல்லாகும் யார்மாட்டும் இன்புறூஉம் இன்சொ லவர்க்கு.",
-            "transliteration": "Thunpurooum Thuvvaamai Illaakum Yaarmaattum Inpurooum Inso Lavarkku",
+            "number": 94,            "transliteration": "Thunpurooum Thuvvaamai Illaakum Yaarmaattum Inpurooum Inso Lavarkku",
             "english": "Whose loving words delight each one  The woe of want from them is gone",
             "meaning": "Sorrow-increasing poverty shall not come upon those who use towards all, pleasure-increasing sweetness of speech",
             "theme": "speech",
@@ -5022,9 +4356,7 @@ KURAL_DATABASE = {
             "couplet": "The men of pleasant speech that gladness breathe around,Through indigence shall never sorrow's prey be found"
         },
         {
-            "number": 95,
-            "tamil": "பணிவுடையன் இன்சொலன் ஆதல் ஒருவற்கு அணியல்ல மற்றுப் பிற.",
-            "transliteration": "Panivutaiyan Insolan Aadhal Oruvarku Aniyalla Matrup Pira",
+            "number": 95,            "transliteration": "Panivutaiyan Insolan Aadhal Oruvarku Aniyalla Matrup Pira",
             "english": "To be humble and sweet words speak  No other jewel do wise men seek",
             "meaning": "Humility and sweetness of speech are the ornaments of man; all others are not (ornaments)",
             "theme": "speech",
@@ -5037,9 +4369,7 @@ KURAL_DATABASE = {
             "couplet": "Humility with pleasant speech to man on earth,Is choice adornment; all besides is nothing worth"
         },
         {
-            "number": 98,
-            "tamil": "சிறுமையுவு நீங்கிய இன்சொல் மறுமையும் இம்மையும் இன்பம் தரும்.",
-            "transliteration": "Sirumaiyul Neengiya Insol Marumaiyum Immaiyum Inpam Tharum",
+            "number": 98,            "transliteration": "Sirumaiyul Neengiya Insol Marumaiyum Immaiyum Inpam Tharum",
             "english": "Kind words free from meanness delight  This life on earth and life the next",
             "meaning": "Sweet speech, free from harm to others, will give pleasure both in this world and in the next",
             "theme": "speech",
@@ -5052,9 +4382,7 @@ KURAL_DATABASE = {
             "couplet": "Sweet kindly words, from meanness free, delight of heart,In world to come and in this world impart"
         },
         {
-            "number": 99,
-            "tamil": "இன்சொல் இனிதீன்றல் காண்பான் எவன்கொலோ வன்சொல் வழங்கு வது?",
-            "transliteration": "Insol Inidheendral Kaanpaan Evankolo Vansol Vazhangu Vadhu?",
+            "number": 99,            "transliteration": "Insol Inidheendral Kaanpaan Evankolo Vansol Vazhangu Vadhu?",
             "english": "Who sees the sweets of sweetness here  To use harsh words how can he dare?",
             "meaning": "Why does he use harsh words, who sees the pleasure which sweet speech yields ?",
             "theme": "speech",
@@ -5067,9 +4395,7 @@ KURAL_DATABASE = {
             "couplet": "Who sees the pleasure kindly speech affords,Why makes he use of harsh, repellant words"
         },
         {
-            "number": 100,
-            "tamil": "இனிய உளவாக இன்னாத கூறல் கனிஇருப்பக் காய்கவர்ந் தற்று.",
-            "transliteration": "Iniya Ulavaaka Innaadha Kooral Kaniiruppak Kaaikavarn Thatru",
+            "number": 100,            "transliteration": "Iniya Ulavaaka Innaadha Kooral Kaniiruppak Kaaikavarn Thatru",
             "english": "Leaving ripe fruits the raw he eats  Who speaks harsh words when sweet word suits",
             "meaning": "To say disagreeable things when agreeable are at hand is like eating unripe fruit when there is ripe",
             "theme": "speech",
@@ -5082,9 +4408,7 @@ KURAL_DATABASE = {
             "couplet": "When pleasant words are easy, bitter words to use,Is, leaving sweet ripe fruit, the sour unripe to choose"
         },
         {
-            "number": 119,
-            "tamil": "சொற்கோட்டம் இல்லது செப்பம் ஒருதலையா உட்கோட்டம் இன்மை பெறின்.",
-            "transliteration": "Sorkottam Illadhu Seppam Orudhalaiyaa Utkottam Inmai Perin",
+            "number": 119,            "transliteration": "Sorkottam Illadhu Seppam Orudhalaiyaa Utkottam Inmai Perin",
             "english": "Justice is upright, unbending  And free from crooked word-twisting",
             "meaning": "Freedom from obliquity of speech is rectitude, if there be (corresponding) freedom from bias of mind",
             "theme": "speech",
@@ -5097,9 +4421,7 @@ KURAL_DATABASE = {
             "couplet": "Inflexibility in word is righteousness,If men inflexibility of soul possess"
         },
         {
-            "number": 127,
-            "tamil": "யாகாவா ராயினும் நாகாக்க காவாக்கால் சோகாப்பர் சொல்லிழுக்குப் பட்டு.",
-            "transliteration": "Yaakaavaa Raayinum Naakaakka Kaavaakkaal Sokaappar Sollizhukkup Pattu",
+            "number": 127,            "transliteration": "Yaakaavaa Raayinum Naakaakka Kaavaakkaal Sokaappar Sollizhukkup Pattu",
             "english": "Rein the tongue if nothing else  Or slips of tongue bring all the woes",
             "meaning": "Whatever besides you leave unguarded, guard your tongue; otherwise errors of speech and the consequent misery will ensue",
             "theme": "speech",
@@ -5112,9 +4434,7 @@ KURAL_DATABASE = {
             "couplet": "Whate'er they fail to guard, o'er lips men guard should keep;If not, through fault of tongue, they bitter tears shall weep"
         },
         {
-            "number": 139,
-            "tamil": "ஒழுக்க முடையவர்க்கு ஒல்லாவே தீய வழுக்கியும் வாயாற் சொலல்.",
-            "transliteration": "Ozhukka Mutaiyavarkku Ollaave Theeya Vazhukkiyum Vaayaar Solal",
+            "number": 139,            "transliteration": "Ozhukka Mutaiyavarkku Ollaave Theeya Vazhukkiyum Vaayaar Solal",
             "english": "Foul words will never fall from lips  Of righteous men even by slips",
             "meaning": "Those who study propriety of conduct will not speak evil, even forgetfully",
             "theme": "speech",
@@ -5127,9 +4447,7 @@ KURAL_DATABASE = {
             "couplet": "It cannot be that they who 'strict decorum's' law fulfil,E'en in forgetful mood, should utter words of ill"
         },
         {
-            "number": 162,
-            "tamil": "விழுப்பேற்றின் அஃதொப்பது இல்லையார் மாட்டும் அழுக்காற்றின் அன்மை பெறின்.",
-            "transliteration": "Vizhuppetrin Aqdhoppadhu Illaiyaar Maattum Azhukkaatrin Anmai Perin",
+            "number": 162,            "transliteration": "Vizhuppetrin Aqdhoppadhu Illaiyaar Maattum Azhukkaatrin Anmai Perin",
             "english": "No excellence excels the one  That by nature envies none",
             "meaning": "Amongst all attainable excellences there is none equal to that of being free from envy towords others",
             "theme": "speech",
@@ -5142,9 +4460,7 @@ KURAL_DATABASE = {
             "couplet": "If man can learn to envy none on earth,'Tis richest gift, -beyond compare its worth"
         },
         {
-            "number": 184,
-            "tamil": "கண்ணின்று கண்ணறச் சொல்லினும் சொல்லற்க முன்னின்று பின்நோக்காச் சொல்.",
-            "transliteration": "Kannindru Kannarach Chollinum Sollarka Munnindru Pinnokkaach Chol",
+            "number": 184,            "transliteration": "Kannindru Kannarach Chollinum Sollarka Munnindru Pinnokkaach Chol",
             "english": "Though harsh you speak in one's presence  Abuse is worse in his absence",
             "meaning": "Though you speak without kindness before another's face speak not in his absence words which regard not the evil subsequently resulting from it",
             "theme": "speech",
@@ -5157,9 +4473,7 @@ KURAL_DATABASE = {
             "couplet": "In presence though unkindly words you speak, say notIn absence words whose ill result exceeds your thought"
         },
         {
-            "number": 191,
-            "tamil": "பல்லார் முனியப் பயனில சொல்லுவான் எல்லாரும் எள்ளப் படும்.",
-            "transliteration": "Pallaar Muniyap Payanila Solluvaan Ellaarum Ellap Patum",
+            "number": 191,            "transliteration": "Pallaar Muniyap Payanila Solluvaan Ellaarum Ellap Patum",
             "english": "With silly words who insults all  Is held in contempt as banal",
             "meaning": "He who to the disgust of many speaks useless things will be despised by all",
             "theme": "speech",
@@ -5172,9 +4486,7 @@ KURAL_DATABASE = {
             "couplet": "Words without sense, while chafe the wise,Who babbles, him will all despise"
         },
         {
-            "number": 192,
-            "tamil": "பயனில பல்லார்முன் சொல்லல் நயனில நட்டார்கண் செய்தலிற் றீது.",
-            "transliteration": "Payanila Pallaarmun Sollal Nayanila Nattaarkan Seydhalir Reedhu",
+            "number": 192,            "transliteration": "Payanila Pallaarmun Sollal Nayanila Nattaarkan Seydhalir Reedhu",
             "english": "Vain talk before many is worse  Than doing to friends deeds adverse",
             "meaning": "To speak useless things in the presence of many is a greater evil than to do unkind things towards friends",
             "theme": "speech",
@@ -5187,9 +4499,7 @@ KURAL_DATABASE = {
             "couplet": "Words without sense, where many wise men hear, to pourThan deeds to friends ungracious done offendeth more"
         },
         {
-            "number": 195,
-            "tamil": "சீர்மை சிறப்பொடு நீங்கும் பயனில நீர்மை யுடையார் சொலின்.",
-            "transliteration": "Seermai Sirappotu Neengum Payanila Neermai Yutaiyaar Solin",
+            "number": 195,            "transliteration": "Seermai Sirappotu Neengum Payanila Neermai Yutaiyaar Solin",
             "english": "Glory and grace will go away  When savants silly nonsense say",
             "meaning": "If the good speak vain words their eminence and excellence will leave them",
             "theme": "speech",
@@ -5202,9 +4512,7 @@ KURAL_DATABASE = {
             "couplet": "Gone are both fame and boasted excellence,When men of worth speak of words devoid of sense"
         },
         {
-            "number": 196,
-            "tamil": "பயனில்சொல் பாராட்டு வானை மகன்எனல் மக்கட் பதடி யெனல்.",
-            "transliteration": "Payanil Sol Paaraattu Vaanai Makanenal Makkat Padhati Yenal",
+            "number": 196,            "transliteration": "Payanil Sol Paaraattu Vaanai Makanenal Makkat Padhati Yenal",
             "english": "Call him a human chaff who prides  Himself in weightless idle words",
             "meaning": "Call not him a man who parades forth his empty words Call him the chaff of men",
             "theme": "speech",
@@ -5217,9 +4525,7 @@ KURAL_DATABASE = {
             "couplet": "Who makes display of idle words' inanity,Call him not man, -chaff of humanity"
         },
         {
-            "number": 197,
-            "tamil": "நயனில சொல்லினுஞ் சொல்லுக சான்றோர் பயனில சொல்லாமை நன்று.",
-            "transliteration": "Nayanila Sollinunj Cholluka Saandror Payanila Sollaamai Nandru",
+            "number": 197,            "transliteration": "Nayanila Sollinunj Cholluka Saandror Payanila Sollaamai Nandru",
             "english": "Let not men of worth vainly quack  Even if they would roughly speak",
             "meaning": "Let the wise if they will, speak things without excellence; it will be well for them not to speak useless things",
             "theme": "speech",
@@ -5232,9 +4538,7 @@ KURAL_DATABASE = {
             "couplet": "Let those who list speak things that no delight afford,'Tis good for men of worth to speak no idle word"
         },
         {
-            "number": 198,
-            "tamil": "அரும்பயன் ஆயும் அறிவினார் சொல்லார் பெரும்பயன் இல்லாத சொல்.",
-            "transliteration": "Arumpayan Aayum Arivinaar Sollaar Perumpayan Illaadha Sol",
+            "number": 198,            "transliteration": "Arumpayan Aayum Arivinaar Sollaar Perumpayan Illaadha Sol",
             "english": "The wise who weigh the worth refrain  From words that have no grain and brain",
             "meaning": "The wise who seek after rare pleasures will not speak words that have not much weight in them",
             "theme": "speech",
@@ -5247,9 +4551,7 @@ KURAL_DATABASE = {
             "couplet": "The wise who weigh the worth of every utterance,Speak none but words of deep significance"
         },
         {
-            "number": 199,
-            "tamil": "பொருள்தீர்ந்த பொச்சாந்துஞ் சொல்லார் மருள்தீர்ந்த மாசறு காட்சி யவர்.",
-            "transliteration": "Poruldheerndha Pochchaandhunj Chollaar Maruldheerndha Maasaru Kaatchi Yavar",
+            "number": 199,            "transliteration": "Poruldheerndha Pochchaandhunj Chollaar Maruldheerndha Maasaru Kaatchi Yavar",
             "english": "The wise of spotless self-vision  Slip not to silly words-mention",
             "meaning": "Those wise men who are without faults and are freed from ignorance will not even forgetfully speak things that profit not",
             "theme": "speech",
@@ -5262,9 +4564,7 @@ KURAL_DATABASE = {
             "couplet": "The men of vision pure, from wildering folly free,Not e'en in thoughtless hour, speak words of vanity"
         },
         {
-            "number": 200,
-            "tamil": "சொல்லுக சொல்லிற் பயனுடைய சொல்லற்க சொல்லிற் பயனிலாச் சொல்.",
-            "transliteration": "Solluka Sollir Payanutaiya Sollarka Sollir Payanilaach Chol",
+            "number": 200,            "transliteration": "Solluka Sollir Payanutaiya Sollarka Sollir Payanilaach Chol",
             "english": "To purpose speak the fruitful word  And never indulge in useless load",
             "meaning": "Speak what is useful, and speak not useless words",
             "theme": "speech",
@@ -5277,9 +4577,7 @@ KURAL_DATABASE = {
             "couplet": "If speak you will, speak words that fruit afford,If speak you will, speak never fruitless word"
         },
         {
-            "number": 291,
-            "tamil": "வாய்மை எனப்படுவது யாதெனின் யாதொன்றும் தீமை இலாத சொலல்.",
-            "transliteration": "Vaaimai Enappatuvadhu Yaadhenin Yaadhondrum Theemai Ilaadha Solal",
+            "number": 291,            "transliteration": "Vaaimai Enappatuvadhu Yaadhenin Yaadhondrum Theemai Ilaadha Solal",
             "english": "If \\\"What is truth\\\"? the question be,  It is to speak out evil-free",
             "meaning": "Truth is the speaking of such words as are free from the least degree of evil (to others)",
             "theme": "speech",
@@ -5292,9 +4590,7 @@ KURAL_DATABASE = {
             "couplet": "You ask, in lips of men what 'truth' may be;'Tis speech from every taint of evil free"
         },
         {
-            "number": 386,
-            "tamil": "காட்சிக் கெளியன் கடுஞ்சொல்லன் அல்லனேல் மீக்கூறும் மன்னன் நிலம்",
-            "transliteration": "Kaatchik Keliyan Katunjollan Allanel Meekkoorum Mannan Nilam",
+            "number": 386,            "transliteration": "Kaatchik Keliyan Katunjollan Allanel Meekkoorum Mannan Nilam",
             "english": "That land prospers where the king is  Easy to see, not harsh of words",
             "meaning": "The whole world will exalt the country of the king who is easy of access, and who is free from harsh language",
             "theme": "speech",
@@ -5309,9 +4605,7 @@ KURAL_DATABASE = {
     ],
     "forgiveness": [
         {
-            "number": 30,
-            "tamil": "அந்தணர் என்போர் அறவோர்மற் றெவ்வுயிர்க்கும் செந்தண்மை பூண்டொழுக லான்.",
-            "transliteration": "Andhanar Enpor Aravormar Revvuyir Kkum Sendhanmai Poontozhuka Laan",
+            "number": 30,            "transliteration": "Andhanar Enpor Aravormar Revvuyir Kkum Sendhanmai Poontozhuka Laan",
             "english": "With gentle mercy towards all, The sage fulfils the vitue's call",
             "meaning": "The virtuous are truly called Anthanar; because in their conduct towards all creatures they are clothed in kindness",
             "theme": "forgiveness",
@@ -5324,9 +4618,7 @@ KURAL_DATABASE = {
             "couplet": "Towards all that breathe, with seemly graciousness adorned they live;And thus to virtue's sons the name of 'Anthanar' men give"
         },
         {
-            "number": 189,
-            "tamil": "அறன்நோக்கி ஆற்றுங்கொல் வையம் புறன்நோக்கிப் புன்சொல் உரைப்பான் பொறை.",
-            "transliteration": "Arannokki Aatrungol Vaiyam Purannokkip Punsol Uraippaan Porai",
+            "number": 189,            "transliteration": "Arannokki Aatrungol Vaiyam Purannokkip Punsol Uraippaan Porai",
             "english": "The world in mercy bears his load  Who rants behind words untoward",
             "meaning": "The world through charity supports the weight of those who reproach others observing their absence",
             "theme": "forgiveness",
@@ -5339,9 +4631,7 @@ KURAL_DATABASE = {
             "couplet": "'Tis charity, I ween, that makes the earth sustain their loadWho, neighbours' absence watching, tales or slander tell abroad"
         },
         {
-            "number": 243,
-            "tamil": "அருள்சேர்ந்த நெஞ்சினார்க் கில்லை இருள்சேர்ந்த இன்னா உலகம் புகல்.",
-            "transliteration": "Arulserndha Nenjinaark Killai Irulserndha Innaa Ulakam Pukal",
+            "number": 243,            "transliteration": "Arulserndha Nenjinaark Killai Irulserndha Innaa Ulakam Pukal",
             "english": "The hearts of mercy shall not go  Into dark worlds of gruesome woe",
             "meaning": "They will never enter the world of darkness and wretchedness whose minds are the abode of kindness",
             "theme": "forgiveness",
@@ -5356,9 +4646,7 @@ KURAL_DATABASE = {
     ],
     "love": [
         {
-            "number": 71,
-            "tamil": "அன்பிற்கும் உண்டோ அடைக்குந்தாழ் ஆர்வலர் புன்கணீர் பூசல் தரும்.",
-            "transliteration": "Anpirkum Unto Ataikkundhaazh Aarvalar Punkaneer Poosal Tharum",
+            "number": 71,            "transliteration": "Anpirkum Unto Ataikkundhaazh Aarvalar Punkaneer Poosal Tharum",
             "english": "What bolt can bar true love in fact  The tricking tears reveal the heart",
             "meaning": "Is there any fastening that can shut in love ? Tears of the affectionate will publish the love that is within",
             "theme": "love",
@@ -5371,9 +4659,7 @@ KURAL_DATABASE = {
             "couplet": "And is there bar that can even love restrain?The tiny tear shall make the lover's secret plain"
         },
         {
-            "number": 72,
-            "tamil": "அன்பிலார் எல்லாம் தமக்குரியர் அன்புடையார் என்பும் உரியர் பிறர்க்கு.",
-            "transliteration": "Anpilaar Ellaam Thamakkuriyar Anputaiyaar Enpum Uriyar Pirarkku",
+            "number": 72,            "transliteration": "Anpilaar Ellaam Thamakkuriyar Anputaiyaar Enpum Uriyar Pirarkku",
             "english": "To selves belong the loveless ones;  To oth'rs the loving e'en to bones",
             "meaning": "Those who are destitute of love appropriate all they have to themselves; but those who possess love consider even their bones to belong to others",
             "theme": "love",
@@ -5386,9 +4672,7 @@ KURAL_DATABASE = {
             "couplet": "The loveless to themselves belong alone;The loving men are others' to the very bone"
         },
         {
-            "number": 79,
-            "tamil": "புறத்துறுப் பெல்லாம் எவன்செய்யும் யாக்கை அகத்துறுப்பு அன்பி லவர்க்கு.",
-            "transliteration": "Puraththurup Pellaam Evanseyyum Yaakkai Akaththuruppu Anpi Lavarkku",
+            "number": 79,            "transliteration": "Puraththurup Pellaam Evanseyyum Yaakkai Akaththuruppu Anpi Lavarkku",
             "english": "Love is the heart which limbs must move,  Or vain the outer parts will prove",
             "meaning": "Of what avail are all the external members (of the body) to those who are destitute of love, the internal member",
             "theme": "love",
@@ -5401,9 +4685,7 @@ KURAL_DATABASE = {
             "couplet": "Though every outward part complete, the body's fitly framed;What good, when soul within, of love devoid, lies halt and maimed"
         },
         {
-            "number": 80,
-            "tamil": "அன்பின் வழியது உயிர்நிலை அஃதிலார்க்கு என்புதோல் போர்த்த உடம்பு.",
-            "transliteration": "Anpin Vazhiyadhu Uyirnilai Aqdhilaarkku Enpudhol Porththa Utampu",
+            "number": 80,            "transliteration": "Anpin Vazhiyadhu Uyirnilai Aqdhilaarkku Enpudhol Porththa Utampu",
             "english": "The seat of life is love alone;  Or beings are but skin and bone!",
             "meaning": "That body alone which is inspired with love contains a living soul: if void of it, (the body) is bone overlaid with skin",
             "theme": "love",
@@ -5416,9 +4698,7 @@ KURAL_DATABASE = {
             "couplet": "Bodies of loveless men are bony framework clad with skin;Then is the body seat of life, when love resides within"
         },
         {
-            "number": 91,
-            "tamil": "இன்சொலால் ஈரம் அளைஇப் படிறுஇலவாம் செம்பொருள் கண்டார்வாய்ச் சொல்.",
-            "transliteration": "Insolaal Eeram Alaiip Patiruilavaam Semporul Kantaarvaaich Chol",
+            "number": 91,            "transliteration": "Insolaal Eeram Alaiip Patiruilavaam Semporul Kantaarvaaich Chol",
             "english": "The words of Seers are lovely sweet  Merciful and free from deceit",
             "meaning": "Sweet words are those which imbued with love and free from deceit flow from the mouth of the virtuous",
             "theme": "love",
@@ -5431,9 +4711,7 @@ KURAL_DATABASE = {
             "couplet": "Pleasant words are words with all pervading love that burn;Words from his guileless mouth who can the very truth discern"
         },
         {
-            "number": 161,
-            "tamil": "ஒழுக்காறாக் கொள்க ஒருவன்தன் நெஞ்சத்து அழுக்காறு இலாத இயல்பு.",
-            "transliteration": "Ozhukkaaraak Kolka Oruvandhan Nenjaththu Azhukkaaru Ilaadha Iyalpu",
+            "number": 161,            "transliteration": "Ozhukkaaraak Kolka Oruvandhan Nenjaththu Azhukkaaru Ilaadha Iyalpu",
             "english": "Deem your heart as virtuous  When your nature is not jealous",
             "meaning": "Let a man esteem that disposition which is free from envy in the same manner as propriety of conduct",
             "theme": "love",
@@ -5446,9 +4724,7 @@ KURAL_DATABASE = {
             "couplet": "As 'strict decorum's' laws, that all men bind,Let each regard unenvying grace of mind"
         },
         {
-            "number": 294,
-            "tamil": "உள்ளத்தாற் பொய்யா தொழுகின் உலகத்தார் உள்ளத்து ளெல்லாம் உளன்.",
-            "transliteration": "Ullaththaar Poiyaa Thozhukin Ulakaththaar Ullaththu Lellaam Ulan",
+            "number": 294,            "transliteration": "Ullaththaar Poiyaa Thozhukin Ulakaththaar Ullaththu Lellaam Ulan",
             "english": "He lives in loving hearts of all  Who serves the Truth serene in soul",
             "meaning": "He who, in his conduct, preserves a mind free from deceit, will dwell in the minds of all men",
             "theme": "love",
@@ -5461,9 +4737,7 @@ KURAL_DATABASE = {
             "couplet": "True to his inmost soul who lives,- enshrinedHe lives in souls of all mankind"
         },
         {
-            "number": 309,
-            "tamil": "உள்ளிய தெல்லாம் உடனெய்தும் உள்ளத்தால் உள்ளான் வெகுளி எனின்.",
-            "transliteration": "Ulliya Thellaam Utaneydhum Ullaththaal Ullaan Vekuli Enin",
+            "number": 309,            "transliteration": "Ulliya Thellaam Utaneydhum Ullaththaal Ullaan Vekuli Enin",
             "english": "Wishes he gains as he wishes  If man refrains from rage vicious!",
             "meaning": "If a man never indulges anger in his heart, he will at once obtain whatever he has thought of",
             "theme": "love",
@@ -5476,9 +4750,7 @@ KURAL_DATABASE = {
             "couplet": "If man his soul preserve from wrathful fires,He gains with that whate'er his soul desires"
         },
         {
-            "number": 312,
-            "tamil": "கறுத்துஇன்னா செய்தவக் கண்ணும் மறுத்தின்னா செய்யாமை மாசற்றார் கோள்.",
-            "transliteration": "Karuththuinnaa Seydhavak Kannum Maruththinnaa Seyyaamai Maasatraar Kol",
+            "number": 312,            "transliteration": "Karuththuinnaa Seydhavak Kannum Maruththinnaa Seyyaamai Maasatraar Kol",
             "english": "The spotless hearts seek not revenge  Though Malice does the worst in rage",
             "meaning": "It is the determination of the spotless not to do evil, even in return, to those who have cherished enmity and done them evil",
             "theme": "love",
@@ -5491,9 +4763,7 @@ KURAL_DATABASE = {
             "couplet": "Though malice work its worst, planning no ill return, to endure,And work no ill, is fixed decree of men in spirit pure"
         },
         {
-            "number": 320,
-            "tamil": "நோயெல்லாம் நோய்செய்தார் மேலவாம் நோய்செய்யார் நோயின்மை வேண்டு பவர்.",
-            "transliteration": "Noyellaam Noiseydhaar Melavaam Noiseyyaar Noyinmai Ventu Pavar",
+            "number": 320,            "transliteration": "Noyellaam Noiseydhaar Melavaam Noiseyyaar Noyinmai Ventu Pavar",
             "english": "No harm is done by peace-lovers  For pains rebound on pain-givers",
             "meaning": "Sorrow will come upon those who cause pain to others; therfore those, who desire to be free from sorrow, give no pain to others",
             "theme": "love",
@@ -5506,9 +4776,7 @@ KURAL_DATABASE = {
             "couplet": "O'er every evil-doer evil broodeth still;He evil shuns who freedom seeks from ill"
         },
         {
-            "number": 338,
-            "tamil": "குடம்பை தனித்துஒழியப் புள்பறந் தற்றே உடம்பொடு உயிரிடை நட்பு.",
-            "transliteration": "Kutampai Thaniththu Ozhiyap Pulparan Thatre Utampotu Uyiritai Natpu",
+            "number": 338,            "transliteration": "Kutampai Thaniththu Ozhiyap Pulparan Thatre Utampotu Uyiritai Natpu",
             "english": "The soul from body any day  Like bird from egg-shell flies away",
             "meaning": "The love of the soul to the body is like (the love of) a bird to its egg which it flies away from and leaves empty",
             "theme": "love",
@@ -5521,9 +4789,7 @@ KURAL_DATABASE = {
             "couplet": "Birds fly away, and leave the nest deserted bare;Such is the short-lived friendship soul and body share"
         },
         {
-            "number": 353,
-            "tamil": "ஐயத்தின் நீங்கித் தெளிந்தார்க்கு வையத்தின் வானம் நணிய துடைத்து.",
-            "transliteration": "Aiyaththin Neengith Thelindhaarkku Vaiyaththin Vaanam Naniya Thutaiththu",
+            "number": 353,            "transliteration": "Aiyaththin Neengith Thelindhaarkku Vaiyaththin Vaanam Naniya Thutaiththu",
             "english": "To doubtless minds whose heart is clear  More than earth heaven is near",
             "meaning": "Heaven is nearer than earth to those men of purified minds who are freed from from doubt",
             "theme": "love",
@@ -5536,9 +4802,7 @@ KURAL_DATABASE = {
             "couplet": "When doubts disperse, and mists of error rollAway, nearer is heav'n than earth to sage's soul"
         },
         {
-            "number": 364,
-            "tamil": "தூஉய்மை என்பது அவாவின்மை மற்றது வாஅய்மை வேண்ட வரும்.",
-            "transliteration": "Thoouymai Enpadhu Avaavinmai Matradhu Vaaaimai Venta Varum",
+            "number": 364,            "transliteration": "Thoouymai Enpadhu Avaavinmai Matradhu Vaaaimai Venta Varum",
             "english": "To nothing crave is purity  That is the fruit of verity",
             "meaning": "Purity (of mind) consists in freedom from desire; and that (freedom from desire) is the fruit of the love of truth",
             "theme": "love",
@@ -5553,9 +4817,7 @@ KURAL_DATABASE = {
     ],
     "friendship": [
         {
-            "number": 74,
-            "tamil": "அன்புஈனும் ஆர்வம் உடைமை அதுஈனும் நண்பு என்னும் நாடாச் சிறப்பு.",
-            "transliteration": "Anpu Eenum Aarvam Utaimai Adhueenum Nanpu Ennum Naataach",
+            "number": 74,            "transliteration": "Anpu Eenum Aarvam Utaimai Adhueenum Nanpu Ennum Naataach",
             "english": "Love yields aspiration and thence  Friendship springs up in excellence",
             "meaning": "Love begets desire: and that (desire) begets the immeasureable excellence of friendship",
             "theme": "friendship",
@@ -5568,9 +4830,7 @@ KURAL_DATABASE = {
             "couplet": "From love fond yearning springs for union sweet of minds;And that the bond of rare excelling friendship binds"
         },
         {
-            "number": 76,
-            "tamil": "அறத்திற்கே அன்புசார் பென்ப அறியார் மறத்திற்கும் அஃதே துணை.",
-            "transliteration": "Araththirke Anpusaar Penpa Ariyaar Maraththirkum Aqdhe Thunai",
+            "number": 76,            "transliteration": "Araththirke Anpusaar Penpa Ariyaar Maraththirkum Aqdhe Thunai",
             "english": "\\\"Love is virtue's friend\\\" say know-nots  It helps us against evil plots",
             "meaning": "The ignorant say that love is an ally to virtue only, but it is also a help to get out of vice",
             "theme": "friendship",
@@ -5583,9 +4843,7 @@ KURAL_DATABASE = {
             "couplet": "The unwise deem love virtue only can sustain,It also helps the man who evil would restrain"
         },
         {
-            "number": 106,
-            "tamil": "மறவற்க மாசற்றார் கேண்மை துறவற்க துன்பத்துள் துப்பாயார் நட்பு.",
-            "transliteration": "Maravarka Maasatraar Kenmai Thuravarka Thunpaththul Thuppaayaar Natpu",
+            "number": 106,            "transliteration": "Maravarka Maasatraar Kenmai Thuravarka Thunpaththul Thuppaayaar Natpu",
             "english": "Forget not friendship of the pure  Forsake not timely helpers sure",
             "meaning": "Forsake not the friendship of those who have been your staff in adversity Forget not be benevolence of the blameless",
             "theme": "friendship",
@@ -5598,9 +4856,7 @@ KURAL_DATABASE = {
             "couplet": "Kindness of men of stainless soul remember evermoreForsake thou never friends who were thy stay in sorrow sore"
         },
         {
-            "number": 107,
-            "tamil": "எழுமை எழுபிறப்பும் உள்ளுவர் தங்கண் விழுமந் துடைத்தவர் நட்பு.",
-            "transliteration": "Ezhumai Ezhupirappum Ulluvar Thangan Vizhuman Thutaiththavar Natpu",
+            "number": 107,            "transliteration": "Ezhumai Ezhupirappum Ulluvar Thangan Vizhuman Thutaiththavar Natpu",
             "english": "Through sevenfold births, in memory fares  The willing friend who wiped one's tears",
             "meaning": "(The wise) will remember throughout their seven-fold births the love of those who have wiped away their affliction",
             "theme": "friendship",
@@ -5613,9 +4869,7 @@ KURAL_DATABASE = {
             "couplet": "Through all seven worlds, in seven-fold birth, Remains in mem'ry of the wiseFriendship of those who wiped on earth, The tears of sorrow from their eyes"
         },
         {
-            "number": 143,
-            "tamil": "விளிந்தாரின் வேறல்லர் மன்ற தெளிந்தாரில் தீமை புரிந்து ஒழுகு வார்.",
-            "transliteration": "Vilindhaarin Verallar Mandra Thelindhaaril Theemai Purindhu Ozhuku Vaar",
+            "number": 143,            "transliteration": "Vilindhaarin Verallar Mandra Thelindhaaril Theemai Purindhu Ozhuku Vaar",
             "english": "The vile are dead who evil aim  And put faithful friends' wives to shame",
             "meaning": "Certainly they are no better than dead men who desire evil towards the wife of those who",
             "theme": "friendship",
@@ -5628,9 +4882,7 @@ KURAL_DATABASE = {
             "couplet": "They're numbered with the dead, e'en while they live, -how otherwise?With wife of sure confiding friend who evil things devise"
         },
         {
-            "number": 187,
-            "tamil": "பகச்சொல்லிக் கேளிர்ப் பிரிப்பர் நகச்சொல்லி நட்பாடல் தேற்றா தவர்.",
-            "transliteration": "Pakachchollik Kelirp Pirippar Nakachcholli Natpaatal Thetraa Thavar",
+            "number": 187,            "transliteration": "Pakachchollik Kelirp Pirippar Nakachcholli Natpaatal Thetraa Thavar",
             "english": "By pleasing words who make not friends  Sever their hearts by hostile trends",
             "meaning": "Those who know not to live in friendship with amusing conversation will by back-biting estrange even their relatives",
             "theme": "friendship",
@@ -5643,9 +4895,7 @@ KURAL_DATABASE = {
             "couplet": "With friendly art who know not pleasant words to say,Speak words that sever hearts, and drive choice friends away"
         },
         {
-            "number": 188,
-            "tamil": "துன்னியார் குற்றமும் தூற்றும் மரபினார் என்னைகொல் ஏதிலார் மாட்டு.",
-            "transliteration": "Thunniyaar Kutramum Thootrum Marapinaar Ennaikol Edhilaar Maattu",
+            "number": 188,            "transliteration": "Thunniyaar Kutramum Thootrum Marapinaar Ennaikol Edhilaar Maattu",
             "english": "What will they not to strangers do  Who bring their friends' defects to view?",
             "meaning": "What will those not do to strangers whose nature leads them to publish abroad the faults of their intimate friends ?",
             "theme": "friendship",
@@ -5658,9 +4908,7 @@ KURAL_DATABASE = {
             "couplet": "Whose nature bids them faults of closest friends proclaimWhat mercy will they show to other men's good name"
         },
         {
-            "number": 227,
-            "tamil": "பாத்தூண் மரீஇ யவனைப் பசியென்னும் தீப்பிணி தீண்டல் அரிது.",
-            "transliteration": "Paaththoon Mareei Yavanaip Pasiyennum Theeppini Theental Aridhu",
+            "number": 227,            "transliteration": "Paaththoon Mareei Yavanaip Pasiyennum Theeppini Theental Aridhu",
             "english": "Who shares his food with those who need  Hunger shall not harm his creed",
             "meaning": "The fiery disease of hunger shall never touch him who habitually distributes his food to others",
             "theme": "friendship",
@@ -5673,9 +4921,7 @@ KURAL_DATABASE = {
             "couplet": "Whose soul delights with hungry men to share his meal,The hand of hunger's sickness sore shall never feel"
         },
         {
-            "number": 306,
-            "tamil": "சினமென்னும் சேர்ந்தாரைக் கொல்லி இனமென்னும் ஏமப் புணையைச் சுடும்.",
-            "transliteration": "Sinamennum Serndhaaraik Kolli Inamennum Emap Punaiyaich Chutum",
+            "number": 306,            "transliteration": "Sinamennum Serndhaaraik Kolli Inamennum Emap Punaiyaich Chutum",
             "english": "Friend-killer is the fatal rage  It burns the helpful kinship-barge",
             "meaning": "The fire of anger will burn up even the pleasant raft of friendship",
             "theme": "friendship",
@@ -5690,9 +4936,7 @@ KURAL_DATABASE = {
     ],
     "justice": [
         {
-            "number": 77,
-            "tamil": "என்பி லதனை வெயில்போலக் காயுமே அன்பி லதனை அறம்.",
-            "transliteration": "Enpi Ladhanai Veyilpolak Kaayume Anpi Ladhanai Aram",
+            "number": 77,            "transliteration": "Enpi Ladhanai Veyilpolak Kaayume Anpi Ladhanai Aram",
             "english": "Justice burns the loveless form  Like solar blaze the boneless worm",
             "meaning": "Virtue will burn up the soul which is without love, even as the sun burns up the creature which is without bone, ie worms",
             "theme": "justice",
@@ -5705,9 +4949,7 @@ KURAL_DATABASE = {
             "couplet": "As sun's fierce ray dries up the boneless things,So loveless beings virtue's power to nothing brings"
         },
         {
-            "number": 113,
-            "tamil": "நன்றே தரினும் நடுவிகந்தாம் ஆக்கத்தை அன்றே யொழிய விடல்.",
-            "transliteration": "Nandre Tharinum Natuvikandhaam Aakkaththai Andre Yozhiya Vital",
+            "number": 113,            "transliteration": "Nandre Tharinum Natuvikandhaam Aakkaththai Andre Yozhiya Vital",
             "english": "Though profitable, turn away  From unjust gains without delay",
             "meaning": "Forsake in the very moment (of acquisition) that gain which, though it should bring advantage, is without equity",
             "theme": "justice",
@@ -5720,9 +4962,7 @@ KURAL_DATABASE = {
             "couplet": "Though only good it seem to give, yet gainBy wrong acquired, not e'en one day retain"
         },
         {
-            "number": 116,
-            "tamil": "கெடுவல்யான் என்பது அறிகதன் நெஞ்சம் நடுவொரீஇ அல்ல செயின்.",
-            "transliteration": "Ketuvalyaan Enpadhu Arikadhan Nenjam Natuvoreei Alla Seyin",
+            "number": 116,            "transliteration": "Ketuvalyaan Enpadhu Arikadhan Nenjam Natuvoreei Alla Seyin",
             "english": "Of perdition let him be sure  Who leaves justice to sinful lure",
             "meaning": "Let him whose mind departing from equity commits sin well consider thus within himself, \"I shall perish.\"",
             "theme": "justice",
@@ -5735,9 +4975,7 @@ KURAL_DATABASE = {
             "couplet": "If, right deserting, heart to evil turn,Let man impending ruin's sign discern"
         },
         {
-            "number": 117,
-            "tamil": "கெடுவாக வையாது உலகம் நடுவாக நன்றிக்கண் தங்கியான் தாழ்வு.",
-            "transliteration": "Ketuvaaka Vaiyaadhu Ulakam Natuvaaka Nandrikkan Thangiyaan Thaazhvu",
+            "number": 117,            "transliteration": "Ketuvaaka Vaiyaadhu Ulakam Natuvaaka Nandrikkan Thangiyaan Thaazhvu",
             "english": "The just reduced to poverty  Is not held down by equity",
             "meaning": "The great will not regard as poverty the low estate of that man who dwells in the virtue of equity",
             "theme": "justice",
@@ -5750,9 +4988,7 @@ KURAL_DATABASE = {
             "couplet": "The man who justly lives, tenacious of the right,In low estate is never low to wise man's sight"
         },
         {
-            "number": 120,
-            "tamil": "வாணிகம் செய்வார்க்கு வாணிகம் பேணிப் பிறவும் தமபோல் செயின்.",
-            "transliteration": "Vaanikam Seyvaarkku Vaanikam Penip Piravum Thamapol Seyin",
+            "number": 120,            "transliteration": "Vaanikam Seyvaarkku Vaanikam Penip Piravum Thamapol Seyin",
             "english": "A trader's trade prospers fairly  When his dealings are neighbourly",
             "meaning": "The true merchandize of merchants is to guard and do by the things of others as they do by their own",
             "theme": "justice",
@@ -5765,9 +5001,7 @@ KURAL_DATABASE = {
             "couplet": "As thriving trader is the trader known,Who guards another's interests as his own"
         },
         {
-            "number": 344,
-            "tamil": "இயல்பாகும் நோன்பிற்கொன்று இன்மை உடைமை மயலாகும் மற்றும் பெயர்த்து.",
-            "transliteration": "Iyalpaakum Nonpirkondru Inmai Utaimai Mayalaakum Matrum Peyarththu",
+            "number": 344,            "transliteration": "Iyalpaakum Nonpirkondru Inmai Utaimai Mayalaakum Matrum Peyarththu",
             "english": "To have nothing is law of vows  Having the least deludes and snares",
             "meaning": "To be altogether destitute is the proper condition of those who perform austerities; if they possess anything, it will change (their resolution) and bring them back to their confused state",
             "theme": "justice",
@@ -5780,9 +5014,7 @@ KURAL_DATABASE = {
             "couplet": "'Privation absolute' is penance true;'Possession' brings bewilderment anew"
         },
         {
-            "number": 390,
-            "tamil": "கொடையளி செங்கோல் குடியோம்பல் நான்கும் உடையானாம் வேந்தர்க் கொளி.",
-            "transliteration": "Kotaiyali Sengol Kutiyompal Naankum Utaiyaanaam Vendhark Koli",
+            "number": 390,            "transliteration": "Kotaiyali Sengol Kutiyompal Naankum Utaiyaanaam Vendhark Koli",
             "english": "He is the Light of Kings who has  Bounty, justice, care and grace",
             "meaning": "He is the light of kings who has there four things, beneficence, benevolence, rectitude, and care for his people",
             "theme": "justice",
@@ -5797,9 +5029,7 @@ KURAL_DATABASE = {
     ],
     "time": [
         {
-            "number": 102,
-            "tamil": "காலத்தி னாற்செய்த நன்றி சிறிதெனினும் ஞாலத்தின் மாணப் பெரிது.",
-            "transliteration": "Kaalaththi Naarseydha Nandri Siridheninum Gnaalaththin Maanap Peridhu",
+            "number": 102,            "transliteration": "Kaalaththi Naarseydha Nandri Siridheninum Gnaalaththin Maanap Peridhu",
             "english": "A help rendered in hour of need  Though small is greater than the world",
             "meaning": "A favour conferred in the time of need, though it be small (in itself), is (in value) much larger than the world",
             "theme": "time",
@@ -5812,9 +5042,7 @@ KURAL_DATABASE = {
             "couplet": "A timely benefit, -though thing of little worth,The gift itself, -in excellence transcends the earth"
         },
         {
-            "number": 248,
-            "tamil": "பொருளற்றார் பூப்பர் ஒருகால் அருளற்றார் அற்றார்மற் றாதல் அரிது.",
-            "transliteration": "Porulatraar Pooppar Orukaal Arulatraar Atraarmar Raadhal Aridhu",
+            "number": 248,            "transliteration": "Porulatraar Pooppar Orukaal Arulatraar Atraarmar Raadhal Aridhu",
             "english": "The wealthless may prosper one day;  The graceless never bloom agay",
             "meaning": "Those who are without wealth may, at some future time, become prosperous; those who are destitute of kindness are utterly destitute; for them there is no change",
             "theme": "time",
@@ -5827,9 +5055,7 @@ KURAL_DATABASE = {
             "couplet": "Who lose the flower of wealth, when seasons change, again may bloom;Who lose 'benevolence', lose all; nothing can change their doom"
         },
         {
-            "number": 334,
-            "tamil": "நாளென ஒன்றுபோற் காட்டி உயிர்ஈரும் வாளது உணர்வார்ப் பெறின்.",
-            "transliteration": "Naalena Ondrupor Kaatti Uyir Eerum Vaaladhu Unarvaarp Perin",
+            "number": 334,            "transliteration": "Naalena Ondrupor Kaatti Uyir Eerum Vaaladhu Unarvaarp Perin",
             "english": "The showy day is but a saw  Your life, know that, to file and gnaw",
             "meaning": "Time, which shows itself (to the ignorant) as if it were something (real) is in the estimation of the wise (only) a saw which cuts down life",
             "theme": "time",
@@ -5842,9 +5068,7 @@ KURAL_DATABASE = {
             "couplet": "As 'day' it vaunts itself; well understood, 'tis knife',That daily cuts away a portion from thy life"
         },
         {
-            "number": 336,
-            "tamil": "நெருநல் உளனொருவன் இன்றில்லை என்னும் பெருமை உடைத்துஇவ் வுலகு.",
-            "transliteration": "Nerunal Ulanoruvan Indrillai Ennum Perumai Utaiththuiv Vulaku",
+            "number": 336,            "transliteration": "Nerunal Ulanoruvan Indrillai Ennum Perumai Utaiththuiv Vulaku",
             "english": "One was yesterday; not today!",
             "meaning": "This world possesses the greatness that one who yesterday was is not today",
             "theme": "time",
@@ -5857,9 +5081,7 @@ KURAL_DATABASE = {
             "couplet": "Existing yesterday, today to nothing hurled!-Such greatness owns this transitory world"
         },
         {
-            "number": 337,
-            "tamil": "ஒருபொழுதும் வாழ்வது அறியார் கருதுப கோடியும் அல்ல பல.",
-            "transliteration": "Orupozhudhum Vaazhvadhu Ariyaar Karudhupa Kotiyum Alla Pala",
+            "number": 337,            "transliteration": "Orupozhudhum Vaazhvadhu Ariyaar Karudhupa Kotiyum Alla Pala",
             "english": "Man knows not his next moment  On crores of things he is intent",
             "meaning": "Innumerable are the thoughts which occupy the mind of (the unwise), who know not that they shall live another moment",
             "theme": "time",
@@ -5872,9 +5094,7 @@ KURAL_DATABASE = {
             "couplet": "Who know not if their happy lives shall last the day,In fancies infinite beguile the hours away"
         },
         {
-            "number": 342,
-            "tamil": "வேண்டின்உண் டாகத் துறக்க துறந்தபின் ஈண்டுஇயற் பால பல.",
-            "transliteration": "Ventin Un Taakath Thurakka Thurandhapin Eentuiyar Paala Pala",
+            "number": 342,            "transliteration": "Ventin Un Taakath Thurakka Thurandhapin Eentuiyar Paala Pala",
             "english": "Give up all to gain the True  And endless joys shall hence seek you",
             "meaning": "After a man has renounced (all things), there will still be many things in this world (which he may enjoy); if he should desire them, let him, while it is time abandon (the world)",
             "theme": "time",
@@ -5887,9 +5107,7 @@ KURAL_DATABASE = {
             "couplet": "'Renunciation' made- ev'n here true pleasures men acquire;'Renounce' while time is yet, if to those pleasures you aspire"
         },
         {
-            "number": 343,
-            "tamil": "அடல்வேண்டும் ஐந்தன் புலத்தை விடல்வேண்டும் வேண்டிய வெல்லாம் ஒருங்கு.",
-            "transliteration": "Atalventum Aindhan Pulaththai Vitalventum Ventiya Vellaam Orungu",
+            "number": 343,            "transliteration": "Atalventum Aindhan Pulaththai Vitalventum Ventiya Vellaam Orungu",
             "english": "Curb the senses five and renounce  The carving desires all at once",
             "meaning": "Let the five senses be destroyed; and at the same time, let everything be abandoned that (the ascetic) has (formerly) desired",
             "theme": "time",
@@ -5902,9 +5120,7 @@ KURAL_DATABASE = {
             "couplet": "'Perceptions of the five' must all expire;-Relinquished in its order each desire"
         },
         {
-            "number": 349,
-            "tamil": "பற்றற்ற கண்ணே பிறப்பறுக்கும் மற்று நிலையாமை காணப் படும்.",
-            "transliteration": "Patratra Kanne Pirapparukkum Matru Nilaiyaamai Kaanap Patum",
+            "number": 349,            "transliteration": "Patratra Kanne Pirapparukkum Matru Nilaiyaamai Kaanap Patum",
             "english": "Bondage cut off, rebirth is off  The world then seems instable stuff",
             "meaning": "At the moment in which desire has been abandoned, (other) births will be cut off; when that has not been done, instability will be seen",
             "theme": "time",
@@ -5919,9 +5135,7 @@ KURAL_DATABASE = {
     ],
     "patience": [
         {
-            "number": 154,
-            "tamil": "நிறையுடைமை நீங்காமை வேண்டின் பொற்யுடைமை போற்றி யொழுகப் படும்.",
-            "transliteration": "Niraiyutaimai Neengaamai Ventin Poraiyutaimai Potri Yozhukap Patum",
+            "number": 154,            "transliteration": "Niraiyutaimai Neengaamai Ventin Poraiyutaimai Potri Yozhukap Patum",
             "english": "Practice of patient quality  Retains intact itegrity",
             "meaning": "If you desire that greatness should never leave, you preserve in your conduct the exercise of patience",
             "theme": "patience",
@@ -5934,9 +5148,7 @@ KURAL_DATABASE = {
             "couplet": "Seek'st thou honour never tarnished to retain;So must thou patience, guarding evermore, maintain"
         },
         {
-            "number": 155,
-            "tamil": "ஒறுத்தாரை ஒன்றாக வையாரே வைப்பர் பொறுத்தாரைப் பொன்போற் பொதிந்து.",
-            "transliteration": "Oruththaarai Ondraaka Vaiyaare Vaippar Poruththaaraip Ponpor Podhindhu",
+            "number": 155,            "transliteration": "Oruththaarai Ondraaka Vaiyaare Vaippar Poruththaaraip Ponpor Podhindhu",
             "english": "Vengeance is not in esteem held  Patience is praised as hidden gold",
             "meaning": "(The wise) will not at all esteem the resentful They will esteem the patient just as the gold which they lay up with care",
             "theme": "patience",
@@ -5949,9 +5161,7 @@ KURAL_DATABASE = {
             "couplet": "Who wreak their wrath as worthless are despised;Who patiently forbear as gold are prized"
         },
         {
-            "number": 156,
-            "tamil": "ஒறுத்தார்க்கு ஒருநாளை இன்பம் பொறுத்தார்க்குப் பொன்றுந் துணையும் புகழ்.",
-            "transliteration": "Oruththaarkku Orunaalai Inpam Poruththaarkkup Pondrun Thunaiyum Pukazh",
+            "number": 156,            "transliteration": "Oruththaarkku Orunaalai Inpam Poruththaarkkup Pondrun Thunaiyum Pukazh",
             "english": "Revenge accords but one day's joy  Patience carries its praise for aye",
             "meaning": "The pleasure of the resentful continues for a day The praise of the patient will continue until (the final destruction of) the world",
             "theme": "patience",
@@ -5964,9 +5174,7 @@ KURAL_DATABASE = {
             "couplet": "Who wreak their wrath have pleasure for a day;Who bear have praise till earth shall pass away"
         },
         {
-            "number": 158,
-            "tamil": "மிகுதியான் மிக்கவை செய்தாரைத் தாந்தம் தகுதியான் வென்று விடல்.",
-            "transliteration": "Mikudhiyaan Mikkavai Seydhaaraith Thaandham Thakudhiyaan Vendru Vital",
+            "number": 158,            "transliteration": "Mikudhiyaan Mikkavai Seydhaaraith Thaandham Thakudhiyaan Vendru Vital",
             "english": "By noble forbearance vanquish  The proud that have caused you anguish",
             "meaning": "Let a man by patience overcome those who through pride commit excesses",
             "theme": "patience",
@@ -5979,9 +5187,7 @@ KURAL_DATABASE = {
             "couplet": "With overweening pride when men with injuries assail,By thine own righteous dealing shalt thou mightily prevail"
         },
         {
-            "number": 159,
-            "tamil": "துறந்தாரின் தூய்மை உடையர் இறந்தார்வாய் இன்னாச்சொல் நோற்கிற் பவர்.",
-            "transliteration": "Thurandhaarin Thooimai Utaiyar Irandhaarvaai Innaachchol Norkir Pavar",
+            "number": 159,            "transliteration": "Thurandhaarin Thooimai Utaiyar Irandhaarvaai Innaachchol Norkir Pavar",
             "english": "More than ascetics they are pure  Who bitter tongues meekly endure",
             "meaning": "Those who bear with the uncourteous speech of the insolent are as pure as the ascetics",
             "theme": "patience",
@@ -5994,9 +5200,7 @@ KURAL_DATABASE = {
             "couplet": "They who transgressors' evil words endureWith patience, are as stern ascetics pure"
         },
         {
-            "number": 160,
-            "tamil": "உண்ணாது நோற்பார் பெரியர் பிறர்சொல்லும் இன்னாச்சொல் நோற்பாரின் பின்.",
-            "transliteration": "Unnaadhu Norpaar Periyar Pirarsollum Innaachchol Norpaarin Pin",
+            "number": 160,            "transliteration": "Unnaadhu Norpaar Periyar Pirarsollum Innaachchol Norpaarin Pin",
             "english": "Who fast are great to do penance  Greater are they who bear offence",
             "meaning": "Those who endure abstinence from food are great, next to those who endure the uncourteous speech of others",
             "theme": "patience",
@@ -6009,9 +5213,7 @@ KURAL_DATABASE = {
             "couplet": "Though 'great' we deem the men that fast and suffer pain,Who others' bitter words endure, the foremost place obtain"
         },
         {
-            "number": 261,
-            "tamil": "உற்றநோய் நோன்றல் உயிர்க்குறுகண் செய்யாமை அற்றே தவத்திற் குரு.",
-            "transliteration": "Utranoi Nondral Uyirkkurukan Seyyaamai Atre Thavaththir Kuru",
+            "number": 261,            "transliteration": "Utranoi Nondral Uyirkkurukan Seyyaamai Atre Thavaththir Kuru",
             "english": "Pains endure; pain not beings  This is the type of true penance",
             "meaning": "The nature of religious discipline consists, in the endurance (by the ascetic) of the sufferings which it brings on himself, and in abstaining from giving pain to others",
             "theme": "patience",
@@ -6026,9 +5228,7 @@ KURAL_DATABASE = {
     ],
     "humility": [
         {
-            "number": 384,
-            "tamil": "அறனிழுக்கா தல்லவை நீக்கி மறனிழுக்கா மானம் உடைய தரசு.",
-            "transliteration": "Aranizhukkaa Thallavai Neekki Maranizhukkaa Maanam Utaiya Tharasu",
+            "number": 384,            "transliteration": "Aranizhukkaa Thallavai Neekki Maranizhukkaa Maanam Utaiya Tharasu",
             "english": "A brave noble king refrains from vice  Full of virtue and enterprise",
             "meaning": "He is a king who, with manly modesty, swerves not from virtue, and refrains from vice",
             "theme": "humility",
@@ -6139,9 +5339,11 @@ def search_kurals_by_keyword(keyword):
     
     for theme, kurals in KURAL_DATABASE.items():
         for kural in kurals:
+            # Combine line1 and line2 for Tamil text search
+            tamil_text = f"{kural.get('line1', '')} {kural.get('line2', '')}".strip()
             if (keyword_lower in kural["english"].lower() or 
                 keyword_lower in kural["meaning"].lower() or
-                keyword_lower in kural["tamil"].lower()):
+                keyword_lower in tamil_text.lower()):
                 matching_kurals.append(kural)
     
     return matching_kurals

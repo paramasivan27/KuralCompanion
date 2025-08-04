@@ -47,7 +47,6 @@ KURAL_DATABASE = {{
         
         for j, kural in enumerate(theme_kurals):
             # Use json.dumps to properly escape all text fields
-            tamil = json.dumps(kural["tamil"], ensure_ascii=False)[1:-1]
             transliteration = json.dumps(kural["transliteration"], ensure_ascii=False)[1:-1]
             english = json.dumps(kural["english"], ensure_ascii=False)[1:-1]
             meaning = json.dumps(kural["meaning"], ensure_ascii=False)[1:-1]
@@ -63,7 +62,6 @@ KURAL_DATABASE = {{
             
             content += f'''        {{
             "number": {kural["number"]},
-            "tamil": "{tamil}",
             "transliteration": "{transliteration}",
             "english": "{english}",
             "meaning": "{meaning}",
@@ -186,9 +184,11 @@ def search_kurals_by_keyword(keyword):
     
     for theme, kurals in KURAL_DATABASE.items():
         for kural in kurals:
+            # Combine line1 and line2 for Tamil text search
+            tamil_text = f"{kural.get('line1', '')} {kural.get('line2', '')}".strip()
             if (keyword_lower in kural["english"].lower() or 
                 keyword_lower in kural["meaning"].lower() or
-                keyword_lower in kural["tamil"].lower()):
+                keyword_lower in tamil_text.lower()):
                 matching_kurals.append(kural)
     
     return matching_kurals
