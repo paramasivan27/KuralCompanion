@@ -202,6 +202,10 @@ def get_moral_reflection(emotions, themes):
 
 # Main app
 def main():
+    # Initialize session state for navigation
+    if 'selected_page' not in st.session_state:
+        st.session_state.selected_page = "Home"
+    
     # Sidebar navigation
     with st.sidebar:
         st.markdown("## 🌟 KuralCompanion")
@@ -212,6 +216,13 @@ def main():
             menu_icon="cast",
             default_index=0,
         )
+        
+        # Update session state when sidebar selection changes
+        if selected != st.session_state.selected_page:
+            st.session_state.selected_page = selected
+    
+    # Use session state for page selection
+    selected = st.session_state.selected_page
     
     if selected == "Home":
         st.markdown('<h1 class="main-header">🌟 KuralCompanion</h1>', unsafe_allow_html=True)
@@ -237,7 +248,8 @@ def main():
             """)
             
             if st.button("🚀 Start Your Journey", type="primary"):
-                st.switch_page("Ask Kural")
+                st.session_state.selected_page = "Ask Kural"
+                st.rerun()
     
     elif selected == "Ask Kural":
         st.markdown('<h1 class="main-header">💭 Ask Kural</h1>', unsafe_allow_html=True)
