@@ -108,26 +108,82 @@ def detect_theme(text):
     return detected_themes[:2] if detected_themes else ["wisdom"]
 
 def find_relevant_kurals(emotions, themes):
-    """Find relevant Kurals based on emotions and themes"""
-    relevant_kurals = []
-    
-    # Search in themes first using comprehensive database
-    for theme in themes:
-        if theme in COMPREHENSIVE_KURAL_DATABASE:
-            relevant_kurals.extend(COMPREHENSIVE_KURAL_DATABASE[theme])
-    
-    # If no theme matches, search by emotions
-    if not relevant_kurals:
-        for theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
-            for kural in kurals:
-                if any(emotion in kural.get("emotions", []) for emotion in emotions):
-                    relevant_kurals.append(kural)
-    
-    # If still no matches, return wisdom kurals
-    if not relevant_kurals:
-        relevant_kurals = COMPREHENSIVE_KURAL_DATABASE.get("wisdom", [])
-    
-    return relevant_kurals[:2]  # Return top 2 kurals
+    """Find relevant Kurals based on detected emotions and themes with robust matching"""
+    # Normalize inputs
+    detected_emotions = [e.lower() for e in emotions if e.lower() != "neutral"]
+    detected_themes = [t.lower() for t in themes]
+
+    def search_in_comprehensive(keyword: str):
+        """Keyword search across the comprehensive database (english, meaning, tamil, theme)."""
+        matches = []
+        key_lower = keyword.lower()
+        for db_theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
+            for k in kurals:
+                tamil_text = f"{k.get('line1', '')} {k.get('line2', '')}".strip()
+                if (
+                    key_lower in k.get("english", "").lower()
+                    or key_lower in k.get("meaning", "").lower()
+                    or key_lower in tamil_text.lower()
+                    or key_lower in k.get("theme", "").lower()
+                ):
+                    matches.append(k)
+        return matches
+
+    # Collect candidates with a simple scoring approach
+    scored = []  # (score, kural)
+
+    # 1) Theme-based: case-insensitive and fuzzy match against database theme names
+    db_items = list(COMPREHENSIVE_KURAL_DATABASE.items())
+    for db_theme, kurals in db_items:
+        db_theme_lower = db_theme.lower()
+        theme_match_strength = 0
+        for t in detected_themes:
+            if t == db_theme_lower:
+                theme_match_strength = max(theme_match_strength, 2)
+            elif t in db_theme_lower:
+                theme_match_strength = max(theme_match_strength, 1)
+
+        if theme_match_strength > 0:
+            for k in kurals:
+                scored.append((2 + theme_match_strength, k))
+
+    # 2) Theme-keyword fallback: use THEME_KEYWORDS to find related words in content
+    for t in detected_themes:
+        related_keywords = THEME_KEYWORDS.get(t, [t])
+        for kw in related_keywords[:5]:  # limit for efficiency
+            for k in search_in_comprehensive(kw):
+                scored.append((2, k))
+
+    # 3) Emotion-based: match detected emotions with kural emotions (case-insensitive)
+    if detected_emotions:
+        for _, kurals in db_items:
+            for k in kurals:
+                k_emotions = [str(e).lower() for e in k.get("emotions", [])]
+                if any(e in k_emotions for e in detected_emotions):
+                    # Slightly lower weight than strong theme match
+                    scored.append((1, k))
+
+    # 4) Emotion keyword fallback: search text with emotion words
+    for e in detected_emotions:
+        for k in search_in_comprehensive(e):
+            scored.append((1, k))
+
+    # If nothing scored yet, fallback to first available theme's kurals
+    if not scored and db_items:
+        first_theme_kurals = next(iter(db_items))[1]
+        for k in first_theme_kurals:
+            scored.append((0, k))
+
+    # Deduplicate by kural number and sort by score (desc), preserving stability
+    seen = set()
+    unique_scored = []
+    for score, k in sorted(scored, key=lambda x: x[0], reverse=True):
+        num = k.get("number")
+        if num not in seen:
+            seen.add(num)
+            unique_scored.append((score, k))
+
+    return [k for _, k in unique_scored][:2]
 
 def get_total_kural_count():
     """Get the total number of kurals in the comprehensive database"""
