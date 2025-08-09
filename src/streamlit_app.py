@@ -199,15 +199,19 @@ def get_theme_counts():
         theme_counts[theme] = len(kurals)
     return theme_counts
 
-def display_kural(kural, index=0):
-    """Display a Kural in a beautiful card format with enhanced formatting"""
+def display_kural(kural, index=0, show_transliteration: bool = True, show_english: bool = True):
+    """Display a Kural card. Tamil is always shown. Transliteration/English are optional."""
     
     # Format Tamil text in two lines
     tamil_text = f"{kural.get('line1', '')}<br>{kural.get('line2', '')}" if 'line1' in kural else kural['tamil']
     
-    # Format transliteration in two lines
-    transliteration_parts = kural['transliteration'].split(' ', 1)
-    transliteration_text = f"{transliteration_parts[0]}<br>{transliteration_parts[1]}" if len(transliteration_parts) > 1 else kural['transliteration']
+    # Format transliteration in two lines (only if selected)
+    transliteration_text = ""
+    if show_transliteration:
+        transliteration_parts = kural['transliteration'].split(' ', 1)
+        transliteration_text = (
+            f"{transliteration_parts[0]}<br>{transliteration_parts[1]}" if len(transliteration_parts) > 1 else kural['transliteration']
+        )
     
     # Get Tamil explanations
     mv = kural.get('mv', '')
@@ -225,17 +229,28 @@ def display_kural(kural, index=0):
         if mk:
             explanations_html += f"<p><em>மு.க:</em> {mk}</p>"
     
-    st.markdown(f"""
-    <div class="kural-card">
-        <h3>Kural #{kural['number']}</h3>
-        <p><strong>Tamil:</strong><br>{tamil_text}</p>
-        <p><strong>Transliteration:</strong><br>{transliteration_text}</p>
-        <p><strong>English:</strong> {kural['english']}</p>
-        <p><strong>Meaning:</strong> {kural['meaning']}</p>
-        {explanations_html}
-        <p><strong>Theme:</strong> {kural['theme'].replace('_', ' ').title()}</p>
-    </div>
-    """, unsafe_allow_html=True)
+    # Build conditional sections
+    sections_html = [
+        f"<p><strong>Tamil:</strong><br>{tamil_text}</p>"
+    ]
+    if show_transliteration and transliteration_text:
+        sections_html.append(f"<p><strong>Transliteration:</strong><br>{transliteration_text}</p>")
+    if show_english:
+        sections_html.append(f"<p><strong>English:</strong> {kural['english']}</p>")
+    sections_html.append(f"<p><strong>Meaning:</strong> {kural['meaning']}</p>")
+    if explanations_html:
+        sections_html.append(explanations_html)
+    sections_html.append(f"<p><strong>Theme:</strong> {kural['theme'].replace('_', ' ').title()}</p>")
+
+    st.markdown(
+        f"""
+        <div class="kural-card">
+            <h3>Kural #{kural['number']}</h3>
+            {''.join(sections_html)}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 def get_moral_reflection(emotions, themes):
     """Generate a moral reflection based on emotions and themes"""
@@ -364,8 +379,18 @@ def main():
                 relevant_kurals = find_relevant_kurals(emotions, themes)
                 
                 st.subheader("📖 Relevant Thirukkural Verses")
+
+                # Display options for additional sections
+                options = st.multiselect(
+                    "Show additional sections:",
+                    options=["Transliteration", "English"],
+                    default=["Transliteration", "English"],
+                )
+                show_transliteration = "Transliteration" in options
+                show_english = "English" in options
+
                 for i, kural in enumerate(relevant_kurals):
-                    display_kural(kural, i)
+                    display_kural(kural, i, show_transliteration=show_transliteration, show_english=show_english)
     
     elif selected == "Explore Themes":
         st.markdown('<h1 class="main-header">📚 Explore Themes</h1>', unsafe_allow_html=True)
