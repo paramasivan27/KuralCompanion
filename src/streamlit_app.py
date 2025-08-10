@@ -79,18 +79,7 @@ st.markdown("""
         transition: color 0.3s ease;
     }
     
-    .main-header::before {
-        content: '';
-        position: absolute;
-        top: -10px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 60px;
-        height: 60px;
-        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23A2322E"><path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z"/></svg>') no-repeat center;
-        background-size: contain;
-        opacity: 0.3;
-    }
+
     
     .sub-header {
         font-family: 'Noto Serif Tamil', serif;
