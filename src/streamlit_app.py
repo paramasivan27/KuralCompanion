@@ -1119,7 +1119,10 @@ def main():
     elif selected == "About":
         st.markdown('<h1 class="main-header">ℹ️ About KuralCompanion</h1>', unsafe_allow_html=True)
         
-
+        # Display Thiruvalluvar image
+        col1, col2, col3 = st.columns([1, 2, 1])
+        with col2:
+            st.image("src/Thiruvalluvar_Final.png", use_column_width=True, caption="Thiruvalluvar - The Great Sage")
         
         # Kolam divider
         st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
