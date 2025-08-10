@@ -875,8 +875,8 @@ def main():
                         available_explanations.append(("மு.வரதராசனார்", 'mv'))
                     if sample_kural.get('sp'):
                         available_explanations.append(("சாலமன் பாப்பையா", 'sp'))
-                if sample_kural.get('mk'):
-                    available_explanations.append(("மு.கருணாநிதி", 'mk'))
+                    if sample_kural.get('mk'):
+                        available_explanations.append(("மு.கருணாநிதி", 'mk'))
                 
                 if len(available_explanations) > 1:
                     selected_explanation = st.radio(
@@ -987,7 +987,7 @@ def main():
                         available_explanations.append(("மு.கருணாநிதி", 'mk'))
                 
                 if len(available_explanations) > 1:
-                    selected_explanation = st.expander(
+                    selected_explanation = st.radio(
                         "Choose Tamil explanation:",
                         options=[exp[0] for exp in available_explanations],
                         key="theme_explanation"
@@ -1105,8 +1105,6 @@ def main():
                         st.error("Please enter valid numbers separated by commas")
                 else:
                     st.warning("Please enter Kural numbers to search")
-        
-
     
     elif selected == "About":
         st.markdown('<h1 class="main-header">ℹ️ About KuralCompanion</h1>', unsafe_allow_html=True)
