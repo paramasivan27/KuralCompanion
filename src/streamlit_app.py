@@ -380,17 +380,8 @@ def main():
                 
                 st.subheader("📖 Relevant Thirukkural Verses")
 
-                # Display options for additional sections
-                options = st.multiselect(
-                    "Show additional sections:",
-                    options=["Transliteration", "English"],
-                    default=["Transliteration", "English"],
-                )
-                show_transliteration = "Transliteration" in options
-                show_english = "English" in options
-
                 for i, kural in enumerate(relevant_kurals):
-                    display_kural(kural, i, show_transliteration=show_transliteration, show_english=show_english)
+                    display_kural(kural, i)
     
     elif selected == "Explore Themes":
         st.markdown('<h1 class="main-header">📚 Explore Themes</h1>', unsafe_allow_html=True)
