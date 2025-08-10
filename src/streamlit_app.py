@@ -519,27 +519,54 @@ def main():
                 if keyword:
                     matching_kurals = search_kurals_by_keyword(keyword)
                     if matching_kurals:
+                        # Limit to 10 most relevant kurals
+                        limited_kurals = matching_kurals[:10]
                         st.subheader(f"🔍 Search Results for '{keyword}'")
-                        st.info(f"Found {len(matching_kurals)} matching kurals")
+                        st.info(f"Found {len(matching_kurals)} matching kurals, showing top 10 most relevant")
                         
-                        for kural in matching_kurals:
+                        for kural in limited_kurals:
                             display_kural(kural, show_transliteration=show_transliteration, show_english=True)
                             st.markdown("<br>", unsafe_allow_html=True)
+                        
+                        if len(matching_kurals) > 10:
+                            st.info(f"💡 There are {len(matching_kurals) - 10} more results. Refine your search for more specific results.")
                     else:
                         st.warning(f"No kurals found matching '{keyword}'")
                 else:
                     st.warning("Please enter a keyword to search")
         
         elif search_option == "Kural Number":
-            kural_number = st.number_input("Enter Kural number (1-1330):", min_value=1, max_value=1330, value=1)
+            kural_numbers_input = st.text_input("Enter Kural numbers separated by comma (e.g., 1, 2, 3):", placeholder="1, 2, 3")
             
             if st.button("Search", key="number_search"):
-                kural = get_kural_by_number(kural_number)
-                if kural:
-                    st.subheader(f"📖 Kural #{kural_number}")
-                    display_kural(kural, show_transliteration=show_transliteration, show_english=True)
+                if kural_numbers_input.strip():
+                    # Parse comma-separated numbers
+                    try:
+                        kural_numbers = [int(num.strip()) for num in kural_numbers_input.split(',') if num.strip().isdigit()]
+                        kural_numbers = [num for num in kural_numbers if 1 <= num <= 1330]  # Validate range
+                        
+                        if kural_numbers:
+                            st.subheader(f"📖 Kurals #{', '.join(map(str, kural_numbers))}")
+                            found_kurals = []
+                            
+                            for kural_num in kural_numbers:
+                                kural = get_kural_by_number(kural_num)
+                                if kural:
+                                    found_kurals.append(kural)
+                                else:
+                                    st.warning(f"Kural #{kural_num} not found in the current database")
+                            
+                            if found_kurals:
+                                st.info(f"Found {len(found_kurals)} out of {len(kural_numbers)} requested kurals")
+                                for kural in found_kurals:
+                                    display_kural(kural, show_transliteration=show_transliteration, show_english=True)
+                                    st.markdown("<br>", unsafe_allow_html=True)
+                        else:
+                            st.warning("Please enter valid Kural numbers between 1 and 1330")
+                    except ValueError:
+                        st.error("Please enter valid numbers separated by commas")
                 else:
-                    st.warning(f"Kural #{kural_number} not found in the current database")
+                    st.warning("Please enter Kural numbers to search")
         
 
     
