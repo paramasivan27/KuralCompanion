@@ -185,6 +185,41 @@ def find_relevant_kurals(emotions, themes):
 
     return [k for _, k in unique_scored][:2]
 
+def find_kurals_by_keywords(keywords):
+    """Find relevant Kurals based on keywords in English and meaning fields"""
+    # Normalize input
+    search_keywords = [kw.lower().strip() for kw in keywords.split() if kw.strip()]
+    
+    if not search_keywords:
+        return []
+    
+    scored = []  # (score, kural)
+    
+    # Search across the comprehensive database
+    for db_theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
+        for kural in kurals:
+            score = 0
+            
+            # Search in English field
+            english_text = kural.get("english", "").lower()
+            for keyword in search_keywords:
+                if keyword in english_text:
+                    score += 2  # Higher weight for English matches
+            
+            # Search in meaning field
+            meaning_text = kural.get("meaning", "").lower()
+            for keyword in search_keywords:
+                if keyword in meaning_text:
+                    score += 2  # Higher weight for meaning matches
+            
+            # If any keyword matches, add to results
+            if score > 0:
+                scored.append((score, kural))
+    
+    # Sort by score (descending) and return top results
+    scored.sort(key=lambda x: x[0], reverse=True)
+    return [kural for _, kural in scored[:3]]  # Return top 3 results
+
 def get_total_kural_count():
     """Get the total number of kurals in the comprehensive database"""
     total_count = 0
@@ -296,8 +331,8 @@ def main():
         st.markdown("## 🌟 KuralCompanion")
         sidebar_selected = option_menu(
             menu_title=None,
-            options=["Home", "Ask Kural", "Explore Themes", "About"],
-            icons=["house", "question-circle", "book", "info-circle"],
+            options=["Home", "Ask Kural", "Know About Kural", "Explore Themes", "About"],
+            icons=["house", "question-circle", "lightbulb", "book", "info-circle"],
             menu_icon="cast",
             default_index=0,
         )
@@ -444,6 +479,86 @@ def main():
                 for i, kural in enumerate(relevant_kurals):
                     # Use the display options selected by the user
                     display_kural(kural, i, show_transliteration=show_transliteration, show_english=True)
+    
+    elif selected == "Know About Kural":
+        st.markdown('<h1 class="main-header">💡 Know About Kural</h1>', unsafe_allow_html=True)
+        
+        # User input
+        user_input = st.text_area(
+            "Ask about any topic, concept, or subject...",
+            placeholder="e.g., 'Tell me about Rain' or 'Tell me about Friendship' or 'What does Thirukkural say about Leadership?'",
+            height=100
+        )
+        
+        # Display options - similar to Ask Kural section
+        st.markdown("---")
+        st.subheader("⚙️ Display Options")
+        col1, col2 = st.columns(2)
+        with col1:
+            show_transliteration = st.checkbox("Show Transliteration", value=True, key="know_translit")
+        with col2:
+            # Get available Tamil explanations from a sample kural to determine options
+            sample_kural = None
+            for theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
+                if kurals:
+                    sample_kural = kurals[0]
+                    break
+            
+            available_explanations = []
+            if sample_kural:
+                if sample_kural.get('mv'):
+                    available_explanations.append(("மு.வரதராசனார்", 'mv'))
+                if sample_kural.get('sp'):
+                    available_explanations.append(("சாலமன் பாப்பையா", 'sp'))
+                if sample_kural.get('mk'):
+                    available_explanations.append(("மு.கருணாநிதி", 'mk'))
+            
+            if len(available_explanations) > 1:
+                selected_explanation = st.radio(
+                    "Choose Tamil explanation:",
+                    options=[exp[0] for exp in available_explanations],
+                    key="know_explanation"
+                )
+                # Find the selected explanation key
+                selected_key = None
+                for exp_name, exp_key in available_explanations:
+                    if exp_name == selected_explanation:
+                        selected_key = exp_key
+                        break
+                st.session_state.selected_explanation = selected_key
+            elif len(available_explanations) == 1:
+                st.session_state.selected_explanation = available_explanations[0][1]
+                st.info(f"Available: {available_explanations[0][0]}")
+            else:
+                st.session_state.selected_explanation = None
+                st.info("No Tamil explanations available")
+
+        # Store transliteration preference in session state
+        st.session_state.show_transliteration = show_transliteration
+        
+        if st.button("💡 Know Thirukkural", type="primary") and user_input:
+            with st.spinner("Searching for relevant wisdom..."):
+                # Find relevant Kurals based on keywords
+                relevant_kurals = find_kurals_by_keywords(user_input)
+                
+                if relevant_kurals:
+                    st.markdown("---")
+                    st.subheader("🤖 KuralCompanion's Response")
+                    st.markdown(f"""
+                    **Your Question:** "{user_input}"
+                    
+                    **KuralCompanion's Response:** Here are the relevant verses from Thirukkural that address your topic. 
+                    These ancient verses contain timeless wisdom that can guide and inspire you.
+                    """)
+                    
+                    st.markdown("---")
+                    st.subheader("📖 Relevant Thirukkural Verses")
+
+                    for i, kural in enumerate(relevant_kurals):
+                        # Use the display options selected by the user
+                        display_kural(kural, i, show_transliteration=show_transliteration, show_english=True)
+                else:
+                    st.warning("No relevant Kurals found for your query. Try using different keywords or rephrasing your question.")
     
     elif selected == "Explore Themes":
         st.markdown('<h1 class="main-header">📚 Explore Themes</h1>', unsafe_allow_html=True)
