@@ -28,9 +28,9 @@ st.markdown("""
     /* Import Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Tamil:wght@300;400;500;600;700&family=Noto+Serif+Tamil:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
     
-    /* CSS Custom Properties for Theme Switching */
+    /* CSS Custom Properties for Palm Leaf Theme */
     :root {
-        /* Classic Palm-Leaf Theme (Default) */
+        /* Classic Palm-Leaf Theme */
         --palm-leaf: #DAC7A0;
         --temple-stone: #2B2A28;
         --kumkum-red: #A2322E;
@@ -38,23 +38,7 @@ st.markdown("""
         --indigo-ink: #1F3C88;
         --soft-sand: #F5EEDC;
         
-        /* Monsoon & Paddy Theme */
-        --monsoon-blue: #264653;
-        --paddy-green: #2A9D8F;
-        --rain-cloud: #8DA6B3;
-        --jasmine-white: #FAFAF7;
-        --earthen-pot: #B5651D;
-        --lotus-pink: #D26A8A;
-        
-        /* Temple Stone Dark Theme */
-        --basalt: #1F1E1B;
-        --granite: #2A2A27;
-        --bronze-accent: #A37A2C;
-        --sandstone-muted: #C1A57A;
-        --camphor-white: #F4F2EC;
-        --oil-lamp-orange: #E07A2E;
-        
-        /* Current theme variables (will be updated by JavaScript) */
+        /* Theme variables */
         --primary: var(--palm-leaf);
         --secondary: var(--temple-stone);
         --accent: var(--kumkum-red);
@@ -65,39 +49,6 @@ st.markdown("""
         --text-light: #666;
         --background: #ffffff;
     }
-    
-    /* Theme-specific styles */
-    .theme-palm-leaf {
-        --primary: var(--palm-leaf);
-        --secondary: var(--temple-stone);
-        --accent: var(--kumkum-red);
-        --accent-secondary: var(--turmeric-gold);
-        --link: var(--indigo-ink);
-        --surface: var(--soft-sand);
-        --text: var(--temple-stone);
-        --background: #ffffff;
-    }
-    
-    .theme-monsoon {
-        --primary: var(--monsoon-blue);
-        --secondary: var(--paddy-green);
-        --accent: var(--earthen-pot);
-        --accent-secondary: var(--lotus-pink);
-        --link: var(--paddy-green);
-        --surface: var(--jasmine-white);
-        --text: var(--monsoon-blue);
-        --background: var(--jasmine-white);
-    }
-    
-    .theme-dark {
-        --primary: var(--basalt);
-        --secondary: var(--granite);
-        --accent: var(--bronze-accent);
-        --accent-secondary: var(--oil-lamp-orange);
-        --link: var(--sandstone-muted);
-        --surface: var(--granite);
-        --text: var(--camphor-white);
-        --background: var(--basalt);
     }
     
     /* Global Styles */
@@ -107,78 +58,13 @@ st.markdown("""
         font-family: 'Inter', sans-serif;
     }
     
-    /* Ensure theme changes are visible */
-    body.theme-palm-leaf {
-        --primary: var(--palm-leaf);
-        --secondary: var(--temple-stone);
-        --accent: var(--kumkum-red);
-        --accent-secondary: var(--turmeric-gold);
-        --link: var(--indigo-ink);
-        --surface: var(--soft-sand);
-        --text: var(--temple-stone);
-        --background: #ffffff;
-    }
+
     
-    body.theme-monsoon {
-        --primary: var(--monsoon-blue);
-        --secondary: var(--paddy-green);
-        --accent: var(--earthen-pot);
-        --accent-secondary: var(--lotus-pink);
-        --link: var(--paddy-green);
-        --surface: var(--jasmine-white);
-        --text: var(--monsoon-blue);
-        --background: var(--jasmine-white);
-    }
+
     
-    body.theme-dark {
-        --primary: var(--basalt);
-        --secondary: var(--granite);
-        --accent: var(--bronze-accent);
-        --accent-secondary: var(--oil-lamp-orange);
-        --link: var(--sandstone-muted);
-        --surface: var(--granite);
-        --text: var(--camphor-white);
-        --background: var(--basalt);
-    }
+
     
-    /* Theme Toggle Container */
-    .theme-toggle-container {
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        z-index: 1000;
-        background: var(--surface);
-        border-radius: 25px;
-        padding: 8px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        border: 2px solid var(--accent);
-        display: flex;
-        gap: 4px;
-    }
-    
-    .theme-toggle-btn {
-        background: var(--accent);
-        color: white;
-        border: none;
-        border-radius: 20px;
-        padding: 8px 16px;
-        cursor: pointer;
-        font-family: 'Inter', sans-serif;
-        font-size: 12px;
-        font-weight: 500;
-        transition: all 0.3s ease;
-        user-select: none;
-    }
-    
-    .theme-toggle-btn:hover {
-        background: var(--accent-secondary);
-        transform: translateY(-2px);
-    }
-    
-    .theme-toggle-btn.active {
-        background: var(--accent-secondary);
-        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    }
+
     
     /* Typography */
     .main-header {
@@ -370,13 +256,7 @@ st.markdown("""
             padding: 1.5rem;
         }
         
-        .theme-toggle-container {
-            position: relative;
-            top: auto;
-            right: auto;
-            margin: 1rem auto;
-            text-align: center;
-        }
+
     }
     
     /* Additional Utility Classes */
@@ -442,97 +322,7 @@ st.markdown("""
     }
 </style>
 
-<script>
-    // Theme switching functionality
-    function switchTheme(themeName) {
-        console.log('Switching to theme:', themeName);
-        
-        // Remove all theme classes
-        document.body.classList.remove('theme-palm-leaf', 'theme-monsoon', 'theme-dark');
-        
-        // Add selected theme class
-        document.body.classList.add('theme-' + themeName);
-        
-        // Update active button state
-        document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
-            btn.classList.remove('active');
-        });
-        
-        // Find the clicked button and make it active
-        const clickedBtn = event.target;
-        if (clickedBtn) {
-            clickedBtn.classList.add('active');
-        }
-        
-        // Store theme preference
-        try {
-            localStorage.setItem('kural-theme', themeName);
-            console.log('Theme saved to localStorage:', themeName);
-        } catch (e) {
-            console.log('Could not save to localStorage:', e);
-        }
-        
-        // Update status indicator
-        const statusElement = document.getElementById('current-theme');
-        if (statusElement) {
-            statusElement.textContent = themeName.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase());
-        }
-        
-        // Force a repaint to ensure theme changes are visible
-        document.body.style.display = 'none';
-        document.body.offsetHeight; // Trigger reflow
-        document.body.style.display = '';
-        
-        console.log('Theme switched successfully to:', themeName);
-    }
-    
-    // Load saved theme on page load
-    function initializeTheme() {
-        console.log('Initializing theme...');
-        
-        try {
-            const savedTheme = localStorage.getItem('kural-theme') || 'palm-leaf';
-            console.log('Saved theme found:', savedTheme);
-            
-            // Remove all theme classes first
-            document.body.classList.remove('theme-palm-leaf', 'theme-monsoon', 'theme-dark');
-            
-            // Add saved theme class
-            document.body.classList.add('theme-' + savedTheme);
-            
-            // Set initial active button
-            document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
-                btn.classList.remove('active');
-                if (btn.textContent.toLowerCase().includes(savedTheme.replace('-', ' '))) {
-                    btn.classList.add('active');
-                    console.log('Set active button:', btn.textContent);
-                }
-            });
-            
-            console.log('Theme initialization complete');
-        } catch (e) {
-            console.log('Error initializing theme:', e);
-            // Fallback to default theme
-            document.body.classList.add('theme-palm-leaf');
-        }
-    }
-    
-    // Try multiple ways to initialize
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initializeTheme);
-    } else {
-        initializeTheme();
-    }
-    
-    // Also try on window load as backup
-    window.addEventListener('load', initializeTheme);
-    
-    // Streamlit-specific initialization
-    if (window.parent !== window) {
-        // We're in an iframe (Streamlit)
-        setTimeout(initializeTheme, 1000);
-    }
-</script>
+
 """, unsafe_allow_html=True)
 
 # Thirukkural Database is now imported from kural_database.py
@@ -902,17 +692,7 @@ def main():
         st.markdown('<h1 class="main-header">🌟 KuralCompanion</h1>', unsafe_allow_html=True)
         st.markdown('<p class="sub-header">Ancient Wisdom for Modern Life</p>', unsafe_allow_html=True)
         
-        # Theme toggle buttons
-        st.markdown("""
-        <div class="theme-toggle-container">
-            <button class="theme-toggle-btn active" onclick="switchTheme('palm-leaf')">Palm Leaf</button>
-            <button class="theme-toggle-btn" onclick="switchTheme('monsoon')">Monsoon</button>
-            <button class="theme-toggle-btn" onclick="switchTheme('dark')">Dark</button>
-        </div>
-        <div id="theme-status" style="text-align: center; margin: 10px 0; font-size: 12px; color: var(--text-light);">
-            Current theme: <span id="current-theme">Palm Leaf</span>
-        </div>
-        """, unsafe_allow_html=True)
+
         
         col1, col2, col3 = st.columns([1, 2, 1])
         
@@ -944,14 +724,7 @@ def main():
     elif selected == "Ask Kural":
         st.markdown('<h1 class="main-header">💭 Ask Kural</h1>', unsafe_allow_html=True)
         
-        # Theme toggle buttons
-        st.markdown("""
-        <div class="theme-toggle-container">
-            <button class="theme-toggle-btn" onclick="switchTheme('palm-leaf')">Palm Leaf</button>
-            <button class="theme-toggle-btn" onclick="switchTheme('monsoon')">Monsoon</button>
-            <button class="theme-toggle-btn" onclick="switchTheme('dark')">Dark</button>
-        </div>
-        """, unsafe_allow_html=True)
+
         
         # User input
         user_input = st.text_area(
@@ -1081,14 +854,7 @@ def main():
     elif selected == "Know About Kural":
         st.markdown('<h1 class="main-header">💡 Know About Kural</h1>', unsafe_allow_html=True)
         
-        # Theme toggle buttons
-        st.markdown("""
-        <div class="theme-toggle-container">
-            <button class="theme-toggle-btn" onclick="switchTheme('palm-leaf')">Palm Leaf</button>
-            <button class="theme-toggle-btn" onclick="switchTheme('monsoon')">Monsoon</button>
-            <button class="theme-toggle-btn" onclick="switchTheme('dark')">Dark</button>
-        </div>
-        """, unsafe_allow_html=True)
+
         
         # User input
         user_input = st.text_area(
@@ -1199,14 +965,7 @@ def main():
     elif selected == "Explore Themes":
         st.markdown('<h1 class="main-header">📚 Explore Themes</h1>', unsafe_allow_html=True)
         
-        # Theme toggle buttons
-        st.markdown("""
-        <div class="theme-toggle-container">
-            <button class="theme-toggle-btn" onclick="switchTheme('palm-leaf')">Palm Leaf</button>
-            <button class="theme-toggle-btn" onclick="switchTheme('monsoon')">Monsoon</button>
-            <button class="theme-toggle-btn" onclick="switchTheme('dark')">Dark</button>
-        </div>
-        """, unsafe_allow_html=True)
+
         
         # Search functionality
         st.subheader("🔍 Search Kurals")
@@ -1360,14 +1119,7 @@ def main():
     elif selected == "About":
         st.markdown('<h1 class="main-header">ℹ️ About KuralCompanion</h1>', unsafe_allow_html=True)
         
-        # Theme toggle buttons
-        st.markdown("""
-        <div class="theme-toggle-container">
-            <button class="theme-toggle-btn" onclick="switchTheme('palm-leaf')">Palm Leaf</button>
-            <button class="theme-toggle-btn" onclick="switchTheme('monsoon')">Monsoon</button>
-            <button class="theme-toggle-btn" onclick="switchTheme('dark')">Dark</button>
-        </div>
-        """, unsafe_allow_html=True)
+
         
         # Kolam divider
         st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
