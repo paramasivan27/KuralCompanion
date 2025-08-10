@@ -721,7 +721,7 @@ def main():
         # User input
         user_input = st.text_area(
             "Share your thoughts, feelings, or questions...",
-            placeholder="e.g., 'I'm feeling sad about losing my job' or 'Why do people hurt others?' or 'I'm grateful for my family'",
+            placeholder="e.g., 'I'm feeling sad today' or 'Why do people hurt others?' or 'I'm grateful for my family'",
             height=100
         )
         
