@@ -703,6 +703,9 @@ def main():
             Start your journey by asking a question or sharing how you feel!
             """)
             
+            # Display Thiruvalluvar image
+            st.image("src/Thiruvalluvar_Small.png", use_container_width=True, caption="Thiruvalluvar - The Great Sage")
+            
             # Kolam divider
             st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
             
@@ -1111,7 +1114,7 @@ def main():
         # Display Thiruvalluvar image
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
-            st.image("src/Thiruvalluvar_Final.png", use_column_width=True, caption="Thiruvalluvar - The Great Sage")
+            st.image("src/Thiruvalluvar_Final.png", use_container_width=True, caption="Thiruvalluvar - The Great Sage")
         
         # Kolam divider
         st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
