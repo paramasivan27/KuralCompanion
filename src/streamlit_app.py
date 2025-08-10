@@ -205,6 +205,10 @@ def display_kural(kural, index=0, show_transliteration: bool = True, show_englis
     # Format Tamil text in two lines
     tamil_text = f"{kural.get('line1', '')}<br>{kural.get('line2', '')}" if 'line1' in kural else kural['tamil']
     
+    # Add transliteration toggle option
+    if show_transliteration:
+        show_transliteration = st.checkbox("Show Transliteration", value=True, key=f"translit_{index}")
+    
     # Format transliteration in two lines (only if selected)
     transliteration_text = ""
     if show_transliteration:
@@ -218,16 +222,35 @@ def display_kural(kural, index=0, show_transliteration: bool = True, show_englis
     sp = kural.get('sp', '')
     mk = kural.get('mk', '')
     
-    # Create explanations section
+    # Create explanations section with radio button selection
     explanations_html = ""
     if mv or sp or mk:
         explanations_html = "<p><strong>Tamil Explanations:</strong></p>"
+        
+        # Create radio buttons for Tamil explanations
+        available_explanations = []
         if mv:
-            explanations_html += f"<p><em>மு.வ:</em> {mv}</p>"
+            available_explanations.append(("மு.வரதராசனார்", mv))
         if sp:
-            explanations_html += f"<p><em>ச.ப:</em> {sp}</p>"
+            available_explanations.append(("சாலமன் பாப்பையா", sp))
         if mk:
-            explanations_html += f"<p><em>மு.க:</em> {mk}</p>"
+            available_explanations.append(("மு.கருணாநிதி", mk))
+        
+        if len(available_explanations) > 1:
+            # Use radio button if multiple explanations available
+            selected_explanation = st.radio(
+                "Choose Tamil explanation:",
+                options=[exp[0] for exp in available_explanations],
+                key=f"explanation_{index}"
+            )
+            # Find the selected explanation text
+            for exp_name, exp_text in available_explanations:
+                if exp_name == selected_explanation:
+                    explanations_html += f"<p><em>{exp_name}:</em> {exp_text}</p>"
+                    break
+        else:
+            # If only one explanation, show it directly
+            explanations_html += f"<p><em>{available_explanations[0][0]}:</em> {available_explanations[0][1]}</p>"
     
     # Build conditional sections
     sections_html = [
