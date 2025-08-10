@@ -25,44 +25,418 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
 <style>
-    .main-header {
-        font-size: 3rem;
-        font-weight: bold;
-        text-align: center;
-        color: #1f77b4;
-        margin-bottom: 1rem;
+    /* Import Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Tamil:wght@300;400;500;600;700&family=Noto+Serif+Tamil:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+    
+    /* CSS Custom Properties for Theme Switching */
+    :root {
+        /* Classic Palm-Leaf Theme (Default) */
+        --palm-leaf: #DAC7A0;
+        --temple-stone: #2B2A28;
+        --kumkum-red: #A2322E;
+        --turmeric-gold: #D3A014;
+        --indigo-ink: #1F3C88;
+        --soft-sand: #F5EEDC;
+        
+        /* Monsoon & Paddy Theme */
+        --monsoon-blue: #264653;
+        --paddy-green: #2A9D8F;
+        --rain-cloud: #8DA6B3;
+        --jasmine-white: #FAFAF7;
+        --earthen-pot: #B5651D;
+        --lotus-pink: #D26A8A;
+        
+        /* Temple Stone Dark Theme */
+        --basalt: #1F1E1B;
+        --granite: #2A2A27;
+        --bronze-accent: #A37A2C;
+        --sandstone-muted: #C1A57A;
+        --camphor-white: #F4F2EC;
+        --oil-lamp-orange: #E07A2E;
+        
+        /* Current theme variables (will be updated by JavaScript) */
+        --primary: var(--palm-leaf);
+        --secondary: var(--temple-stone);
+        --accent: var(--kumkum-red);
+        --accent-secondary: var(--turmeric-gold);
+        --link: var(--indigo-ink);
+        --surface: var(--soft-sand);
+        --text: var(--temple-stone);
+        --text-light: #666;
+        --background: #ffffff;
     }
-    .sub-header {
-        font-size: 1.5rem;
-        text-align: center;
-        color: #666;
-        margin-bottom: 2rem;
+    
+    /* Theme-specific styles */
+    .theme-palm-leaf {
+        --primary: var(--palm-leaf);
+        --secondary: var(--temple-stone);
+        --accent: var(--kumkum-red);
+        --accent-secondary: var(--turmeric-gold);
+        --link: var(--indigo-ink);
+        --surface: var(--soft-sand);
+        --text: var(--temple-stone);
+        --background: #ffffff;
     }
-    .kural-card {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        padding: 2rem;
-        border-radius: 15px;
+    
+    .theme-monsoon {
+        --primary: var(--monsoon-blue);
+        --secondary: var(--paddy-green);
+        --accent: var(--earthen-pot);
+        --accent-secondary: var(--lotus-pink);
+        --link: var(--paddy-green);
+        --surface: var(--jasmine-white);
+        --text: var(--monsoon-blue);
+        --background: var(--jasmine-white);
+    }
+    
+    .theme-dark {
+        --primary: var(--basalt);
+        --secondary: var(--granite);
+        --accent: var(--bronze-accent);
+        --accent-secondary: var(--oil-lamp-orange);
+        --link: var(--sandstone-muted);
+        --surface: var(--granite);
+        --text: var(--camphor-white);
+        --background: var(--basalt);
+    }
+    
+    /* Global Styles */
+    .stApp {
+        background: var(--background);
+        color: var(--text);
+        font-family: 'Inter', sans-serif;
+    }
+    
+    /* Theme Toggle Container */
+    .theme-toggle-container {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+        background: var(--surface);
+        border-radius: 25px;
+        padding: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        border: 2px solid var(--accent);
+    }
+    
+    .theme-toggle-btn {
+        background: var(--accent);
         color: white;
-        margin: 1rem 0;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border: none;
+        border-radius: 20px;
+        padding: 8px 16px;
+        margin: 0 4px;
+        cursor: pointer;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        transition: all 0.3s ease;
     }
+    
+    .theme-toggle-btn:hover {
+        background: var(--accent-secondary);
+        transform: translateY(-2px);
+    }
+    
+    .theme-toggle-btn.active {
+        background: var(--accent-secondary);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    
+    /* Typography */
+    .main-header {
+        font-family: 'EB Garamond', serif;
+        font-size: 3.5rem;
+        font-weight: 600;
+        text-align: center;
+        color: var(--primary);
+        margin-bottom: 1rem;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        position: relative;
+    }
+    
+    .main-header::before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 60px;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23A2322E"><path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z"/></svg>') no-repeat center;
+        background-size: contain;
+        opacity: 0.3;
+    }
+    
+    .sub-header {
+        font-family: 'Noto Serif Tamil', serif;
+        font-size: 1.8rem;
+        text-align: center;
+        color: var(--text-light);
+        margin-bottom: 2rem;
+        font-weight: 400;
+    }
+    
+    /* Kural Card with enhanced design */
+    .kural-card {
+        background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+        padding: 2.5rem;
+        border-radius: 20px;
+        color: white;
+        margin: 1.5rem 0;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        border: 2px solid var(--accent-secondary);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .kural-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="palm" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M10 0L12 8L20 10L12 12L10 20L8 12L0 10L8 8Z" fill="white" opacity="0.05"/></pattern></defs><rect width="100" height="100" fill="url(%23palm)"/></svg>');
+        opacity: 0.1;
+    }
+    
+    /* Kolam divider */
+    .hr-kolam {
+        height: 2px;
+        background: linear-gradient(90deg, transparent 0%, var(--accent) 50%, transparent 100%);
+        border: none;
+        margin: 2rem 0;
+        position: relative;
+    }
+    
+    .hr-kolam::before {
+        content: '•';
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--accent);
+        font-size: 1.5rem;
+        background: var(--background);
+        padding: 0 1rem;
+    }
+    
+    /* Enhanced Emotion Badges */
     .emotion-badge {
         display: inline-block;
-        padding: 0.5rem 1rem;
-        border-radius: 20px;
-        font-weight: bold;
-        margin: 0.25rem;
+        padding: 0.6rem 1.2rem;
+        border-radius: 25px;
+        font-weight: 600;
+        margin: 0.3rem;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        transition: all 0.3s ease;
     }
-    .emotion-sad { background-color: #ff6b6b; }
-    .emotion-happy { background-color: #4ecdc4; }
-    .emotion-angry { background-color: #ff8a80; }
-    .emotion-confused { background-color: #a8e6cf; }
-    .emotion-grateful { background-color: #ffd93d; }
-    .emotion-love { background-color: #ff69b4; }
-    .emotion-wisdom { background-color: #6c5ce7; }
-    .emotion-peaceful { background-color: #74b9ff; }
-    .emotion-patient { background-color: #a29bfe; }
+    
+    .emotion-badge:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    
+    .emotion-sad { background: linear-gradient(135deg, #ff6b6b, #ee5a52); color: white; }
+    .emotion-happy { background: linear-gradient(135deg, #4ecdc4, #44a08d); color: white; }
+    .emotion-angry { background: linear-gradient(135deg, #ff8a80, #ff5252); color: white; }
+    .emotion-confused { background: linear-gradient(135deg, #a8e6cf, #88d8c0); color: var(--text); }
+    .emotion-grateful { background: linear-gradient(135deg, #ffd93d, #ffc107); color: var(--text); }
+    .emotion-love { background: linear-gradient(135deg, #ff69b4, #e91e63); color: white; }
+    .emotion-wisdom { background: linear-gradient(135deg, #6c5ce7, #5f3dc4); color: white; }
+    .emotion-peaceful { background: linear-gradient(135deg, #74b9ff, #0984e3); color: white; }
+    .emotion-patient { background: linear-gradient(135deg, #a29bfe, #6c5ce7); color: white; }
+    
+    /* Tamil Text Styling */
+    .tamil-text {
+        font-family: 'Noto Serif Tamil', serif;
+        font-size: 1.2rem;
+        line-height: 1.8;
+        color: var(--text);
+    }
+    
+    /* Section Headers with Motifs */
+    .section-header {
+        font-family: 'EB Garamond', serif;
+        font-size: 2.5rem;
+        color: var(--primary);
+        margin: 2rem 0 1rem 0;
+        position: relative;
+        padding-left: 3rem;
+    }
+    
+    .section-header::before {
+        content: '🎵'; /* Yazh (ancient lute) emoji as placeholder */
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 2rem;
+        opacity: 0.7;
+    }
+    
+    /* Enhanced Form Elements */
+    .stTextInput > div > div > input {
+        border: 2px solid var(--accent);
+        border-radius: 15px;
+        padding: 12px 16px;
+        font-family: 'Inter', sans-serif;
+        background: var(--surface);
+        color: var(--text);
+    }
+    
+    .stTextInput > div > div > input:focus {
+        border-color: var(--accent-secondary);
+        box-shadow: 0 0 0 3px rgba(211, 160, 20, 0.1);
+    }
+    
+    .stButton > button {
+        background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
+        color: white;
+        border: none;
+        border-radius: 15px;
+        padding: 12px 24px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    
+    .stButton > button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+    
+    /* Sidebar Styling */
+    .css-1d391kg {
+        background: var(--surface);
+        border-right: 2px solid var(--accent);
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .main-header {
+            font-size: 2.5rem;
+        }
+        
+        .sub-header {
+            font-size: 1.4rem;
+        }
+        
+        .kural-card {
+            padding: 1.5rem;
+        }
+        
+        .theme-toggle-container {
+            position: relative;
+            top: auto;
+            right: auto;
+            margin: 1rem auto;
+            text-align: center;
+        }
+    }
+    
+    /* Additional Utility Classes */
+    .tamil-quote {
+        font-family: 'Noto Serif Tamil', serif;
+        font-size: 1.4rem;
+        line-height: 2;
+        color: var(--primary);
+        text-align: center;
+        margin: 2rem 0;
+        padding: 2rem;
+        background: var(--surface);
+        border-radius: 15px;
+        border-left: 4px solid var(--accent);
+    }
+    
+    .kural-number {
+        font-family: 'EB Garamond', serif;
+        font-size: 1.2rem;
+        color: var(--accent-secondary);
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+    
+    .explanation-text {
+        font-family: 'Inter', sans-serif;
+        line-height: 1.7;
+        color: var(--text);
+        margin: 1rem 0;
+    }
+    
+    /* Enhanced sidebar styling */
+    .css-1d391kg .css-1lcbmhc {
+        background: var(--surface);
+        border-right: 2px solid var(--accent);
+    }
+    
+    /* Streamlit specific overrides */
+    .stMarkdown {
+        color: var(--text);
+    }
+    
+    .stText {
+        color: var(--text);
+    }
+    
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: var(--surface);
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: var(--accent);
+        border-radius: 4px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--accent-secondary);
+    }
 </style>
+
+<script>
+    // Theme switching functionality
+    function switchTheme(themeName) {
+        // Remove all theme classes
+        document.body.classList.remove('theme-palm-leaf', 'theme-monsoon', 'theme-dark');
+        
+        // Add selected theme class
+        document.body.classList.add('theme-' + themeName);
+        
+        // Update active button state
+        document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        event.target.classList.add('active');
+        
+        // Store theme preference
+        localStorage.setItem('kural-theme', themeName);
+    }
+    
+    // Load saved theme on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        const savedTheme = localStorage.getItem('kural-theme') || 'palm-leaf';
+        switchTheme(savedTheme);
+        
+        // Set initial active button
+        document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
+            if (btn.textContent.toLowerCase().includes(savedTheme.replace('-', ' '))) {
+                btn.classList.add('active');
+            }
+        });
+    });
+</script>
 """, unsafe_allow_html=True)
 
 # Thirukkural Database is now imported from kural_database.py
@@ -278,23 +652,23 @@ def display_kural(kural, index=0, show_transliteration: bool = True, show_englis
         # Use the selected explanation from session state or fallback to first available
         selected_key = st.session_state.get('selected_explanation')
         if selected_key == 'mv' and mv:
-            explanations_html += f"<p><em>மு.வரதராசனார்:</em> {mv}</p>"
+            explanations_html += f"<p><em>மு.வரதராசனார்:</em><br><span class='tamil-text'>{mv}</span></p>"
         elif selected_key == 'sp' and sp:
-            explanations_html += f"<p><em>சாலமன் பாப்பையா:</em> {sp}</p>"
+            explanations_html += f"<p><em>சாலமன் பாப்பையா:</em><br><span class='tamil-text'>{sp}</span></p>"
         elif selected_key == 'mk' and mk:
-            explanations_html += f"<p><em>மு.கருணாநிதி:</em> {mk}</p>"
+            explanations_html += f"<p><em>மு.கருணாநிதி:</em><br><span class='tamil-text'>{mk}</span></p>"
         else:
             # Fallback: show first available explanation
             if mv:
-                explanations_html += f"<p><em>மு.வரதராசனார்:</em> {mv}</p>"
+                explanations_html += f"<p><em>மு.வரதராசனார்:</em><br><span class='tamil-text'>{mv}</span></p>"
             elif sp:
-                explanations_html += f"<p><em>சாலமன் பாப்பையா:</em> {sp}</p>"
+                explanations_html += f"<p><em>சாலமன் பாப்பையா:</em><br><span class='tamil-text'>{sp}</span></p>"
             elif mk:
-                explanations_html += f"<p><em>மு.கருணாநிதி:</em> {mk}</p>"
+                explanations_html += f"<p><em>மு.கருணாநிதி:</em><br><span class='tamil-text'>{mk}</span></p>"
     
     # Build conditional sections
     sections_html = [
-        f"<p><strong>Tamil:</strong><br>{tamil_text}</p>"
+        f"<p><strong>Tamil:</strong><br><span class='tamil-text'>{tamil_text}</span></p>"
     ]
     if show_translit and transliteration_text:
         sections_html.append(f"<p><strong>Transliteration:</strong><br>{transliteration_text}</p>")
@@ -308,7 +682,7 @@ def display_kural(kural, index=0, show_transliteration: bool = True, show_englis
     st.markdown(
         f"""
         <div class="kural-card">
-            <h3>Kural #{kural['number']}</h3>
+            <div class="kural-number">Kural #{kural['number']}</div>
             {''.join(sections_html)}
         </div>
         """,
@@ -432,6 +806,15 @@ def main():
         st.markdown('<h1 class="main-header">🌟 KuralCompanion</h1>', unsafe_allow_html=True)
         st.markdown('<p class="sub-header">Ancient Wisdom for Modern Life</p>', unsafe_allow_html=True)
         
+        # Theme toggle buttons
+        st.markdown("""
+        <div class="theme-toggle-container">
+            <button class="theme-toggle-btn active" onclick="switchTheme('palm-leaf')">Palm Leaf</button>
+            <button class="theme-toggle-btn" onclick="switchTheme('monsoon')">Monsoon</button>
+            <button class="theme-toggle-btn" onclick="switchTheme('dark')">Dark</button>
+        </div>
+        """, unsafe_allow_html=True)
+        
         col1, col2, col3 = st.columns([1, 2, 1])
         
         with col2:
@@ -452,12 +835,24 @@ def main():
             Start your journey by asking a question or sharing how you feel!
             """)
             
+            # Kolam divider
+            st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
+            
             if st.button("🚀 Start Your Journey", type="primary"):
                 st.session_state.selected_page = "Ask Kural"
                 st.rerun()
     
     elif selected == "Ask Kural":
         st.markdown('<h1 class="main-header">💭 Ask Kural</h1>', unsafe_allow_html=True)
+        
+        # Theme toggle buttons
+        st.markdown("""
+        <div class="theme-toggle-container">
+            <button class="theme-toggle-btn" onclick="switchTheme('palm-leaf')">Palm Leaf</button>
+            <button class="theme-toggle-btn" onclick="switchTheme('monsoon')">Monsoon</button>
+            <button class="theme-toggle-btn" onclick="switchTheme('dark')">Dark</button>
+        </div>
+        """, unsafe_allow_html=True)
         
         # User input
         user_input = st.text_area(
@@ -587,6 +982,15 @@ def main():
     elif selected == "Know About Kural":
         st.markdown('<h1 class="main-header">💡 Know About Kural</h1>', unsafe_allow_html=True)
         
+        # Theme toggle buttons
+        st.markdown("""
+        <div class="theme-toggle-container">
+            <button class="theme-toggle-btn" onclick="switchTheme('palm-leaf')">Palm Leaf</button>
+            <button class="theme-toggle-btn" onclick="switchTheme('monsoon')">Monsoon</button>
+            <button class="theme-toggle-btn" onclick="switchTheme('dark')">Dark</button>
+        </div>
+        """, unsafe_allow_html=True)
+        
         # User input
         user_input = st.text_area(
             "Ask about any topic, concept, or subject...",
@@ -695,6 +1099,15 @@ def main():
     
     elif selected == "Explore Themes":
         st.markdown('<h1 class="main-header">📚 Explore Themes</h1>', unsafe_allow_html=True)
+        
+        # Theme toggle buttons
+        st.markdown("""
+        <div class="theme-toggle-container">
+            <button class="theme-toggle-btn" onclick="switchTheme('palm-leaf')">Palm Leaf</button>
+            <button class="theme-toggle-btn" onclick="switchTheme('monsoon')">Monsoon</button>
+            <button class="theme-toggle-btn" onclick="switchTheme('dark')">Dark</button>
+        </div>
+        """, unsafe_allow_html=True)
         
         # Search functionality
         st.subheader("🔍 Search Kurals")
@@ -847,6 +1260,18 @@ def main():
     
     elif selected == "About":
         st.markdown('<h1 class="main-header">ℹ️ About KuralCompanion</h1>', unsafe_allow_html=True)
+        
+        # Theme toggle buttons
+        st.markdown("""
+        <div class="theme-toggle-container">
+            <button class="theme-toggle-btn" onclick="switchTheme('palm-leaf')">Palm Leaf</button>
+            <button class="theme-toggle-btn" onclick="switchTheme('monsoon')">Monsoon</button>
+            <button class="theme-toggle-btn" onclick="switchTheme('dark')">Dark</button>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        # Kolam divider
+        st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
         
         # Database Statistics
         total_kurals = get_total_kural_count()
