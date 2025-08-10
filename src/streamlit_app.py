@@ -303,7 +303,7 @@ def display_kural(kural, index=0, show_transliteration: bool = True, show_englis
     sections_html.append(f"<p><strong>Meaning:</strong> {kural['meaning']}</p>")
     if explanations_html:
         sections_html.append(explanations_html)
-    sections_html.append(f"<p><strong>Theme:</strong> {kural['theme'].replace('_', ' ').title()}</p>")
+
 
     st.markdown(
         f"""
