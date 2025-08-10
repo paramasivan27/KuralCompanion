@@ -141,7 +141,7 @@ def find_relevant_kurals_rag(user_input, emotions, themes):
                     score += 8   # Emotion match (increased from 6)
                     match_details.append(f"Emotion match: {emotion}")
                 # Check for emotional context in meaning and english fields
-                elif any(emotion in kural.get("meaning", "").lower() or emotion in kural.get("english", "").lower()):
+                elif (emotion in kural.get("meaning", "").lower() or emotion in kural.get("english", "").lower()):
                     score += 4   # Emotional context match
                     match_details.append(f"Emotional context: {emotion}")
             
