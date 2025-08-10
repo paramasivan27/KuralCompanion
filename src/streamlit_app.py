@@ -468,47 +468,47 @@ def main():
         
         # Display options - moved above the Find Wisdom button
         st.markdown("---")
-        st.subheader("⚙️ Display Options")
-        col1, col2 = st.columns(2)
-        with col1:
-            show_transliteration = st.checkbox("Show Transliteration", value=True, key="ask_translit")
-        with col2:
-            # Get available Tamil explanations from a sample kural to determine options
-            # We'll use a sample from the database to show available options
-            sample_kural = None
-            for theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
-                if kurals:
-                    sample_kural = kurals[0]
-                    break
-            
-            available_explanations = []
-            if sample_kural:
-                if sample_kural.get('mv'):
-                    available_explanations.append(("மு.வரதராசனார்", 'mv'))
-                if sample_kural.get('sp'):
-                    available_explanations.append(("சாலமன் பாப்பையா", 'sp'))
-                if sample_kural.get('mk'):
-                    available_explanations.append(("மு.கருணாநிதி", 'mk'))
-            
-            if len(available_explanations) > 1:
-                selected_explanation = st.radio(
-                    "Choose Tamil explanation:",
-                    options=[exp[0] for exp in available_explanations],
-                    key="ask_explanation"
-                )
-                # Find the selected explanation key
-                selected_key = None
-                for exp_name, exp_key in available_explanations:
-                    if exp_name == selected_explanation:
-                        selected_key = exp_key
+        with st.expander("⚙️ Display Options", expanded=False):
+            col1, col2 = st.columns(2)
+            with col1:
+                show_transliteration = st.checkbox("Show Transliteration", value=True, key="ask_translit")
+            with col2:
+                # Get available Tamil explanations from a sample kural to determine options
+                # We'll use a sample from the database to show available options
+                sample_kural = None
+                for theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
+                    if kurals:
+                        sample_kural = kurals[0]
                         break
-                st.session_state.selected_explanation = selected_key
-            elif len(available_explanations) == 1:
-                st.session_state.selected_explanation = available_explanations[0][1]
-                st.info(f"Available: {available_explanations[0][0]}")
-            else:
-                st.session_state.selected_explanation = None
-                st.info("No Tamil explanations available")
+                
+                available_explanations = []
+                if sample_kural:
+                    if sample_kural.get('mv'):
+                        available_explanations.append(("மு.வரதராசனார்", 'mv'))
+                    if sample_kural.get('sp'):
+                        available_explanations.append(("சாலமன் பாப்பையா", 'sp'))
+                    if sample_kural.get('mk'):
+                        available_explanations.append(("மு.கருணாநிதி", 'mk'))
+                
+                if len(available_explanations) > 1:
+                    selected_explanation = st.radio(
+                        "Choose Tamil explanation:",
+                        options=[exp[0] for exp in available_explanations],
+                        key="ask_explanation"
+                    )
+                    # Find the selected explanation key
+                    selected_key = None
+                    for exp_name, exp_key in available_explanations:
+                        if exp_name == selected_explanation:
+                            selected_key = exp_key
+                            break
+                    st.session_state.selected_explanation = selected_key
+                elif len(available_explanations) == 1:
+                    st.session_state.selected_explanation = available_explanations[0][1]
+                    st.info(f"Available: {available_explanations[0][0]}")
+                else:
+                    st.session_state.selected_explanation = None
+                    st.info("No Tamil explanations available")
 
         # Store transliteration preference in session state
         st.session_state.show_transliteration = show_transliteration
@@ -519,18 +519,18 @@ def main():
                 emotions = detect_emotion(user_input)
                 themes = detect_theme(user_input)
                 
-                # Display detected emotions and themes
+                # Display detected emotions and themes in collapsible sections
                 col1, col2 = st.columns(2)
                 
                 with col1:
-                    st.subheader("🎭 Detected Emotions")
-                    for emotion in emotions:
-                        st.markdown(f'<span class="emotion-badge emotion-{emotion}">{emotion.title()}</span>', unsafe_allow_html=True)
+                    with st.expander("🎭 Detected Emotions", expanded=False):
+                        for emotion in emotions:
+                            st.markdown(f'<span class="emotion-badge emotion-{emotion}">{emotion.title()}</span>', unsafe_allow_html=True)
                 
                 with col2:
-                    st.subheader("📚 Detected Themes")
-                    for theme in themes:
-                        st.markdown(f'<span class="emotion-badge emotion-wisdom">{theme.title()}</span>', unsafe_allow_html=True)
+                    with st.expander("📚 Detected Themes", expanded=False):
+                        for theme in themes:
+                            st.markdown(f'<span class="emotion-badge emotion-wisdom">{theme.title()}</span>', unsafe_allow_html=True)
                 
                 st.markdown("---")
                 
@@ -596,46 +596,46 @@ def main():
         
         # Display options - similar to Ask Kural section
         st.markdown("---")
-        st.subheader("⚙️ Display Options")
-        col1, col2 = st.columns(2)
-        with col1:
-            show_transliteration = st.checkbox("Show Transliteration", value=True, key="know_translit")
-        with col2:
-            # Get available Tamil explanations from a sample kural to determine options
-            sample_kural = None
-            for theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
-                if kurals:
-                    sample_kural = kurals[0]
-                    break
-            
-            available_explanations = []
-            if sample_kural:
-                if sample_kural.get('mv'):
-                    available_explanations.append(("மு.வரதராசனார்", 'mv'))
-                if sample_kural.get('sp'):
-                    available_explanations.append(("சாலமன் பாப்பையா", 'sp'))
+        with st.expander("⚙️ Display Options", expanded=False):
+            col1, col2 = st.columns(2)
+            with col1:
+                show_transliteration = st.checkbox("Show Transliteration", value=True, key="know_translit")
+            with col2:
+                # Get available Tamil explanations from a sample kural to determine options
+                sample_kural = None
+                for theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
+                    if kurals:
+                        sample_kural = kurals[0]
+                        break
+                
+                available_explanations = []
+                if sample_kural:
+                    if sample_kural.get('mv'):
+                        available_explanations.append(("மு.வரதராசனார்", 'mv'))
+                    if sample_kural.get('sp'):
+                        available_explanations.append(("சாலமன் பாப்பையா", 'sp'))
                 if sample_kural.get('mk'):
                     available_explanations.append(("மு.கருணாநிதி", 'mk'))
-            
-            if len(available_explanations) > 1:
-                selected_explanation = st.radio(
-                    "Choose Tamil explanation:",
-                    options=[exp[0] for exp in available_explanations],
-                    key="know_explanation"
-                )
-                # Find the selected explanation key
-                selected_key = None
-                for exp_name, exp_key in available_explanations:
-                    if exp_name == selected_explanation:
-                        selected_key = exp_key
-                        break
-                st.session_state.selected_explanation = selected_key
-            elif len(available_explanations) == 1:
-                st.session_state.selected_explanation = available_explanations[0][1]
-                st.info(f"Available: {available_explanations[0][0]}")
-            else:
-                st.session_state.selected_explanation = None
-                st.info("No Tamil explanations available")
+                
+                if len(available_explanations) > 1:
+                    selected_explanation = st.radio(
+                        "Choose Tamil explanation:",
+                        options=[exp[0] for exp in available_explanations],
+                        key="know_explanation"
+                    )
+                    # Find the selected explanation key
+                    selected_key = None
+                    for exp_name, exp_key in available_explanations:
+                        if exp_name == selected_explanation:
+                            selected_key = exp_key
+                            break
+                    st.session_state.selected_explanation = selected_key
+                elif len(available_explanations) == 1:
+                    st.session_state.selected_explanation = available_explanations[0][1]
+                    st.info(f"Available: {available_explanations[0][0]}")
+                else:
+                    st.session_state.selected_explanation = None
+                    st.info("No Tamil explanations available")
 
         # Store transliteration preference in session state
         st.session_state.show_transliteration = show_transliteration
@@ -702,46 +702,46 @@ def main():
         
         # Display options - moved below Search Kurals section
         st.markdown("---")
-        st.subheader("⚙️ Display Options")
-        col1, col2 = st.columns(2)
-        with col1:
-            show_transliteration = st.checkbox("Show Transliteration", value=True, key="theme_translit")
-        with col2:
-            # Get available Tamil explanations from a sample kural to determine options
-            sample_kural = None
-            for theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
-                if kurals:
-                    sample_kural = kurals[0]
-                    break
-            
-            available_explanations = []
-            if sample_kural:
-                if sample_kural.get('mv'):
-                    available_explanations.append(("மு.வரதராசனார்", 'mv'))
-                if sample_kural.get('sp'):
-                    available_explanations.append(("சாலமன் பாப்பையா", 'sp'))
-                if sample_kural.get('mk'):
-                    available_explanations.append(("மு.கருணாநிதி", 'mk'))
-            
-            if len(available_explanations) > 1:
-                selected_explanation = st.radio(
-                    "Choose Tamil explanation:",
-                    options=[exp[0] for exp in available_explanations],
-                    key="theme_explanation"
-                )
-                # Find the selected explanation key
-                selected_key = None
-                for exp_name, exp_key in available_explanations:
-                    if exp_name == selected_explanation:
-                        selected_key = exp_key
+        with st.expander("⚙️ Display Options", expanded=False):
+            col1, col2 = st.columns(2)
+            with col1:
+                show_transliteration = st.checkbox("Show Transliteration", value=True, key="theme_translit")
+            with col2:
+                # Get available Tamil explanations from a sample kural to determine options
+                sample_kural = None
+                for theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
+                    if kurals:
+                        sample_kural = kurals[0]
                         break
-                st.session_state.selected_explanation = selected_key
-            elif len(available_explanations) == 1:
-                st.session_state.selected_explanation = available_explanations[0][1]
-                st.info(f"Available: {available_explanations[0][0]}")
-            else:
-                st.session_state.selected_explanation = None
-                st.info("No Tamil explanations available")
+                
+                available_explanations = []
+                if sample_kural:
+                    if sample_kural.get('mv'):
+                        available_explanations.append(("மு.வரதராசனார்", 'mv'))
+                    if sample_kural.get('sp'):
+                        available_explanations.append(("சாலமன் பாப்பையா", 'sp'))
+                    if sample_kural.get('mk'):
+                        available_explanations.append(("மு.கருணாநிதி", 'mk'))
+                
+                if len(available_explanations) > 1:
+                    selected_explanation = st.expander(
+                        "Choose Tamil explanation:",
+                        options=[exp[0] for exp in available_explanations],
+                        key="theme_explanation"
+                    )
+                    # Find the selected explanation key
+                    selected_key = None
+                    for exp_name, exp_key in available_explanations:
+                        if exp_name == selected_explanation:
+                            selected_key = exp_key
+                            break
+                    st.session_state.selected_explanation = selected_key
+                elif len(available_explanations) == 1:
+                    st.session_state.selected_explanation = available_explanations[0][1]
+                    st.info(f"Available: {available_explanations[0][0]}")
+                else:
+                    st.session_state.selected_explanation = None
+                    st.info("No Tamil explanations available")
 
         # Store transliteration preference in session state
         st.session_state.show_transliteration = show_transliteration
