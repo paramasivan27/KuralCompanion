@@ -102,9 +102,43 @@ st.markdown("""
     
     /* Global Styles */
     .stApp {
-        background: var(--background);
-        color: var(--text);
+        background: var(--background) !important;
+        color: var(--text) !important;
         font-family: 'Inter', sans-serif;
+    }
+    
+    /* Ensure theme changes are visible */
+    body.theme-palm-leaf {
+        --primary: var(--palm-leaf);
+        --secondary: var(--temple-stone);
+        --accent: var(--kumkum-red);
+        --accent-secondary: var(--turmeric-gold);
+        --link: var(--indigo-ink);
+        --surface: var(--soft-sand);
+        --text: var(--temple-stone);
+        --background: #ffffff;
+    }
+    
+    body.theme-monsoon {
+        --primary: var(--monsoon-blue);
+        --secondary: var(--paddy-green);
+        --accent: var(--earthen-pot);
+        --accent-secondary: var(--lotus-pink);
+        --link: var(--paddy-green);
+        --surface: var(--jasmine-white);
+        --text: var(--monsoon-blue);
+        --background: var(--jasmine-white);
+    }
+    
+    body.theme-dark {
+        --primary: var(--basalt);
+        --secondary: var(--granite);
+        --accent: var(--bronze-accent);
+        --accent-secondary: var(--oil-lamp-orange);
+        --link: var(--sandstone-muted);
+        --surface: var(--granite);
+        --text: var(--camphor-white);
+        --background: var(--basalt);
     }
     
     /* Theme Toggle Container */
@@ -118,6 +152,8 @@ st.markdown("""
         padding: 8px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         border: 2px solid var(--accent);
+        display: flex;
+        gap: 4px;
     }
     
     .theme-toggle-btn {
@@ -126,12 +162,12 @@ st.markdown("""
         border: none;
         border-radius: 20px;
         padding: 8px 16px;
-        margin: 0 4px;
         cursor: pointer;
         font-family: 'Inter', sans-serif;
         font-size: 12px;
         font-weight: 500;
         transition: all 0.3s ease;
+        user-select: none;
     }
     
     .theme-toggle-btn:hover {
@@ -150,10 +186,11 @@ st.markdown("""
         font-size: 3.5rem;
         font-weight: 600;
         text-align: center;
-        color: var(--primary);
+        color: var(--primary) !important;
         margin-bottom: 1rem;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         position: relative;
+        transition: color 0.3s ease;
     }
     
     .main-header::before {
@@ -408,6 +445,8 @@ st.markdown("""
 <script>
     // Theme switching functionality
     function switchTheme(themeName) {
+        console.log('Switching to theme:', themeName);
+        
         // Remove all theme classes
         document.body.classList.remove('theme-palm-leaf', 'theme-monsoon', 'theme-dark');
         
@@ -418,24 +457,81 @@ st.markdown("""
         document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
             btn.classList.remove('active');
         });
-        event.target.classList.add('active');
+        
+        // Find the clicked button and make it active
+        const clickedBtn = event.target;
+        if (clickedBtn) {
+            clickedBtn.classList.add('active');
+        }
         
         // Store theme preference
-        localStorage.setItem('kural-theme', themeName);
+        try {
+            localStorage.setItem('kural-theme', themeName);
+            console.log('Theme saved to localStorage:', themeName);
+        } catch (e) {
+            console.log('Could not save to localStorage:', e);
+        }
+        
+        // Update status indicator
+        const statusElement = document.getElementById('current-theme');
+        if (statusElement) {
+            statusElement.textContent = themeName.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase());
+        }
+        
+        // Force a repaint to ensure theme changes are visible
+        document.body.style.display = 'none';
+        document.body.offsetHeight; // Trigger reflow
+        document.body.style.display = '';
+        
+        console.log('Theme switched successfully to:', themeName);
     }
     
     // Load saved theme on page load
-    document.addEventListener('DOMContentLoaded', function() {
-        const savedTheme = localStorage.getItem('kural-theme') || 'palm-leaf';
-        switchTheme(savedTheme);
+    function initializeTheme() {
+        console.log('Initializing theme...');
         
-        // Set initial active button
-        document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
-            if (btn.textContent.toLowerCase().includes(savedTheme.replace('-', ' '))) {
-                btn.classList.add('active');
-            }
-        });
-    });
+        try {
+            const savedTheme = localStorage.getItem('kural-theme') || 'palm-leaf';
+            console.log('Saved theme found:', savedTheme);
+            
+            // Remove all theme classes first
+            document.body.classList.remove('theme-palm-leaf', 'theme-monsoon', 'theme-dark');
+            
+            // Add saved theme class
+            document.body.classList.add('theme-' + savedTheme);
+            
+            // Set initial active button
+            document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.textContent.toLowerCase().includes(savedTheme.replace('-', ' '))) {
+                    btn.classList.add('active');
+                    console.log('Set active button:', btn.textContent);
+                }
+            });
+            
+            console.log('Theme initialization complete');
+        } catch (e) {
+            console.log('Error initializing theme:', e);
+            // Fallback to default theme
+            document.body.classList.add('theme-palm-leaf');
+        }
+    }
+    
+    // Try multiple ways to initialize
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeTheme);
+    } else {
+        initializeTheme();
+    }
+    
+    // Also try on window load as backup
+    window.addEventListener('load', initializeTheme);
+    
+    // Streamlit-specific initialization
+    if (window.parent !== window) {
+        // We're in an iframe (Streamlit)
+        setTimeout(initializeTheme, 1000);
+    }
 </script>
 """, unsafe_allow_html=True)
 
@@ -812,6 +908,9 @@ def main():
             <button class="theme-toggle-btn active" onclick="switchTheme('palm-leaf')">Palm Leaf</button>
             <button class="theme-toggle-btn" onclick="switchTheme('monsoon')">Monsoon</button>
             <button class="theme-toggle-btn" onclick="switchTheme('dark')">Dark</button>
+        </div>
+        <div id="theme-status" style="text-align: center; margin: 10px 0; font-size: 12px; color: var(--text-light);">
+            Current theme: <span id="current-theme">Palm Leaf</span>
         </div>
         """, unsafe_allow_html=True)
         
