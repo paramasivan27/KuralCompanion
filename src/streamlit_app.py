@@ -7,18 +7,11 @@ import re
 from collections import defaultdict
 import json
 from streamlit_option_menu import option_menu
-try:
-    # For local development
-    from kural_database import KURAL_DATABASE, EMOTION_KEYWORDS, THEME_KEYWORDS, get_all_kurals, get_kural_by_number, get_kurals_by_theme, get_kurals_by_emotion, search_kurals_by_keyword
-    from comprehensive_kurals import KURAL_DATABASE as COMPREHENSIVE_KURALS
-    from extended_kurals import KURAL_DATABASE as EXTENDED_KURALS
-    from aggregated_kurals import AGGREGATED_KURALS_DATA, get_aggregated_chapters, get_chapter_summary, find_relevant_chapters_rag
-except ImportError:
-    # For Docker deployment
-    from .kural_database import KURAL_DATABASE, EMOTION_KEYWORDS, THEME_KEYWORDS, get_all_kurals, get_kural_by_number, get_kurals_by_theme, get_kurals_by_emotion, search_kurals_by_keyword
-    from .comprehensive_kurals import KURAL_DATABASE as COMPREHENSIVE_KURALS
-    from .extended_kurals import KURAL_DATABASE as EXTENDED_KURALS
-    from .aggregated_kurals import AGGREGATED_KURALS_DATA, get_aggregated_chapters, get_chapter_summary, find_relevant_chapters_rag
+# Direct imports for Hugging Face Space deployment
+from src.kural_database import KURAL_DATABASE, EMOTION_KEYWORDS, THEME_KEYWORDS, get_all_kurals, get_kural_by_number, get_kurals_by_theme, get_kurals_by_emotion, search_kurals_by_keyword
+from src.comprehensive_kurals import KURAL_DATABASE as COMPREHENSIVE_KURALS
+from src.extended_kurals import KURAL_DATABASE as EXTENDED_KURALS
+from src.aggregated_kurals import AGGREGATED_KURALS_DATA, get_aggregated_chapters, get_chapter_summary, find_relevant_chapters_rag
 
 # Create comprehensive database by merging all three databases for maximum coverage
 def merge_all_kural_databases(core_db, comprehensive_db, extended_db):
@@ -801,7 +794,7 @@ def main():
             """)
             
             # Display Thiruvalluvar image
-            st.image("src/Thiruvalluvar_Small.png", use_container_width=True, caption="Thiruvalluvar - The Great Sage")
+            st.image("Thiruvalluvar_Small.png", use_container_width=True, caption="Thiruvalluvar - The Great Sage")
             
             # Kolam divider
             st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
@@ -1420,7 +1413,7 @@ def main():
         # Display Thiruvalluvar image
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
-            st.image("src/Thiruvalluvar_Final.png", use_container_width=True, caption="Thiruvalluvar - The Great Sage")
+            st.image("Thiruvalluvar_Final.png", use_container_width=True, caption="Thiruvalluvar - The Great Sage")
         
         # Kolam divider
         st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
