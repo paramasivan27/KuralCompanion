@@ -6086,20 +6086,3 @@ KURAL_DATABASE = {
         }
     ]
 }
-
-# Alias for backward compatibility
-ADDITIONAL_KURALS = KURAL_DATABASE
-
-def merge_kural_databases(database1, database2):
-    """
-    Merge two kural databases into one comprehensive database
-    """
-    merged_database = {}
-    all_themes = set(database1.keys()) | set(database2.keys())
-    for theme in all_themes:
-        merged_database[theme] = []
-        if theme in database1:
-            merged_database[theme].extend(database1[theme])
-        if theme in database2:
-            merged_database[theme].extend(database2[theme])
-    return merged_database
