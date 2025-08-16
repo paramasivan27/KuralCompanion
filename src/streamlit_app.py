@@ -744,8 +744,8 @@ def main():
         st.markdown("## 🌟 KuralCompanion")
         sidebar_selected = option_menu(
             menu_title=None,
-            options=["Home", "Emotions & Kural", "Ask Kural", "Explore Themes", "Chapter Detail", "About"],
-            icons=["house", "heart", "lightbulb", "book", "bookmark", "info-circle"],
+            options=["Home", "Emotions & Kural", "Ask Kural", "Explore Themes", "Browse Chapter Summaries", "About"],
+            icons=["house", "heart", "lightbulb", "book", "book-open", "info-circle"],
             menu_icon="cast",
             default_index=0,
         )
@@ -1282,9 +1282,10 @@ def main():
                 else:
                     st.warning("Please enter Kural numbers to search")
         
-        # New section: Browse All Chapters with Summaries
-        st.markdown("---")
-        st.subheader("📚 Browse All Chapters with Summaries")
+        
+    
+    elif selected == "Browse Chapter Summaries":
+        st.markdown('<h1 class="main-header">📚 Browse Chapter Summaries</h1>', unsafe_allow_html=True)
         st.info("Explore all available themes and their wisdom summaries from the aggregated Thirukkural database")
         
         # Get all chapters from aggregated data
@@ -1326,86 +1327,42 @@ def main():
                             st.markdown("**Sample Kural:**")
                             st.markdown(f"**#{sample_kural.get('Number', 'Unknown')}:** {sample_kural.get('Translation', 'No translation')[:100]}...")
                         
-                        if st.button(f"Explore {chapter['Chapter']}", key=f"explore_{i}"):
-                            st.session_state.selected_chapter = chapter['Chapter']
-                            st.session_state.selected_page = "Chapter Detail"
+                        if st.button(f"View Details", key=f"browse_{i}"):
+                            # Toggle the expander to show more details
+                            st.session_state[f"browse_expanded_{i}"] = not st.session_state.get(f"browse_expanded_{i}", False)
+                            st.rerun()
+                        
+                        # Show expanded details if button was clicked
+                        if st.session_state.get(f"browse_expanded_{i}", False):
+                            st.markdown("---")
+                            st.markdown("**📝 Full Chapter Summary:**")
+                            if chapter.get("Summary"):
+                                for j, point in enumerate(chapter["Summary"], 1):
+                                    st.markdown(f"{j}. {point}")
+                            
+                            st.markdown("**📚 All Kurals in this Chapter:**")
+                            if chapter.get("Kurals"):
+                                for k, kural in enumerate(chapter["Kurals"][:5]):  # Show first 5 kurals
+                                    with st.expander(f"Kural #{kural.get('Number', 'Unknown')} - {kural.get('Translation', 'No translation')[:50]}...", expanded=False):
+                                        st.markdown(f"**Kural #{kural.get('Number', 'Unknown')}**")
+                                        if kural.get('Translation'):
+                                            st.markdown(f"**Translation:** {kural['Translation']}")
+                                        if kural.get('Explanation'):
+                                            st.markdown(f"**Explanation:** {kural['Explanation']}")
+                                        if kural.get('Couplet'):
+                                            st.markdown(f"**Couplet:** {kural['Couplet']}")
+                                        if kural.get('emotions'):
+                                            st.markdown(f"**Emotions:** {kural['emotions']}")
+                                        if kural.get('EmotionDetail'):
+                                            st.markdown(f"**Emotion Details:** {kural['EmotionDetail']}")
+                                if len(chapter["Kurals"]) > 5:
+                                    st.info(f"... and {len(chapter['Kurals']) - 5} more kurals")
             
             if chapter_search and not filtered_chapters:
                 st.warning(f"No chapters found matching '{chapter_search}'")
                 st.info("💡 Try different keywords or browse all chapters above")
         else:
             st.warning("No chapters available in the aggregated database")
-    
-    elif selected == "Chapter Detail":
-        st.markdown('<h1 class="main-header">📖 Chapter Detail</h1>', unsafe_allow_html=True)
-        
-        # Check if a chapter is selected
-        if 'selected_chapter' in st.session_state and st.session_state.selected_chapter:
-            chapter_name = st.session_state.selected_chapter
-            chapter_data = get_chapter_by_name(chapter_name)
-            
-            if chapter_data:
-                st.subheader(f"🎯 {chapter_name}")
-                
-                # Display chapter summary
-                if chapter_data.get("Summary"):
-                    st.markdown("**📝 Chapter Summary:**")
-                    for i, point in enumerate(chapter_data["Summary"], 1):
-                        st.markdown(f"{i}. {point}")
-                
-                st.markdown("---")
-                
-                # Display all kurals in the chapter
-                if chapter_data.get("Kurals"):
-                    st.subheader(f"📚 All Kurals in {chapter_name}")
-                    st.info(f"Found {len(chapter_data['Kurals'])} kurals in this theme")
-                    
-                    # Display options
-                    with st.expander("⚙️ Display Options", expanded=False):
-                        col1, col2 = st.columns(2)
-                        with col1:
-                            show_transliteration = st.checkbox("Show Transliteration", value=True, key="chapter_translit")
-                        with col2:
-                            show_explanation = st.checkbox("Show Explanation", value=True, key="chapter_explanation")
-                    
-                    # Display kurals
-                    for i, kural in enumerate(chapter_data["Kurals"]):
-                        with st.expander(f"Kural #{kural.get('Number', 'Unknown')} - {kural.get('Translation', 'No translation')[:50]}...", expanded=i<3):
-                            st.markdown(f"**Kural #{kural.get('Number', 'Unknown')}**")
-                            
-                            if kural.get('Translation'):
-                                st.markdown(f"**Translation:** {kural['Translation']}")
-                            
-                            if kural.get('Explanation') and show_explanation:
-                                st.markdown(f"**Explanation:** {kural['Explanation']}")
-                            
-                            if kural.get('Couplet'):
-                                st.markdown(f"**Couplet:** {kural['Couplet']}")
-                            
-                            if kural.get('emotions'):
-                                st.markdown(f"**Emotions:** {kural['emotions']}")
-                            
-                            if kural.get('EmotionDetail'):
-                                st.markdown(f"**Emotion Details:** {kural['EmotionDetail']}")
-                            
-                            st.markdown("---")
-                else:
-                    st.warning("No kurals found in this chapter")
-                
-                # Back button
-                if st.button("← Back to Explore Themes"):
-                    st.session_state.selected_page = "Explore Themes"
-                    st.rerun()
-            else:
-                st.error(f"Chapter '{chapter_name}' not found")
-                if st.button("← Back to Explore Themes"):
-                    st.session_state.selected_page = "Explore Themes"
-                    st.rerun()
-        else:
-            st.info("No chapter selected. Please go to 'Explore Themes' and select a chapter to view its details.")
-            if st.button("Go to Explore Themes"):
-                st.session_state.selected_page = "Explore Themes"
-                st.rerun()
     
     elif selected == "About":
         st.markdown('<h1 class="main-header">ℹ️ About KuralCompanion</h1>', unsafe_allow_html=True)
