@@ -8,10 +8,10 @@ from collections import defaultdict
 import json
 from streamlit_option_menu import option_menu
 # Direct imports for Hugging Face Space deployment
-from src.kural_database import KURAL_DATABASE, EMOTION_KEYWORDS, THEME_KEYWORDS, get_all_kurals, get_kural_by_number, get_kurals_by_theme, get_kurals_by_emotion, search_kurals_by_keyword
-from src.comprehensive_kurals import KURAL_DATABASE as COMPREHENSIVE_KURALS
-from src.extended_kurals import KURAL_DATABASE as EXTENDED_KURALS
-from src.aggregated_kurals import AGGREGATED_KURALS_DATA, get_aggregated_chapters, get_chapter_summary, find_relevant_chapters_rag
+from kural_database import KURAL_DATABASE, EMOTION_KEYWORDS, THEME_KEYWORDS, get_all_kurals, get_kural_by_number, get_kurals_by_theme, get_kurals_by_emotion, search_kurals_by_keyword
+from comprehensive_kurals import KURAL_DATABASE as COMPREHENSIVE_KURALS
+from extended_kurals import KURAL_DATABASE as EXTENDED_KURALS
+from aggregated_kurals import AGGREGATED_KURALS_DATA, get_aggregated_chapters, get_chapter_summary, find_relevant_chapters_rag
 
 # Create comprehensive database by merging all three databases for maximum coverage
 def merge_all_kural_databases(core_db, comprehensive_db, extended_db):
