@@ -11,7 +11,7 @@ from streamlit_option_menu import option_menu
 from kural_database import KURAL_DATABASE, EMOTION_KEYWORDS, THEME_KEYWORDS, get_all_kurals, get_kural_by_number, get_kurals_by_theme, get_kurals_by_emotion, search_kurals_by_keyword
 from comprehensive_kurals import KURAL_DATABASE as COMPREHENSIVE_KURALS
 from extended_kurals import KURAL_DATABASE as EXTENDED_KURALS
-from aggregated_kurals import AGGREGATED_KURALS_DATA, get_aggregated_chapters, get_chapter_summary, find_relevant_chapters_rag
+from aggregated_kurals import AGGREGATED_KURALS_DATA, get_aggregated_chapters
 
 # Create comprehensive database by merging all three databases for maximum coverage
 def merge_all_kural_databases(core_db, comprehensive_db, extended_db):
@@ -489,24 +489,7 @@ def find_relevant_kurals_rag(user_input, emotions, themes):
     scored.sort(key=lambda x: x[0], reverse=True)
     return [(kural, details) for _, kural, details in scored[:5]]  # Return top 5 with details (increased from 3)
 
-def find_relevant_chapters_with_summaries_rag(user_input, emotions, themes):
-    """Find relevant chapters with summaries using enhanced RAG approach from aggregated data"""
-    # Use the aggregated data RAG function
-    relevant_chapters = find_relevant_chapters_rag(user_input, emotions, themes)
-    
-    # Enhance the results with summary information
-    enhanced_results = []
-    for chapter, match_details in relevant_chapters:
-        enhanced_chapter = {
-            "chapter_info": chapter,
-            "match_details": match_details,
-            "summary": chapter.get("Summary", []),
-            "kural_count": len(chapter.get("Kurals", [])),
-            "chapter_name": chapter.get("Chapter", "Unknown")
-        }
-        enhanced_results.append(enhanced_chapter)
-    
-    return enhanced_results
+
 
 def find_kurals_by_keywords(keywords):
     """Find relevant Kurals based on keywords using enhanced RAG approach"""
@@ -692,33 +675,7 @@ def generate_contextual_response(user_input, emotions, themes, kurals_with_detai
     
     return ' '.join(response_parts)
 
-def generate_enhanced_contextual_response(user_input, emotions, themes, kurals_with_details, chapters_with_summaries=None):
-    """Generate an enhanced contextual response that includes chapter summaries from aggregated data"""
-    # Start with the base contextual response
-    base_response = generate_contextual_response(user_input, emotions, themes, kurals_with_details)
-    response_parts = [base_response]
-    
-    # Add chapter summary insights if available
-    if chapters_with_summaries and len(chapters_with_summaries) > 0:
-        response_parts.append("\n\n**Chapter-Level Wisdom Insights:**")
-        
-        # Add insights from the most relevant chapter
-        top_chapter = chapters_with_summaries[0]
-        chapter_name = top_chapter.get("chapter_name", "Unknown")
-        summary_points = top_chapter.get("summary", [])
-        
-        if summary_points:
-            response_parts.append(f"\nThe theme of **{chapter_name}** offers these key insights:")
-            for i, point in enumerate(summary_points[:3], 1):  # Show top 3 summary points
-                response_parts.append(f"• {point}")
-        
-        # Add information about additional relevant chapters if available
-        if len(chapters_with_summaries) > 1:
-            other_chapters = [ch.get("chapter_name", "Unknown") for ch in chapters_with_summaries[1:3]]  # Show next 2
-            if other_chapters:
-                response_parts.append(f"\nOther relevant themes include: **{', '.join(other_chapters)}**")
-    
-    return ' '.join(response_parts)
+
 
 def clear_page_state():
     """Clear all page-related state variables to ensure clean navigation"""
@@ -888,16 +845,13 @@ def main():
                 # Find relevant Kurals first to generate better contextual response
                 relevant_kurals = find_relevant_kurals_rag(user_input, emotions, themes)
                 
-                # Find relevant chapters with summaries from aggregated data
-                relevant_chapters = find_relevant_chapters_with_summaries_rag(user_input, emotions, themes)
-                
-                # Generate enhanced contextual response that includes chapter summaries
-                enhanced_response = generate_enhanced_contextual_response(user_input, emotions, themes, relevant_kurals, relevant_chapters)
+                # Generate contextual response
+                contextual_response = generate_contextual_response(user_input, emotions, themes, relevant_kurals)
                 
                 st.markdown(f"""
                 **Your Question:** "{user_input}"
                 
-                **KuralCompanion's Response:** {enhanced_response}
+                **KuralCompanion's Response:** {contextual_response}
                 """)
                 
                 # Find and display relevant Kurals using enhanced RAG approach
@@ -934,33 +888,6 @@ def main():
                 else:
                     st.warning("No relevant Kurals found for your query. Try rephrasing your question or using different keywords.")
                     st.info("💡 Tip: Try using more specific words or describing your situation in detail for better matches.")
-                
-                # Display relevant chapters with summaries if available
-                if relevant_chapters:
-                    st.markdown("---")
-                    st.subheader("📖 Relevant Themes & Chapter Insights")
-                    for i, chapter_data in enumerate(relevant_chapters[:3]):  # Show top 3 chapters
-                        chapter_name = chapter_data.get("chapter_name", "Unknown")
-                        summary_points = chapter_data.get("summary", [])
-                        kural_count = chapter_data.get("kural_count", 0)
-                        
-                        with st.expander(f"🎯 {chapter_name} ({kural_count} kurals)", expanded=i==0):
-                            if summary_points:
-                                st.markdown("**Chapter Summary:**")
-                                for point in summary_points:
-                                    st.markdown(f"• {point}")
-                            
-                            # Show a few sample kurals from this chapter
-                            chapter_info = chapter_data.get("chapter_info", {})
-                            sample_kurals = chapter_info.get("Kurals", [])[:3]  # Show first 3 kurals
-                            
-                            if sample_kurals:
-                                st.markdown("**Sample Kurals from this theme:**")
-                                for kural in sample_kurals:
-                                    st.markdown(f"**Kural #{kural.get('Number', 'Unknown')}:** {kural.get('Translation', 'No translation')}")
-                                    if kural.get('Explanation'):
-                                        st.markdown(f"*{kural.get('Explanation')}*")
-                                    st.markdown("---")
     
     elif selected == "Ask Kural":
         st.markdown('<h1 class="main-header">💡 Ask Kural</h1>', unsafe_allow_html=True)
@@ -1028,20 +955,19 @@ def main():
                 # Use the enhanced RAG approach for better results
                 relevant_kurals_with_details = find_relevant_kurals_rag(user_input, emotions, themes)
                 
-                # Find relevant chapters with summaries from aggregated data
-                relevant_chapters = find_relevant_chapters_with_summaries_rag(user_input, emotions, themes)
+
                 
                 if relevant_kurals_with_details:
                     st.markdown("---")
                     st.subheader("🤖 KuralCompanion's Response")
                     
-                    # Generate enhanced contextual response that includes chapter summaries
-                    enhanced_response = generate_enhanced_contextual_response(user_input, emotions, themes, relevant_kurals_with_details, relevant_chapters)
+                    # Generate contextual response
+                    contextual_response = generate_contextual_response(user_input, emotions, themes, relevant_kurals_with_details)
                     
                     st.markdown(f"""
                     **Your Question:** "{user_input}"
                     
-                    **KuralCompanion's Response:** {enhanced_response}
+                    **KuralCompanion's Response:** {contextual_response}
                     """)
                     
                     st.markdown("---")
@@ -1075,32 +1001,7 @@ def main():
                     st.warning("No relevant Kurals found for your query. Try using different keywords or rephrasing your question.")
                     st.info("💡 Tip: Try using more specific words or describing your topic in detail for better matches.")
                 
-                # Display relevant chapters with summaries if available
-                if relevant_chapters:
-                    st.markdown("---")
-                    st.subheader("📖 Relevant Themes & Chapter Insights")
-                    for i, chapter_data in enumerate(relevant_chapters[:3]):  # Show top 3 chapters
-                        chapter_name = chapter_data.get("chapter_name", "Unknown")
-                        summary_points = chapter_data.get("summary", [])
-                        kural_count = chapter_data.get("kural_count", 0)
-                        
-                        with st.expander(f"🎯 {chapter_name} ({kural_count} kurals)", expanded=i==0):
-                            if summary_points:
-                                st.markdown("**Chapter Summary:**")
-                                for point in summary_points:
-                                    st.markdown(f"• {point}")
-                            
-                            # Show a few sample kurals from this chapter
-                            chapter_info = chapter_data.get("chapter_info", {})
-                            sample_kurals = chapter_info.get("Kurals", [])[:3]  # Show first 3 kurals
-                            
-                            if sample_kurals:
-                                st.markdown("**Sample Kurals from this theme:**")
-                                for kural in sample_kurals:
-                                    st.markdown(f"**Kural #{kural.get('Number', 'Unknown')}:** {kural.get('Translation', 'No translation')}")
-                                    if kural.get('Explanation'):
-                                        st.markdown(f"*{kural.get('Explanation')}*")
-                                    st.markdown("---")
+
     
     elif selected == "Explore Themes":
         st.markdown('<h1 class="main-header">📚 Explore Themes</h1>', unsafe_allow_html=True)
@@ -1180,8 +1081,7 @@ def main():
                         themes = detect_theme(keyword)
                         matching_kurals_with_details = find_relevant_kurals_rag(keyword, emotions, themes)
                         
-                        # Also find relevant chapters with summaries
-                        matching_chapters = find_relevant_chapters_with_summaries_rag(keyword, emotions, themes)
+
                         
                         if matching_kurals_with_details:
                             # Limit to 10 most relevant kurals
@@ -1217,32 +1117,7 @@ def main():
                             if len(matching_kurals_with_details) > 10:
                                 st.info(f"💡 There are {len(matching_kurals_with_details) - 10} more results. Refine your search for more specific results.")
                             
-                            # Display relevant chapters with summaries if available
-                            if matching_chapters:
-                                st.markdown("---")
-                                st.subheader("📖 Relevant Themes & Chapter Insights")
-                                for i, chapter_data in enumerate(matching_chapters[:3]):  # Show top 3 chapters
-                                    chapter_name = chapter_data.get("chapter_name", "Unknown")
-                                    summary_points = chapter_data.get("summary", [])
-                                    kural_count = chapter_data.get("kural_count", 0)
-                                    
-                                    with st.expander(f"🎯 {chapter_name} ({kural_count} kurals)", expanded=i==0):
-                                        if summary_points:
-                                            st.markdown("**Chapter Summary:**")
-                                            for point in summary_points:
-                                                st.markdown(f"• {point}")
-                                        
-                                        # Show a few sample kurals from this chapter
-                                        chapter_info = chapter_data.get("chapter_info", {})
-                                        sample_kurals = chapter_info.get("Kurals", [])[:3]  # Show first 3 kurals
-                                        
-                                        if sample_kurals:
-                                            st.markdown("**Sample Kurals from this theme:**")
-                                            for kural in sample_kurals:
-                                                st.markdown(f"**Kural #{kural.get('Number', 'Unknown')}:** {kural.get('Translation', 'No translation')}")
-                                                if kural.get('Explanation'):
-                                                    st.markdown(f"*{kural.get('Explanation')}*")
-                                                st.markdown("---")
+
                         else:
                             st.warning(f"No kurals found matching '{keyword}'")
                             st.info("💡 Tip: Try using more specific words or describing your topic in detail for better matches.")
