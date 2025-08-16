@@ -8,11 +8,35 @@ from collections import defaultdict
 import json
 from streamlit_option_menu import option_menu
 from kural_database import KURAL_DATABASE, EMOTION_KEYWORDS, THEME_KEYWORDS, get_all_kurals, get_kural_by_number, get_kurals_by_theme, get_kurals_by_emotion, search_kurals_by_keyword
-from comprehensive_kurals import ADDITIONAL_KURALS, merge_kural_databases
-from extended_kurals import EXTENDED_KURALS, merge_all_kural_databases
+from comprehensive_kurals import KURAL_DATABASE as COMPREHENSIVE_KURALS
+from extended_kurals import KURAL_DATABASE as EXTENDED_KURALS
 
 # Create comprehensive database by merging all three databases for maximum coverage
-COMPREHENSIVE_KURAL_DATABASE = merge_all_kural_databases(KURAL_DATABASE, ADDITIONAL_KURALS, EXTENDED_KURALS)
+def merge_all_kural_databases(core_db, comprehensive_db, extended_db):
+    """Merge all three kural databases into one comprehensive database"""
+    merged_db = {}
+    
+    # Merge core database
+    for theme, kurals in core_db.items():
+        merged_db[theme] = kurals
+    
+    # Merge comprehensive database
+    for theme, kurals in comprehensive_db.items():
+        if theme in merged_db:
+            merged_db[theme].extend(kurals)
+        else:
+            merged_db[theme] = kurals
+    
+    # Merge extended database
+    for theme, kurals in extended_db.items():
+        if theme in merged_db:
+            merged_db[theme].extend(kurals)
+        else:
+            merged_db[theme] = kurals
+    
+    return merged_db
+
+COMPREHENSIVE_KURAL_DATABASE = merge_all_kural_databases(KURAL_DATABASE, COMPREHENSIVE_KURALS, EXTENDED_KURALS)
 
 # Page configuration
 st.set_page_config(
