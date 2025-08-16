@@ -683,7 +683,7 @@ def main():
         sidebar_selected = option_menu(
             menu_title=None,
             options=["Home", "Ask Kural", "Emotions & Kural", "Explore Themes", "About"],
-            icons=["house", "lightbulb", "heart", "book", "info-circle"],
+            icons=["house", "heart", "lightbulb", "book", "info-circle"],
             menu_icon="cast",
             default_index=0,
         )
@@ -698,6 +698,16 @@ def main():
     if sidebar_selected != st.session_state.last_sidebar_selection:
         st.session_state.selected_page = sidebar_selected
         st.session_state.last_sidebar_selection = sidebar_selected
+        
+        # Clear previous content when navigating via sidebar
+        if 'user_input' in st.session_state:
+            del st.session_state.user_input
+        if 'search_results' in st.session_state:
+            del st.session_state.search_results
+        if 'emotion_analysis' in st.session_state:
+            del st.session_state.emotion_analysis
+        if 'theme_analysis' in st.session_state:
+            del st.session_state.theme_analysis
     
     selected = st.session_state.selected_page
     
@@ -734,11 +744,11 @@ def main():
             st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
             
             if st.button("🚀 Start Your Journey", type="primary"):
-                st.session_state.selected_page = "Emotions & Kural"
+                st.session_state.selected_page = "Ask Kural"
                 st.rerun()
     
     elif selected == "Ask Kural":
-        st.markdown('<h1 class="main-header">💡 Ask Kural</h1>', unsafe_allow_html=True)
+        st.markdown('<h1 class="main-header">💖 Emotions & Kural</h1>', unsafe_allow_html=True)
         
 
         
@@ -868,7 +878,7 @@ def main():
                     st.info("💡 Tip: Try using more specific words or describing your situation in detail for better matches.")
     
     elif selected == "Emotions & Kural":
-        st.markdown('<h1 class="main-header">💖 Emotions & Kural</h1>', unsafe_allow_html=True)
+        st.markdown('<h1 class="main-header">💡 Ask Kural</h1>', unsafe_allow_html=True)
         
 
         
@@ -879,7 +889,7 @@ def main():
             height=100
         )
         
-        # Display options - similar to Emotions & Kural section
+        # Display options - similar to Ask Kural section
         st.markdown("---")
         with st.expander("⚙️ Display Options", expanded=False):
             col1, col2 = st.columns(2)
