@@ -671,11 +671,33 @@ def generate_contextual_response(user_input, emotions, themes, kurals_with_detai
     
     return ' '.join(response_parts)
 
+def clear_page_state():
+    """Clear all page-related state variables to ensure clean navigation"""
+    keys_to_clear = [
+        'user_input', 'search_results', 'emotion_analysis', 'theme_analysis',
+        'show_transliteration', 'selected_explanation', 'sidebar_selected',
+        'last_sidebar_selection', 'current_search_query', 'current_theme_search',
+        'current_keyword_search', 'current_number_search'
+    ]
+    
+    for key in keys_to_clear:
+        if key in st.session_state:
+            del st.session_state[key]
+
+def clear_page_content():
+    """Clear the main page content area to ensure clean navigation"""
+    # This function will be used to mark that content should be cleared
+    pass
+
 # Main app
 def main():
     # Initialize session state for navigation
     if 'selected_page' not in st.session_state:
         st.session_state.selected_page = "Home"
+    
+    # Add navigation timestamp to track when user navigates
+    if 'navigation_timestamp' not in st.session_state:
+        st.session_state.navigation_timestamp = 0
     
     # Sidebar navigation
     with st.sidebar:
@@ -699,72 +721,79 @@ def main():
         st.session_state.selected_page = sidebar_selected
         st.session_state.last_sidebar_selection = sidebar_selected
         
-        # Clear previous content when navigating via sidebar
-        if 'user_input' in st.session_state:
-            del st.session_state.user_input
-        if 'search_results' in st.session_state:
-            del st.session_state.search_results
-        if 'emotion_analysis' in st.session_state:
-            del st.session_state.emotion_analysis
-        if 'theme_analysis' in st.session_state:
-            del st.session_state.theme_analysis
+        # Update navigation timestamp to invalidate previous content
+        st.session_state.navigation_timestamp = st.session_state.navigation_timestamp + 1
+        
+        # Clear all page state and force a complete refresh
+        clear_page_state()
+        
+        # Force a complete page refresh to clear all displayed content
+        st.rerun()
+    
+    # Store current navigation timestamp for content validation
+    current_nav_timestamp = st.session_state.navigation_timestamp
     
     selected = st.session_state.selected_page
     
     if selected == "Home":
-        st.markdown('<h1 class="main-header">🌟 KuralCompanion</h1>', unsafe_allow_html=True)
-        st.markdown('<p class="sub-header">Ancient Wisdom for Modern Life</p>', unsafe_allow_html=True)
+        # Create a container for this section to ensure clean state
+        home_container = st.container()
         
-
-        
-        col1, col2, col3 = st.columns([1, 2, 1])
-        
-        with col2:
-            st.markdown("""
-            ### Welcome to Your Digital Sage
+        with home_container:
+            st.markdown('<h1 class="main-header">🌟 KuralCompanion</h1>', unsafe_allow_html=True)
+            st.markdown('<p class="sub-header">Ancient Wisdom for Modern Life</p>', unsafe_allow_html=True)
             
-            KuralCompanion is your guide to the timeless wisdom of Thiruvalluvar's Thirukkural. 
-            Whether you're seeking advice, expressing emotions, or exploring life's deeper questions, 
-            let the ancient verses illuminate your path.
+            col1, col2, col3 = st.columns([1, 2, 1])
             
-            **How it works:**
-            - Share your thoughts, feelings, or questions
-            - Our enhanced RAG system analyzes your input across multiple dimensions
-            - AI detects emotions, themes, and contextual relevance
-            - Receive highly relevant Thirukkural verses with detailed explanations
-            - Understand why each verse was selected for your situation
-            
-            Start your journey by asking a question or sharing how you feel!
-            """)
-            
-            # Display Thiruvalluvar image
-            st.image("src/Thiruvalluvar_Small.png", use_container_width=True, caption="Thiruvalluvar - The Great Sage")
-            
-            # Kolam divider
-            st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
-            
-            if st.button("🚀 Start Your Journey", type="primary"):
-                st.session_state.selected_page = "Emotions & Kural"
-                st.rerun()
+            with col2:
+                st.markdown("""
+                ### Welcome to Your Digital Sage
+                
+                KuralCompanion is your guide to the timeless wisdom of Thiruvalluvar's Thirukkural. 
+                Whether you're seeking advice, expressing emotions, or exploring life's deeper questions, 
+                let the ancient verses illuminate your path.
+                
+                **How it works:**
+                - Share your thoughts, feelings, or questions
+                - Our enhanced RAG system analyzes your input across multiple dimensions
+                - AI detects emotions, themes, and contextual relevance
+                - Receive highly relevant Thirukkural verses with detailed explanations
+                - Understand why each verse was selected for your situation
+                
+                Start your journey by asking a question or sharing how you feel!
+                """)
+                
+                # Display Thiruvalluvar image
+                st.image("src/Thiruvalluvar_Small.png", use_container_width=True, caption="Thiruvalluvar - The Great Sage")
+                
+                # Kolam divider
+                st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
+                
+                if st.button("🚀 Start Your Journey", type="primary"):
+                    st.session_state.selected_page = "Emotions & Kural"
+                    st.rerun()
     
     elif selected == "Emotions & Kural":
-        st.markdown('<h1 class="main-header">💖 Emotions & Kural</h1>', unsafe_allow_html=True)
+        # Create a container for this section to ensure clean state
+        emotions_container = st.container()
         
-
-        
-        # User input
-        user_input = st.text_area(
-            "Share your thoughts, or feelings ...",
-            placeholder="e.g., 'I'm feeling sad today' or 'Why do people hurt others?' or 'I'm grateful for my family'",
-            height=100
-        )
+        with emotions_container:
+            st.markdown('<h1 class="main-header">💖 Emotions & Kural</h1>', unsafe_allow_html=True)
+            
+            # User input
+            user_input = st.text_area(
+                "Share your thoughts, or feelings ...",
+                placeholder="e.g., 'I'm feeling sad today' or 'Why do people hurt others?' or 'I'm grateful for my family'",
+                height=100,
+                key="emotions_user_input"
+            )
         
         # Display options - moved above the Find Wisdom button
         st.markdown("---")
         with st.expander("⚙️ Display Options", expanded=False):
             col1, col2 = st.columns(2)
             with col1:
-                show_transliteration = st.checkbox("Show Transliteration", value=True, key="ask_translit")
+                show_transliteration = st.checkbox("Show Transliteration", value=True, key="emotions_translit")
             with col2:
                 # Get available Tamil explanations from a sample kural to determine options
                 # We'll use a sample from the database to show available options
@@ -787,7 +816,7 @@ def main():
                     selected_explanation = st.radio(
                         "Choose Tamil explanation:",
                         options=[exp[0] for exp in available_explanations],
-                        key="ask_explanation"
+                        key="emotions_explanation"
                     )
                     # Find the selected explanation key
                     selected_key = None
@@ -878,23 +907,26 @@ def main():
                     st.info("💡 Tip: Try using more specific words or describing your situation in detail for better matches.")
     
     elif selected == "Ask Kural":
-        st.markdown('<h1 class="main-header">💡 Ask Kural</h1>', unsafe_allow_html=True)
+        # Create a container for this section to ensure clean state
+        ask_kural_container = st.container()
         
-
-        
-        # User input
-        user_input = st.text_area(
-            "Ask about any topic, concept, or subject...",
-            placeholder="e.g., 'Tell me about Rain' or 'Tell me about Friendship' or 'What does Thirukkural say about Leadership?'",
-            height=100
-        )
+        with ask_kural_container:
+            st.markdown('<h1 class="main-header">💡 Ask Kural</h1>', unsafe_allow_html=True)
+            
+            # User input
+            user_input = st.text_area(
+                "Ask about any topic, concept, or subject...",
+                placeholder="e.g., 'Tell me about Rain' or 'Tell me about Friendship' or 'What does Thirukkural say about Leadership?'",
+                height=100,
+                key="ask_kural_user_input"
+            )
         
         # Display options - similar to Ask Kural section
         st.markdown("---")
         with st.expander("⚙️ Display Options", expanded=False):
             col1, col2 = st.columns(2)
             with col1:
-                show_transliteration = st.checkbox("Show Transliteration", value=True, key="know_translit")
+                show_transliteration = st.checkbox("Show Transliteration", value=True, key="ask_kural_translit")
             with col2:
                 # Get available Tamil explanations from a sample kural to determine options
                 sample_kural = None
@@ -916,7 +948,7 @@ def main():
                     selected_explanation = st.radio(
                         "Choose Tamil explanation:",
                         options=[exp[0] for exp in available_explanations],
-                        key="know_explanation"
+                        key="ask_kural_explanation"
                     )
                     # Find the selected explanation key
                     selected_key = None
@@ -989,13 +1021,15 @@ def main():
                     st.info("💡 Tip: Try using more specific words or describing your topic in detail for better matches.")
     
     elif selected == "Explore Themes":
-        st.markdown('<h1 class="main-header">📚 Explore Themes</h1>', unsafe_allow_html=True)
+        # Create a container for this section to ensure clean state
+        explore_themes_container = st.container()
         
-
-        
-        # Search functionality
-        st.subheader("🔍 Search Kurals")
-        search_option = st.radio("Search by:", ["Theme", "Keyword", "Kural Number"])
+        with explore_themes_container:
+            st.markdown('<h1 class="main-header">📚 Explore Themes</h1>', unsafe_allow_html=True)
+            
+            # Search functionality
+            st.subheader("🔍 Search Kurals")
+            search_option = st.radio("Search by:", ["Theme", "Keyword", "Kural Number"])
         
         # Display options - moved below Search Kurals section
         st.markdown("---")
@@ -1059,7 +1093,7 @@ def main():
                         st.markdown("<br>", unsafe_allow_html=True)
         
         elif search_option == "Keyword":
-            keyword = st.text_input("Enter a keyword to search in kurals:")
+            keyword = st.text_input("Enter a keyword to search in kurals:", key="theme_keyword_search")
             if st.button("Search", key="keyword_search"):
                 if keyword:
                     with st.spinner("Searching using our enhanced RAG system..."):
@@ -1108,7 +1142,7 @@ def main():
                     st.warning("Please enter a keyword to search")
         
         elif search_option == "Kural Number":
-            kural_numbers_input = st.text_input("Enter Kural numbers separated by comma (e.g., 1, 2, 3):", placeholder="1, 2, 3")
+            kural_numbers_input = st.text_input("Enter Kural numbers separated by comma (e.g., 1, 2, 3):", placeholder="1, 2, 3", key="theme_number_search")
             
             if st.button("Search", key="number_search"):
                 if kural_numbers_input.strip():
@@ -1141,12 +1175,16 @@ def main():
                     st.warning("Please enter Kural numbers to search")
     
     elif selected == "About":
-        st.markdown('<h1 class="main-header">ℹ️ About KuralCompanion</h1>', unsafe_allow_html=True)
+        # Create a container for this section to ensure clean state
+        about_container = st.container()
         
-        # Display Thiruvalluvar image
-        col1, col2, col3 = st.columns([1, 2, 1])
-        with col2:
-            st.image("src/Thiruvalluvar_Final.png", use_container_width=True, caption="Thiruvalluvar - The Great Sage")
+        with about_container:
+            st.markdown('<h1 class="main-header">ℹ️ About KuralCompanion</h1>', unsafe_allow_html=True)
+            
+            # Display Thiruvalluvar image
+            col1, col2, col3 = st.columns([1, 2, 1])
+            with col2:
+                st.image("src/Thiruvalluvar_Final.png", use_container_width=True, caption="Thiruvalluvar - The Great Sage")
         
         # Kolam divider
         st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
