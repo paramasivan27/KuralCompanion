@@ -1,8 +1,8 @@
-altair
-pandas
-streamlit
-textblob
-nltk
-scikit-learn
-plotly
-streamlit-option-menu
+altair>=4.0.0
+pandas>=1.3.0
+streamlit>=1.24.0
+textblob>=0.17.1
+nltk>=3.7
+scikit-learn>=1.0.0
+plotly>=5.0.0
+streamlit-option-menu>=0.3.0

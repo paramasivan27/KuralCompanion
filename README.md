@@ -15,52 +15,107 @@ pinned: false
 short_description: Ancient Wisdom for Modern Life
 ---
 
-# 🌟 KuralCompanion
+# KuralCompanion
 
-**Ancient Wisdom for Modern Life**
+A Streamlit application that provides intelligent access to the ancient Tamil wisdom of Thirukkural through modern AI-powered search and recommendation systems.
 
-A digital sage that listens, understands, and gently guides—through the eternal words of Thiruvalluvar.
+## Features
 
-## 🎯 Core Features
+- **Intelligent Search**: Find relevant kurals using natural language queries
+- **Theme-based Organization**: Browse kurals by 133 different themes
+- **Emotion Matching**: Discover kurals that match your emotional state
+- **Comprehensive Database**: Access to all 1,330 kurals with translations
+- **Modern UI**: Beautiful, responsive interface built with Streamlit
 
-### Emotion-to-Kural Mapping
-- **Intent Detection**: Understands whether you're seeking advice, expressing gratitude, or lamenting injustice
-- **Emotion Analysis**: Detects sadness, anger, confusion, joy, and other emotions
-- **Theme Recognition**: Identifies love, friendship, ethics, leadership, wealth themes
-- **Smart Matching**: Recommends relevant Thirukkural verses with meanings and contextual relevance
+## Quick Start
 
-### Conversational AI Mode
-Experience interactive dialogue with ancient wisdom:
-- **Personalized Guidance**: Based on your emotions and situation
-- **Moral Reflections**: Gentle insights for modern challenges
-- **Contextual Wisdom**: Relevant verses that speak to your specific needs
+### Local Development
 
-## 🚀 How to Use
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/KuralCompanion.git
+cd KuralCompanion
+```
 
-1. **Share Your Thoughts**: Type in your question, problem, or feelings
-2. **AI Analysis**: Our system detects your emotions and themes
-3. **Receive Wisdom**: Get relevant Thirukkural verses with meanings
-4. **Reflect & Grow**: Read moral reflections tailored to your situation
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-## 📖 About Thirukkural
+3. Run the application:
+```bash
+streamlit run src/streamlit_app.py
+```
 
-Thirukkural is a classic Tamil text consisting of 1,330 couplets dealing with everyday virtues. It's divided into three sections:
-- **Aram (Virtue)** - 380 verses on moral values
-- **Porul (Wealth)** - 700 verses on political and economic matters  
-- **Inbam (Love)** - 250 verses on human love and relationships
+### Docker Deployment
 
-## 🛠️ Technology
+1. Build the Docker image:
+```bash
+docker build -t kuralcompanion .
+```
 
-Built with:
-- **Streamlit** - Beautiful web interface
-- **Python** - Backend logic and AI processing
-- **TextBlob** - Sentiment analysis and emotion detection
-- **Custom AI** - Emotion and theme mapping algorithms
+2. Run the container:
+```bash
+docker run -p 8501:8501 kuralcompanion
+```
 
-## 🌟 Vision
+### Hugging Face Spaces
 
-"Ancient Wisdom for Modern Life" - Bridging the timeless wisdom of Thiruvalluvar with modern AI technology to provide guidance, comfort, and inspiration for contemporary challenges.
+The application is also available on Hugging Face Spaces:
 
----
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/yourusername/KuralCompanion)
 
-*Let the ancient verses illuminate your path to wisdom and understanding.*
+#### Hugging Face Spaces Configuration
+
+For Hugging Face Spaces deployment, the application uses:
+- **Base Image**: `python:3.9-slim`
+- **Port**: 8501 (Streamlit default)
+- **Health Check**: Automatic health monitoring
+- **Dependencies**: All required packages in `requirements.txt`
+
+The Dockerfile is optimized for Hugging Face Spaces and should build successfully without the previous `software-properties-common` dependency issue.
+
+## Project Structure
+
+```
+KuralCompanion/
+├── src/
+│   ├── streamlit_app.py          # Main Streamlit application
+│   ├── kural_database.py         # Core database (400 kurals)
+│   ├── comprehensive_kurals.py   # Extended database (400 kurals)
+│   ├── extended_kurals.py        # Complete database (530 kurals)
+│   ├── theme_classifier.py       # Theme classification logic
+│   └── thirukkural.json          # Source data
+├── Dockerfile                     # Docker configuration
+├── requirements.txt               # Python dependencies
+└── README.md                     # This file
+```
+
+## Database Structure
+
+The application uses three tiered databases:
+- **Core Database**: First 400 kurals covering fundamental themes
+- **Comprehensive Database**: Next 400 kurals for deeper exploration
+- **Extended Database**: Remaining 530 kurals for complete coverage
+
+Each kural includes:
+- Tamil text (original)
+- English translation
+- Detailed explanation
+- Theme classification
+- Emotional context
+- Multiple commentary sources
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- Thiruvalluvar for the timeless wisdom of Thirukkural
+- The Tamil community for preserving this cultural heritage
+- Streamlit for the excellent web application framework
