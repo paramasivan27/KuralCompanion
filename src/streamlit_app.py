@@ -682,7 +682,7 @@ def main():
         st.markdown("## 🌟 KuralCompanion")
         sidebar_selected = option_menu(
             menu_title=None,
-            options=["Home", "Ask Kural", "Emotions & Kural", "Explore Themes", "About"],
+            options=["Home", "Emotions & Kural", "Ask Kural", "Explore Themes", "About"],
             icons=["house", "heart", "lightbulb", "book", "info-circle"],
             menu_icon="cast",
             default_index=0,
@@ -744,10 +744,10 @@ def main():
             st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
             
             if st.button("🚀 Start Your Journey", type="primary"):
-                st.session_state.selected_page = "Ask Kural"
+                st.session_state.selected_page = "Emotions & Kural"
                 st.rerun()
     
-    elif selected == "Ask Kural":
+    elif selected == "Emotions & Kural":
         st.markdown('<h1 class="main-header">💖 Emotions & Kural</h1>', unsafe_allow_html=True)
         
 
@@ -877,7 +877,7 @@ def main():
                     st.warning("No relevant Kurals found for your query. Try rephrasing your question or using different keywords.")
                     st.info("💡 Tip: Try using more specific words or describing your situation in detail for better matches.")
     
-    elif selected == "Emotions & Kural":
+    elif selected == "Ask Kural":
         st.markdown('<h1 class="main-header">💡 Ask Kural</h1>', unsafe_allow_html=True)
         
 
