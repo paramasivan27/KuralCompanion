@@ -682,8 +682,8 @@ def main():
         st.markdown("## 🌟 KuralCompanion")
         sidebar_selected = option_menu(
             menu_title=None,
-            options=["Home", "Ask Kural", "Know About Kural", "Explore Themes", "About"],
-            icons=["house", "question-circle", "lightbulb", "book", "info-circle"],
+            options=["Home", "Ask Kural", "Emotions & Kural", "Explore Themes", "About"],
+            icons=["house", "lightbulb", "heart", "book", "info-circle"],
             menu_icon="cast",
             default_index=0,
         )
@@ -734,17 +734,17 @@ def main():
             st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
             
             if st.button("🚀 Start Your Journey", type="primary"):
-                st.session_state.selected_page = "Ask Kural"
+                st.session_state.selected_page = "Emotions & Kural"
                 st.rerun()
     
     elif selected == "Ask Kural":
-        st.markdown('<h1 class="main-header">💭 Ask Kural</h1>', unsafe_allow_html=True)
+        st.markdown('<h1 class="main-header">💡 Ask Kural</h1>', unsafe_allow_html=True)
         
 
         
         # User input
         user_input = st.text_area(
-            "Share your thoughts, feelings, or questions...",
+            "Share your thoughts, or feelings ...",
             placeholder="e.g., 'I'm feeling sad today' or 'Why do people hurt others?' or 'I'm grateful for my family'",
             height=100
         )
@@ -867,8 +867,8 @@ def main():
                     st.warning("No relevant Kurals found for your query. Try rephrasing your question or using different keywords.")
                     st.info("💡 Tip: Try using more specific words or describing your situation in detail for better matches.")
     
-    elif selected == "Know About Kural":
-        st.markdown('<h1 class="main-header">💡 Know About Kural</h1>', unsafe_allow_html=True)
+    elif selected == "Emotions & Kural":
+        st.markdown('<h1 class="main-header">💖 Emotions & Kural</h1>', unsafe_allow_html=True)
         
 
         
@@ -879,7 +879,7 @@ def main():
             height=100
         )
         
-        # Display options - similar to Ask Kural section
+        # Display options - similar to Emotions & Kural section
         st.markdown("---")
         with st.expander("⚙️ Display Options", expanded=False):
             col1, col2 = st.columns(2)
