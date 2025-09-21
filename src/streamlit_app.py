@@ -2,13 +2,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-from textblob import TextBlob
 import re
 from collections import defaultdict
 import json
 from streamlit_option_menu import option_menu
 # Direct imports for Hugging Face Space deployment
-from kural_database import KURAL_DATABASE, EMOTION_KEYWORDS, THEME_KEYWORDS, get_all_kurals, get_kural_by_number, get_kurals_by_theme, get_kurals_by_emotion, search_kurals_by_keyword
+from kural_database import KURAL_DATABASE, THEME_KEYWORDS, get_all_kurals, get_kural_by_number, get_kurals_by_theme, search_kurals_by_keyword
 from comprehensive_kurals import KURAL_DATABASE as COMPREHENSIVE_KURALS
 from extended_kurals import KURAL_DATABASE as EXTENDED_KURALS
 from aggregated_kurals import AGGREGATED_KURALS_DATA, get_aggregated_chapters
@@ -161,8 +160,8 @@ st.markdown("""
         padding: 0 1rem;
     }
     
-    /* Enhanced Emotion Badges */
-    .emotion-badge {
+    /* Theme Badges */
+    .theme-badge {
         display: inline-block;
         padding: 0.6rem 1.2rem;
         border-radius: 25px;
@@ -174,22 +173,14 @@ st.markdown("""
         letter-spacing: 0.5px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.15);
         transition: all 0.3s ease;
+        background: linear-gradient(135deg, #6c5ce7, #5f3dc4);
+        color: white;
     }
     
-    .emotion-badge:hover {
+    .theme-badge:hover {
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
-    
-    .emotion-sad { background: linear-gradient(135deg, #ff6b6b, #ee5a52); color: white; }
-    .emotion-happy { background: linear-gradient(135deg, #4ecdc4, #44a08d); color: white; }
-    .emotion-angry { background: linear-gradient(135deg, #ff8a80, #ff5252); color: white; }
-    .emotion-confused { background: linear-gradient(135deg, #a8e6cf, #88d8c0); color: var(--text); }
-    .emotion-grateful { background: linear-gradient(135deg, #ffd93d, #ffc107); color: var(--text); }
-    .emotion-love { background: linear-gradient(135deg, #ff69b4, #e91e63); color: white; }
-    .emotion-wisdom { background: linear-gradient(135deg, #6c5ce7, #5f3dc4); color: white; }
-    .emotion-peaceful { background: linear-gradient(135deg, #74b9ff, #0984e3); color: white; }
-    .emotion-patient { background: linear-gradient(135deg, #a29bfe, #6c5ce7); color: white; }
     
     /* Tamil Text Styling */
     .tamil-text {
@@ -342,32 +333,8 @@ st.markdown("""
 
 # Thirukkural Database is now imported from kural_database.py
 
-# Emotion and Theme keywords are now imported from kural_database.py
+# Theme keywords are now imported from kural_database.py
 
-def detect_emotion(text):
-    """Detect emotion from user input"""
-    text_lower = text.lower()
-    detected_emotions = []
-    
-    for emotion, keywords in EMOTION_KEYWORDS.items():
-        for keyword in keywords:
-            if keyword in text_lower:
-                detected_emotions.append(emotion)
-                break
-    
-    # Use TextBlob for sentiment analysis as backup
-    blob = TextBlob(text)
-    sentiment = blob.sentiment.polarity
-    
-    if not detected_emotions:
-        if sentiment > 0.3:
-            detected_emotions.append("joy")
-        elif sentiment < -0.3:
-            detected_emotions.append("sad")
-        else:
-            detected_emotions.append("neutral")
-    
-    return detected_emotions[:2]  # Return top 2 emotions
 
 def detect_theme(text):
     """Detect theme from user input"""
@@ -382,10 +349,9 @@ def detect_theme(text):
     
     return detected_themes[:2] if detected_themes else ["wisdom"]
 
-def find_relevant_kurals_rag(user_input, emotions, themes):
+def find_relevant_kurals_rag(user_input, themes):
     """Find relevant Kurals using enhanced RAG approach - searching across multiple fields for better relevance"""
     # Normalize inputs
-    detected_emotions = [e.lower() for e in emotions if e.lower() != "neutral"]
     detected_themes = [t.lower() for t in themes]
     
     # Create search query from user input - improved tokenization
@@ -409,16 +375,6 @@ def find_relevant_kurals_rag(user_input, emotions, themes):
                     score += 12   # Partial theme match (increased from 8)
                     match_details.append(f"Partial theme match: {db_theme}")
             
-            # 2. Emotion-based scoring (enhanced)
-            kural_emotions = [str(e).lower() for e in kural.get("emotions", [])]
-            for emotion in detected_emotions:
-                if emotion in kural_emotions:
-                    score += 8   # Emotion match (increased from 6)
-                    match_details.append(f"Emotion match: {emotion}")
-                # Check for emotional context in meaning and english fields
-                elif (emotion in kural.get("meaning", "").lower() or emotion in kural.get("english", "").lower()):
-                    score += 4   # Emotional context match
-                    match_details.append(f"Emotional context: {emotion}")
             
             # 3. Enhanced Content-based scoring (RAG approach)
             # Search in English field with improved matching
@@ -476,10 +432,6 @@ def find_relevant_kurals_rag(user_input, emotions, themes):
                     if any("English matches" in detail or "Meaning matches" in detail for detail in match_details):
                         score += 5  # Increased from 3
                 
-                # Boost for emotional alignment with content
-                if any("Emotion match" in detail for detail in match_details):
-                    if any("English matches" in detail or "Meaning matches" in detail for detail in match_details):
-                        score += 3
             
             # Only include kurals with meaningful scores
             if score >= 5:  # Increased minimum threshold from 3
@@ -500,13 +452,12 @@ def find_kurals_by_keywords(keywords):
         return []
     
     # Use the RAG approach for better results
-    # Create a mock user input and detect emotions/themes
+    # Create a mock user input and detect themes
     mock_input = " ".join(search_keywords)
-    emotions = detect_emotion(mock_input)
     themes = detect_theme(mock_input)
     
     # Use the enhanced RAG function
-    relevant_kurals_with_details = find_relevant_kurals_rag(mock_input, emotions, themes)
+    relevant_kurals_with_details = find_relevant_kurals_rag(mock_input, themes)
     
     # Return just the kurals (without details) for backward compatibility
     return [kural for kural, _ in relevant_kurals_with_details]
@@ -592,45 +543,13 @@ def display_kural(kural, index=0, show_transliteration: bool = True, show_englis
         unsafe_allow_html=True,
     )
 
-def get_moral_reflection(emotions, themes):
-    """Generate a moral reflection based on emotions and themes"""
-    reflections = {
-        "sad": "In moments of sorrow, remember that every difficulty is a teacher. The ancient wisdom reminds us that pain often leads to growth and understanding.",
-        "angry": "Anger clouds judgment and wisdom. The sages teach us that patience and forgiveness are the paths to inner peace and true strength.",
-        "confused": "Confusion is the beginning of wisdom. When we question, we open ourselves to learning. Trust that clarity will come with time and reflection.",
-        "grateful": "Gratitude is the foundation of a happy life. When we appreciate what we have, we attract more blessings and find contentment in simplicity.",
-        "love": "Love is the greatest force in the universe. It heals, transforms, and connects us all. Cherish and nurture the love in your heart.",
-        "wisdom": "True wisdom comes from experience, reflection, and an open heart. Seek knowledge not just for yourself, but to help others on their journey.",
-        "fear": "Fear is often a sign that we're stepping into growth. Courage is not the absence of fear, but the willingness to move forward despite it.",
-        "joy": "Joy is a gift to be shared. When we spread happiness, we multiply it. Let your light shine and inspire others to find their own joy.",
-        "peaceful": "Peace is not the absence of problems, but the ability to deal with them calmly. Inner peace is the greatest treasure we can cultivate.",
-        "patient": "Patience is the companion of wisdom. Great things take time to grow, and the most beautiful transformations happen gradually."
-    }
-    
-    if emotions:
-        return reflections.get(emotions[0], "Every experience, whether pleasant or challenging, offers us an opportunity to grow and learn.")
-    return "Life is a journey of learning and growth. Each moment teaches us something valuable if we're open to receiving it."
 
-def generate_contextual_response(user_input, emotions, themes, kurals_with_details):
-    """Generate an enhanced contextual response based on user input, emotions, themes, and found kurals using RAG insights"""
+def generate_contextual_response(user_input, themes, kurals_with_details):
+    """Generate an enhanced contextual response based on user input, themes, and found kurals using RAG insights"""
     response_parts = []
     
-    # Start with emotional acknowledgment and empathy
-    if emotions:
-        if "sad" in emotions or "depressed" in emotions:
-            response_parts.append("I sense you're going through a difficult time. The ancient wisdom of Thirukkural offers profound guidance for moments like these, helping us find strength and perspective.")
-        elif "angry" in emotions or "frustrated" in emotions:
-            response_parts.append("I understand you're feeling frustrated. Thirukkural provides timeless wisdom on managing emotions and finding inner peace through patience and understanding.")
-        elif "grateful" in emotions or "joy" in emotions:
-            response_parts.append("It's wonderful that you're feeling grateful. Thirukkural celebrates these positive emotions and guides us to cultivate them further, spreading joy to others.")
-        elif "confused" in emotions or "uncertain" in emotions:
-            response_parts.append("When facing uncertainty, Thirukkural's timeless wisdom can help clarify your path forward. Sometimes the answers we seek are found in ancient guidance.")
-        elif "love" in emotions:
-            response_parts.append("Love is a beautiful emotion that Thirukkural deeply explores and celebrates. It's the foundation of all meaningful relationships and personal growth.")
-        elif "fear" in emotions:
-            response_parts.append("Fear is a natural human emotion. Thirukkural offers wisdom on facing fears with courage and wisdom, transforming them into opportunities for growth.")
-        else:
-            response_parts.append("Your emotional state resonates with the wisdom contained in Thirukkural. These ancient verses have guidance for every human experience.")
+    # Start with contextual acknowledgment
+    response_parts.append("Thirukkural's timeless wisdom offers profound guidance for your question. Let me share the most relevant verses that directly address your inquiry.")
     
     # Add theme context with more depth
     if themes:
@@ -646,12 +565,12 @@ def generate_contextual_response(user_input, emotions, themes, kurals_with_detai
         match_details = [details for _, details in kurals_with_details]
         
         if len(kural_numbers) == 1:
-            response_parts.append(f"I've found Kural #{kural_numbers[0]}, which directly addresses your situation with remarkable precision.")
+            response_parts.append(f"I've found Kural #{kural_numbers[0]}, which directly addresses your question with remarkable precision.")
         else:
-            response_parts.append(f"I've found {len(kural_numbers)} highly relevant kurals (#{', '.join(map(str, kural_numbers))}) that directly address your situation.")
+            response_parts.append(f"I've found {len(kural_numbers)} highly relevant kurals (#{', '.join(map(str, kural_numbers))}) that directly address your question.")
         
         # Add insights about why these kurals are relevant
-        response_parts.append("These verses were selected because they match your emotional state, address your themes, and contain content that directly relates to your question.")
+        response_parts.append("These verses were selected because they address your themes and contain content that directly relates to your question.")
         
         # Add specific insights about the matches if available
         if match_details:
@@ -665,13 +584,8 @@ def generate_contextual_response(user_input, emotions, themes, kurals_with_detai
                 match_insights = f"The relevance comes from {', '.join(list(unique_matches)[:3])}."
                 response_parts.append(match_insights)
     
-    # Add personalized guidance based on the context
-    if emotions and any(emotion in ["sad", "angry", "confused", "fear"] for emotion in emotions):
-        response_parts.append("Remember, every challenge is an opportunity for growth, and every question leads to wisdom. Thirukkural teaches us that difficulties are temporary, but the lessons we learn from them are eternal.")
-    elif emotions and any(emotion in ["joy", "grateful", "love"] for emotion in emotions):
-        response_parts.append("Your positive emotions are a gift to be shared. Thirukkural encourages us to spread these feelings and use them as a foundation for helping others.")
-    else:
-        response_parts.append("Thirukkural's wisdom is timeless because it addresses the fundamental aspects of human experience that remain constant across generations.")
+    # Add general guidance
+    response_parts.append("Thirukkural's wisdom is timeless because it addresses the fundamental aspects of human experience that remain constant across generations.")
     
     return ' '.join(response_parts)
 
@@ -680,7 +594,7 @@ def generate_contextual_response(user_input, emotions, themes, kurals_with_detai
 def clear_page_state():
     """Clear all page-related state variables to ensure clean navigation"""
     keys_to_clear = [
-        'user_input', 'search_results', 'emotion_analysis', 'theme_analysis',
+        'user_input', 'search_results', 'theme_analysis',
         'show_transliteration', 'selected_explanation'
     ]
     
@@ -702,8 +616,8 @@ def main():
         st.markdown("## 🌟 KuralCompanion")
         sidebar_selected = option_menu(
             menu_title=None,
-            options=["Home", "Emotions & Kural", "Ask Kural", "Explore Themes", "Browse Chapter Summaries", "About"],
-            icons=["house", "heart", "lightbulb", "book", "book-open", "info-circle"],
+            options=["Home", "Ask Kural", "Explore Themes", "Browse Chapter Summaries", "About"],
+            icons=["house", "lightbulb", "book", "book-open", "info-circle"],
             menu_icon="cast",
             default_index=0,
         )
@@ -742,13 +656,13 @@ def main():
                 ### Welcome to Your Digital Sage
                 
                 KuralCompanion is your guide to the timeless wisdom of Thiruvalluvar's Thirukkural. 
-                Whether you're seeking advice, expressing emotions, or exploring life's deeper questions, 
+                Whether you're seeking advice, exploring themes, or asking life's deeper questions, 
                 let the ancient verses illuminate your path.
                 
                 **How it works:**
                 - Share your thoughts, feelings, or questions
                 - Our enhanced RAG system analyzes your input across multiple dimensions
-                - AI detects emotions, themes, and contextual relevance
+                - AI detects themes and contextual relevance
                 - Receive highly relevant Thirukkural verses with detailed explanations
                 - Understand why each verse was selected for your situation
                 
@@ -762,137 +676,9 @@ def main():
                 st.markdown('<hr class="hr-kolam">', unsafe_allow_html=True)
                 
                 if st.button("🚀 Start Your Journey", type="primary"):
-                    st.session_state.selected_page = "Emotions & Kural"
+                    st.session_state.selected_page = "Ask Kural"
                     st.rerun()
         
-        elif selected == "Emotions & Kural":
-            st.markdown('<h1 class="main-header">💖 Emotions & Kural</h1>', unsafe_allow_html=True)
-            
-            # User input
-            user_input = st.text_area(
-                "Share your thoughts, or feelings ...",
-                placeholder="e.g., 'I'm feeling sad today' or 'Why do people hurt others?' or 'I'm grateful for my family'",
-                height=100,
-                key="emotions_user_input"
-            )
-            
-            # Display options - moved above the Find Wisdom button
-            st.markdown("---")
-            with st.expander("⚙️ Display Options", expanded=False):
-                col1, col2 = st.columns(2)
-                with col1:
-                    show_transliteration = st.checkbox("Show Transliteration", value=True, key="emotions_translit")
-                with col2:
-                    # Get available Tamil explanations from a sample kural to determine options
-                    # We'll use a sample from the database to show available options
-                    sample_kural = None
-                    for theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
-                        if kurals:
-                            sample_kural = kurals[0]
-                            break
-                    
-                    available_explanations = []
-                    if sample_kural:
-                        if sample_kural.get('mv'):
-                            available_explanations.append(("மு.வரதராசனார்", 'mv'))
-                        if sample_kural.get('sp'):
-                            available_explanations.append(("சாலமன் பாப்பையா", 'sp'))
-                        if sample_kural.get('mk'):
-                            available_explanations.append(("மு.கருணாநிதி", 'mk'))
-                    
-                    if len(available_explanations) > 1:
-                        selected_explanation = st.radio(
-                            "Choose Tamil explanation:",
-                            options=[exp[0] for exp in available_explanations],
-                            key="emotions_explanation"
-                        )
-                        # Find the selected explanation key
-                        selected_key = None
-                        for exp_name, exp_key in available_explanations:
-                            if exp_name == selected_explanation:
-                                selected_key = exp_key
-                                break
-                        st.session_state.selected_explanation = selected_key
-                    elif len(available_explanations) == 1:
-                        st.session_state.selected_explanation = available_explanations[0][1]
-                        st.info(f"Available: {available_explanations[0][0]}")
-                    else:
-                        st.session_state.selected_explanation = None
-                        st.info("No Tamil explanations available")
-
-            # Store transliteration preference in session state
-            st.session_state.show_transliteration = show_transliteration
-            
-            if st.button("🌟 Find Wisdom", type="primary") and user_input:
-                with st.spinner("Analyzing your words and finding relevant wisdom..."):
-                    # Detect emotions and themes
-                    emotions = detect_emotion(user_input)
-                    themes = detect_theme(user_input)
-                    
-                    # Display detected emotions and themes in collapsible sections
-                    col1, col2 = st.columns(2)
-                    
-                    with col1:
-                        with st.expander("🎭 Detected Emotions", expanded=False):
-                            for emotion in emotions:
-                                st.markdown(f'<span class="emotion-badge emotion-{emotion}">{emotion.title()}</span>', unsafe_allow_html=True)
-                    
-                    with col2:
-                        with st.expander("📚 Detected Themes", expanded=False):
-                            for theme in themes:
-                                st.markdown(f'<span class="emotion-badge emotion-wisdom">{theme.title()}</span>', unsafe_allow_html=True)
-                    
-                    st.markdown("---")
-                    
-                    # Conversation mode - Enhanced RAG-based response with chapter summaries
-                    st.subheader("🤖 Conversational AI Mode")
-                    
-                    # Find relevant Kurals first to generate better contextual response
-                    relevant_kurals = find_relevant_kurals_rag(user_input, emotions, themes)
-                    
-                    # Generate contextual response
-                    contextual_response = generate_contextual_response(user_input, emotions, themes, relevant_kurals)
-                    
-                    st.markdown(f"""
-                    **Your Question:** "{user_input}"
-                    
-                    **KuralCompanion's Response:** {contextual_response}
-                    """)
-                    
-                    # Find and display relevant Kurals using enhanced RAG approach
-                    st.markdown("---")
-                    relevant_kurals = find_relevant_kurals_rag(user_input, emotions, themes)
-                    
-                    if relevant_kurals:
-                        st.subheader("📖 Relevant Thirukkural Verses")
-                        st.info(f"Found {len(relevant_kurals)} highly relevant kurals using our enhanced RAG system")
-
-                        for i, (kural, details) in enumerate(relevant_kurals):
-                            # Use the display options selected by the user
-                            display_kural(kural, i, show_transliteration=show_transliteration, show_english=True)
-                            
-                            # Enhanced match details display
-                            with st.expander(f"🔍 Why this Kural is relevant (Score: {sum(1 for d in details if 'match' in d.lower())} matches)"):
-                                for detail in details:
-                                    if "Exact theme match" in detail:
-                                        st.success(f"✅ {detail}")
-                                    elif "Partial theme match" in detail:
-                                        st.info(f"🔗 {detail}")
-                                    elif "Emotion match" in detail:
-                                        st.warning(f"💭 {detail}")
-                                    elif "Emotional context" in detail:
-                                        st.warning(f"💭 {detail}")
-                                    elif "English matches" in detail:
-                                        st.success(f"📝 {detail}")
-                                    elif "Meaning matches" in detail:
-                                        st.success(f"📖 {detail}")
-                                    elif "Couplet matches" in detail:
-                                        st.info(f"📜 {detail}")
-                                    else:
-                                        st.write(f"• {detail}")
-                    else:
-                        st.warning("No relevant Kurals found for your query. Try rephrasing your question or using different keywords.")
-                        st.info("💡 Tip: Try using more specific words or describing your situation in detail for better matches.")
         
         elif selected == "Ask Kural":
             st.markdown('<h1 class="main-header">💡 Ask Kural</h1>', unsafe_allow_html=True)
@@ -953,12 +739,11 @@ def main():
             
             if st.button("💡 Know Thirukkural", type="primary") and user_input:
                 with st.spinner("Searching for relevant wisdom using our enhanced RAG system..."):
-                    # Detect emotions and themes for better context
-                    emotions = detect_emotion(user_input)
+                    # Detect themes for better context
                     themes = detect_theme(user_input)
                     
                     # Use the enhanced RAG approach for better results
-                    relevant_kurals_with_details = find_relevant_kurals_rag(user_input, emotions, themes)
+                    relevant_kurals_with_details = find_relevant_kurals_rag(user_input, themes)
                     
 
                     
@@ -967,7 +752,7 @@ def main():
                         st.subheader("🤖 KuralCompanion's Response")
                         
                         # Generate contextual response
-                        contextual_response = generate_contextual_response(user_input, emotions, themes, relevant_kurals_with_details)
+                        contextual_response = generate_contextual_response(user_input, themes, relevant_kurals_with_details)
                         
                         st.markdown(f"""
                         **Your Question:** "{user_input}"
@@ -990,10 +775,6 @@ def main():
                                         st.success(f"✅ {detail}")
                                     elif "Partial theme match" in detail:
                                         st.info(f"🔗 {detail}")
-                                    elif "Emotion match" in detail:
-                                        st.warning(f"💭 {detail}")
-                                    elif "Emotional context" in detail:
-                                        st.warning(f"💭 {detail}")
                                     elif "English matches" in detail:
                                         st.success(f"📝 {detail}")
                                     elif "Meaning matches" in detail:
@@ -1082,9 +863,8 @@ def main():
                     if keyword:
                         with st.spinner("Searching using our enhanced RAG system..."):
                             # Use the enhanced RAG approach for better results
-                            emotions = detect_emotion(keyword)
                             themes = detect_theme(keyword)
-                            matching_kurals_with_details = find_relevant_kurals_rag(keyword, emotions, themes)
+                            matching_kurals_with_details = find_relevant_kurals_rag(keyword, themes)
                             
 
                             
@@ -1104,10 +884,6 @@ def main():
                                                 st.success(f"✅ {detail}")
                                             elif "Partial theme match" in detail:
                                                 st.info(f"🔗 {detail}")
-                                            elif "Emotion match" in detail:
-                                                st.warning(f"💭 {detail}")
-                                            elif "Emotional context" in detail:
-                                                st.warning(f"💭 {detail}")
                                             elif "English matches" in detail:
                                                 st.success(f"📝 {detail}")
                                             elif "Meaning matches" in detail:
@@ -1231,10 +1007,6 @@ def main():
                                                 st.markdown(f"**Explanation:** {kural['Explanation']}")
                                             if kural.get('Couplet'):
                                                 st.markdown(f"**Couplet:** {kural['Couplet']}")
-                                            if kural.get('emotions'):
-                                                st.markdown(f"**Emotions:** {kural['emotions']}")
-                                            if kural.get('EmotionDetail'):
-                                                st.markdown(f"**Emotion Details:** {kural['EmotionDetail']}")
                                     if len(chapter["Kurals"]) > 5:
                                         st.info(f"... and {len(chapter['Kurals']) - 5} more kurals")
                 
@@ -1291,19 +1063,19 @@ def main():
             
             **Enhanced Kural Database**
             - Comprehensive collection of Thirukkural verses
-            - Organized by themes and emotions for intelligent matching
+            - Organized by themes for intelligent matching
             - Multiple database files for better organization and scalability
             - **NEW: Aggregated data with chapter-level summaries for enhanced wisdom insights**
             
-            **Emotion-to-Kural Mapping**
-            - Detects intent, emotion, and theme from your input
+            **Theme-Based Kural Discovery**
+            - Detects themes from your input for intelligent matching
             - Maps to relevant Thirukkural verses
             - Provides contextual meanings and reflections
             
             **Enhanced RAG-Powered AI Mode**
             - Interactive dialogue with ancient wisdom using advanced retrieval
             - Personalized guidance based on multi-dimensional analysis
-            - Intelligent matching across emotions, themes, and content
+            - Intelligent matching across themes and content
             - Detailed explanations of why each verse is relevant
             
             ### 📖 About Thirukkural
@@ -1318,11 +1090,11 @@ def main():
             
             ### 🚀 Technology
             
-            Built with Streamlit, Python, and AI-powered emotion detection to bridge ancient wisdom with modern technology.
+            Built with Streamlit, Python, and AI-powered theme detection to bridge ancient wisdom with modern technology.
             
             **Enhanced RAG (Retrieval-Augmented Generation) System:**
             - Multi-dimensional search across English, meaning, theme, and couplet fields
-            - Intelligent scoring based on emotional alignment, thematic relevance, and content matching
+            - Intelligent scoring based on thematic relevance and content matching
             - Contextual understanding of user queries for better verse selection
             - Detailed explanations of why each verse is relevant to the user's situation
             - **NEW: Chapter-level summaries integration for deeper thematic insights and wisdom context**
