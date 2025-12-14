@@ -39,6 +39,14 @@ def merge_all_kural_databases(core_db, comprehensive_db, extended_db):
 
 COMPREHENSIVE_KURAL_DATABASE = merge_all_kural_databases(KURAL_DATABASE, COMPREHENSIVE_KURALS, EXTENDED_KURALS)
 
+def get_kural_by_number_comprehensive(number):
+    """Get a specific kural by its number from the comprehensive database"""
+    for theme, kurals in COMPREHENSIVE_KURAL_DATABASE.items():
+        for kural in kurals:
+            if kural.get("number") == number:
+                return kural
+    return None
+
 # Page configuration
 st.set_page_config(
     page_title="KuralCompanion - Ancient Wisdom for Modern Life",
@@ -941,7 +949,7 @@ def main():
                                 found_kurals = []
                                 
                                 for kural_num in kural_numbers:
-                                    kural = get_kural_by_number(kural_num)
+                                    kural = get_kural_by_number_comprehensive(kural_num)
                                     if kural:
                                         found_kurals.append(kural)
                                     else:
