@@ -602,8 +602,22 @@ def clear_page_state():
         if key in st.session_state:
             del st.session_state[key]
 
+def clear_emotion_related_state():
+    """Clear any old emotion-related session state variables"""
+    emotion_keys_to_clear = [
+        'emotions_user_input', 'emotions_translit', 'emotions_explanation',
+        'emotion_analysis', 'detected_emotions'
+    ]
+    
+    for key in emotion_keys_to_clear:
+        if key in st.session_state:
+            del st.session_state[key]
+
 # Main app
 def main():
+    # Clear any old emotion-related session state
+    clear_emotion_related_state()
+    
     # Initialize session state for navigation
     if 'selected_page' not in st.session_state:
         st.session_state.selected_page = "Home"
@@ -640,6 +654,13 @@ def main():
         st.rerun()
     
     selected = st.session_state.selected_page
+    
+    # Handle invalid page selections (e.g., old session state with "Emotions & Kural")
+    valid_pages = ["Home", "Ask Kural", "Explore Themes", "Browse Chapter Summaries", "About"]
+    if selected not in valid_pages:
+        st.session_state.selected_page = "Home"
+        selected = "Home"
+        st.rerun()
     
     # Create a container for the main content to ensure proper isolation
     main_container = st.container()
