@@ -9,7 +9,7 @@ from streamlit_option_menu import option_menu
 from config import PAGE_CONFIG, SIDEBAR_OPTIONS, VALID_PAGES
 from styles import get_app_css
 from ui_components import clear_emotion_related_state, clear_page_state
-from pages import (
+from kural_pages import (
     render_home,
     render_ask_kural,
     render_explore_themes,
