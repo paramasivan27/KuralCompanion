@@ -78,57 +78,67 @@ def render_ask_kural():
         with st.spinner("Searching for relevant wisdom using our enhanced RAG system..."):
             themes = detect_theme(user_input)
             relevant_kurals_with_details = find_relevant_kurals_rag(user_input, themes)
+        st.session_state["ask_kural_results"] = relevant_kurals_with_details
+        st.session_state["ask_kural_query"] = user_input
+        st.session_state["ask_kural_themes"] = themes
+        st.session_state["ask_kural_llm_summary"] = None
 
-            if relevant_kurals_with_details:
-                st.markdown("---")
-                st.subheader("🤖 KuralCompanion's Response")
-                contextual_response = generate_contextual_response(
-                    user_input, themes, relevant_kurals_with_details
-                )
-                st.markdown(
-                    f"""
-                **Your Question:** "{user_input}"
+    results = st.session_state.get("ask_kural_results")
+    query = st.session_state.get("ask_kural_query", "")
+    themes = st.session_state.get("ask_kural_themes", [])
 
-                **KuralCompanion's Response:** {contextual_response}
-                """
+    if results is not None:
+        if results:
+            st.markdown("---")
+            st.subheader("🤖 KuralCompanion's Response")
+            contextual_response = generate_contextual_response(query, themes, results)
+            st.markdown(
+                f"""
+            **Your Question:** "{query}"
+
+            **KuralCompanion's Response:** {contextual_response}
+            """
+            )
+            st.markdown("---")
+            st.subheader("📖 Relevant Thirukkural Verses")
+            st.info(
+                f"Found {len(results)} highly relevant kurals "
+                "using our enhanced RAG system"
+            )
+            for i, (kural, details) in enumerate(results):
+                display_kural(
+                    kural,
+                    i,
+                    show_transliteration=show_transliteration,
+                    show_english=True,
                 )
+                render_match_details_expander(details)
+
+            if llm_available():
                 st.markdown("---")
-                st.subheader("📖 Relevant Thirukkural Verses")
-                st.info(
-                    f"Found {len(relevant_kurals_with_details)} highly relevant kurals "
-                    "using our enhanced RAG system"
-                )
-                for i, (kural, details) in enumerate(relevant_kurals_with_details):
-                    display_kural(
-                        kural,
-                        i,
-                        show_transliteration=show_transliteration,
-                        show_english=True,
+                if st.button("✨ Summarize with AI", key="llm_summarize"):
+                    kurals_tuple = tuple(
+                        (k.get("english", ""), k.get("meaning", ""), k.get("number", ""))
+                        for k, _ in results
                     )
-                    render_match_details_expander(details)
+                    with st.spinner("Generating AI synthesis..."):
+                        summary = generate_llm_summary(query, kurals_tuple)
+                    st.session_state["ask_kural_llm_summary"] = summary
 
-                if llm_available():
-                    st.markdown("---")
-                    if st.button("✨ Summarize with AI", key="llm_summarize"):
-                        kurals_tuple = tuple(
-                            (k.get("english", ""), k.get("meaning", ""), k.get("number", ""))
-                            for k, _ in relevant_kurals_with_details
-                        )
-                        with st.spinner("Generating AI synthesis..."):
-                            summary = generate_llm_summary(user_input, kurals_tuple)
-                        if summary:
-                            st.markdown("### 🤖 AI Synthesis")
-                            st.info(summary)
-                        else:
-                            st.warning("AI summary unavailable. Please try again.")
-            else:
-                st.warning(
-                    "No relevant Kurals found for your query. "
-                    "Try using different keywords or rephrasing your question."
-                )
-                st.info(
-                    "💡 Tip: Try using more specific words or describing your topic in detail for better matches."
-                )
+                saved_summary = st.session_state.get("ask_kural_llm_summary")
+                if saved_summary:
+                    st.markdown("### 🤖 AI Synthesis")
+                    st.info(saved_summary)
+                elif saved_summary is not None:
+                    st.warning("AI summary unavailable. Please try again.")
+        else:
+            st.warning(
+                "No relevant Kurals found for your query. "
+                "Try using different keywords or rephrasing your question."
+            )
+            st.info(
+                "💡 Tip: Try using more specific words or describing your topic in detail for better matches."
+            )
 
 
 def render_explore_themes():
