@@ -74,31 +74,48 @@ def render_ask_kural():
     st.markdown("---")
     show_transliteration = render_display_options_expander("ask_kural")
 
-    if st.button("💡 Know Thirukkural", type="primary") and user_input:
+    btn_col, chk_col = st.columns([2, 3])
+    with btn_col:
+        search_clicked = st.button("💡 Know Thirukkural", type="primary")
+    with chk_col:
+        include_ai = llm_available() and st.checkbox(
+            "✨ Include AI Summary", value=False, key="ask_kural_include_ai"
+        )
+
+    if search_clicked and user_input:
         with st.spinner("Searching for relevant wisdom using our enhanced RAG system..."):
             themes = detect_theme(user_input)
             relevant_kurals_with_details = find_relevant_kurals_rag(user_input, themes)
         st.session_state["ask_kural_results"] = relevant_kurals_with_details
         st.session_state["ask_kural_query"] = user_input
         st.session_state["ask_kural_themes"] = themes
-        st.session_state["ask_kural_llm_summary"] = None
+
+        if include_ai and relevant_kurals_with_details:
+            kurals_tuple = tuple(
+                (k.get("english", ""), k.get("meaning", ""), k.get("number", ""))
+                for k, _ in relevant_kurals_with_details
+            )
+            with st.spinner("Generating AI synthesis..."):
+                st.session_state["ask_kural_llm_summary"] = generate_llm_summary(
+                    user_input, kurals_tuple
+                )
+        else:
+            st.session_state["ask_kural_llm_summary"] = None
 
     results = st.session_state.get("ask_kural_results")
     query = st.session_state.get("ask_kural_query", "")
     themes = st.session_state.get("ask_kural_themes", [])
+    llm_summary = st.session_state.get("ask_kural_llm_summary")
 
     if results is not None:
         if results:
             st.markdown("---")
             st.subheader("🤖 KuralCompanion's Response")
-            contextual_response = generate_contextual_response(query, themes, results)
-            st.markdown(
-                f"""
-            **Your Question:** "{query}"
-
-            **KuralCompanion's Response:** {contextual_response}
-            """
+            response_text = llm_summary if llm_summary else generate_contextual_response(
+                query, themes, results
             )
+            st.markdown(f'**Your Question:** "{query}"')
+            st.markdown(f"**KuralCompanion's Response:** {response_text}")
             st.markdown("---")
             st.subheader("📖 Relevant Thirukkural Verses")
             st.info(
@@ -113,24 +130,6 @@ def render_ask_kural():
                     show_english=True,
                 )
                 render_match_details_expander(details)
-
-            if llm_available():
-                st.markdown("---")
-                if st.button("✨ Summarize with AI", key="llm_summarize"):
-                    kurals_tuple = tuple(
-                        (k.get("english", ""), k.get("meaning", ""), k.get("number", ""))
-                        for k, _ in results
-                    )
-                    with st.spinner("Generating AI synthesis..."):
-                        summary = generate_llm_summary(query, kurals_tuple)
-                    st.session_state["ask_kural_llm_summary"] = summary
-
-                saved_summary = st.session_state.get("ask_kural_llm_summary")
-                if saved_summary:
-                    st.markdown("### 🤖 AI Synthesis")
-                    st.info(saved_summary)
-                elif saved_summary is not None:
-                    st.warning("AI summary unavailable. Please try again.")
         else:
             st.warning(
                 "No relevant Kurals found for your query. "
