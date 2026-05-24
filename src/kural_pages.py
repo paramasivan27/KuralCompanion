@@ -139,36 +139,37 @@ def render_explore_themes():
         keyword = st.text_input(
             "Enter a keyword to search in kurals:", key="theme_keyword_search"
         )
-        if st.button("Search", key="keyword_search") and keyword:
-            with st.spinner("Searching using our enhanced RAG system..."):
-                themes = detect_theme(keyword)
-                matching = find_relevant_kurals_rag(keyword, themes)
-                if matching:
-                    limited = matching[:10]
-                    st.subheader(f"🔍 Search Results for '{keyword}'")
-                    st.info(
-                        f"Found {len(matching)} matching kurals, showing top 10 most relevant"
-                    )
-                    for kural, details in limited:
-                        display_kural(
-                            kural,
-                            show_transliteration=show_transliteration,
-                            show_english=True,
-                        )
-                        render_match_details_expander(details)
-                        st.markdown("<br>", unsafe_allow_html=True)
-                    if len(matching) > 10:
+        if st.button("Search", key="keyword_search"):
+            if not keyword:
+                st.warning("Please enter a keyword to search")
+            else:
+                with st.spinner("Searching using our enhanced RAG system..."):
+                    themes = detect_theme(keyword)
+                    matching = find_relevant_kurals_rag(keyword, themes)
+                    if matching:
+                        limited = matching[:10]
+                        st.subheader(f"🔍 Search Results for '{keyword}'")
                         st.info(
-                            f"💡 There are {len(matching) - 10} more results. "
-                            "Refine your search for more specific results."
+                            f"Found {len(matching)} matching kurals, showing top 10 most relevant"
                         )
-                else:
-                    st.warning(f"No kurals found matching '{keyword}'")
-                    st.info(
-                        "💡 Tip: Try using more specific words or describing your topic in detail."
-                    )
-        elif st.button("Search", key="keyword_search"):
-            st.warning("Please enter a keyword to search")
+                        for kural, details in limited:
+                            display_kural(
+                                kural,
+                                show_transliteration=show_transliteration,
+                                show_english=True,
+                            )
+                            render_match_details_expander(details)
+                            st.markdown("<br>", unsafe_allow_html=True)
+                        if len(matching) > 10:
+                            st.info(
+                                f"💡 There are {len(matching) - 10} more results. "
+                                "Refine your search for more specific results."
+                            )
+                    else:
+                        st.warning(f"No kurals found matching '{keyword}'")
+                        st.info(
+                            "💡 Tip: Try using more specific words or describing your topic in detail."
+                        )
 
     elif search_option == "Kural Number":
         kural_numbers_input = st.text_input(
