@@ -110,7 +110,10 @@ def render_ask_kural():
     if results is not None:
         if results:
             st.markdown("---")
-            st.subheader("🤖 KuralCompanion's Response")
+            if llm_summary:
+                st.subheader("🤖 KuralCompanion's AI Summary")
+            else:
+                st.subheader("🤖 KuralCompanion's Response")
             response_text = llm_summary if llm_summary else generate_contextual_response(
                 query, themes, results
             )
