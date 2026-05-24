@@ -1,5 +1,10 @@
 """Kural search and relevance logic (RAG, theme detection, counts)."""
 
+import os
+
+import anthropic
+import streamlit as st
+
 from app_state import COMPREHENSIVE_KURAL_DATABASE, THEME_KEYWORDS
 
 
@@ -134,3 +139,43 @@ def generate_contextual_response(user_input, themes, kurals_with_details):
         "aspects of human experience that remain constant across generations."
     )
     return " ".join(parts)
+
+
+def llm_available():
+    """Return True if the Anthropic API key is configured."""
+    return bool(os.environ.get("ANTHROPIC_API_KEY"))
+
+
+@st.cache_data(show_spinner=False)
+def generate_llm_summary(user_input, kurals_tuple):
+    """Call Claude Haiku to synthesize the retrieved kurals for the user's query.
+
+    kurals_tuple is a tuple-of-tuples so Streamlit can cache it (lists aren't hashable).
+    Each inner tuple is (english, meaning, number).
+    """
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return None
+
+    kural_lines = "\n".join(
+        f"- Kural #{num}: \"{english}\" — {meaning}"
+        for english, meaning, num in kurals_tuple
+    )
+
+    prompt = f"""You are a knowledgeable guide to Thirukkural, the ancient Tamil text of wisdom written by Thiruvalluvar.
+
+A user asked: "{user_input}"
+
+The following Thirukkural verses were retrieved as most relevant:
+{kural_lines}
+
+In 3-4 sentences, synthesize what Thiruvalluvar teaches about this topic across these specific verses. \
+Be concrete — reference the verse numbers and their ideas. Do not invent content beyond what the verses say."""
+
+    client = anthropic.Anthropic(api_key=api_key)
+    message = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=300,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return message.content[0].text

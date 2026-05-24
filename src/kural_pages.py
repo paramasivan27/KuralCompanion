@@ -14,6 +14,8 @@ from kural_logic import (
     detect_theme,
     find_relevant_kurals_rag,
     generate_contextual_response,
+    generate_llm_summary,
+    llm_available,
     get_theme_counts,
     get_total_kural_count,
 )
@@ -104,6 +106,21 @@ def render_ask_kural():
                         show_english=True,
                     )
                     render_match_details_expander(details)
+
+                if llm_available():
+                    st.markdown("---")
+                    if st.button("✨ Summarize with AI", key="llm_summarize"):
+                        kurals_tuple = tuple(
+                            (k.get("english", ""), k.get("meaning", ""), k.get("number", ""))
+                            for k, _ in relevant_kurals_with_details
+                        )
+                        with st.spinner("Generating AI synthesis..."):
+                            summary = generate_llm_summary(user_input, kurals_tuple)
+                        if summary:
+                            st.markdown("### 🤖 AI Synthesis")
+                            st.info(summary)
+                        else:
+                            st.warning("AI summary unavailable. Please try again.")
             else:
                 st.warning(
                     "No relevant Kurals found for your query. "
