@@ -54,9 +54,9 @@
         "meaning": "As the letter A is the first of all letters, so the eternal God is first in the world",
         "theme": "Praise of God",
         "emotions": [
-          "Reverence",
-          "Awe",
-          "Humility"
+          "Devotion",
+          "Gratitude",
+          "Wonder"
         ],
         "emotion_detail": "deep respect for God’s greatness, wonder at God’s eternal and leading nature, ",
         "line1": "அகர முதல எழுத்தெல்லாம் ஆதி",
@@ -73,9 +73,9 @@
         "meaning": "What Profit have those derived from learning, who worship not the good feet of Him who is possessed of pure knowledge ?",
         "theme": "Praise of God",
         "emotions": [
-          "Reverence",
-          "Humility",
-          "Devotion"
+          "Devotion",
+          "Wonder",
+          "Gratitude"
         ],
         "emotion_detail": "deep respect for the divine, recognition of one’s limitations before divine knowledge, dedication and love towards God",
         "line1": "கற்றதனால் ஆய பயனென்கொல் வாலறிவன்",
@@ -92,8 +92,9 @@
         "meaning": "They who are united to the glorious feet of Him who passes swiftly over the flower of the mind, shall flourish long above all worlds",
         "theme": "Praise of God",
         "emotions": [
-          "Reverence",
-          "Devotion"
+          "Devotion",
+          "Wonder",
+          "Gratitude"
         ],
         "emotion_detail": "deep respect and admiration for the divine, ",
         "line1": "மலர்மிசை ஏகினான் மாணடி சேர்ந்தார்",
@@ -111,8 +112,8 @@
         "theme": "Praise of God",
         "emotions": [
           "Devotion",
-          "Peace",
-          "Trust"
+          "Trust",
+          "Wonder"
         ],
         "emotion_detail": "deep reverence and worship toward God, a sense of freedom from suffering and turmoil, confidence in the protective nature of the divine",
         "line1": "வேண்டுதல் வேண்டாமை இலானடி சேர்ந்தார்க்கு",
@@ -129,9 +130,9 @@
         "meaning": "The two-fold deeds that spring from darkness shall not adhere to those who delight in the true praise of God",
         "theme": "Praise of God",
         "emotions": [
-          "Reverence",
-          "Purity",
-          "Devotion"
+          "Devotion",
+          "Wonder",
+          "Gratitude"
         ],
         "emotion_detail": "deep respect and awe for God, sense of moral cleanliness and freedom from wrongdoing, ",
         "line1": "இருள்சேர் இருவினையும் சேரா இறைவன்",
@@ -167,8 +168,9 @@
         "meaning": "Anxiety of mind cannot be removed, except from those who are united to the feet of Him who is incomparable",
         "theme": "Praise of God",
         "emotions": [
-          "Anxiety – Referenced directly as \"anxious mind\" and \"Anxiety of mind\".",
-          "Reverence – Shown in the praise and admiration for \"Him who"
+          "Devotion",
+          "Wonder",
+          "Gratitude"
         ],
         "emotion_detail": ", ",
         "line1": "தனக்குவமை இல்லாதான் தாள்சேர்ந்தார்க் கல்லால்",
@@ -185,7 +187,9 @@
         "meaning": "None can swim the sea of vice, but those who are united to the feet of that gracious Being who is a sea of virtue",
         "theme": "Praise of God",
         "emotions": [
-          "Reverence"
+          "Devotion",
+          "Wonder",
+          "Gratitude"
         ],
         "emotion_detail": "",
         "line1": "அறவாழி அந்தணன் தாள்சேர்ந்தார்க் கல்லால்",
@@ -202,9 +206,9 @@
         "meaning": "The head that worships not the feet of Him who is possessed of eight attributes, is as useless as a sense without the power of sensation",
         "theme": "Praise of God",
         "emotions": [
-          "Reverence",
-          "Humility",
-          "Devotion"
+          "Devotion",
+          "Wonder",
+          "Gratitude"
         ],
         "emotion_detail": "deep respect for the divine, recognition of one's own limitations before a higher power, ",
         "line1": "கோளில் பொறியின் குணமிலவே எண்குணத்தான்",
@@ -223,7 +227,7 @@
         "emotions": [
           "Devotion",
           "Hope",
-          "Reverence"
+          "Wonder"
         ],
         "emotion_detail": ", , ",
         "line1": "பிறவிப் பெருங்கடல் நீந்துவர் நீந்தார்",
@@ -242,9 +246,9 @@
         "meaning": "By the continuance of rain the world is preserved in existence; it is therefore worthy to be called ambrosia",
         "theme": "The Glory of Rain",
         "emotions": [
-          "Gratitude – Appreciation for the essential role of rain in sustaining life.",
-          "Awe – A sense of wonder at the natural phenomenon and its vital importance.",
-          "Reverence – Deep respect"
+          "Wonder",
+          "Gratitude",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "வான்நின்று உலகம் வழங்கி வருதலால்",
@@ -261,9 +265,9 @@
         "meaning": "Rain produces good food, and is itself food",
         "theme": "The Glory of Rain",
         "emotions": [
-          "Gratitude – Appreciation for rain as a provider of food and sustenance",
-          "Reverence – Respect and admiration for the natural phenomenon of rain",
-          "Contentment – Satisfaction in the"
+          "Gratitude",
+          "Wonder",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "துப்பார்க்குத் துப்பாய துப்பாக்கித் துப்பார்க்குத்",
@@ -280,9 +284,9 @@
         "meaning": "If the cloud, withholding rain, deceive (our hopes) hunger will long distress the sea-girt spacious world",
         "theme": "The Glory of Rain",
         "emotions": [
-          "**Anxiety**",
-          "**Despair**",
-          "**Hope**"
+          "Wonder",
+          "Hope",
+          "Gratitude"
         ],
         "emotion_detail": "worry about the absence of rain and potential hunger, distress and hopelessness caused by dearth, ",
         "line1": "விண்இன்று பொய்ப்பின் விரிநீர் வியனுலகத்து",
@@ -299,9 +303,9 @@
         "meaning": "If the abundance of wealth imparting rain diminish, the labour of the plough must cease",
         "theme": "The Glory of Rain",
         "emotions": [
-          "Dependence",
-          "Anxiety",
-          "Reverence"
+          "Wonder",
+          "Gratitude",
+          "Joy"
         ],
         "emotion_detail": "on nature for sustenance, about the possibility of rain failing, ",
         "line1": "ஏரின் உழாஅர் உழவர் புயல்என்னும்",
@@ -318,7 +322,9 @@
         "meaning": "Rain by its absence ruins men; and by its existence restores them to fortune",
         "theme": "The Glory of Rain",
         "emotions": [
-          "Hope – The rain’s return is associated with the restoration of life and fortune"
+          "Wonder",
+          "Joy",
+          "Hope"
         ],
         "emotion_detail": "",
         "line1": "கெடுப்பதூஉம் கெட்டார்க்குச் சார்வாய்மற் றாங்கே",
@@ -335,8 +341,9 @@
         "meaning": "If no drop falls from the clouds, not even the green blade of grass will be seen",
         "theme": "The Glory of Rain",
         "emotions": [
-          "Dependence – The text expresses how all life relies on the rain to flourish.",
-          "Humility – It reflects the recognition of human limitations in the face of nature’s power."
+          "Wonder",
+          "Gratitude",
+          "Joy"
         ],
         "emotion_detail": ", ",
         "line1": "விசும்பின் துளிவீழின் அல்லால்மற் றாங்கே",
@@ -353,7 +360,9 @@
         "meaning": "Even the wealth of the wide sea will be diminished, if the cloud that has drawn (its waters) up gives them not back again (in rain)",
         "theme": "The Glory of Rain",
         "emotions": [
-          "**Gratitude** – for the nourishing return of rain"
+          "Gratitude",
+          "Wonder",
+          "Joy"
         ],
         "emotion_detail": "",
         "line1": "நெடுங்கடலும் தன்நீர்மை குன்றும் தடிந்தெழிலி",
@@ -370,8 +379,9 @@
         "meaning": "If the heaven dry up, neither yearly festivals, nor daily worship will be offered in this world, to the celestials",
         "theme": "The Glory of Rain",
         "emotions": [
-          "**Reverence** – A sense of deep respect for the role of rain and the divine order it maintains.",
-          "**Dependence** – An awareness of humanity’s reliance on rain"
+          "Wonder",
+          "Gratitude",
+          "Joy"
         ],
         "emotion_detail": ", ",
         "line1": "சிறப்பொடு பூசனை செல்லாது வானம்",
@@ -388,9 +398,9 @@
         "meaning": "If rain fall not, penance and alms-deeds will not dwell within this spacious world",
         "theme": "The Glory of Rain",
         "emotions": [
-          "Dependence",
-          "Concern",
-          "Reverence"
+          "Wonder",
+          "Gratitude",
+          "Joy"
         ],
         "emotion_detail": "a sense of reliance on rain for sustenance and spiritual practice, worry or anxiety about the consequences of rain failing, ",
         "line1": "தானம் தவம்இரண்டும் தங்கா வியன்உலகம்",
@@ -408,8 +418,8 @@
         "theme": "The Glory of Rain",
         "emotions": [
           "Gratitude",
-          "Reverence",
-          "Dependence"
+          "Wonder",
+          "Joy"
         ],
         "emotion_detail": "for rain and water as essentials to life, respect and awe for nature’s gifts, ",
         "line1": "நீர்இன்று அமையாது உலகெனின் யார்யார்க்கும்",
@@ -428,9 +438,9 @@
         "meaning": "The end and aim of all treatise is to extol beyond all other excellence, the greatness of those who, while abiding in the rule of conduct peculiar to their state, have abandoned all desire",
         "theme": "The Greatness of Ascetics",
         "emotions": [
-          "Reverence – for those who practice self-denial and asceticism.",
-          "Admiration – for the greatness and excellence of ascetics.",
-          "Aspiration – towards virtue"
+          "Devotion",
+          "Serenity",
+          "Wonder"
         ],
         "emotion_detail": ", , ",
         "line1": "ஒழுக்கத்து நீத்தார் பெருமை விழுப்பத்து",
@@ -447,9 +457,9 @@
         "meaning": "To describe the measure of the greatness of those who have forsaken the two-fold desires, is like counting the dead",
         "theme": "The Greatness of Ascetics",
         "emotions": [
-          "Awe",
-          "Reverence",
-          "Humility"
+          "Devotion",
+          "Serenity",
+          "Wonder"
         ],
         "emotion_detail": "towards the greatness of ascetics, deep respect for those who have forsaken desires, ",
         "line1": "துறந்தார் பெருமை துணைக்கூறின் வையத்து",
@@ -466,8 +476,9 @@
         "meaning": "The greatness of those who have discovered the properties of both states of being, and renounced the world, shines forth on earth (beyond all others)",
         "theme": "The Greatness of Ascetics",
         "emotions": [
-          "Reverence – Expressing deep respect and admiration for ascetics who possess profound knowledge and virtue.",
-          "Awe – A sense of wonder and amazement at the greatness and spiritual attainment of those"
+          "Wonder",
+          "Devotion",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "இருமை வகைதெரிந்து ஈண்டுஅறம் பூண்டார்",
@@ -484,8 +495,9 @@
         "meaning": "He who guides his five senses by the hook of wisdom will be a seed in the world of heaven",
         "theme": "The Greatness of Ascetics",
         "emotions": [
-          "Self-discipline – The focus on restraining the senses suggests conscious control and personal discipline.",
-          "Aspiration – The mention of gaining heaven reflects a longing or aspiration for something higher or better"
+          "Wonder",
+          "Serenity",
+          "Devotion"
         ],
         "emotion_detail": ", ",
         "line1": "உரனென்னும் தோட்டியான் ஓரைந்தும் காப்பான்",
@@ -502,8 +514,9 @@
         "meaning": "Indra, the king of the inhabitants of the spacious heaven, is himself, a sufficient proof of the strength of him who has subdued his five senses",
         "theme": "The Greatness of Ascetics",
         "emotions": [
-          "Reverence – Respect and admiration for the greatness and power of ascetics.",
-          "Awe – A feeling of wonder inspired by the extraordinary strength of those who have mastered their senses."
+          "Wonder",
+          "Devotion",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "ஐந்தவித்தான் ஆற்றல் அகல்விசும்பு ளார்கோமான்",
@@ -520,9 +533,9 @@
         "meaning": "The great will do those things which is difficult to be done; but the mean cannot do them",
         "theme": "The Greatness of Ascetics",
         "emotions": [
-          "Admiration – for the greatness and achievements of ascetics or exceptional individuals.",
-          "Aspiration – the desire to pursue greatness and accomplish difficult tasks.",
-          "Respect – for those who undertake"
+          "Devotion",
+          "Desire",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "செயற்கரிய செய்வார் பெரியர் சிறியர்",
@@ -539,9 +552,9 @@
         "meaning": "The world is within the knowledge of him who knows the properties of taste, sight, touch, hearing and smell",
         "theme": "The Greatness of Ascetics",
         "emotions": [
-          "Awe",
-          "Admiration",
-          "Enlightenment"
+          "Devotion",
+          "Serenity",
+          "Wonder"
         ],
         "emotion_detail": "at the greatness and mastery of ascetics, for those who understand and control the senses, ",
         "line1": "சுவைஒளி ஊறுஓசை நாற்றமென ஐந்தின்",
@@ -558,9 +571,9 @@
         "meaning": "The hidden words of the men whose words are full of effect, will shew their greatness to the world",
         "theme": "The Greatness of Ascetics",
         "emotions": [
-          "The top 3 human emotions associated with this text are:",
-          "Reverence – The text expresses deep respect for ascetics and those whose words possess depth and meaning.",
-          "Admiration – There is a sense of admiration for the greatness displayed through"
+          "Devotion",
+          "Serenity",
+          "Wonder"
         ],
         "emotion_detail": ", , ",
         "line1": "நிறைமொழி மாந்தர் பெருமை நிலத்து",
@@ -577,9 +590,9 @@
         "meaning": "The anger of those who have ascended the mountain of goodness, though it continue but for a moment, cannot be resisted",
         "theme": "The Greatness of Ascetics",
         "emotions": [
-          "Awe",
-          "Fear",
-          "Respect"
+          "Devotion",
+          "Serenity",
+          "Fear"
         ],
         "emotion_detail": "towards the power and virtue of ascetics, of the wrath/anger of the ascetics, for the ascetics' moral stature and self-control",
         "line1": "குணமென்னும் குன்றேறி நின்றார் வெகுளி",
@@ -596,9 +609,9 @@
         "meaning": "The virtuous are truly called Anthanar; because in their conduct towards all creatures they are clothed in kindness",
         "theme": "The Greatness of Ascetics",
         "emotions": [
+          "Devotion",
           "Compassion",
-          "Kindness",
-          "Reverence"
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "அந்தணர் என்போர் அறவோர்மற் றெவ்வுயிர்க்கும்",
@@ -617,9 +630,9 @@
         "meaning": "Virtue will confer heaven and wealth; what greater source of happiness can man possess ?",
         "theme": "Assertion of Virtue",
         "emotions": [
-          "Admiration",
-          "Hope",
-          "Contentment"
+          "Trust",
+          "Serenity",
+          "Hope"
         ],
         "emotion_detail": "for virtue and its benefits, for the rewards that virtue brings, from the happiness and fulfillment virtue provides",
         "line1": "சிறப்புஈனும் செல்வமும் ஈனும் அறத்தினூஉங்கு",
@@ -636,7 +649,9 @@
         "meaning": "There can be no greater source of good than (the practice of) virtue; there can be no greater source of evil than the forgetfulness of it",
         "theme": "Assertion of Virtue",
         "emotions": [
-          "**Inspiration** — The text encourages the practice of virtue"
+          "Courage",
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": "",
         "line1": "அறத்தினூஉங்கு ஆக்கமும் இல்லை அதனை",
@@ -653,9 +668,9 @@
         "meaning": "As much as possible, in every way, incessantly practise virtue",
         "theme": "Assertion of Virtue",
         "emotions": [
-          "Encouragement",
-          "Inspiration",
-          "Determination"
+          "Courage",
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "ஒல்லும் வகையான் அறவினை ஓவாதே",
@@ -672,9 +687,9 @@
         "meaning": "Let him who does virtuous deeds be of spotless mind; to that extent is virtue; all else is vain show",
         "theme": "Assertion of Virtue",
         "emotions": [
-          "Sincerity",
-          "Humility",
-          "Integrity"
+          "Trust",
+          "Courage",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "மனத்துக்கண் மாசிலன் ஆதல் அனைத்தறன்",
@@ -691,7 +706,9 @@
         "meaning": "That conduct is virtue which is free from these four things, viz, malice, desire, anger and bitter speech",
         "theme": "Assertion of Virtue",
         "emotions": [
-          "Self-control"
+          "Trust",
+          "Serenity",
+          "Courage"
         ],
         "emotion_detail": "",
         "line1": "அழுக்காறு அவாவெகுளி இன்னாச்சொல் நான்கும்",
@@ -708,7 +725,9 @@
         "meaning": "Defer not virtue to another day; receive her now; and at the dying hour she will be your undying friend",
         "theme": "Assertion of Virtue",
         "emotions": [
-          "Urgency"
+          "Trust",
+          "Courage",
+          "Serenity"
         ],
         "emotion_detail": "",
         "line1": "அன்றறிவாம் என்னாது அறஞ்செய்க மற்றது",
@@ -725,8 +744,9 @@
         "meaning": "The fruit of virtue need not be described in books; it may be inferred from seeing the bearer of a palanquin and the rider therein",
         "theme": "Assertion of Virtue",
         "emotions": [
-          "Humility – The observation of roles (bearer and rider) evokes humility about one's own place in the world and the virtue of recognizing equality or fortune.",
-          "Reflection – The passage encourages"
+          "Courage",
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "அறத்தாறு இதுவென வேண்டா சிவிகை",
@@ -743,9 +763,9 @@
         "meaning": "If one allows no day to pass without some good being done, his conduct will be a stone to block up the passage to other births",
         "theme": "Assertion of Virtue",
         "emotions": [
-          "Virtue",
+          "Trust",
           "Hope",
-          "Determination"
+          "Courage"
         ],
         "emotion_detail": "a sense of moral goodness or righteousness, aspiration for positive transformation and liberation from pain, commitment to consistently doing good deeds",
         "line1": "வீழ்நாள் படாஅமை நன்றாற்றின் அஃதொருவன்",
@@ -762,8 +782,9 @@
         "meaning": "Only that pleasure which flows from domestic virtue is pleasure; all else is not pleasure, and it is without praise",
         "theme": "Assertion of Virtue",
         "emotions": [
-          "**Virtue/pride**",
-          "**Contentment/satisfaction**"
+          "Trust",
+          "Pride",
+          "Serenity"
         ],
         "emotion_detail": "from doing good and living morally, ",
         "line1": "அறத்தான் வருவதே இன்பம் மற்றெல்லாம்",
@@ -780,8 +801,9 @@
         "meaning": "That is virtue which each ought to do, and that is vice which each should shun",
         "theme": "Assertion of Virtue",
         "emotions": [
-          "Top 3 Human Emotions Associated with the Text:",
-          "Responsibility – The text emphasizes what one ought to do"
+          "Trust",
+          "Courage",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "செயற்பால தோரும் அறனே ஒருவற்கு",
@@ -800,9 +822,9 @@
         "meaning": "He will be called a (true) householder, who is a firm support to the virtuous of the three orders in",
         "theme": "Domestic Life",
         "emotions": [
-          "Responsibility",
-          "Supportiveness",
-          "Virtue"
+          "Trust",
+          "Joy",
+          "Love"
         ],
         "emotion_detail": ", , ",
         "line1": "இல்வாழ்வான் என்பான் இயல்புடைய மூவர்க்கும்",
@@ -819,7 +841,9 @@
         "meaning": "He will be said to flourish in domestic virtue who aids the forsaken, the poor, and the dead",
         "theme": "Domestic Life",
         "emotions": [
-          "Compassion – Showing care and kindness toward others"
+          "Compassion",
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": "",
         "line1": "துறந்தார்க்கும் துவ்வாதவர்க்கும் இறந்தார்க்கும்",
@@ -836,8 +860,9 @@
         "meaning": "The chief (duty of the householder) is to preserve the five-fold rule (of conduct) towards the manes, the Gods, his guests, his relations and himself",
         "theme": "Domestic Life",
         "emotions": [
-          "Duty",
-          "Reverence"
+          "Joy",
+          "Love",
+          "Trust"
         ],
         "emotion_detail": "a sense of responsibility and obligation, ",
         "line1": "தென்புலத்தார் தெய்வம் விருந்தொக்கல் தானென்றாங்கு",
@@ -854,9 +879,9 @@
         "meaning": "His descendants shall never fail who, living in the domestic state, fears vice (in the acquisition of property) and shares his food (with others)",
         "theme": "Domestic Life",
         "emotions": [
-          "Generosity",
-          "Integrity",
-          "Contentment"
+          "Trust",
+          "Joy",
+          "Love"
         ],
         "emotion_detail": ", , ",
         "line1": "பழியஞ்சிப் பாத்தூண் உடைத்தாயின் வாழ்க்கை",
@@ -874,8 +899,8 @@
         "theme": "Domestic Life",
         "emotions": [
           "Love",
-          "Contentment",
-          "Harmony"
+          "Joy",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "அன்பும் அறனும் உடைத்தாயின் இல்வாழ்க்கை",
@@ -892,9 +917,9 @@
         "meaning": "What will he who lives virtuously in the domestic state gain by going into the other, (ascetic) state ?",
         "theme": "Domestic Life",
         "emotions": [
-          "Contentment – Satisfaction with a virtuous domestic life.",
-          "Curiosity – Wondering about the benefits of leaving domestic life for asceticism.",
-          "Reflection – Thoughtful consideration of"
+          "Trust",
+          "Joy",
+          "Wonder"
         ],
         "emotion_detail": ", , ",
         "line1": "அறத்தாற்றின் இல்வாழ்க்கை ஆற்றின் புறத்தாற்றில்",
@@ -911,9 +936,9 @@
         "meaning": "Among all those who labour (for future happiness) he is greatest who lives well in the household state",
         "theme": "Domestic Life",
         "emotions": [
-          "Contentment",
-          "Pride",
-          "Aspiration"
+          "Joy",
+          "Trust",
+          "Pride"
         ],
         "emotion_detail": ", , ",
         "line1": "இயல்பினான் இல்வாழ்க்கை வாழ்பவன் என்பான்",
@@ -930,9 +955,9 @@
         "meaning": "The householder who, not swerving from virtue, helps the ascetic in his way, endures more than those who endure penance",
         "theme": "Domestic Life",
         "emotions": [
-          "Respect – for the virtue and endurance of the householder.",
-          "Admiration – towards those who live righteously and support others.",
-          "Pride – in upholding moral values"
+          "Trust",
+          "Joy",
+          "Pride"
         ],
         "emotion_detail": ", , ",
         "line1": "ஆற்றின் ஒழுக்கி அறனிழுக்கா இல்வாழ்க்கை",
@@ -949,8 +974,8 @@
         "meaning": "The marriage state is truly called virtue The other state is also good, if others do not reproach it",
         "theme": "Domestic Life",
         "emotions": [
-          "Virtue",
-          "Serenity",
+          "Trust",
+          "Joy",
           "Pride"
         ],
         "emotion_detail": ", , ",
@@ -968,9 +993,9 @@
         "meaning": "He who on earth has lived in the conjugal state as he should live, will be placed among the Gods who dwell in heaven",
         "theme": "Domestic Life",
         "emotions": [
-          "Reverence",
-          "Contentment",
-          "Aspiration"
+          "Trust",
+          "Joy",
+          "Love"
         ],
         "emotion_detail": "for virtuous living and divine worth, from harmonious domestic life, ",
         "line1": "வையத்துள் வாழ்வாங்கு வாழ்பவன் வான்உறையும்",
@@ -989,9 +1014,9 @@
         "meaning": "She who has the excellence of home virtues, and can expend within the means of her husband, is a help in the domestic state",
         "theme": "The Worth of a Wife",
         "emotions": [
-          "Responsibility",
-          "Contentment",
-          "Appreciation"
+          "Trust",
+          "Love",
+          "Gratitude"
         ],
         "emotion_detail": ", , ",
         "line1": "மனைக்தக்க மாண்புடையள் ஆகித்தற் கொண்டான்",
@@ -1008,9 +1033,9 @@
         "meaning": "If the wife be devoid of domestic excellence, whatever (other) greatness be possessed, the conjugal state, is nothing",
         "theme": "The Worth of a Wife",
         "emotions": [
-          "Value",
-          "Disappointment",
-          "Pride"
+          "Pride",
+          "Trust",
+          "Love"
         ],
         "emotion_detail": "sense of worth/respect, if lacking domestic excellence, in possessing virtue/domestic excellence",
         "line1": "மனைமாட்சி இல்லாள்கண் இல்லாயின் வாழ்க்கை",
@@ -1027,9 +1052,9 @@
         "meaning": "If his wife be eminent (in virtue), what does (that man) not possess ? If she be without excellence, what does (he) possess ?",
         "theme": "The Worth of a Wife",
         "emotions": [
-          "Appreciation",
-          "Discontent",
-          "Reflectiveness"
+          "Trust",
+          "Love",
+          "Gratitude"
         ],
         "emotion_detail": "for virtue/goodness, with lack of virtue/badness, contemplation about value and worth",
         "line1": "இல்லதென் இல்லவள் மாண்பானால் உள்ளதென்",
@@ -1046,7 +1071,9 @@
         "meaning": "What is more excellent than a wife, if she possess the stability of chastity ?",
         "theme": "The Worth of a Wife",
         "emotions": [
-          "Admiration – for the virtues of a constant"
+          "Trust",
+          "Love",
+          "Gratitude"
         ],
         "emotion_detail": "",
         "line1": "பெண்ணின் பெருந்தக்க யாவுள கற்பென்னும்",
@@ -1063,8 +1090,9 @@
         "meaning": "If she, who does not worship God, but who rising worships her husband, say, \"let it rain,\" it will rain",
         "theme": "The Worth of a Wife",
         "emotions": [
-          "Devotion – The text emphasizes a wife's deep sense of reverence and commitment toward her husband.",
-          "Adoration – The husband's adoration is mentioned"
+          "Devotion",
+          "Love",
+          "Trust"
         ],
         "emotion_detail": ", ",
         "line1": "தெய்வம் தொழாஅள் கொழுநன் தொழுதெழுவாள்",
@@ -1081,8 +1109,9 @@
         "meaning": "She is a wife who unweariedly guards herself, takes care of her husband, and preserves an unsullied fame",
         "theme": "The Worth of a Wife",
         "emotions": [
-          "Duty – The text strongly emphasizes responsibility and the fulfillment of expected roles within marriage.",
-          "Care – The act of tending to one’s spouse and preserving their well-being reflects care and"
+          "Love",
+          "Trust",
+          "Gratitude"
         ],
         "emotion_detail": ", ",
         "line1": "தற்காத்துத் தற்கொண்டாற் பேணித் தகைசான்ற",
@@ -1099,8 +1128,9 @@
         "meaning": "What avails the guard of a prison ? The chief guard of a woman is her chastity",
         "theme": "The Worth of a Wife",
         "emotions": [
-          "**Protectiveness** — The text discusses the desire to safeguard and ensure the well-being or virtue of women.",
-          "**Respect** — It emphasizes valuing and honoring a woman's chastity"
+          "Trust",
+          "Love",
+          "Desire"
         ],
         "emotion_detail": ", ",
         "line1": "சிறைகாக்கும் காப்பெவன் செய்யும் மகளிர்",
@@ -1117,9 +1147,9 @@
         "meaning": "If women shew reverence to their husbands, they will obtain great excellence in the world where the gods flourish",
         "theme": "The Worth of a Wife",
         "emotions": [
-          "Reverence",
+          "Love",
           "Devotion",
-          "Aspiration"
+          "Trust"
         ],
         "emotion_detail": ", , for excellence and flourishing",
         "line1": "பெற்றாற் பெறின்பெறுவர் பெண்டிர் பெருஞ்சிறப்புப்",
@@ -1136,8 +1166,9 @@
         "meaning": "The man whose wife seeks not the praise (of chastity) cannot walk with lion-like stately step, before those who revile them",
         "theme": "The Worth of a Wife",
         "emotions": [
-          "Shame – The text reflects the feeling of shame a man experiences due to his wife’s lack of chastity and the subsequent judgment from others.",
-          "Insecurity – The man feels insecure about"
+          "Trust",
+          "Love",
+          "Shame"
         ],
         "emotion_detail": ", ",
         "line1": "புகழ்புரிந்த இல்லிலோர்க்கு இல்லை இகழ்வார்முன்",
@@ -1154,9 +1185,9 @@
         "meaning": "The excellence of a wife is the good of her husband; and good children are the jewels of that goodness",
         "theme": "The Worth of a Wife",
         "emotions": [
-          "Appreciation – for the value and excellence of an honest wife and good children.",
-          "Love – reflected in the warm relationships within the family.",
-          "Pride – in having a virtuous wife"
+          "Love",
+          "Pride",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "மங்கலம் என்ப மனைமாட்சி மற்று அதன்",
@@ -1175,8 +1206,9 @@
         "meaning": "Among all the benefits that may be acquired, we know no greater benefit than the acquisition of intelligent children",
         "theme": "Blessing of Children",
         "emotions": [
-          "Joy – The text speaks of \"bliss\" and the happiness that virtuous and wise children bring.",
-          "Pride – There is a sense of honor and satisfaction in having intelligent children."
+          "Joy",
+          "Pride",
+          "Love"
         ],
         "emotion_detail": ", ",
         "line1": "பெறுமவற்றுள் யாமறிவது இல்லை அறிவறிந்த",
@@ -1193,7 +1225,9 @@
         "meaning": "The evils of the seven births shall not touch those who abtain children of a good disposition, free from vice",
         "theme": "Blessing of Children",
         "emotions": [
-          "Hope – The text expresses optimism for a future blessed by good"
+          "Hope",
+          "Joy",
+          "Love"
         ],
         "emotion_detail": "",
         "line1": "எழுபிறப்பும் தீயவை தீண்டா பழிபிறங்காப்",
@@ -1210,7 +1244,9 @@
         "meaning": "Men will call their sons their wealth, because it flows to them through the deeds which they (sons) perform on their behalf",
         "theme": "Blessing of Children",
         "emotions": [
-          "Pride – In reference to the good deeds performed by the children"
+          "Joy",
+          "Pride",
+          "Love"
         ],
         "emotion_detail": "",
         "line1": "தம்பொருள் என்பதம் மக்கள் அவர்பொருள்",
@@ -1227,9 +1263,9 @@
         "meaning": "The rice in which the little hand of their children has dabbled will be far sweeter (to the parent) than ambrosia",
         "theme": "Blessing of Children",
         "emotions": [
-          "Love",
           "Joy",
-          "Contentment"
+          "Love",
+          "Wonder"
         ],
         "emotion_detail": ", , ",
         "line1": "அமிழ்தினும் ஆற்ற இனிதேதம் மக்கள்",
@@ -1246,9 +1282,9 @@
         "meaning": "The touch of children gives pleasure to the body, and the hearing of their words, pleasure to the ear",
         "theme": "Blessing of Children",
         "emotions": [
-          "Top 3 emotions associated with the text:",
-          "Joy – The text describes delight and pleasure experienced through children’s touch and words.",
-          "Love – There is an affectionate tone toward children"
+          "Joy",
+          "Love",
+          "Wonder"
         ],
         "emotion_detail": ", , ",
         "line1": "மக்கள்மெய் தீண்டல் உடற்கின்பம் மற்றுஅவர்",
@@ -1265,7 +1301,9 @@
         "meaning": "\"The pipe is sweet, the lute is sweet,\" say those who have not heard the prattle of their own children",
         "theme": "Blessing of Children",
         "emotions": [
-          "Joy – The text highlights the unique"
+          "Joy",
+          "Love",
+          "Wonder"
         ],
         "emotion_detail": "",
         "line1": "குழல்இனிது யாழ்இனிது என்பதம் மக்கள்",
@@ -1282,9 +1320,9 @@
         "meaning": "The benefit which a father should confer on his son is to give him precedence in the assembly of the learned",
         "theme": "Blessing of Children",
         "emotions": [
-          "Responsibility",
           "Love",
-          "Aspiration"
+          "Joy",
+          "Wonder"
         ],
         "emotion_detail": ", , ",
         "line1": "தந்தை மகற்காற்றும் நன்றி அவையத்து",
@@ -1302,8 +1340,8 @@
         "theme": "Blessing of Children",
         "emotions": [
           "Joy",
-          "Pride",
-          "Love"
+          "Love",
+          "Wonder"
         ],
         "emotion_detail": ", , ",
         "line1": "தம்மின்தம் மக்கள் அறிவுடைமை மாநிலத்து",
@@ -1320,9 +1358,9 @@
         "meaning": "The mother who hears her son called \"a wise man\" will rejoice more than she did at his birth",
         "theme": "Blessing of Children",
         "emotions": [
-          "Pride",
           "Joy",
-          "Love"
+          "Love",
+          "Wonder"
         ],
         "emotion_detail": ", , ",
         "line1": "ஈன்ற பொழுதின் பெரிதுவக்கும் தன்மகனைச்",
@@ -1339,8 +1377,9 @@
         "meaning": "(So to act) that it may be said \"by what great penance did his father beget him,\" is the benefit which a son should render to his father",
         "theme": "Blessing of Children",
         "emotions": [
-          "Gratitude – The text reflects a deep sense of thankfulness for one’s lineage and the blessings bestowed by having a worthy son.",
-          "Reverence – There is a tone of respect and"
+          "Gratitude",
+          "Joy",
+          "Love"
         ],
         "emotion_detail": ", ",
         "line1": "மகன்தந்தைக்கு ஆற்றும் உதவி இவன்தந்தை",
@@ -1359,10 +1398,9 @@
         "meaning": "Is there any fastening that can shut in love ? Tears of the affectionate will publish the love that is within",
         "theme": "Possession of Love",
         "emotions": [
-          "Top 3 human emotions in the text:",
           "Love",
-          "Affection",
-          "Vulnerability"
+          "Compassion",
+          "Joy"
         ],
         "emotion_detail": ", , , ",
         "line1": "அன்பிற்கும் உண்டோ அடைக்குந்தாழ் ஆர்வலர்",
@@ -1379,9 +1417,9 @@
         "meaning": "Those who are destitute of love appropriate all they have to themselves; but those who possess love consider even their bones to belong to others",
         "theme": "Possession of Love",
         "emotions": [
-          "Selfishness — felt by the loveless ones who keep everything to themselves.",
-          "Selflessness — shown by the loving individuals who offer even their bones to others.",
-          "Generosity"
+          "Love",
+          "Compassion",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "அன்பிலார் எல்லாம் தமக்குரியர் அன்புடையார்",
@@ -1398,10 +1436,9 @@
         "meaning": "They say that the union of soul and body in man is the fruit of the union of love and virtue (in a former birth)",
         "theme": "Possession of Love",
         "emotions": [
-          "Top 3 human emotions in the text:",
           "Love",
           "Longing",
-          "Reverence"
+          "Compassion"
         ],
         "emotion_detail": ", , , ",
         "line1": "அன்போடு இயைந்த வழக்கென்ப ஆருயிர்க்கு",
@@ -1419,8 +1456,8 @@
         "theme": "Possession of Love",
         "emotions": [
           "Love",
-          "Aspiration",
-          "Friendship"
+          "Joy",
+          "Compassion"
         ],
         "emotion_detail": ", Desire, Affection/Companionship",
         "line1": "அன்புஈனும் ஆர்வம் உடைமை அதுஈனும்",
@@ -1438,8 +1475,8 @@
         "theme": "Possession of Love",
         "emotions": [
           "Joy",
-          "Peacefulness",
-          "Love"
+          "Love",
+          "Compassion"
         ],
         "emotion_detail": ", or Tranquility, ",
         "line1": "அன்புற்று அமர்ந்த வழக்கென்ப வையகத்து",
@@ -1456,7 +1493,9 @@
         "meaning": "The ignorant say that love is an ally to virtue only, but it is also a help to get out of vice",
         "theme": "Possession of Love",
         "emotions": [
-          "Love – The central theme"
+          "Love",
+          "Compassion",
+          "Joy"
         ],
         "emotion_detail": "",
         "line1": "அறத்திற்கே அன்புசார் பென்ப அறியார்",
@@ -1473,9 +1512,9 @@
         "meaning": "Virtue will burn up the soul which is without love, even as the sun burns up the creature which is without bone, ie worms",
         "theme": "Possession of Love",
         "emotions": [
-          "Top 3 human emotions associated with the text are:",
-          "Love – The passage centers on the importance of possessing love.",
-          "Justice – The idea of “justice burns the loveless form” imbues the emotion of justice or righteousness. 3"
+          "Love",
+          "Compassion",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "என்பி லதனை வெயில்போலக் காயுமே",
@@ -1492,7 +1531,9 @@
         "meaning": "The domestic state of that man whose mind is without love is like the flourishing of a withered tree upon the parched desert",
         "theme": "Possession of Love",
         "emotions": [
-          "Loneliness – The absence of love is described as a state of gloom"
+          "Love",
+          "Joy",
+          "Compassion"
         ],
         "emotion_detail": "",
         "line1": "அன்பகத் தில்லா உயிர்வாழ்க்கை வன்பாற்கண்",
@@ -1509,7 +1550,9 @@
         "meaning": "Of what avail are all the external members (of the body) to those who are destitute of love, the internal member",
         "theme": "Possession of Love",
         "emotions": [
-          "Love – The central theme"
+          "Love",
+          "Compassion",
+          "Joy"
         ],
         "emotion_detail": "",
         "line1": "புறத்துறுப் பெல்லாம் எவன்செய்யும் யாக்கை",
@@ -1527,8 +1570,8 @@
         "theme": "Possession of Love",
         "emotions": [
           "Love",
-          "Vitality",
-          "Emptiness"
+          "Compassion",
+          "Joy"
         ],
         "emotion_detail": ", or inspiration, implied by the absence of love",
         "line1": "அன்பின் வழியது உயிர்நிலை அஃதிலார்க்கு",
@@ -1547,9 +1590,9 @@
         "meaning": "The whole design of living in the domestic state and laying up (property) is (to be able) to exercise the benevolence of hospitality",
         "theme": "Hospitality",
         "emotions": [
-          "Generosity",
-          "Benevolence",
-          "Responsibility"
+          "Compassion",
+          "Joy",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "இருந்தோம்பி இல்வாழ்வ தெல்லாம் விருந்தோம்பி",
@@ -1566,10 +1609,9 @@
         "meaning": "It is not fit that one should wish his guests to be outside (his house) even though he were eating the food of immortality",
         "theme": "Hospitality",
         "emotions": [
-          "The top 3 human emotions associated with this text are:",
-          "Generosity",
-          "Hospitality",
-          "Compassion"
+          "Compassion",
+          "Joy",
+          "Trust"
         ],
         "emotion_detail": ", , welcoming, ",
         "line1": "விருந்து புறத்ததாத் தானுண்டல் சாவா",
@@ -1586,9 +1628,9 @@
         "meaning": "The domestic life of the man that daily entertains the guests who come to him shall not be laid waste by poverty",
         "theme": "Hospitality",
         "emotions": [
-          "Generosity",
-          "Warmth",
-          "Hopefulness"
+          "Compassion",
+          "Hope",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "வருவிருந்து வைகலும் ஓம்புவான் வாழ்க்கை",
@@ -1606,8 +1648,8 @@
         "theme": "Hospitality",
         "emotions": [
           "Joy",
-          "Hospitality",
-          "Generosity"
+          "Compassion",
+          "Trust"
         ],
         "emotion_detail": ", Welcoming, ",
         "line1": "அகனமர்ந்து செய்யாள் உறையும் முகனமர்ந்து",
@@ -1624,9 +1666,9 @@
         "meaning": "Is it necessary to sow the field of the man who, having feasted his guests, eats what may remain ?",
         "theme": "Hospitality",
         "emotions": [
-          "Generosity",
-          "Hospitality",
-          "Contentment"
+          "Compassion",
+          "Joy",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "வித்தும் இடல்வேண்டும் கொல்லோ விருந்தோம்பி",
@@ -1643,9 +1685,9 @@
         "meaning": "He who, having entertained the guests that have come, looks out for others who may yet come, will be a welcome guest to the inhabitants of heaven",
         "theme": "Hospitality",
         "emotions": [
-          "Generosity",
-          "Warmth",
-          "Anticipation"
+          "Compassion",
+          "Joy",
+          "Trust"
         ],
         "emotion_detail": ", or Welcoming, of doing good for others",
         "line1": "செல்விருந்து ஓம்பி வருவிருந்து பார்த்திருப்பான்",
@@ -1662,8 +1704,8 @@
         "meaning": "The advantages of benevolence cannot be measured; the measure (of the virtue) of the guests (entertained) is the only measure",
         "theme": "Hospitality",
         "emotions": [
-          "Generosity",
-          "Respect",
+          "Compassion",
+          "Trust",
           "Gratitude"
         ],
         "emotion_detail": ", , ",
@@ -1681,9 +1723,9 @@
         "meaning": "Those who have taken no part in the benevolence of hospitality shall (at length lament) saying, \"we have laboured and laid up wealth and are now without support.\"",
         "theme": "Hospitality",
         "emotions": [
-          "Regret",
-          "Loneliness",
-          "Longing"
+          "Compassion",
+          "Longing",
+          "Regret"
         ],
         "emotion_detail": ", , ",
         "line1": "பரிந்தோம்பிப் பற்றற்றேம் என்பர் விருந்தோம்பி",
@@ -1700,8 +1742,9 @@
         "meaning": "That stupidity which excercises no hospitality is poverty in the midst of wealth It is the property of the stupid",
         "theme": "Hospitality",
         "emotions": [
-          "Shame – The text implies a sense of disgrace or embarrassment at failing to fulfill the moral duty of hospitality.",
-          "Generosity – There is an underlying value placed on generosity"
+          "Shame",
+          "Compassion",
+          "Joy"
         ],
         "emotion_detail": ", ",
         "line1": "உடைமையுள் இன்மை விருந்தோம்பல் ஓம்பா",
@@ -1718,9 +1761,9 @@
         "meaning": "As the Anicham flower fades in smelling, so fades the guest when the face is turned away",
         "theme": "Hospitality",
         "emotions": [
-          "Rejection",
-          "Disappointment",
-          "Sadness"
+          "Compassion",
+          "Joy",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "மோப்பக் குழையும் அனிச்சம் முகந்திரிந்து",
@@ -1739,9 +1782,9 @@
         "meaning": "Sweet words are those which imbued with love and free from deceit flow from the mouth of the virtuous",
         "theme": "Sweetness of Speech",
         "emotions": [
-          "Love",
           "Compassion",
-          "Honesty"
+          "Joy",
+          "Trust"
         ],
         "emotion_detail": ", Mercy, Sincerity",
         "line1": "இன்சொலால் ஈரம் அளைஇப் படிறுஇலவாம்",
@@ -1759,8 +1802,8 @@
         "theme": "Sweetness of Speech",
         "emotions": [
           "Joy",
-          "Kindness",
-          "Warmth"
+          "Compassion",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "அகன்அமர்ந்து ஈதலின் நன்றே முகனமர்ந்து",
@@ -1777,9 +1820,9 @@
         "meaning": "Sweet speech, flowing from the heart (uttered) with a cheerful countenance and a sweet look, is true virtue",
         "theme": "Sweetness of Speech",
         "emotions": [
-          "Kindness",
-          "Calmness",
-          "Warmth"
+          "Joy",
+          "Compassion",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "முகத்தான் அமர்ந்து இனிதுநோக்கி அகத்தானாம்",
@@ -1796,8 +1839,9 @@
         "meaning": "Sorrow-increasing poverty shall not come upon those who use towards all, pleasure-increasing sweetness of speech",
         "theme": "Sweetness of Speech",
         "emotions": [
-          "Kindness",
-          "Joy/Delight"
+          "Joy",
+          "Compassion",
+          "Trust"
         ],
         "emotion_detail": "due to \"loving words\" and \"sweetness of speech\", as speech \"delight each one\" and brings \"pleasure\"",
         "line1": "துன்புறூஉம் துவ்வாமை இல்லாகும் யார்மாட்டும்",
@@ -1814,9 +1858,9 @@
         "meaning": "Humility and sweetness of speech are the ornaments of man; all others are not (ornaments)",
         "theme": "Sweetness of Speech",
         "emotions": [
-          "Humility",
-          "Kindness",
-          "Wisdom"
+          "Joy",
+          "Compassion",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "பணிவுடையன் இன்சொலன் ஆதல் ஒருவற்கு",
@@ -1833,9 +1877,9 @@
         "meaning": "If a man, while seeking to speak usefully, speaks also sweetly, his sins will diminish and his virtue increase",
         "theme": "Sweetness of Speech",
         "emotions": [
-          "Kindness",
-          "Virtue/Moral goodness",
-          "Serenity/Calmness"
+          "Joy",
+          "Serenity",
+          "Compassion"
         ],
         "emotion_detail": ", , ",
         "line1": "அல்லவை தேய அறம்பெருகும் நல்லவை",
@@ -1852,9 +1896,9 @@
         "meaning": "That speech which, while imparting benefits ceases not to please, will yield righteousness (for this world) and merit (for the next world)",
         "theme": "Sweetness of Speech",
         "emotions": [
-          "Kindness – The text emphasizes courteous and kindly words.",
-          "Gratitude – There's an implicit sense of appreciation for goodness and graceful deeds.",
-          "Contentment – The idea that pleasing and"
+          "Gratitude",
+          "Compassion",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "நயன்ஈன்று நன்றி பயக்கும் பயன்ஈன்று",
@@ -1871,9 +1915,9 @@
         "meaning": "Sweet speech, free from harm to others, will give pleasure both in this world and in the next",
         "theme": "Sweetness of Speech",
         "emotions": [
-          "Kindness",
           "Joy",
-          "Peace"
+          "Compassion",
+          "Trust"
         ],
         "emotion_detail": ", or Delight, or Harmony",
         "line1": "சிறுமையுவு நீங்கிய இன்சொல் மறுமையும்",
@@ -1890,9 +1934,9 @@
         "meaning": "Why does he use harsh words, who sees the pleasure which sweet speech yields ?",
         "theme": "Sweetness of Speech",
         "emotions": [
-          "Kindness",
-          "Pleasure",
-          "Mindfulness"
+          "Joy",
+          "Compassion",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "இன்சொல் இனிதீன்றல் காண்பான் எவன்கொலோ",
@@ -1909,7 +1953,9 @@
         "meaning": "To say disagreeable things when agreeable are at hand is like eating unripe fruit when there is ripe",
         "theme": "Sweetness of Speech",
         "emotions": [
-          "Regret – The text conveys a sense of wasted opportunity"
+          "Joy",
+          "Regret",
+          "Compassion"
         ],
         "emotion_detail": "",
         "line1": "இனிய உளவாக இன்னாத கூறல்",
@@ -1929,8 +1975,8 @@
         "theme": "Gratitude",
         "emotions": [
           "Gratitude",
-          "Generosity",
-          "Humility"
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "செய்யாமல் செய்த உதவிக்கு வையகமும்",
@@ -1948,8 +1994,8 @@
         "theme": "Gratitude",
         "emotions": [
           "Gratitude",
-          "Appreciation",
-          "Humility"
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "காலத்தி னாற்செய்த நன்றி சிறிதெனினும்",
@@ -1967,8 +2013,8 @@
         "theme": "Gratitude",
         "emotions": [
           "Gratitude",
-          "Generosity",
-          "Appreciation"
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "பயன்தூக்கார் செய்த உதவி நயன்தூக்கின்",
@@ -1986,8 +2032,8 @@
         "theme": "Gratitude",
         "emotions": [
           "Gratitude",
-          "Appreciation",
-          "Humility"
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "தினைத்துணை நன்றி செயினும் பனைத்துணையாக்",
@@ -2005,8 +2051,8 @@
         "theme": "Gratitude",
         "emotions": [
           "Gratitude",
-          "Humility",
-          "Appreciation"
+          "Joy",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "உதவி வரைத்தன்று உதவி உதவி",
@@ -2024,8 +2070,8 @@
         "theme": "Gratitude",
         "emotions": [
           "Gratitude",
-          "Loyalty",
-          "Appreciation"
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "மறவற்க மாசற்றார் கேண்மை துறவற்க",
@@ -2043,8 +2089,8 @@
         "theme": "Gratitude",
         "emotions": [
           "Gratitude",
-          "Affection",
-          "Remembrance"
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "எழுமை எழுபிறப்பும் உள்ளுவர் தங்கண்",
@@ -2062,8 +2108,8 @@
         "theme": "Gratitude",
         "emotions": [
           "Gratitude",
-          "Forgiveness",
-          "Mindfulness"
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "நன்றி மறப்பது நன்றன்று நன்றல்லது",
@@ -2081,8 +2127,8 @@
         "theme": "Gratitude",
         "emotions": [
           "Gratitude",
-          "Forgiveness",
-          "Appreciation"
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "கொன்றன்ன இன்னா செயினும் அவர்செய்த",
@@ -2100,7 +2146,7 @@
         "theme": "Gratitude",
         "emotions": [
           "Gratitude",
-          "Regret",
+          "Trust",
           "Hope"
         ],
         "emotion_detail": ", , ",
@@ -2120,9 +2166,9 @@
         "meaning": "That equity which consists in acting with equal regard to each of (the three) divisions of men [enemies, strangers and friends] is a pre-eminent virtue",
         "theme": "Impartiality",
         "emotions": [
-          "Top 3 human emotions associated with the text are:",
-          "Fairness",
-          "Respect"
+          "Trust",
+          "Serenity",
+          "Pride"
         ],
         "emotion_detail": ", a sense of justice and impartiality, ",
         "line1": "தகுதி எனவொன்று நன்றே பகுதியால்",
@@ -2139,8 +2185,8 @@
         "meaning": "The wealth of the man of rectitude will not perish, but will bring happiness also to his posterity",
         "theme": "Impartiality",
         "emotions": [
-          "Contentment",
           "Trust",
+          "Serenity",
           "Hope"
         ],
         "emotion_detail": ", , ",
@@ -2158,9 +2204,9 @@
         "meaning": "Forsake in the very moment (of acquisition) that gain which, though it should bring advantage, is without equity",
         "theme": "Impartiality",
         "emotions": [
-          "Integrity",
-          "Self-discipline",
-          "Moral responsibility"
+          "Trust",
+          "Serenity",
+          "Pride"
         ],
         "emotion_detail": ", , ",
         "line1": "நன்றே தரினும் நடுவிகந்தாம் ஆக்கத்தை",
@@ -2177,9 +2223,9 @@
         "meaning": "The worthy and unworthy may be known by the existence or otherwise of good offsprings",
         "theme": "Impartiality",
         "emotions": [
-          "Judgment (Discernment) – evaluating the worthiness or unworthiness of people.",
-          "Pride – felt by those whose posterity reflects their worthiness.",
-          "Concern"
+          "Pride",
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "தக்கார் தகவிலர் என்பது அவரவர்",
@@ -2196,7 +2242,9 @@
         "meaning": "Loss and gain come not without cause; it is the ornament of the wise to preserve evenness of mind (under both)",
         "theme": "Impartiality",
         "emotions": [
-          "Equanimity"
+          "Serenity",
+          "Trust",
+          "Pride"
         ],
         "emotion_detail": "",
         "line1": "கேடும் பெருக்கமும் இல்லல்ல நெஞ்சத்துக்",
@@ -2213,9 +2261,9 @@
         "meaning": "Let him whose mind departing from equity commits sin well consider thus within himself, \"I shall perish.\"",
         "theme": "Impartiality",
         "emotions": [
+          "Trust",
           "Fear",
-          "Guilt",
-          "Caution"
+          "Serenity"
         ],
         "emotion_detail": "of perdition or consequence, for departing from justice, a warning to carefully consider actions",
         "line1": "கெடுவல்யான் என்பது அறிகதன் நெஞ்சம்",
@@ -2232,9 +2280,9 @@
         "meaning": "The great will not regard as poverty the low estate of that man who dwells in the virtue of equity",
         "theme": "Impartiality",
         "emotions": [
-          "Fairness",
-          "Contentment",
-          "Respect"
+          "Trust",
+          "Serenity",
+          "Pride"
         ],
         "emotion_detail": "Sense of Justice/Equity, Acceptance of circumstances, Esteem for virtuous living",
         "line1": "கெடுவாக வையாது உலகம் நடுவாக",
@@ -2251,9 +2299,9 @@
         "meaning": "To incline to neither side, but to rest impartial as the even-fixed scale is the ornament of the wise",
         "theme": "Impartiality",
         "emotions": [
-          "Calmness",
-          "Fairness",
-          "Wisdom"
+          "Serenity",
+          "Trust",
+          "Pride"
         ],
         "emotion_detail": ", , ",
         "line1": "சமன்செய்து சீர்தூக்குங் கோல்போல் அமைந்தொருபால்",
@@ -2270,9 +2318,9 @@
         "meaning": "Freedom from obliquity of speech is rectitude, if there be (corresponding) freedom from bias of mind",
         "theme": "Impartiality",
         "emotions": [
-          "Fairness",
-          "Integrity",
-          "Trust"
+          "Trust",
+          "Serenity",
+          "Pride"
         ],
         "emotion_detail": ", , ",
         "line1": "சொற்கோட்டம் இல்லது செப்பம் ஒருதலையா",
@@ -2289,9 +2337,9 @@
         "meaning": "The true merchandize of merchants is to guard and do by the things of others as they do by their own",
         "theme": "Impartiality",
         "emotions": [
-          "Fairness",
           "Trust",
-          "Respect"
+          "Serenity",
+          "Pride"
         ],
         "emotion_detail": ", , ",
         "line1": "வாணிகம் செய்வார்க்கு வாணிகம் பேணிப்",
@@ -2310,8 +2358,9 @@
         "meaning": "Self-control will place (a man) among the Gods; the want of it will drive (him) into the thickest darkness (of hell)",
         "theme": "Possession of Self-restraint",
         "emotions": [
-          "Discipline",
-          "Aspiration"
+          "Serenity",
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": "associated with self-control and self-restraint, ",
         "line1": "அடக்கம் அமரருள் உய்க்கும் அடங்காமை",
@@ -2328,9 +2377,9 @@
         "meaning": "Let self-control be guarded as a treasure; there is no greater source of good for man than that",
         "theme": "Possession of Self-restraint",
         "emotions": [
-          "Self-discipline",
-          "Caution",
-          "Appreciation"
+          "Serenity",
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "காக்க பொருளா அடக்கத்தை ஆக்கம்",
@@ -2347,9 +2396,9 @@
         "meaning": "Knowing that self-control is knowledge, if a man should control himself, in the prescribed course, such self-control will bring him distinction among the wise",
         "theme": "Possession of Self-restraint",
         "emotions": [
-          "**Respect** – Self-restraint and wisdom lead to recognition and honor among others.",
-          "**Admiration** – The controlled individual evokes admiration from the wise.",
-          "**"
+          "Serenity",
+          "Trust",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "செறிவறிந்து சீர்மை பயக்கும் அறிவறிந்து",
@@ -2366,8 +2415,9 @@
         "meaning": "More lofty than a mountain will be the greatness of that man who without swerving from his domestic state, controls himself",
         "theme": "Possession of Self-restraint",
         "emotions": [
-          "The top 3 human emotions associated with this text are:",
-          "Serenity"
+          "Serenity",
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": ", ",
         "line1": "நிலையின் திரியாது அடங்கியான் தோற்றம்",
@@ -2384,9 +2434,9 @@
         "meaning": "Humility is good in all; but especially in the rich it is (the excellence of) higher riches",
         "theme": "Possession of Self-restraint",
         "emotions": [
-          "Humility",
-          "Respect",
-          "Admiration"
+          "Serenity",
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "எல்லார்க்கும் நன்றாம் பணிதல் அவருள்ளும்",
@@ -2403,9 +2453,9 @@
         "meaning": "Should one throughout a single birth, like a tortoise keep in his five senses, the fruit of it will prove a safe-guard to him throughout the seven-fold births.",
         "theme": "Possession of Self-restraint",
         "emotions": [
-          "Self-control / Restraint",
-          "Discipline",
-          "Hope / Optimism"
+          "Serenity",
+          "Hope",
+          "Courage"
         ],
         "emotion_detail": ", , regarding the positive results of restraint over multiple lifetimes",
         "line1": "ஒருமையுள் ஆமைபோல் ஐந்தடக்கல் ஆற்றின்",
@@ -2422,9 +2472,9 @@
         "meaning": "Whatever besides you leave unguarded, guard your tongue; otherwise errors of speech and the consequent misery will ensue",
         "theme": "Possession of Self-restraint",
         "emotions": [
-          "Caution",
+          "Serenity",
           "Regret",
-          "Self-control"
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "யாகாவா ராயினும் நாகாக்க காவாக்கால்",
@@ -2441,9 +2491,9 @@
         "meaning": "If a man's speech be productive of a single evil, all the good by him will be turned into evil",
         "theme": "Possession of Self-restraint",
         "emotions": [
-          "Caution",
           "Regret",
-          "Self-awareness"
+          "Serenity",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "ஒன்றானுந் தீச்சொல் பொருட்பயன் உண்டாயின்",
@@ -2460,9 +2510,9 @@
         "meaning": "The wound which has been burnt in by fire may heal, but a wound burnt in by the tongue will never heal",
         "theme": "Possession of Self-restraint",
         "emotions": [
-          "Pain",
+          "Serenity",
           "Regret",
-          "Caution"
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "தீயினாற் சுட்டபுண் உள்ளாறும் ஆறாதே",
@@ -2479,9 +2529,9 @@
         "meaning": "Virtue, seeking for an opportunity, will come into the path of that man who, possessed of learning and self-control, guards himself against anger",
         "theme": "Possession of Self-restraint",
         "emotions": [
-          "Self-control",
-          "Calmness",
-          "Virtue"
+          "Serenity",
+          "Trust",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "கதங்காத்துக் கற்றடங்கல் ஆற்றுவான் செவ்வி",
@@ -2500,9 +2550,9 @@
         "meaning": "Propriety of conduct leads to eminence, it should therefore be preserved more carefully than life",
         "theme": "Possession of Decorum",
         "emotions": [
-          "Respect",
-          "Dignity",
-          "Reverence"
+          "Pride",
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": "for decorum and propriety, valuing one's own honor and standing, for virtues and moral conduct",
         "line1": "ஒழுக்கம் விழுப்பந் தரலான் ஒழுக்கம்",
@@ -2519,9 +2569,9 @@
         "meaning": "Let propriety of conduct be laboriously preserved and guarded; though one know and practise and excel in many virtues, that will be an eminent aid",
         "theme": "Possession of Decorum",
         "emotions": [
-          "The top 3 human emotions associated with the provided text are:",
-          "Respect – Emphasizing propriety and decorum reflects a sense of respect for oneself and others.",
-          "Diligence – The text speaks of laboriously preserving and guarding"
+          "Trust",
+          "Pride",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "பரிந்தோம்பிக் காக்க ஒழுக்கம் தெரிந்தோம்பித்",
@@ -2538,9 +2588,9 @@
         "meaning": "Propriety of conduct is true greatness of birth, and impropriety will sink into a mean birth",
         "theme": "Possession of Decorum",
         "emotions": [
-          "Pride – in having good conduct and noble origins",
-          "Shame – associated with improper manners and low conduct",
-          "Respect – for propriety and those who uphold good manners"
+          "Pride",
+          "Trust",
+          "Shame"
         ],
         "emotion_detail": ", , ",
         "line1": "ஒழுக்கம் உடைமை குடிமை இழுக்கம்",
@@ -2557,8 +2607,9 @@
         "meaning": "A Brahman though he should forget the Vedas may recover it by reading; but, if he fail in propriety of conduct even his high birth will be destroyed",
         "theme": "Possession of Decorum",
         "emotions": [
-          "Regret – The notion of something lost (\"conduct lost returns no more\") conveys a sense of irreversible loss and sadness over what cannot be reclaimed.",
-          "Reverence – Emphasis on the"
+          "Trust",
+          "Regret",
+          "Pride"
         ],
         "emotion_detail": ", ",
         "line1": "மறப்பினும் ஓத்துக் கொளலாகும் பார்ப்பான்",
@@ -2575,9 +2626,9 @@
         "meaning": "Just as the envious man will be without wealth, so will the man of destitute of propriety of conduct be without greatness",
         "theme": "Possession of Decorum",
         "emotions": [
-          "Envy",
-          "Shame",
-          "Disappointment"
+          "Pride",
+          "Trust",
+          "Shame"
         ],
         "emotion_detail": ", , ",
         "line1": "அழுக்கா றுடையான்கண் ஆக்கம்போன்று இல்லை",
@@ -2594,9 +2645,9 @@
         "meaning": "Those firm in mind will not slacken in their observance of the proprieties of life, knowing, as they do, the misery that flows from the transgression from them",
         "theme": "Possession of Decorum",
         "emotions": [
-          "Resolve",
-          "Caution",
-          "Wisdom"
+          "Trust",
+          "Pride",
+          "Serenity"
         ],
         "emotion_detail": "determination to maintain virtue and propriety, awareness of the misery resulting from wrongdoing, ",
         "line1": "ஒழுக்கத்தின் ஒல்கார் உரவோர் இழுக்கத்தின்",
@@ -2613,9 +2664,9 @@
         "meaning": "From propriety of conduct men obtain greatness; from impropriety comes insufferable disgrace",
         "theme": "Possession of Decorum",
         "emotions": [
-          "Pride – associated with possessing good conduct and obtaining greatness.",
-          "Shame – linked to bad conduct and experiencing disgrace.",
-          "Aspiration – the desire or motivation to maintain good behavior for personal"
+          "Pride",
+          "Shame",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "ஒழுக்கத்தின் எய்துவர் மேன்மை இழுக்கத்தின்",
@@ -2632,9 +2683,9 @@
         "meaning": "Propriety of conduct is the seed of virtue; impropriety will ever cause sorrow",
         "theme": "Possession of Decorum",
         "emotions": [
-          "Reverence",
-          "Hope",
-          "Fear"
+          "Trust",
+          "Fear",
+          "Hope"
         ],
         "emotion_detail": "towards good conduct and virtue, that good conduct brings blessings, of sorrow and evil resulting from bad conduct",
         "line1": "நன்றிக்கு வித்தாகும் நல்லொழுக்கம் தீயொழுக்கம்",
@@ -2651,9 +2702,9 @@
         "meaning": "Those who study propriety of conduct will not speak evil, even forgetfully",
         "theme": "Possession of Decorum",
         "emotions": [
-          "Respect",
-          "Self-Control",
-          "Integrity"
+          "Trust",
+          "Serenity",
+          "Pride"
         ],
         "emotion_detail": "for righteousness and propriety, restraint from using foul words, commitment to virtuous conduct",
         "line1": "ஒழுக்க முடையவர்க்கு ஒல்லாவே தீய",
@@ -2670,9 +2721,9 @@
         "meaning": "Those who know not how to act agreeably to the world, though they have learnt many things, are still ignorant",
         "theme": "Possession of Decorum",
         "emotions": [
-          "Ignorance",
-          "Disapproval",
-          "Wisdom"
+          "Serenity",
+          "Trust",
+          "Pride"
         ],
         "emotion_detail": ", , ",
         "line1": "உலகத்தோடு ஒட்ட ஒழுகல் பலகற்றும்",
@@ -2691,9 +2742,9 @@
         "meaning": "The folly of desiring her who is the property of another will not be found in those who know (the attributes of) virtue and (the rights of) property",
         "theme": "Not Coveting Another’s Wife",
         "emotions": [
-          "Respect",
-          "Self-control",
-          "Wisdom"
+          "Trust",
+          "Serenity",
+          "Shame"
         ],
         "emotion_detail": ", , ",
         "line1": "பிறன்பொருளாள் பெட்டொழுகும் பேதைமை ஞாலத்து",
@@ -2710,7 +2761,9 @@
         "meaning": "Among all those who stand on the outside of virtue, there are no greater fools than those who stand outside their neighbour's door",
         "theme": "Not Coveting Another’s Wife",
         "emotions": [
-          "Envy – The text discusses coveting another’s wife and comparing oneself to others"
+          "Trust",
+          "Envy",
+          "Serenity"
         ],
         "emotion_detail": "",
         "line1": "அறன்கடை நின்றாருள் எல்லாம் பிறன்கடை",
@@ -2728,8 +2781,8 @@
         "theme": "Not Coveting Another’s Wife",
         "emotions": [
           "Shame",
-          "Desire",
-          "Disapproval"
+          "Trust",
+          "Desire"
         ],
         "emotion_detail": ", , ",
         "line1": "விளிந்தாரின் வேறல்லர் மன்ற தெளிந்தாரில்",
@@ -2747,8 +2800,8 @@
         "theme": "Not Coveting Another’s Wife",
         "emotions": [
           "Shame",
-          "Guilt",
-          "Disapproval"
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "எனைத்துணையர் ஆயினும் என்னாம் தினைத்துணையும்",
@@ -2765,9 +2818,8 @@
         "meaning": "He who thinks lightly of going into the wife of another acquires guilt that will abide with him imperishably and for ever",
         "theme": "Not Coveting Another’s Wife",
         "emotions": [
-          "Top 3 human emotions associated with the text are:",
-          "Guilt",
           "Shame",
+          "Trust",
           "Regret"
         ],
         "emotion_detail": ", , , ",
@@ -2786,8 +2838,8 @@
         "theme": "Not Coveting Another’s Wife",
         "emotions": [
           "Shame",
-          "Fear",
-          "Hatred"
+          "Trust",
+          "Fear"
         ],
         "emotion_detail": ", , ",
         "line1": "பகைபாவம் அச்சம் பழியென நான்கும்",
@@ -2804,9 +2856,9 @@
         "meaning": "He who desires not the womanhood of her who should walk according to the will of another will be praised as a virtuous house-holder",
         "theme": "Not Coveting Another’s Wife",
         "emotions": [
-          "Respect – Acknowledging and honoring the boundaries and relationships of others.",
-          "Virtue – Aspiring toward moral excellence and righteous conduct.",
-          "Restraint – Exercising"
+          "Trust",
+          "Serenity",
+          "Shame"
         ],
         "emotion_detail": ", , ",
         "line1": "அறனியலான் இல்வாழ்வான் என்பான் பிறனியலாள்",
@@ -2823,9 +2875,9 @@
         "meaning": "That noble manliness which looks not at the wife of another is the virtue and dignity of the great",
         "theme": "Not Coveting Another’s Wife",
         "emotions": [
-          "Respect – The text talks about honoring boundaries and valuing others' relationships.",
-          "Self-control – The emphasis is on restraint and not yielding to temptation.",
-          "Dignity"
+          "Serenity",
+          "Trust",
+          "Shame"
         ],
         "emotion_detail": ", , ",
         "line1": "பிறன்மனை நோக்காத பேராண்மை சான்றோர்க்கு",
@@ -2842,9 +2894,9 @@
         "meaning": "Is it asked, \"who are those who shall obtain good in this world surrounded by the terror-producing sea ?\" Those who touch not the shoulder of her who belongs to another",
         "theme": "Not Coveting Another’s Wife",
         "emotions": [
-          "Restraint",
-          "Respect",
-          "Integrity"
+          "Serenity",
+          "Trust",
+          "Shame"
         ],
         "emotion_detail": "Self-control, , ",
         "line1": "நலக்குரியார் யாரெனின் நாமநீர் வைப்பின்",
@@ -2861,8 +2913,9 @@
         "meaning": "Though a man perform no virtuous deeds and commit (every) vice, it will be well if he desire not the womanhood of her who is within the limit (of the house) of another",
         "theme": "Not Coveting Another’s Wife",
         "emotions": [
-          "Desire (Lust) — The text discusses the emotion of desiring someone who belongs to another.",
-          "Guilt/Shame — Implied for those who act on such desires"
+          "Shame",
+          "Trust",
+          "Desire"
         ],
         "emotion_detail": ", ",
         "line1": "அறன்வரையான் அல்ல செயினும் பிறன்வரையாள்",
@@ -2881,9 +2934,9 @@
         "meaning": "To bear with those who revile us, just as the earth bears up those who dig it, is the first of virtues",
         "theme": "Possession of Patience",
         "emotions": [
-          "Patience",
-          "Tolerance",
-          "Endurance"
+          "Serenity",
+          "Trust",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "அகழ்வாரைத் தாங்கும் நிலம்போலத் தம்மை",
@@ -2900,9 +2953,9 @@
         "meaning": "Bear with reproach even when you can retaliate; but to forget it will be still better than that",
         "theme": "Possession of Patience",
         "emotions": [
-          "Forgiveness",
-          "Patience",
-          "Restraint"
+          "Serenity",
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "பொறுத்தல் இறப்பினை என்றும் அதனை",
@@ -2919,9 +2972,9 @@
         "meaning": "To neglect hospitality is poverty of poverty To bear with the ignorant is might of might",
         "theme": "Possession of Patience",
         "emotions": [
-          "Patience",
-          "Strength",
-          "Generosity"
+          "Serenity",
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "இன்மையுள் இன்மை விருந்தொரால் வன்மையுள்",
@@ -2938,9 +2991,9 @@
         "meaning": "If you desire that greatness should never leave, you preserve in your conduct the exercise of patience",
         "theme": "Possession of Patience",
         "emotions": [
-          "Patience",
-          "Determination",
-          "Serenity"
+          "Serenity",
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "நிறையுடைமை நீங்காமை வேண்டின் பொற்யுடைமை",
@@ -2957,9 +3010,9 @@
         "meaning": "(The wise) will not at all esteem the resentful They will esteem the patient just as the gold which they lay up with care",
         "theme": "Possession of Patience",
         "emotions": [
-          "Patience",
-          "Resentment",
-          "Esteem"
+          "Serenity",
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": ", , respect/admirational feeling",
         "line1": "ஒறுத்தாரை ஒன்றாக வையாரே வைப்பர்",
@@ -2976,9 +3029,9 @@
         "meaning": "The pleasure of the resentful continues for a day The praise of the patient will continue until (the final destruction of) the world",
         "theme": "Possession of Patience",
         "emotions": [
-          "Patience",
-          "Resentment",
-          "Gratitude"
+          "Serenity",
+          "Gratitude",
+          "Courage"
         ],
         "emotion_detail": ", , or Admiration — for the patient person",
         "line1": "ஒறுத்தார்க்கு ஒருநாளை இன்பம் பொறுத்தார்க்குப்",
@@ -2995,9 +3048,9 @@
         "meaning": "Though others inflict injuries on you, yet compassionating the evil (that will come upon them) it will be well not to do them anything contrary to virtue",
         "theme": "Possession of Patience",
         "emotions": [
-          "Compassion",
-          "Patience",
-          "Restraint"
+          "Serenity",
+          "Trust",
+          "Compassion"
         ],
         "emotion_detail": ", , ",
         "line1": "திறனல்ல தற்பிறர் செய்யினும் நோநொந்து",
@@ -3014,10 +3067,9 @@
         "meaning": "Let a man by patience overcome those who through pride commit excesses",
         "theme": "Possession of Patience",
         "emotions": [
-          "Top 3 human emotions associated with the text are:",
-          "Patience",
-          "Resilience",
-          "Humility"
+          "Serenity",
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": ", , , ",
         "line1": "மிகுதியான் மிக்கவை செய்தாரைத் தாந்தம்",
@@ -3034,9 +3086,9 @@
         "meaning": "Those who bear with the uncourteous speech of the insolent are as pure as the ascetics",
         "theme": "Possession of Patience",
         "emotions": [
-          "Patience",
-          "Tolerance",
-          "Endurance"
+          "Serenity",
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "துறந்தாரின் தூய்மை உடையர் இறந்தார்வாய்",
@@ -3053,9 +3105,9 @@
         "meaning": "Those who endure abstinence from food are great, next to those who endure the uncourteous speech of others",
         "theme": "Possession of Patience",
         "emotions": [
-          "Patience",
-          "Endurance",
-          "Tolerance"
+          "Serenity",
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "உண்ணாது நோற்பார் பெரியர் பிறர்சொல்லும்",
@@ -3074,9 +3126,9 @@
         "meaning": "Let a man esteem that disposition which is free from envy in the same manner as propriety of conduct",
         "theme": "Not Envying",
         "emotions": [
-          "Contentment",
-          "Virtue",
-          "Peace"
+          "Serenity",
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "ஒழுக்காறாக் கொள்க ஒருவன்தன் நெஞ்சத்து",
@@ -3093,9 +3145,9 @@
         "meaning": "Amongst all attainable excellences there is none equal to that of being free from envy towords others",
         "theme": "Not Envying",
         "emotions": [
-          "Contentment",
-          "Acceptance",
-          "Peacefulness"
+          "Serenity",
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "விழுப்பேற்றின் அஃதொப்பது இல்லையார் மாட்டும்",
@@ -3112,9 +3164,9 @@
         "meaning": "Of him who instead of rejoicing in the wealth of others, envies it, it will be said \"he neither desires virtue not wealth.\"",
         "theme": "Not Envying",
         "emotions": [
-          "Envy",
-          "Discontent",
-          "Resignation"
+          "Joy",
+          "Serenity",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "அறன்ஆக்கம் வேண்டாதான் என்பான் பிறனாக்கம்",
@@ -3131,8 +3183,8 @@
         "meaning": "(The wise) knowing the misery that comes from transgression will not through envy commit unrighteous deeds",
         "theme": "Not Envying",
         "emotions": [
-          "Envy",
-          "Wisdom",
+          "Trust",
+          "Serenity",
           "Fear"
         ],
         "emotion_detail": ", , of consequences/misery",
@@ -3150,9 +3202,9 @@
         "meaning": "To those who cherish envy that is enough Though free from enemies that (envy) will bring destruction",
         "theme": "Not Envying",
         "emotions": [
-          "Envy",
-          "Destruction",
-          "Fear"
+          "Serenity",
+          "Fear",
+          "Envy"
         ],
         "emotion_detail": ", or Self-destruction, ",
         "line1": "அழுக்காறு உடையார்க்கு அதுசாலும் ஒன்னார்",
@@ -3169,9 +3221,9 @@
         "meaning": "He who is envious at a gift (made to another) will with his relations utterly perish destitute of food and rainment",
         "theme": "Not Envying",
         "emotions": [
-          "Envy",
-          "Suffering",
-          "Destitution"
+          "Joy",
+          "Serenity",
+          "Envy"
         ],
         "emotion_detail": ", , or Despair",
         "line1": "கொடுப்பது அழுக்கறுப்பான் சுற்றம் உடுப்பதூஉம்",
@@ -3188,9 +3240,9 @@
         "meaning": "Lakshmi envying (the prosperity) of the envious man will depart and introduce him to her sister",
         "theme": "Not Envying",
         "emotions": [
-          "Envy",
-          "Misfortune",
-          "Loss"
+          "Joy",
+          "Serenity",
+          "Envy"
         ],
         "emotion_detail": ", associated feeling: sadness, ",
         "line1": "அவ்வித்து அழுக்காறு உடையானைச் செய்யவள்",
@@ -3207,9 +3259,9 @@
         "meaning": "Envy will destroy (a man's) wealth (in his world) and drive him into the pit of fire (in the world to come.)",
         "theme": "Not Envying",
         "emotions": [
-          "Envy – The central emotion explicitly discussed.",
-          "Destruction/Self-ruin – Implied through the consequences of envy (loss and downfall).",
-          "Fear – Ev"
+          "Serenity",
+          "Fear",
+          "Envy"
         ],
         "emotion_detail": ", , ",
         "line1": "அழுக்காறு எனஒரு பாவி திருச்செற்றுத்",
@@ -3226,9 +3278,9 @@
         "meaning": "The wealth of a man of envious mind and the poverty of the righteous will be pondered",
         "theme": "Not Envying",
         "emotions": [
-          "Envy",
-          "Surprise",
-          "Contemplation"
+          "Joy",
+          "Serenity",
+          "Envy"
         ],
         "emotion_detail": ", , thoughtfulness",
         "line1": "அவ்விய நெஞ்சத்தான் ஆக்கமும் செவ்வியான்",
@@ -3245,9 +3297,9 @@
         "meaning": "Never have the envious become great; never have those who are free from envy been without greatness",
         "theme": "Not Envying",
         "emotions": [
-          "Envy",
-          "Contentment",
-          "Admiration"
+          "Serenity",
+          "Joy",
+          "Envy"
         ],
         "emotion_detail": ", , ",
         "line1": "அழுக்கற்று அகன்றாரும் இல்லை அஃதுஇல்லார்",
@@ -3266,8 +3318,8 @@
         "meaning": "If a man departing from equity covet the property (of others), at that very time will his family be destroyed and guilt be incurred",
         "theme": "Not Being Greedy",
         "emotions": [
-          "Greed",
-          "Guilt",
+          "Trust",
+          "Serenity",
           "Fear"
         ],
         "emotion_detail": ", , of loss or destruction",
@@ -3285,9 +3337,9 @@
         "meaning": "Those who blush at the want of equity will not commit disgraceful acts through desire of the profit that may be gained",
         "theme": "Not Being Greedy",
         "emotions": [
+          "Serenity",
           "Shame",
-          "Restraint",
-          "Greed"
+          "Regret"
         ],
         "emotion_detail": ", self-control, as something to be avoided",
         "line1": "படுபயன் வெஃகிப் பழிப்படுவ செய்யார்",
@@ -3304,9 +3356,9 @@
         "meaning": "Those who desire the higher pleasures (of heaven) will not act unjustly through desire of the trifling joy. (in this life.)",
         "theme": "Not Being Greedy",
         "emotions": [
-          "Aspiration",
-          "Restraint",
-          "Righteousness"
+          "Regret",
+          "Serenity",
+          "Trust"
         ],
         "emotion_detail": "for spiritual bliss/higher pleasures, controlling desires for fleeting joy, choosing not to act unjustly",
         "line1": "சிற்றின்பம் வெஃகி அறனல்ல செய்யாரே",
@@ -3323,9 +3375,9 @@
         "meaning": "The wise who have conquered their senses and are free from crime, will not covet (the things of others), with the thought \"we are destitute.\"",
         "theme": "Not Being Greedy",
         "emotions": [
-          "Contentment",
-          "Self-control",
-          "Wisdom"
+          "Serenity",
+          "Trust",
+          "Regret"
         ],
         "emotion_detail": ", , ",
         "line1": "இலமென்று வெஃகுதல் செய்யார் புலம்வென்ற",
@@ -3342,9 +3394,9 @@
         "meaning": "What is the advantage of extensive and accurate knowledge if a man through covetousness act senselessly towards all ?",
         "theme": "Not Being Greedy",
         "emotions": [
-          "Greed",
-          "Wisdom",
-          "Regret"
+          "Regret",
+          "Serenity",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "அஃகி அகன்ற அறிவென்னாம் யார்மாட்டும்",
@@ -3361,9 +3413,9 @@
         "meaning": "If he, who through desire of the virtue of kindness abides in the domestic state ie, the path in which it may be obtained, covet (the property of others) and think of evil methods (to obtain it), he will perish",
         "theme": "Not Being Greedy",
         "emotions": [
-          "Greed",
-          "Desire",
-          "Guilt"
+          "Regret",
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": ", , or moral unease/remorse",
         "line1": "அருள்வெஃகி ஆற்றின்கண் நின்றான் பொருள்வெஃகிப்",
@@ -3380,8 +3432,9 @@
         "meaning": "Desire not the gain of covetousness In the enjoyment of its fruits there is no glory",
         "theme": "Not Being Greedy",
         "emotions": [
-          "Contentment – Promoting satisfaction with what one has rather than desiring more.",
-          "Caution – Warning against the negative consequences of greed or covetousness."
+          "Serenity",
+          "Trust",
+          "Regret"
         ],
         "emotion_detail": ", ",
         "line1": "வேண்டற்க வெஃகியாம் ஆக்கம் விளைவயின்",
@@ -3398,9 +3451,9 @@
         "meaning": "If it is weighed, \"what is the indestructibility of wealth,\" it is freedom from covetousness",
         "theme": "Not Being Greedy",
         "emotions": [
-          "Contentment",
-          "Detachment",
-          "Peacefulness"
+          "Serenity",
+          "Trust",
+          "Regret"
         ],
         "emotion_detail": ", , ",
         "line1": "அஃகாமை செல்வத்திற்கு யாதெனின் வெஃகாமை",
@@ -3417,8 +3470,9 @@
         "meaning": "Lakshmi, knowing the manner (in which she may approach) will immediately come to those wise men who, knowing that it is virtue, covet not the property of others",
         "theme": "Not Being Greedy",
         "emotions": [
-          "Contentment – Emphasized by being free from coveting and being satisfied with what one has.",
-          "Wisdom – Linked to the virtue and knowledge referenced as desirable qualities. 3"
+          "Serenity",
+          "Trust",
+          "Regret"
         ],
         "emotion_detail": ", ",
         "line1": "அறனறிந்து வெஃகா அறிவுடையார்ச் சேரும்",
@@ -3435,9 +3489,9 @@
         "meaning": "To covet (the wealth of another) regardless of consequences will bring destruction That greatness (of mind) which covets not will give victory",
         "theme": "Not Being Greedy",
         "emotions": [
-          "Greed",
-          "Contentment",
-          "Ruin/Fear"
+          "Serenity",
+          "Fear",
+          "Trust"
         ],
         "emotion_detail": "Desire/Coveting, Desirelessness/Non-coveting, ",
         "line1": "இறலீனும் எண்ணாது வெஃகின் விறல்ஈனும்",
@@ -3456,9 +3510,9 @@
         "meaning": "Though one do not even speak of virtue and live in sin, it will be well if it be said of him \"he does not backbite.\"",
         "theme": "Not Speaking Ill of Others",
         "emotions": [
-          "Restraint",
-          "Respect",
-          "Integrity"
+          "Trust",
+          "Serenity",
+          "Shame"
         ],
         "emotion_detail": ", , ",
         "line1": "அறங்கூறான் அல்ல செயினும் ஒருவன்",
@@ -3475,9 +3529,9 @@
         "meaning": "To smile deceitfully (in another's presence) after having reviled him to his destruction (behind his back) is a greater evil than the commission of (every other) sin and the destruction of (every) virtue",
         "theme": "Not Speaking Ill of Others",
         "emotions": [
-          "Deceit",
-          "Betrayal",
-          "Contempt"
+          "Trust",
+          "Shame",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "அறனழீஇ அல்லவை செய்தலின் தீதே",
@@ -3494,9 +3548,9 @@
         "meaning": "Death rather than life will confer upon the deceitful backbiter the profit which (the treatises on) virtue point out",
         "theme": "Not Speaking Ill of Others",
         "emotions": [
-          "**Virtue**",
-          "**Disdain/Disapproval**",
-          "**Remorse/Fear**"
+          "Trust",
+          "Fear",
+          "Shame"
         ],
         "emotion_detail": "as an aspiration or value, towards deceit and backbiting, ",
         "line1": "புறங்கூறிப் பொய்த்துயிர் வாழ்தலின் சாதல்",
@@ -3513,7 +3567,9 @@
         "meaning": "Though you speak without kindness before another's face speak not in his absence words which regard not the evil subsequently resulting from it",
         "theme": "Not Speaking Ill of Others",
         "emotions": [
-          "Caution – Advising carefulness in speech"
+          "Trust",
+          "Shame",
+          "Serenity"
         ],
         "emotion_detail": "",
         "line1": "கண்ணின்று கண்ணறச் சொல்லினும் சொல்லற்க",
@@ -3530,9 +3586,9 @@
         "meaning": "The emptiness of that man's mind who (merely) praises virtue will be seen from the meanness of reviling another behind his back",
         "theme": "Not Speaking Ill of Others",
         "emotions": [
-          "Contempt",
-          "Disapproval",
-          "Shame"
+          "Shame",
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": "towards those who slander or speak ill of others, of hypocrisy and insincerity, ",
         "line1": "அறஞ்சொல்லும் நெஞ்சத்தான் அன்மை புறஞ்சொல்லும்",
@@ -3549,9 +3605,9 @@
         "meaning": "The character of the faults of that man who publishes abroad the faults of others will be sought out and published",
         "theme": "Not Speaking Ill of Others",
         "emotions": [
-          "Judgment",
-          "Vulnerability",
-          "Caution"
+          "Trust",
+          "Shame",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "பிறன்பழி கூறுவான் தன்பழி யுள்ளும்",
@@ -3568,8 +3624,9 @@
         "meaning": "Those who know not to live in friendship with amusing conversation will by back-biting estrange even their relatives",
         "theme": "Not Speaking Ill of Others",
         "emotions": [
-          "Alienation – The text discusses how negative actions (back-biting) can isolate a person even from close relations.",
-          "Distrust – The mention of severed hearts and speaking ill highlights"
+          "Trust",
+          "Shame",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "பகச்சொல்லிக் கேளிர்ப் பிரிப்பர் நகச்சொல்லி",
@@ -3586,9 +3643,9 @@
         "meaning": "What will those not do to strangers whose nature leads them to publish abroad the faults of their intimate friends ?",
         "theme": "Not Speaking Ill of Others",
         "emotions": [
-          "Betrayal",
-          "Distrust",
-          "Disapproval"
+          "Trust",
+          "Shame",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "துன்னியார் குற்றமும் தூற்றும் மரபினார்",
@@ -3605,8 +3662,9 @@
         "meaning": "The world through charity supports the weight of those who reproach others observing their absence",
         "theme": "Not Speaking Ill of Others",
         "emotions": [
-          "Compassion (or Mercy) – The text speaks of the world acting mercifully and charitably.",
-          "Reproach (or Disapproval) – It mentions people who"
+          "Compassion",
+          "Trust",
+          "Shame"
         ],
         "emotion_detail": ", ",
         "line1": "அறன்நோக்கி ஆற்றுங்கொல் வையம் புறன்நோக்கிப்",
@@ -3623,9 +3681,8 @@
         "meaning": "If they observed their own faults as they observe the faults of others, would any evil happen to men ?",
         "theme": "Not Speaking Ill of Others",
         "emotions": [
-          "The top 3 human emotions associated with this text are:",
-          "Self-reflection",
-          "Humility",
+          "Shame",
+          "Trust",
           "Compassion"
         ],
         "emotion_detail": ", , , ",
@@ -3646,8 +3703,8 @@
         "theme": "Avoidance of Vain Speech",
         "emotions": [
           "Disgust",
-          "Contempt",
-          "Despise"
+          "Serenity",
+          "Trust"
         ],
         "emotion_detail": ", , a strong form of dislike or disdain",
         "line1": "பல்லார் முனியப் பயனில சொல்லுவான்",
@@ -3664,7 +3721,9 @@
         "meaning": "To speak useless things in the presence of many is a greater evil than to do unkind things towards friends",
         "theme": "Avoidance of Vain Speech",
         "emotions": [
-          "Shame – Speaking vainly in public is implied to be something to be ashamed of"
+          "Serenity",
+          "Shame",
+          "Trust"
         ],
         "emotion_detail": "",
         "line1": "பயனில பல்லார்முன் சொல்லல் நயனில",
@@ -3681,8 +3740,9 @@
         "meaning": "That conversation in which a man utters forth useless things will say of him \"he is without virtue.\"",
         "theme": "Avoidance of Vain Speech",
         "emotions": [
-          "Disapproval – The language expresses a clear sense of condemnation toward vain or useless speech.",
-          "Shame – The implication that being labeled “good-for-nothing” brings embarrassment or loss of reputation"
+          "Shame",
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "நயனிலன் என்பது சொல்லும் பயனில",
@@ -3699,9 +3759,9 @@
         "meaning": "The words devoid of profit or pleasure which a man speaks will, being inconsistent with virtue,",
         "theme": "Avoidance of Vain Speech",
         "emotions": [
-          "Caution",
-          "Regret",
-          "Responsibility"
+          "Trust",
+          "Serenity",
+          "Regret"
         ],
         "emotion_detail": ", , ",
         "line1": "நயன்சாரா நன்மையின் நீக்கும் பயன்சாராப்",
@@ -3718,9 +3778,9 @@
         "meaning": "If the good speak vain words their eminence and excellence will leave them",
         "theme": "Avoidance of Vain Speech",
         "emotions": [
-          "Shame",
-          "Regret",
-          "Disappointment"
+          "Pride",
+          "Serenity",
+          "Shame"
         ],
         "emotion_detail": ", , ",
         "line1": "சீர்மை சிறப்பொடு நீங்கும் பயனில",
@@ -3737,7 +3797,9 @@
         "meaning": "Call not him a man who parades forth his empty words Call him the chaff of men",
         "theme": "Avoidance of Vain Speech",
         "emotions": [
-          "Contempt – The text expresses disdain for those who use idle"
+          "Pride",
+          "Serenity",
+          "Trust"
         ],
         "emotion_detail": "",
         "line1": "பயனில்சொல் பாராட்டு வானை மகன்எனல்",
@@ -3754,8 +3816,9 @@
         "meaning": "Let the wise if they will, speak things without excellence; it will be well for them not to speak useless things",
         "theme": "Avoidance of Vain Speech",
         "emotions": [
-          "Wisdom – Emphasizes the value of discernment in speech and the virtue of thoughtful communication.",
-          "Restraint – Suggests self-control in avoiding unnecessary or vain words."
+          "Serenity",
+          "Trust",
+          "Pride"
         ],
         "emotion_detail": ", ",
         "line1": "நயனில சொல்லினுஞ் சொல்லுக சான்றோர்",
@@ -3772,9 +3835,9 @@
         "meaning": "The wise who seek after rare pleasures will not speak words that have not much weight in them",
         "theme": "Avoidance of Vain Speech",
         "emotions": [
-          "Wisdom",
-          "Restraint",
-          "Thoughtfulness"
+          "Serenity",
+          "Trust",
+          "Pride"
         ],
         "emotion_detail": ", , ",
         "line1": "அரும்பயன் ஆயும் அறிவினார் சொல்லார்",
@@ -3791,9 +3854,9 @@
         "meaning": "Those wise men who are without faults and are freed from ignorance will not even forgetfully speak things that profit not",
         "theme": "Avoidance of Vain Speech",
         "emotions": [
-          "Wisdom",
-          "Self-control",
-          "Purity"
+          "Serenity",
+          "Trust",
+          "Pride"
         ],
         "emotion_detail": ", , ",
         "line1": "பொருள்தீர்ந்த பொச்சாந்துஞ் சொல்லார் மருள்தீர்ந்த",
@@ -3810,9 +3873,9 @@
         "meaning": "Speak what is useful, and speak not useless words",
         "theme": "Avoidance of Vain Speech",
         "emotions": [
-          "Wisdom",
-          "Self-control",
-          "Mindfulness"
+          "Serenity",
+          "Trust",
+          "Pride"
         ],
         "emotion_detail": ", , ",
         "line1": "சொல்லுக சொல்லிற் பயனுடைய சொல்லற்க",
@@ -3832,8 +3895,8 @@
         "theme": "Dread of Evil Deeds",
         "emotions": [
           "Fear",
-          "Caution",
-          "Guilt"
+          "Regret",
+          "Trust"
         ],
         "emotion_detail": "dread, , ",
         "line1": "தீவினையார் அஞ்சார் விழுமியார் அஞ்சுவர்",
@@ -3851,8 +3914,8 @@
         "theme": "Dread of Evil Deeds",
         "emotions": [
           "Fear",
-          "Dread",
-          "Caution"
+          "Regret",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "தீயவை தீய பயத்தலால் தீயவை",
@@ -3869,9 +3932,9 @@
         "meaning": "So shalt thou wisdom's highest law, 'tis said, fulfil",
         "theme": "Dread of Evil Deeds",
         "emotions": [
-          "Wisdom",
+          "Fear",
           "Compassion",
-          "Fear"
+          "Regret"
         ],
         "emotion_detail": ", , ",
         "line1": "அறிவினுள் எல்லாந் தலையென்ப தீய",
@@ -3888,9 +3951,9 @@
         "meaning": "Even though forgetfulness meditate not the ruin of another Virtue will meditate the ruin of him who thus meditates",
         "theme": "Dread of Evil Deeds",
         "emotions": [
-          "Dread",
-          "Malice",
-          "Retribution"
+          "Fear",
+          "Trust",
+          "Regret"
         ],
         "emotion_detail": "fear/anxiety, ill will, anticipation of justice/consequence",
         "line1": "மறந்தும் பிறன்கேடு சூழற்க சூழின்",
@@ -3907,7 +3970,9 @@
         "meaning": "Commit not evil, saying, \"I am poor\": if you do, you will become poorer still",
         "theme": "Dread of Evil Deeds",
         "emotions": [
-          "Fear"
+          "Fear",
+          "Regret",
+          "Trust"
         ],
         "emotion_detail": "",
         "line1": "இலன்என்று தீயவை செய்யற்க செய்யின்",
@@ -3924,10 +3989,9 @@
         "meaning": "Let him not do evil to others who desires not that sorrows should pursue him",
         "theme": "Dread of Evil Deeds",
         "emotions": [
-          "The top 3 human emotions associated with the provided text are:",
-          "Fear (dread) – Concern about harm or negative consequences.",
-          "Empathy – Considering others' feelings and well-being.",
-          "Caution – Wariness about causing"
+          "Fear",
+          "Regret",
+          "Trust"
         ],
         "emotion_detail": ", , , ",
         "line1": "தீப்பால தான்பிறர்கண் செய்யற்க நோய்ப்பால",
@@ -3944,7 +4008,9 @@
         "meaning": "However great be the enmity men have incurred they may still live The enmity of sin will incessantly pursue and kill",
         "theme": "Dread of Evil Deeds",
         "emotions": [
-          "Fear – The text emphasizes the \"dread\" and inevitability of harm from sin"
+          "Fear",
+          "Regret",
+          "Trust"
         ],
         "emotion_detail": "",
         "line1": "எனைப்பகை யுற்றாரும் உய்வர் வினைப்பகை",
@@ -3961,8 +4027,9 @@
         "meaning": "Destruction will dwell at the heels of those who commit evil even as their shadow that leaves them not",
         "theme": "Dread of Evil Deeds",
         "emotions": [
-          "Fear – There is an underlying sense of dread and anxiety about the consequences of evil actions.",
-          "Guilt – Implicit feeling that wrongdoing is followed by inescapable negative consequences."
+          "Fear",
+          "Regret",
+          "Trust"
         ],
         "emotion_detail": ", ",
         "line1": "தீயவை செய்தார் கெடுதல் நிழல்தன்னை",
@@ -3979,7 +4046,9 @@
         "meaning": "If a man love himself, let him not commit any sin however small",
         "theme": "Dread of Evil Deeds",
         "emotions": [
-          "Fear"
+          "Fear",
+          "Regret",
+          "Trust"
         ],
         "emotion_detail": "",
         "line1": "தன்னைத்தான் காதல னாயின் எனைத்தொன்றும்",
@@ -3997,8 +4066,8 @@
         "theme": "Dread of Evil Deeds",
         "emotions": [
           "Fear",
-          "Security",
-          "Caution"
+          "Regret",
+          "Trust"
         ],
         "emotion_detail": "dread of evil deeds and destruction, feeling safe when avoiding evil, carefulness in staying on the right path",
         "line1": "அருங்கேடன் என்பது அறிக மருங்கோடித்",
@@ -4017,9 +4086,9 @@
         "meaning": "Benevolence seeks not a return. What does the world give back to the clouds ?",
         "theme": "Knowing What is Right",
         "emotions": [
-          "Selflessness",
-          "Benevolence",
-          "Duty"
+          "Compassion",
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", , Sense of Responsibility",
         "line1": "கைம்மாறு வேண்டா கடப்பாடு மாரிமாட்டு",
@@ -4036,9 +4105,9 @@
         "meaning": "All the wealth acquired with perseverance by the worthy is for the exercise of benevolence",
         "theme": "Knowing What is Right",
         "emotions": [
-          "Generosity",
-          "Righteousness",
-          "Respect"
+          "Trust",
+          "Compassion",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "தாளாற்றித் தந்த பொருளெல்லாம் தக்கார்க்கு",
@@ -4055,9 +4124,9 @@
         "meaning": "It is difficult to obtain another good equal to benevolence either in this world or in that of the gods",
         "theme": "Knowing What is Right",
         "emotions": [
-          "Kindness",
-          "Admiration",
-          "Aspiration Explanation: - Kindness: The text centers around benevolence"
+          "Compassion",
+          "Joy",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "புத்தே ளுலகத்தும் ஈண்டும் பெறலரிதே",
@@ -4074,8 +4143,9 @@
         "meaning": "He truly lives who knows (and discharges) the proper duties (of benevolence) He who knows them not will be reckoned among the dead",
         "theme": "Knowing What is Right",
         "emotions": [
-          "Wisdom – The emphasis on \"knowing befitting act\" and \"knows the proper duties\" evokes the value and emotion connected to wisdom or knowledge.",
-          "Responsibility – The idea of"
+          "Compassion",
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", ",
         "line1": "ஒத்த தறவோன் உயிர்வாழ்வான் மற்றையான்",
@@ -4092,8 +4162,9 @@
         "meaning": "The wealth of that man of eminent knowledge who desires to exercise the benevolence approved of by the world, is like the full waters of a city-tank",
         "theme": "Knowing What is Right",
         "emotions": [
-          "Wisdom – The text highlights being \"wise\" and possessing \"eminent knowledge.\"",
-          "Benevolence – There is a strong focus on kindness"
+          "Compassion",
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", ",
         "line1": "ஊருணி நீர்நிறைந் தற்றே உலகவாம்",
@@ -4110,8 +4181,8 @@
         "meaning": "The wealth of a man (possessed of the virtue) of benevolence is like the ripening of a fruitful tree in the midst of a town",
         "theme": "Knowing What is Right",
         "emotions": [
-          "Generosity",
-          "Admiration",
+          "Trust",
+          "Compassion",
           "Gratitude"
         ],
         "emotion_detail": ", , ",
@@ -4129,9 +4200,9 @@
         "meaning": "If wealth be in the possession of a man who has the great excellence (of benevolence), it is like a tree which as a medicine is an infallible cure for disease",
         "theme": "Knowing What is Right",
         "emotions": [
-          "Benevolence",
-          "Hope",
-          "Compassion"
+          "Compassion",
+          "Trust",
+          "Hope"
         ],
         "emotion_detail": ", , ",
         "line1": "மருந்தாகித் தப்பா மரத்தற்றால் செல்வம்",
@@ -4148,7 +4219,9 @@
         "meaning": "The wise who know what is duty will not scant their benevolence even when they are without wealth",
         "theme": "Knowing What is Right",
         "emotions": [
-          "Integrity — The adherence to moral and ethical principles"
+          "Compassion",
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": "",
         "line1": "இடனில் பருவத்தும் ஒப்புரவிற்கு ஒல்கார்",
@@ -4165,9 +4238,9 @@
         "meaning": "The poverty of a benevolent man, is nothing but his inability to exercise the same",
         "theme": "Knowing What is Right",
         "emotions": [
-          "Compassion – Empathy for the benevolent man's desire to help others.",
-          "Frustration – The man's inability to offer relief despite his good intentions.",
-          "Sadness – The grief"
+          "Compassion",
+          "Desire",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "நயனுடையான் நல்கூர்ந்தா னாதல் செயும்நீர",
@@ -4184,9 +4257,9 @@
         "meaning": "If it be said that loss will result from benevolence, such loss is worth being procured even by the sale of one's self",
         "theme": "Knowing What is Right",
         "emotions": [
-          "Self-sacrifice",
-          "Benevolence",
-          "Determination"
+          "Compassion",
+          "Trust",
+          "Joy"
         ],
         "emotion_detail": ", or Compassion, ",
         "line1": "ஒப்புரவி னால்வரும் கேடெனின் அஃதொருவன்",
@@ -4206,8 +4279,8 @@
         "theme": "Charity",
         "emotions": [
           "Compassion",
-          "Generosity",
-          "Humility"
+          "Joy",
+          "Gratitude"
         ],
         "emotion_detail": ", , ",
         "line1": "வறியார்க்கொன்று ஈவதே ஈகைமற் றெல்லாம்",
@@ -4224,8 +4297,9 @@
         "meaning": "To beg is evil, even though it were said that it is a good path (to heaven) To give is good, even though it were said that those who do so cannot obtain heaven",
         "theme": "Charity",
         "emotions": [
-          "**Shame** – The idea that begging is \"bad\" or \"evil\" carries a sense of shame or humiliation related to asking for help.",
-          "**Generosity** – The"
+          "Compassion",
+          "Shame",
+          "Joy"
         ],
         "emotion_detail": ", ",
         "line1": "நல்லாறு எனினும் கொளல்தீது மேலுலகம்",
@@ -4242,9 +4316,9 @@
         "meaning": "(Even in a low state) not to adopt the mean expedient of saying \"I have nothing,\" but to give, is the characteristic of the mad of noble birth",
         "theme": "Charity",
         "emotions": [
-          "Generosity",
-          "Humility",
-          "Nobility"
+          "Compassion",
+          "Joy",
+          "Gratitude"
         ],
         "emotion_detail": ", , ",
         "line1": "இலனென்னும் எவ்வம் உரையாமை ஈதல்",
@@ -4261,8 +4335,9 @@
         "meaning": "To see men begging from us in disagreeable, until we see their pleasant countenance",
         "theme": "Charity",
         "emotions": [
-          "Compassion – The mention of giving to those who cry for alms invokes empathy and a desire to help.",
-          "Discomfort – The text highlights that seeing people beg is a \"painful"
+          "Compassion",
+          "Joy",
+          "Desire"
         ],
         "emotion_detail": ", ",
         "line1": "இன்னாது இரக்கப் படுதல் இரந்தவர்",
@@ -4279,7 +4354,9 @@
         "meaning": "The power of those who perform penance is the power of enduring hunger It is inferior to the power of those who remove the hunger (of others)",
         "theme": "Charity",
         "emotions": [
-          "Compassion – The text highlights the value of alleviating others' suffering and hunger"
+          "Compassion",
+          "Joy",
+          "Gratitude"
         ],
         "emotion_detail": "",
         "line1": "ஆற்றுவார் ஆற்றல் பசிஆற்றல் அப்பசியை",
@@ -4297,8 +4374,8 @@
         "theme": "Charity",
         "emotions": [
           "Compassion",
-          "Generosity",
-          "Empathy"
+          "Joy",
+          "Gratitude"
         ],
         "emotion_detail": ", , ",
         "line1": "அற்றார் அழிபசி தீர்த்தல் அஃதொருவன்",
@@ -4315,9 +4392,9 @@
         "meaning": "The fiery disease of hunger shall never touch him who habitually distributes his food to others",
         "theme": "Charity",
         "emotions": [
-          "Generosity",
           "Compassion",
-          "Security"
+          "Joy",
+          "Gratitude"
         ],
         "emotion_detail": ", , ",
         "line1": "பாத்தூண் மரீஇ யவனைப் பசியென்னும்",
@@ -4335,7 +4412,8 @@
         "theme": "Charity",
         "emotions": [
           "Joy",
-          "Hard-heartedness"
+          "Compassion",
+          "Gratitude"
         ],
         "emotion_detail": "from the happiness and pleasure of giving, ",
         "line1": "ஈத்துவக்கும் இன்பம் அறியார்கொல் தாமுடைமை",
@@ -4352,8 +4430,9 @@
         "meaning": "Solitary and unshared eating for the sake of filling up one's own riches is certainly much more",
         "theme": "Charity",
         "emotions": [
-          "Greed – The focus on \"hoarding\" and accumulating for oneself indicates greed.",
-          "Selfishness – The act of not sharing and \"solitary and unshared eating\" shows"
+          "Compassion",
+          "Joy",
+          "Gratitude"
         ],
         "emotion_detail": ", ",
         "line1": "இரத்தலின் இன்னாது மன்ற நிரப்பிய",
@@ -4370,9 +4449,9 @@
         "meaning": "Nothing is more unpleasant than death: yet even that is pleasant where charity cannot be exercised",
         "theme": "Charity",
         "emotions": [
-          "Pain/Suffering",
-          "Helplessness",
-          "Compassion"
+          "Compassion",
+          "Joy",
+          "Gratitude"
         ],
         "emotion_detail": ", , ",
         "line1": "சாதலின் இன்னாத தில்லை இனிததூஉம்",
@@ -4391,8 +4470,9 @@
         "meaning": "Give to the poor and live with praise There is no greater profit to man than that",
         "theme": "Fame",
         "emotions": [
-          "Generosity",
-          "Pride"
+          "Pride",
+          "Joy",
+          "Wonder"
         ],
         "emotion_detail": ", ",
         "line1": "ஈதல் இசைபட வாழ்தல் அதுவல்லது",
@@ -4409,9 +4489,9 @@
         "meaning": "Whatsoever is spoken in the world will abide as praise upon that man who gives alms to the poor",
         "theme": "Fame",
         "emotions": [
-          "Generosity",
           "Pride",
-          "Admiration"
+          "Joy",
+          "Wonder"
         ],
         "emotion_detail": ", , ",
         "line1": "உரைப்பார் உரைப்பவை எல்லாம் இரப்பார்க்கொன்று",
@@ -4428,9 +4508,9 @@
         "meaning": "There is nothing that stands forth in the world imperishable, except fame, exalted in solitary greatness",
         "theme": "Fame",
         "emotions": [
-          "Aspiration – The desire for enduring recognition or greatness.",
-          "Pride – The sense of honor and satisfaction derived from achieving high fame.",
-          "Transience/Sadness – The awareness and"
+          "Pride",
+          "Desire",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "ஒன்றா உலகத்து உயர்ந்த புகழல்லால்",
@@ -4447,9 +4527,9 @@
         "meaning": "If one has acquired extensive fame within the limits of this earth, the world of the Gods will no longer praise those sages who have attained that world",
         "theme": "Fame",
         "emotions": [
-          "Admiration – for those who have acquired extensive fame and praise.",
-          "Aspiration – the desire to achieve lasting recognition and greatness.",
-          "Reverence – respect for individuals whose"
+          "Pride",
+          "Desire",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "நிலவரை நீள்புகழ் ஆற்றின் புலவரைப்",
@@ -4466,7 +4546,9 @@
         "meaning": "Prosperity to the body of fame, resulting in poverty to the body of flesh and the stability to the former arising from the death of the latter, are achievable only by the wise",
         "theme": "Fame",
         "emotions": [
-          "Aspiration – The desire for fame"
+          "Joy",
+          "Pride",
+          "Wonder"
         ],
         "emotion_detail": "",
         "line1": "நத்தம்போல் கேடும் உளதாகும் சாக்காடும்",
@@ -4483,9 +4565,9 @@
         "meaning": "If you are born (in this world), be born with qualities conductive to fame From those who are destitute of them it will be better not to be born",
         "theme": "Fame",
         "emotions": [
-          "Ambition – The desire for fame and recognition is emphasized.",
-          "Pride – There is value placed on being born with qualities worthy of fame.",
-          "Inferiority – A sense of un"
+          "Pride",
+          "Desire",
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "தோன்றின் புகழொடு தோன்றுக அஃதிலார்",
@@ -4502,8 +4584,8 @@
         "meaning": "Why do those who cannot live with praise, grieve those who despise them, instead of grieving themselves for their own inability",
         "theme": "Fame",
         "emotions": [
+          "Pride",
           "Shame",
-          "Grief",
           "Envy"
         ],
         "emotion_detail": ", , ",
@@ -4523,7 +4605,7 @@
         "emotions": [
           "Pride",
           "Shame",
-          "Ambition"
+          "Joy"
         ],
         "emotion_detail": ", , ",
         "line1": "வசையென்ப வையத்தார்க் கெல்லாம் இசையென்னும்",
@@ -4540,9 +4622,9 @@
         "meaning": "The ground which supports a body without fame will diminish in its rich produce",
         "theme": "Fame",
         "emotions": [
+          "Pride",
           "Shame",
-          "Ambition",
-          "Disappointment"
+          "Joy"
         ],
         "emotion_detail": "the sense of being unrecognized or living without honor, the desire for fame or renown, ",
         "line1": "வசையிலா வண்பயன் குன்றும் இசையிலா",
@@ -4559,7 +4641,9 @@
         "meaning": "Those live who live without disgrace Those who live without fame live not",
         "theme": "Fame",
         "emotions": [
-          "Pride – The text emphasizes living without disgrace"
+          "Pride",
+          "Joy",
+          "Wonder"
         ],
         "emotion_detail": "",
         "line1": "வசையொழிய வாழ்வாரே வாழ்வார் இசையொழிய",
@@ -4579,8 +4663,8 @@
         "theme": "Compassion",
         "emotions": [
           "Compassion",
-          "Generosity",
-          "Humility"
+          "Love",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "அருட்செல்வம் செல்வத்துள் செல்வம் பொருட்செல்வம்",
@@ -4598,8 +4682,8 @@
         "theme": "Compassion",
         "emotions": [
           "Compassion",
-          "Kindness",
-          "Hopefulness"
+          "Hope",
+          "Love"
         ],
         "emotion_detail": ", , ",
         "line1": "நல்லாற்றாள் நாடி அருளாள்க பல்லாற்றால்",
@@ -4617,7 +4701,7 @@
         "theme": "Compassion",
         "emotions": [
           "Compassion",
-          "Kindness",
+          "Love",
           "Hope"
         ],
         "emotion_detail": ", , ",
@@ -4636,8 +4720,8 @@
         "theme": "Compassion",
         "emotions": [
           "Compassion",
-          "Kindness",
-          "Peace"
+          "Serenity",
+          "Love"
         ],
         "emotion_detail": ", , or Serenity",
         "line1": "மன்னுயிர் ஓம்பி அருளாள்வார்க்கு இல்லென்ப",
@@ -4655,8 +4739,8 @@
         "theme": "Compassion",
         "emotions": [
           "Compassion",
-          "Kindness",
-          "Serenity"
+          "Serenity",
+          "Love"
         ],
         "emotion_detail": ", , ",
         "line1": "அல்லல் அருளாள்வார்க்கு இல்லை வளிவழங்கும்",
@@ -4674,8 +4758,8 @@
         "theme": "Compassion",
         "emotions": [
           "Compassion",
-          "Remorse",
-          "Cruel"
+          "Love",
+          "Serenity"
         ],
         "emotion_detail": "highlighted in both the chapter title and the underlying message, implied through the context of neglecting kindness and forgetting past sorrows, ",
         "line1": "பொருள்நீங்கிப் பொச்சாந்தார் என்பர் அருள்நீங்கி",
@@ -4693,8 +4777,8 @@
         "theme": "Compassion",
         "emotions": [
           "Compassion",
-          "Exclusion",
-          "Reflection"
+          "Love",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "அருளில்லார்க்கு அவ்வுலகம் இல்லை பொருளில்லார்க்கு",
@@ -4711,9 +4795,9 @@
         "meaning": "Those who are without wealth may, at some future time, become prosperous; those who are destitute of kindness are utterly destitute; for them there is no change",
         "theme": "Compassion",
         "emotions": [
-          "Hope – The possibility that those without wealth may prosper one day conveys hope.",
-          "Compassion – The emphasis on kindness and the consequences of its absence centers on compassion.",
-          "Resignation/Sadness – The idea that those without kindness will"
+          "Compassion",
+          "Hope",
+          "Love"
         ],
         "emotion_detail": ", , ",
         "line1": "பொருளற்றார் பூப்பர் ஒருகால் அருளற்றார்",
@@ -4731,8 +4815,8 @@
         "theme": "Compassion",
         "emotions": [
           "Compassion",
-          "Detachment",
-          "Regret"
+          "Love",
+          "Serenity"
         ],
         "emotion_detail": ", or Indifference, ",
         "line1": "தெருளாதான் மெய்ப்பொருள் கண்டற்றால் தேரின்",
@@ -4749,9 +4833,9 @@
         "meaning": "When a man is about to rush upon those who are weaker than himself, let him remember how he has stood (trembling) before those who are stronger than himself",
         "theme": "Compassion",
         "emotions": [
-          "Empathy",
-          "Guilt",
-          "Humility"
+          "Compassion",
+          "Love",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "வலியார்முன் தன்னை நினைக்கதான் தன்னின்",
@@ -4770,7 +4854,9 @@
         "meaning": "How can he be possessed of kindness, who to increase his own flesh, eats the flesh of other creatures",
         "theme": "Abstinence from Flesh",
         "emotions": [
-          "Compassion – The text questions the presence of kindness and empathy in those who consume the flesh of other creatures"
+          "Compassion",
+          "Serenity",
+          "Regret"
         ],
         "emotion_detail": "",
         "line1": "தன்னூன் பெருக்கற்குத் தான்பிறிது ஊனுண்பான்",
@@ -4787,7 +4873,9 @@
         "meaning": "As those possess no property who do not take care of it, so those possess no kindness who feed on flesh",
         "theme": "Abstinence from Flesh",
         "emotions": [
-          "Indifference"
+          "Compassion",
+          "Serenity",
+          "Regret"
         ],
         "emotion_detail": "",
         "line1": "பொருளாட்சி போற்றாதார்க்கு இல்லை அருளாட்சி",
@@ -4804,9 +4892,9 @@
         "meaning": "Like the (murderous) mind of him who carries a weapon (in his hand), the mind of him who feasts with pleasure on the body of another (creature), has no regard for goodness",
         "theme": "Abstinence from Flesh",
         "emotions": [
-          "Callousness",
-          "Cruelty",
-          "Hardness"
+          "Compassion",
+          "Regret",
+          "Serenity"
         ],
         "emotion_detail": "lack of empathy, deliberate causing of suffering, emotional toughness or insensitivity",
         "line1": "படைகொண்டார் நெஞ்சம்போல் நன்னூக்காது ஒன்றன்",
@@ -4824,8 +4912,8 @@
         "theme": "Abstinence from Flesh",
         "emotions": [
           "Compassion",
-          "Disgust",
-          "Shame"
+          "Shame",
+          "Disgust"
         ],
         "emotion_detail": ", , ",
         "line1": "அருளல்ல தியாதெனிற் கொல்லாமை கோறல்",
@@ -4842,8 +4930,9 @@
         "meaning": "Not to eat flesh contributes to the continuance of life; therefore if a man eat flesh, hell will not open its mouth (to let him escape out, after he has once fallen in)",
         "theme": "Abstinence from Flesh",
         "emotions": [
-          "**Fear** – The reference to \"hell's mouth\" and its unforgiving nature evokes fear of punishment and consequences.",
-          "**Guilt** – The notion that eating flesh leads to"
+          "Compassion",
+          "Fear",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "உண்ணாமை உள்ளது உயிர்நிலை ஊனுண்ண",
@@ -4861,8 +4950,8 @@
         "theme": "Abstinence from Flesh",
         "emotions": [
           "Compassion",
-          "Empathy",
-          "Guilt"
+          "Serenity",
+          "Regret"
         ],
         "emotion_detail": ", , ",
         "line1": "தினற்பொருட்டால் கொல்லாது உலகெனின் யாரும்",
@@ -4879,8 +4968,9 @@
         "meaning": "If men should come to know that flesh is nothing but the unclean ulcer of a body, let them abstain from eating it",
         "theme": "Abstinence from Flesh",
         "emotions": [
-          "Compassion – Empathy for the pain and suffering of living beings.",
-          "Disgust – Revulsion at the idea of flesh being an “unclean ulcer” of a body."
+          "Compassion",
+          "Disgust",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "உண்ணாமை வேண்டும் புலாஅல் பிறிதொன்றன்",
@@ -4897,8 +4987,9 @@
         "meaning": "The wise, who have freed themselves from mental delusion, will not eat the flesh which has been severed from an animal",
         "theme": "Abstinence from Flesh",
         "emotions": [
-          "Compassion – Concern and empathy for the suffering of animals.",
-          "Wisdom – A sense of clarity and higher understanding"
+          "Compassion",
+          "Serenity",
+          "Regret"
         ],
         "emotion_detail": ", ",
         "line1": "செயிரின் தலைப்பிரிந்த காட்சியார் உண்ணார்",
@@ -4915,7 +5006,9 @@
         "meaning": "Not to kill and eat (the flesh of) an animal, is better than the pouring forth of ghee etc, in a thousand sacrifices",
         "theme": "Abstinence from Flesh",
         "emotions": [
-          "Compassion – The text emphasizes not killing animals"
+          "Compassion",
+          "Serenity",
+          "Regret"
         ],
         "emotion_detail": "",
         "line1": "அவிசொரிந் தாயிரம் வேட்டலின் ஒன்றன்",
@@ -4933,8 +5026,8 @@
         "theme": "Abstinence from Flesh",
         "emotions": [
           "Compassion",
-          "Reverence",
-          "Peace"
+          "Serenity",
+          "Regret"
         ],
         "emotion_detail": ", , ",
         "line1": "கொல்லான் புலாலை மறுத்தானைக் கைகூப்பி",
@@ -4953,10 +5046,9 @@
         "meaning": "The nature of religious discipline consists, in the endurance (by the ascetic) of the sufferings which it brings on himself, and in abstaining from giving pain to others",
         "theme": "Penance",
         "emotions": [
-          "Top 3 human emotions associated with the text are:",
-          "Endurance",
-          "Compassion",
-          "Self-discipline"
+          "Devotion",
+          "Courage",
+          "Serenity"
         ],
         "emotion_detail": ", , , ",
         "line1": "உற்றநோய் நோன்றல் உயிர்க்குறுகண் செய்யாமை",
@@ -4973,8 +5065,9 @@
         "meaning": "Austerities can only be borne, and their benefits enjoyed, by those who have practised them (in a former birth); it will be useless for those who have not done so, to attempt to practise them (now)",
         "theme": "Penance",
         "emotions": [
-          "Regret — The concept of penance and the mention of \"penitents\" imply an underlying feeling of regret for past actions.",
-          "Unworthiness — The idea that penance is"
+          "Devotion",
+          "Regret",
+          "Courage"
         ],
         "emotion_detail": ", ",
         "line1": "தவமும் தவமுடையார்க்கு ஆகும் அதனை",
@@ -4991,9 +5084,9 @@
         "meaning": "It is to provide food etc, for the ascetics who have abandoned (the desire of earthly possessions) that other persons have forgotten (to practise) austerity ?",
         "theme": "Penance",
         "emotions": [
-          "Reverence – for ascetics who renounce worldly possessions.",
-          "Guilt – for others who have forgotten to practice austerity (penance).",
-          "Compassion – in providing aid or"
+          "Devotion",
+          "Compassion",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "துறந்தார்க்குத் துப்புரவு வேண்டி மறந்தார்கொல்",
@@ -5010,8 +5103,9 @@
         "meaning": "If (the ascetic) desire the destruction of his enemies, or the aggrandizement of his friends, it will be effected by (the power of) his austerities",
         "theme": "Penance",
         "emotions": [
-          "Determination – Reflecting the resolute commitment involved in penance and austerities.",
-          "Hope – The expectation that these acts will lead to saving friends or achieving a desired outcome. 3"
+          "Devotion",
+          "Courage",
+          "Hope"
         ],
         "emotion_detail": ", ",
         "line1": "ஒன்னார்த் தெறலும் உவந்தாரை ஆக்கலும்",
@@ -5028,9 +5122,9 @@
         "meaning": "Religious dislipline is practised in this world, because it secures the attainment of whatever one may wish to enjoy (in the world to come)",
         "theme": "Penance",
         "emotions": [
-          "Hope – Anticipation of attaining desires or rewards through penance.",
-          "Devotion – Commitment to religious discipline and practice.",
-          "Aspiration – Yearning for better outcomes or spiritual"
+          "Devotion",
+          "Hope",
+          "Desire"
         ],
         "emotion_detail": ", , ",
         "line1": "வேண்டிய வேண்டியாங் கெய்தலால் செய்தவம்",
@@ -5047,8 +5141,9 @@
         "meaning": "Those discharge their duty who perform austerities; all others accomplish their own destruction, through the entanglement of the desire (of riches and sensual pleasure)",
         "theme": "Penance",
         "emotions": [
-          "**Discipline** — Reflects the commitment and self-control required for doing penance and performing austerities.",
-          "**Desire** — Highlights longing or craving for riches and sensual pleasure"
+          "Devotion",
+          "Longing",
+          "Desire"
         ],
         "emotion_detail": ", ",
         "line1": "தவஞ்செய்வார் தங்கருமஞ் செய்வார்மற் றல்லார்",
@@ -5065,9 +5160,9 @@
         "meaning": "Just as gold is purified as heated in the fire, will those shine, who have endured the burning of pain (in frequent austerities)",
         "theme": "Penance",
         "emotions": [
-          "Endurance",
-          "Purification",
-          "Suffering"
+          "Courage",
+          "Devotion",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "சுடச்சுடரும் பொன்போல் ஒளிவிடும் துன்பஞ்",
@@ -5084,9 +5179,9 @@
         "meaning": "All other creatures will worship him who has attained the control of his own soul",
         "theme": "Penance",
         "emotions": [
-          "Reverence",
-          "Self-mastery",
-          "Aspiration"
+          "Devotion",
+          "Serenity",
+          "Courage"
         ],
         "emotion_detail": ", a sense of inner strength/pride, ",
         "line1": "தன்னுயிர் தான்அறப் பெற்றானை ஏனைய",
@@ -5103,9 +5198,9 @@
         "meaning": "Those who have attained the power which religious discipline confers, will be able also to pass the limit of Yama, (the God of death)",
         "theme": "Penance",
         "emotions": [
-          "Awe – At the extraordinary power attained through penance.",
-          "Reverence – For the strength and discipline gained through religious practices.",
-          "Hope – In the possibility of transcending even death"
+          "Devotion",
+          "Hope",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "கூற்றம் குதித்தலும் கைகூடும் நோற்றலின்",
@@ -5122,9 +5217,9 @@
         "meaning": "Because there are few who practise austerity and many who do not, there are many destitute and few rich in this world",
         "theme": "Penance",
         "emotions": [
-          "Indifference",
+          "Devotion",
           "Regret",
-          "Resignation"
+          "Courage"
         ],
         "emotion_detail": "towards penance/austerity, for the lack of penance, to the resulting inequality or reality",
         "line1": "இலர்பல ராகிய காரணம் நோற்பார்",
@@ -5143,8 +5238,9 @@
         "meaning": "The five elements (of his body) will laugh within him at the feigned conduct of the deceitful minded man",
         "theme": "Unfailing Morality",
         "emotions": [
-          "Hypocrisy",
-          "Shame/Embarrassment"
+          "Shame",
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": "as an emotion of self-deception or insincerity, the deceitful person is subtly exposed or ridiculed",
         "line1": "வஞ்ச மனத்தான் படிற்றொழுக்கம் பூதங்கள்",
@@ -5161,9 +5257,9 @@
         "meaning": "What avails an appearance (of sanctity) high as heaven, if his mind suffers (the indulgence) of conscious sin",
         "theme": "Unfailing Morality",
         "emotions": [
-          "Guilt",
-          "Hypocrisy",
-          "Shame"
+          "Shame",
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "வானுயர் தோற்றம் எவன்செய்யும் தன்னெஞ்சம்",
@@ -5180,8 +5276,9 @@
         "meaning": "The assumed appearance of power, by a man who has no power (to restrain his senses and perform austerity), is like a cow feeding on grass covered with a tiger's skin",
         "theme": "Unfailing Morality",
         "emotions": [
-          "Hypocrisy – The act of pretending to possess virtues or morality that one actually lacks.",
-          "Deception – The intent to mislead others by adopting a false appearance of strength or sain"
+          "Trust",
+          "Serenity",
+          "Shame"
         ],
         "emotion_detail": ", ",
         "line1": "வலியில் நிலைமையான் வல்லுருவம் பெற்றம்",
@@ -5198,9 +5295,9 @@
         "meaning": "He who hides himself under the mask of an ascetic and commits sins, like a sportsman who conceals himself in the thicket to catch birds",
         "theme": "Unfailing Morality",
         "emotions": [
-          "Top 3 emotions associated with the text:",
-          "Hypocrisy – The text discusses the act of pretending to be virtuous while secretly committing wrongs.",
-          "Deception – It describes someone hiding their true intentions and actions"
+          "Trust",
+          "Shame",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "தவமறைந்து அல்லவை செய்தல் புதல்மறைந்து",
@@ -5217,8 +5314,9 @@
         "meaning": "The false conduct of those who say they have renounced all desire will one day bring them sorrows that will make them cry out, \"Oh! what have we done, what have we done.\"",
         "theme": "Unfailing Morality",
         "emotions": [
-          "Guilt – The regret and self-reproach felt when realizing one’s own hypocrisy or wrongdoing.",
-          "Sorrow – The deep sadness that arises from the consequences of false actions. 3"
+          "Shame",
+          "Sorrow",
+          "Regret"
         ],
         "emotion_detail": ", ",
         "line1": "பற்றற்றேம் என்பார் படிற்றொழுக்கம் எற்றெற்றென்று",
@@ -5235,9 +5333,9 @@
         "meaning": "Amongst living men there are none so hard-hearted as those who without to saking (desire) in their heart, falsely take the appearance of those who have forsaken (it)",
         "theme": "Unfailing Morality",
         "emotions": [
-          "Hypocrisy",
           "Disgust",
-          "Contempt"
+          "Serenity",
+          "Trust"
         ],
         "emotion_detail": "as an emotion: duplicity/insincerity, towards deceitful behavior, ",
         "line1": "நெஞ்சின் துறவார் துறந்தார்போல் வஞ்சித்து",
@@ -5254,8 +5352,9 @@
         "meaning": "(The world) contains persons whose outside appears (as fair) as the (red) berry of the Abrus, but whose inside is as black as the nose of that berry",
         "theme": "Unfailing Morality",
         "emotions": [
-          "Distrust – The contrast between outward appearance and inward reality evokes suspicion and caution.",
-          "Disappointment – The revelation that appearances can be deceiving brings about a sense of letdown"
+          "Trust",
+          "Shame",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "புறங்குன்றி கண்டனைய ரேனும் அகங்குன்றி",
@@ -5272,9 +5371,9 @@
         "meaning": "There are many men of masked conduct, who perform their ablutions, and (make a show) of",
         "theme": "Unfailing Morality",
         "emotions": [
-          "Top 3 emotions associated with the text:",
-          "Hypocrisy – The text discusses people who display outward morality while hiding inner corruption.",
-          "Disgust – There is a sense of revulsion toward the insincerity and \"filth\""
+          "Disgust",
+          "Shame",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "மனத்தது மாசாக மாண்டார் நீராடி",
@@ -5291,7 +5390,9 @@
         "meaning": "As, in its use, the arrow is crooked, and the curved lute is straight, so by their deeds, (and not by their appearance) let (the uprightness or crookedness of) men be estimated",
         "theme": "Unfailing Morality",
         "emotions": [
-          "Wisdom – The text emphasizes understanding deeper truths about people beyond surface appearances"
+          "Trust",
+          "Shame",
+          "Serenity"
         ],
         "emotion_detail": "",
         "line1": "கணைகொடிது யாழ்கோடு செவ்விதுஆங் கன்ன",
@@ -5308,9 +5409,9 @@
         "meaning": "There is no need of a shaven crown, nor of tangled hair, if a man abstain from those deeds which the wise have condemned",
         "theme": "Unfailing Morality",
         "emotions": [
-          "Integrity – Emphasizing the importance of moral uprightness over outward appearances.",
-          "Wisdom – Valuing the guidance and judgment of the wise.",
-          "Mindfulness – Encouraging careful abst"
+          "Trust",
+          "Serenity",
+          "Shame"
         ],
         "emotion_detail": ", , ",
         "line1": "மழித்தலும் நீட்டலும் வேண்டா உலகம்",
@@ -5329,9 +5430,9 @@
         "meaning": "Let him, who desires not to be despised, keep his mind from (the desire of) defrauding another of the smallest thing",
         "theme": "The Absence of Fraud",
         "emotions": [
-          "Integrity",
-          "Self-respect",
-          "Caution"
+          "Trust",
+          "Serenity",
+          "Shame"
         ],
         "emotion_detail": "Desire for moral uprightness and honesty, Value placed on maintaining one's reputation and being above reproach, ",
         "line1": "எள்ளாமை வேண்டுவான் என்பான் எனைத்தொன்றும்",
@@ -5348,9 +5449,9 @@
         "meaning": "Even the thought (of sin) is sin; think not then of crafiily stealing the property of another",
         "theme": "The Absence of Fraud",
         "emotions": [
-          "Guilt",
-          "Temptation",
-          "Shame"
+          "Shame",
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "உள்ளத்தால் உள்ளலும் தீதே பிறன்பொருளைக்",
@@ -5367,7 +5468,9 @@
         "meaning": "The property, which is acquired by fraud, will entirely perish, even while it seems to increase",
         "theme": "The Absence of Fraud",
         "emotions": [
-          "Caution — The text warns against fraudulent behavior"
+          "Trust",
+          "Serenity",
+          "Shame"
         ],
         "emotion_detail": "",
         "line1": "களவினால் ஆகிய ஆக்கம் அளவிறந்து",
@@ -5384,9 +5487,9 @@
         "meaning": "The eager desire of defrauding others will, when it brings forth its fruit, produce undying sorrow",
         "theme": "The Absence of Fraud",
         "emotions": [
-          "Greed",
-          "Grief",
-          "Regret"
+          "Trust",
+          "Regret",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "களவின்கண் கன்றிய காதல் விளைவின்கண்",
@@ -5403,7 +5506,9 @@
         "meaning": "The study of kindness and the exercise of benevolence is not with those who watch for another's forgetfulness, though desire of his property",
         "theme": "The Absence of Fraud",
         "emotions": [
-          "Greed – The reference to those who \"watch for another's forgetfulness"
+          "Trust",
+          "Serenity",
+          "Shame"
         ],
         "emotion_detail": "",
         "line1": "அருள்கருதி அன்புடைய ராதல் பொருள்கருதிப்",
@@ -5420,9 +5525,9 @@
         "meaning": "They cannot walk steadfastly, according to rule, who eagerly desire to defraud others",
         "theme": "The Absence of Fraud",
         "emotions": [
-          "Greed",
-          "Restlessness",
-          "Dishonesty"
+          "Trust",
+          "Serenity",
+          "Shame"
         ],
         "emotion_detail": ", , ",
         "line1": "அளவின்கண் நின்றொழுகல் ஆற்றார் களவின்கண்",
@@ -5439,9 +5544,9 @@
         "meaning": "That black-knowledge which is called fraud, is not in those who desire that greatness which is called rectitude",
         "theme": "The Absence of Fraud",
         "emotions": [
-          "Integrity",
-          "Wisdom",
-          "Caution"
+          "Trust",
+          "Serenity",
+          "Shame"
         ],
         "emotion_detail": ", , ",
         "line1": "களவென்னும் காரறி வாண்மை அளவென்னும்",
@@ -5458,9 +5563,9 @@
         "meaning": "Deceit dwells in the mind of those who are conversant with fraud, even as virtue in the minds of those who are conversant with rectitude",
         "theme": "The Absence of Fraud",
         "emotions": [
-          "Integrity",
-          "Distrust",
-          "Admiration"
+          "Trust",
+          "Serenity",
+          "Shame"
         ],
         "emotion_detail": "or Righteousness, or Suspicion, for virtue",
         "line1": "அளவறிந்தார் நெஞ்சத் தறம்போல நிற்கும்",
@@ -5477,8 +5582,9 @@
         "meaning": "Those, who are acquainted with nothing but fraud, will perish in the very commission of transgression",
         "theme": "The Absence of Fraud",
         "emotions": [
-          "Condemnation – The text expresses strong disapproval of those who commit fraud and pilfery.",
-          "Warning/Fear – There is a cautionary tone about the consequences"
+          "Trust",
+          "Fear",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "அளவல்ல செய்தாங்கே வீவர் களவல்ல",
@@ -5495,9 +5601,9 @@
         "meaning": "Even their body will fail the fraudulent; but even the world of the gods will not fail those who are free from fraud",
         "theme": "The Absence of Fraud",
         "emotions": [
-          "Honesty – The text highlights the virtue of being honest and free from fraud.",
-          "Integrity – It emphasizes the importance of moral uprightness and being genuine.",
-          "Rejection"
+          "Trust",
+          "Serenity",
+          "Shame"
         ],
         "emotion_detail": ", , ",
         "line1": "கள்வார்க்குத் தள்ளும் உயிர்நிலை கள்வார்க்குத்",
@@ -5516,9 +5622,9 @@
         "meaning": "Truth is the speaking of such words as are free from the least degree of evil (to others)",
         "theme": "Truthfulness",
         "emotions": [
-          "Honesty",
-          "Integrity",
-          "Kindness"
+          "Trust",
+          "Pride",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "வாய்மை எனப்படுவது யாதெனின் யாதொன்றும்",
@@ -5535,8 +5641,9 @@
         "meaning": "Even falsehood has the nature of truth, if it confer a benefit that is free from fault",
         "theme": "Truthfulness",
         "emotions": [
-          "Justification – The text expresses the emotional reasoning for accepting actions (even falsehood) when they lead to good outcomes and the absence of harm.",
-          "Acceptance – There’s an"
+          "Trust",
+          "Pride",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "பொய்மையும் வாய்மை யிடத்த புரைதீர்ந்த",
@@ -5553,8 +5660,8 @@
         "meaning": "Let not a man knowingly tell a lie; for after he has told the lie, his mind will burn him (with the memory of his guilt)",
         "theme": "Truthfulness",
         "emotions": [
-          "Guilt",
           "Shame",
+          "Trust",
           "Regret"
         ],
         "emotion_detail": ", , ",
@@ -5572,7 +5679,9 @@
         "meaning": "He who, in his conduct, preserves a mind free from deceit, will dwell in the minds of all men",
         "theme": "Truthfulness",
         "emotions": [
-          "Serenity"
+          "Serenity",
+          "Trust",
+          "Pride"
         ],
         "emotion_detail": "",
         "line1": "உள்ளத்தாற் பொய்யா தொழுகின் உலகத்தார்",
@@ -5589,9 +5698,9 @@
         "meaning": "He, who speaks truth with all his heart, is superior to those who make gifts and practise austerities",
         "theme": "Truthfulness",
         "emotions": [
-          "Sincerity",
-          "Integrity",
-          "Respect"
+          "Trust",
+          "Pride",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "மனத்தொடு வாய்மை மொழியின் தவத்தொடு",
@@ -5608,9 +5717,9 @@
         "meaning": "There is no praise like the praise of never uttering a falsehood: without causing any suffering, it will lead to every virtue",
         "theme": "Truthfulness",
         "emotions": [
-          "Integrity",
-          "Respect",
-          "Peace"
+          "Trust",
+          "Serenity",
+          "Pride"
         ],
         "emotion_detail": "a sense of honesty and moral uprightness, being esteemed and valued by others, a sense of inner calm and absence of guilt or suffering",
         "line1": "பொய்யாமை அன்ன புகழில்லை எய்யாமை",
@@ -5627,9 +5736,9 @@
         "meaning": "If a man has the power to abstain from falsehood, it will be well with him, even though he practise no other virtue",
         "theme": "Truthfulness",
         "emotions": [
-          "Integrity",
           "Trust",
-          "Confidence"
+          "Serenity",
+          "Pride"
         ],
         "emotion_detail": ", , ",
         "line1": "பொய்யாமை பொய்யாமை ஆற்றின் அறம்பிற",
@@ -5646,9 +5755,9 @@
         "meaning": "Purity of body is produced by water and purity of mind by truthfulness",
         "theme": "Truthfulness",
         "emotions": [
-          "Sincerity",
-          "Purity",
-          "Integrity"
+          "Trust",
+          "Pride",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "புறள்தூய்மை நீரான் அமையும் அகந்தூய்மை",
@@ -5665,8 +5774,9 @@
         "meaning": "All lamps of nature are not lamps; the lamp of truth is the lamp of the wise",
         "theme": "Truthfulness",
         "emotions": [
-          "Wisdom – The text emphasizes discernment and the value of true knowledge (truth light) over superficial appearances.",
-          "Reverence – There is respect and admiration for the deeper"
+          "Trust",
+          "Pride",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "எல்லா விளக்கும் விளக்கல்ல சான்றோர்க்குப்",
@@ -5683,9 +5793,9 @@
         "meaning": "Amidst all that we have seen (described) as real (excellence), there is nothing so good as truthfulness",
         "theme": "Truthfulness",
         "emotions": [
-          "Reverence",
-          "Admiration",
-          "Serenity"
+          "Serenity",
+          "Trust",
+          "Pride"
         ],
         "emotion_detail": "for truthfulness, , ",
         "line1": "யாமெய்யாக் கண்டவற்றுள் இல்லை எனைத்தொன்றும்",
@@ -5704,8 +5814,9 @@
         "meaning": "He restrains his anger who restrains it when it can injure; when it cannot injure, what does it matter whether he restrain it, or not ?",
         "theme": "Freedom from Anger",
         "emotions": [
-          "Anger – The chapter and text revolve around the experience and expression of anger.",
-          "Restraint – The focus is on the ability to control or suppress one’s anger."
+          "Serenity",
+          "Anger",
+          "Courage"
         ],
         "emotion_detail": ", ",
         "line1": "செல்லிடத்துக் காப்பான் சினங்காப்பான் அல்லிடத்துக்",
@@ -5723,7 +5834,7 @@
         "theme": "Freedom from Anger",
         "emotions": [
           "Anger",
-          "Powerlessness",
+          "Serenity",
           "Regret"
         ],
         "emotion_detail": ", or Helplessness, ",
@@ -5742,8 +5853,8 @@
         "theme": "Freedom from Anger",
         "emotions": [
           "Anger",
-          "Pain",
-          "Relief"
+          "Serenity",
+          "Courage"
         ],
         "emotion_detail": ", , from letting go of anger",
         "line1": "மறத்தல் வெகுளியை யார்மாட்டும் தீய",
@@ -5761,8 +5872,8 @@
         "theme": "Freedom from Anger",
         "emotions": [
           "Anger",
-          "Annoyance",
-          "Sadness"
+          "Serenity",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "நகையும் உவகையும் கொல்லும் சினத்தின்",
@@ -5780,8 +5891,8 @@
         "theme": "Freedom from Anger",
         "emotions": [
           "Anger",
-          "Self-preservation",
-          "Caution"
+          "Serenity",
+          "Courage"
         ],
         "emotion_detail": ", or fear for one’s own safety, or wariness",
         "line1": "தன்னைத்தான் காக்கின் சினங்காக்க காவாக்கால்",
@@ -5799,7 +5910,7 @@
         "theme": "Freedom from Anger",
         "emotions": [
           "Anger",
-          "Destruction",
+          "Serenity",
           "Regret"
         ],
         "emotion_detail": ", , ",
@@ -5818,7 +5929,7 @@
         "theme": "Freedom from Anger",
         "emotions": [
           "Anger",
-          "Destruction",
+          "Serenity",
           "Regret"
         ],
         "emotion_detail": ", fear/consequence, ",
@@ -5836,9 +5947,9 @@
         "meaning": "Though one commit things against you as painful (to bear) as if a bundle of fire had been thrust upon you, it will be well, to refrain, if possible, from anger",
         "theme": "Freedom from Anger",
         "emotions": [
+          "Serenity",
           "Anger",
-          "Pain",
-          "Self-control"
+          "Courage"
         ],
         "emotion_detail": ", , or Restraint",
         "line1": "இணர்எரி தோய்வன்ன இன்னா செயினும்",
@@ -5855,9 +5966,9 @@
         "meaning": "If a man never indulges anger in his heart, he will at once obtain whatever he has thought of",
         "theme": "Freedom from Anger",
         "emotions": [
-          "The top 3 human emotions associated with the given text are:",
-          "Calmness (or Serenity) – reflecting the state of refraining from anger.",
-          "Desire (or Aspiration) – relating to the wishes or goals a person hopes to"
+          "Serenity",
+          "Anger",
+          "Hope"
         ],
         "emotion_detail": ", , ",
         "line1": "உள்ளிய தெல்லாம் உடனெய்தும் உள்ளத்தால்",
@@ -5874,9 +5985,9 @@
         "meaning": "Those, who give way to excessive anger, are no better than dead men; but those, who are freed from it, are equal to those who are freed (from death)",
         "theme": "Freedom from Anger",
         "emotions": [
+          "Serenity",
           "Anger",
-          "Tranquility",
-          "Reverence"
+          "Courage"
         ],
         "emotion_detail": ", or Peace, or Respect",
         "line1": "இறந்தார் இறந்தார் அனையர் சினத்தைத்",
@@ -5895,8 +6006,9 @@
         "meaning": "It is the determination of the spotless not to cause sorrow to others, although they could (by so causing) obtain the wealth which confers greatness",
         "theme": "Not Doing Evil",
         "emotions": [
-          "Compassion – Concern for not causing pain or sorrow to others.",
-          "Integrity – Commitment to moral principles"
+          "Compassion",
+          "Trust",
+          "Sorrow"
         ],
         "emotion_detail": ", ",
         "line1": "சிறப்பீனும் செல்வம் பெறினும் பிறர்க்குஇன்னா",
@@ -5913,9 +6025,9 @@
         "meaning": "It is the determination of the spotless not to do evil, even in return, to those who have cherished enmity and done them evil",
         "theme": "Not Doing Evil",
         "emotions": [
-          "Forgiveness",
-          "Restraint",
-          "Compassion"
+          "Compassion",
+          "Serenity",
+          "Trust"
         ],
         "emotion_detail": ", self-control, ",
         "line1": "கறுத்துஇன்னா செய்தவக் கண்ணும் மறுத்தின்னா",
@@ -5932,7 +6044,9 @@
         "meaning": "In an ascetic inflict suffering even on those who hate him, when he has not done them any evil, it will afterwards give him irretrievable sorrow",
         "theme": "Not Doing Evil",
         "emotions": [
-          "Hatred"
+          "Compassion",
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": "",
         "line1": "செய்யாமல் செற்றார்க்கும் இன்னாத செய்தபின்",
@@ -5949,9 +6063,9 @@
         "meaning": "The (proper) punishment to those who have done evil (to you), is to put them to shame by showing them kindness, in return and to forget both the evil and the good done on both sides",
         "theme": "Not Doing Evil",
         "emotions": [
-          "Forgiveness",
-          "Kindness",
-          "Shame"
+          "Compassion",
+          "Shame",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "இன்னாசெய் தாரை ஒறுத்தல் அவர்நாண",
@@ -5968,9 +6082,9 @@
         "meaning": "What benefit has he derived from his knowledge, who does not endeavour to keep off pain from another as much as from himself ?",
         "theme": "Not Doing Evil",
         "emotions": [
-          "Empathy",
           "Compassion",
-          "Responsibility"
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "அறிவினான் ஆகுவ துண்டோ பிறிதின்நோய்",
@@ -5987,9 +6101,9 @@
         "meaning": "Let not a man consent to do those things to another which, he knows, will cause sorrow",
         "theme": "Not Doing Evil",
         "emotions": [
-          "Empathy",
           "Compassion",
-          "Guilt"
+          "Serenity",
+          "Trust"
         ],
         "emotion_detail": ", , as an emotion to be avoided by not causing sorrow to others",
         "line1": "இன்னா எனத்தான் உணர்ந்தவை துன்னாமை",
@@ -6006,7 +6120,9 @@
         "meaning": "It is the chief of all virtues not knowingly to do any person evil, even in the lowest degree, and at any time",
         "theme": "Not Doing Evil",
         "emotions": [
-          "Compassion – The emphasis on not injuring others"
+          "Compassion",
+          "Trust",
+          "Serenity"
         ],
         "emotion_detail": "",
         "line1": "எனைத்தானும் எஞ்ஞான்றும் யார்க்கும் மனத்தானாம்",
@@ -6023,8 +6139,9 @@
         "meaning": "Why does a man inflict upon other creatures those sufferings, which he has found by experience are sufferings to himself ?",
         "theme": "Not Doing Evil",
         "emotions": [
-          "Empathy — The text reflects understanding the feelings and sufferings of others based on one’s own experience.",
-          "Compassion — There is concern about the pain of others and a desire to avoid"
+          "Compassion",
+          "Desire",
+          "Trust"
         ],
         "emotion_detail": ", ",
         "line1": "தன்னுயிர்ககு ஏன்னாமை தானறிவான் என்கொலோ",
@@ -6041,10 +6158,9 @@
         "meaning": "If a man inflict sorrow upon others in the morning, it will come upon him unsought in the very evening",
         "theme": "Not Doing Evil",
         "emotions": [
-          "Top 3 human emotions associated with this text are:",
-          "Guilt – Awareness or anticipation of wrongdoing towards others.",
-          "Fear – Concern or anxiety that harmful actions will lead to negative consequences.",
-          "Retribution – Expectation of justice"
+          "Fear",
+          "Trust",
+          "Compassion"
         ],
         "emotion_detail": ", , , ",
         "line1": "பிறர்க்கின்னா முற்பகல் செய்யின் தமக்குஇன்னா",
@@ -6061,8 +6177,9 @@
         "meaning": "Sorrow will come upon those who cause pain to others; therfore those, who desire to be free from sorrow, give no pain to others",
         "theme": "Not Doing Evil",
         "emotions": [
-          "Compassion – The text emphasizes caring for others and avoiding harm.",
-          "Empathy – It reflects understanding and sharing the feelings of others"
+          "Compassion",
+          "Serenity",
+          "Trust"
         ],
         "emotion_detail": ", ",
         "line1": "நோயெல்லாம் நோய்செய்தார் மேலவாம் நோய்செய்யார்",
@@ -6082,8 +6199,8 @@
         "theme": "Not Killing",
         "emotions": [
           "Compassion",
-          "Reverence",
-          "Caution"
+          "Fear",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "அறவினை யாதெனின் கொல்லாமை கோறல்",
@@ -6101,8 +6218,8 @@
         "theme": "Not Killing",
         "emotions": [
           "Compassion",
-          "Generosity",
-          "Reverence"
+          "Fear",
+          "Serenity"
         ],
         "emotion_detail": ", , for life",
         "line1": "பகுத்துண்டு பல்லுயிர் ஓம்புதல் நூலோர்",
@@ -6120,8 +6237,8 @@
         "theme": "Not Killing",
         "emotions": [
           "Compassion",
-          "Integrity",
-          "Respect"
+          "Fear",
+          "Serenity"
         ],
         "emotion_detail": "related to not killing and valuing life, related to not uttering falsehood, for life and truth",
         "line1": "ஒன்றாக நல்லது கொல்லாமை மற்றதன்",
@@ -6139,8 +6256,8 @@
         "theme": "Not Killing",
         "emotions": [
           "Compassion",
-          "Reverence",
-          "Peacefulness"
+          "Serenity",
+          "Fear"
         ],
         "emotion_detail": ", , ",
         "line1": "நல்லாறு எனப்படுவது யாதெனின் யாதொன்றும்",
@@ -6159,7 +6276,7 @@
         "emotions": [
           "Fear",
           "Compassion",
-          "Reverence"
+          "Serenity"
         ],
         "emotion_detail": "specifically fear of guilt and the consequences of killing, a desire to avoid the destruction of life, ",
         "line1": "நிலைஅஞ்சி நீத்தாருள் எல்லாம் கொலைஅஞ்சிக்",
@@ -6176,8 +6293,9 @@
         "meaning": "Yama, the destroyer of life, will not attack the life of him, who acts under the determination of never destroying life",
         "theme": "Not Killing",
         "emotions": [
-          "Compassion – Emphasizing the value of sparing life and the resolve to not harm others.",
-          "Peacefulness – Reflecting a state of harmony and non-violence towards all beings"
+          "Compassion",
+          "Serenity",
+          "Fear"
         ],
         "emotion_detail": ", ",
         "line1": "கொல்லாமை மேற்கொண் டொழுகுவான் வாழ்நாள்மேல்",
@@ -6195,8 +6313,8 @@
         "theme": "Not Killing",
         "emotions": [
           "Compassion",
-          "Self-sacrifice",
-          "Reverence"
+          "Fear",
+          "Serenity"
         ],
         "emotion_detail": ", , for life",
         "line1": "தன்னுயிர் நீப்பினும் செய்யற்க தான்பிறிது",
@@ -6213,7 +6331,9 @@
         "meaning": "The advantage which might flow from destroying life in sacrifice, is dishonourable to the wise (who renounced the world), even although it should be said to be productive of great good",
         "theme": "Not Killing",
         "emotions": [
-          "Disapproval – The text expresses moral rejection of killing"
+          "Compassion",
+          "Fear",
+          "Serenity"
         ],
         "emotion_detail": "",
         "line1": "நன்றாகும் ஆக்கம் பெரிதெனினும் சான்றோர்க்குக்",
@@ -6230,8 +6350,9 @@
         "meaning": "To minds of them who what is vileness know",
         "theme": "Not Killing",
         "emotions": [
-          "Disgust – The phrase \"Eaters of carrion bizarre\" and the reference to vileness evoke a strong sense of revulsion or disgust.",
-          "Moral Judgment – The text implies a"
+          "Disgust",
+          "Compassion",
+          "Fear"
         ],
         "emotion_detail": ", ",
         "line1": "கொலைவினைய ராகிய மாக்கள் புலைவினையர்",
@@ -6248,9 +6369,9 @@
         "meaning": "(The wise) will say that men of diseased bodies, who live in degradation and in poverty, are those who separated the life from the body of animals (in a former birth)",
         "theme": "Not Killing",
         "emotions": [
+          "Compassion",
           "Disgust",
-          "Pity",
-          "Guilt"
+          "Fear"
         ],
         "emotion_detail": ", Compassion, ",
         "line1": "உயிருடம்பின் நீக்கியா ரென்ப செயிருடம்பின்",
@@ -6269,9 +6390,9 @@
         "meaning": "That ignorance which considers those things to be stable which are not so, is dishonourable (to the wise)",
         "theme": "Instability (of Life)",
         "emotions": [
-          "Ignorance",
+          "Sorrow",
           "Regret",
-          "Disillusionment"
+          "Fear"
         ],
         "emotion_detail": ", , ",
         "line1": "நில்லாத வற்றை நிலையின என்றுணரும்",
@@ -6288,10 +6409,9 @@
         "meaning": "The acquisition of wealth is like the gathering together of an assembly for a theatre; its expenditure is like the breaking up of that assembly",
         "theme": "Instability (of Life)",
         "emotions": [
-          "Top 3 human emotions associated with this text:",
-          "Impermanence / Transience",
-          "Detachment",
-          "Reflection / Cont"
+          "Serenity",
+          "Sorrow",
+          "Fear"
         ],
         "emotion_detail": ", reflecting awareness that situations and wealth are temporary, recognizing the fleeting nature of pride and material possessions, ",
         "line1": "கூத்தாட்டு அவைக்குழாத் தற்றே பெருஞ்செல்வம்",
@@ -6308,8 +6428,9 @@
         "meaning": "Wealth is perishable; let those who obtain it immediately practise those (virtues) which are imperishable",
         "theme": "Instability (of Life)",
         "emotions": [
-          "Caution – The text urges readers to be careful with the fleeting nature of wealth.",
-          "Impermanence (Transience) – There is an underlying awareness of the temporary"
+          "Sorrow",
+          "Fear",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "அற்கா இயல்பிற்றுச் செல்வம் அதுபெற்றால்",
@@ -6326,9 +6447,9 @@
         "meaning": "Time, which shows itself (to the ignorant) as if it were something (real) is in the estimation of the wise (only) a saw which cuts down life",
         "theme": "Instability (of Life)",
         "emotions": [
-          "Awareness",
-          "Anxiety",
-          "Sobriety"
+          "Fear",
+          "Sorrow",
+          "Serenity"
         ],
         "emotion_detail": "of impermanence, about the fleeting nature of life, ",
         "line1": "நாளென ஒன்றுபோற் காட்டி உயிர்ஈரும்",
@@ -6345,8 +6466,9 @@
         "meaning": "Let virtuous deeds be done quickly, before the hiccup comes making the tongue silent",
         "theme": "Instability (of Life)",
         "emotions": [
-          "Urgency – There is a strong feeling of needing to act quickly.",
-          "Awareness (of mortality) – The text conveys recognition of life’s fragility and the inevitability of death."
+          "Sorrow",
+          "Fear",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "நாச்செற்று விக்குள்மேல் வாராமுன் நல்வினை",
@@ -6363,8 +6485,9 @@
         "meaning": "This world possesses the greatness that one who yesterday was is not today",
         "theme": "Instability (of Life)",
         "emotions": [
-          "Impermanence (or Transience) – Awareness that things and people change or may no longer be present.",
-          "Uncertainty – A sense of instability about life’s unpredictability. 3"
+          "Sorrow",
+          "Fear",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "நெருநல் உளனொருவன் இன்றில்லை என்னும்",
@@ -6381,9 +6504,9 @@
         "meaning": "Innumerable are the thoughts which occupy the mind of (the unwise), who know not that they shall live another moment",
         "theme": "Instability (of Life)",
         "emotions": [
-          "Uncertainty",
-          "Anxiety",
-          "Restlessness"
+          "Fear",
+          "Sorrow",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "ஒருபொழுதும் வாழ்வது அறியார் கருதுப",
@@ -6400,9 +6523,9 @@
         "meaning": "The love of the soul to the body is like (the love of) a bird to its egg which it flies away from and leaves empty",
         "theme": "Instability (of Life)",
         "emotions": [
-          "Top 3 human emotions associated with this text are:",
-          "Detachment – The imagery of the soul leaving the body like a bird leaving its eggshell suggests a profound sense of separation or letting go.",
-          "Transience – The description evokes awareness"
+          "Sorrow",
+          "Serenity",
+          "Fear"
         ],
         "emotion_detail": ", , ",
         "line1": "குடம்பை தனித்துஒழியப் புள்பறந் தற்றே",
@@ -6419,9 +6542,9 @@
         "meaning": "Death is like sleep; birth is like awaking from it",
         "theme": "Instability (of Life)",
         "emotions": [
-          "Contemplation",
           "Serenity",
-          "Curiosity"
+          "Sorrow",
+          "Fear"
         ],
         "emotion_detail": "reflectiveness about life and death, peacefulness in accepting the natural cycle, ",
         "line1": "உறங்கு வதுபோலுஞ் சாக்காடு உறங்கி",
@@ -6438,9 +6561,9 @@
         "meaning": "It seems as if the soul, which takes a temporary shelter in a body, had not attained a home",
         "theme": "Instability (of Life)",
         "emotions": [
-          "Uncertainty",
+          "Sorrow",
           "Longing",
-          "Restlessness"
+          "Fear"
         ],
         "emotion_detail": ", , ",
         "line1": "புக்கில் அமைந்தின்று கொல்லோ உடம்பினுள்",
@@ -6459,9 +6582,9 @@
         "meaning": "Whatever thing, a man has renounced, by that thing; he cannot suffer pain",
         "theme": "Renunciation",
         "emotions": [
-          "Detachment",
-          "Relief",
-          "Peace"
+          "Serenity",
+          "Devotion",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "யாதனின் யாதனின் நீங்கியான் நோதல்",
@@ -6478,9 +6601,9 @@
         "meaning": "After a man has renounced (all things), there will still be many things in this world (which he may enjoy); if he should desire them, let him, while it is time abandon (the world)",
         "theme": "Renunciation",
         "emotions": [
-          "Detachment",
-          "Longing",
-          "Peace"
+          "Serenity",
+          "Devotion",
+          "Longing"
         ],
         "emotion_detail": ", for higher joy or truth, from renunciation and giving up desires",
         "line1": "வேண்டின்உண் டாகத் துறக்க துறந்தபின்",
@@ -6497,9 +6620,9 @@
         "meaning": "Let the five senses be destroyed; and at the same time, let everything be abandoned that (the ascetic) has (formerly) desired",
         "theme": "Renunciation",
         "emotions": [
-          "Detachment",
-          "Resolve",
-          "Self-discipline"
+          "Serenity",
+          "Devotion",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "அடல்வேண்டும் ஐந்தன் புலத்தை விடல்வேண்டும்",
@@ -6516,9 +6639,9 @@
         "meaning": "To be altogether destitute is the proper condition of those who perform austerities; if they possess anything, it will change (their resolution) and bring them back to their confused state",
         "theme": "Renunciation",
         "emotions": [
-          "Detachment",
-          "Resolve",
-          "Vulnerability"
+          "Serenity",
+          "Devotion",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "இயல்பாகும் நோன்பிற்கொன்று இன்மை உடைமை",
@@ -6535,7 +6658,9 @@
         "meaning": "What means the addition of other things those who are attempting to cut off (future) births, when even their body is too much (for them)",
         "theme": "Renunciation",
         "emotions": [
-          "Detachment – The passage discusses renouncing worldly bonds and emphasizes letting go"
+          "Serenity",
+          "Devotion",
+          "Courage"
         ],
         "emotion_detail": "",
         "line1": "மற்றும் தொடர்ப்பாடு எவன்கொல் பிறப்பறுக்கல்",
@@ -6552,9 +6677,9 @@
         "meaning": "Shall enter realms above the powers divine",
         "theme": "Renunciation",
         "emotions": [
-          "Humility",
-          "Detachment",
-          "Aspiration"
+          "Devotion",
+          "Serenity",
+          "Courage"
         ],
         "emotion_detail": ", , for spiritual elevation or transcendence",
         "line1": "யான்எனது என்னும் செருக்குஅறுப்பான் வானோர்க்கு",
@@ -6571,9 +6696,9 @@
         "meaning": "Sorrows will never let go their hold of those who give not up their hold of desire",
         "theme": "Renunciation",
         "emotions": [
-          "Grief",
-          "Attachment",
-          "Sorrow"
+          "Sorrow",
+          "Serenity",
+          "Devotion"
         ],
         "emotion_detail": ", , ",
         "line1": "பற்றி விடாஅ இடும்பைகள் பற்றினைப்",
@@ -6590,9 +6715,9 @@
         "meaning": "Those who have entirely renounced (all things and all desire) have obtained (absorption into God); all others wander in confusion, entangled in the net of (many) births",
         "theme": "Renunciation",
         "emotions": [
-          "Detachment",
-          "Peace",
-          "Confusion"
+          "Serenity",
+          "Devotion",
+          "Courage"
         ],
         "emotion_detail": "or Renunciation, or Serenity, for those who have not renounced",
         "line1": "தலைப்பட்டார் தீரத் துறந்தார் மயங்கி",
@@ -6609,9 +6734,9 @@
         "meaning": "At the moment in which desire has been abandoned, (other) births will be cut off; when that has not been done, instability will be seen",
         "theme": "Renunciation",
         "emotions": [
-          "Detachment",
-          "Liberation",
-          "Uncertainty"
+          "Serenity",
+          "Devotion",
+          "Courage"
         ],
         "emotion_detail": ", or Relief, or Instability",
         "line1": "பற்றற்ற கண்ணே பிறப்பறுக்கும் மற்று",
@@ -6628,8 +6753,9 @@
         "meaning": "Desire the desire of Him who is without desire; in order to renounce desire, desire that desire",
         "theme": "Renunciation",
         "emotions": [
-          "Longing – There is a yearning or deep desire for spiritual connection or transcendence.",
-          "Detachment – A sense of wanting to let go of worldly desires and attachments. 3"
+          "Serenity",
+          "Longing",
+          "Devotion"
         ],
         "emotion_detail": ", ",
         "line1": "பற்றுக பற்றற்றான் பற்றினை அப்பற்றைப்",
@@ -6648,9 +6774,9 @@
         "meaning": "Inglorious births are produced by the confusion (of mind) which considers those things to be real which are not real",
         "theme": "Realizing the Truth",
         "emotions": [
-          "Confusion",
           "Regret",
-          "Disappointment"
+          "Wonder",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "பொருளல்ல வற்றைப் பொருளென்று உணரும்",
@@ -6667,7 +6793,9 @@
         "meaning": "A clear, undimmed vision of things will deliver its possessors from the darkness of future births, and confer the felicity (of heaven)",
         "theme": "Realizing the Truth",
         "emotions": [
-          "**Clarity (Relief from confusion/doubt)** – Expressed through \"clear"
+          "Wonder",
+          "Serenity",
+          "Devotion"
         ],
         "emotion_detail": "",
         "line1": "இருள்நீங்கி இன்பம் பயக்கும் மருள்நீங்கி",
@@ -6684,9 +6812,9 @@
         "meaning": "Heaven is nearer than earth to those men of purified minds who are freed from from doubt",
         "theme": "Realizing the Truth",
         "emotions": [
-          "Clarity",
-          "Peace",
-          "Faith"
+          "Serenity",
+          "Wonder",
+          "Devotion"
         ],
         "emotion_detail": ", , ",
         "line1": "ஐயத்தின் நீங்கித் தெளிந்தார்க்கு வையத்தின்",
@@ -6703,8 +6831,9 @@
         "meaning": "Even those who have all the knowledge which can be attained by the five senses, will derive no benefit from it, if they are without a knowledge of the true nature of things",
         "theme": "Realizing the Truth",
         "emotions": [
-          "Enlightenment",
-          "Hopelessness (in relation to the futility or emptiness of sense-based knowledge alone) 3"
+          "Wonder",
+          "Hope",
+          "Serenity"
         ],
         "emotion_detail": "a sense of realization or awakening to a deeper truth, ",
         "line1": "ஐயுணர்வு எய்தியக் கண்ணும் பயமின்றே",
@@ -6721,9 +6850,9 @@
         "meaning": "(True) knowledge is the perception concerning every thing of whatever kind, that that thing is the true thing",
         "theme": "Realizing the Truth",
         "emotions": [
-          "Curiosity — The desire to seek and uncover truth and knowledge is evident.",
-          "Enlightenment — The realization or understanding of truth implies a sense of illumination and clarity.",
-          "Assurance —"
+          "Wonder",
+          "Desire",
+          "Serenity"
         ],
         "emotion_detail": ", , ",
         "line1": "எப்பொருள் எத்தன்மைத் தாயினும் அப்பொருள்",
@@ -6740,9 +6869,9 @@
         "meaning": "They, who in this birth have learned to know the True Being, enter the road which returns not into this world",
         "theme": "Realizing the Truth",
         "emotions": [
-          "Enlightenment",
           "Serenity",
-          "Detachment"
+          "Wonder",
+          "Devotion"
         ],
         "emotion_detail": ", , ",
         "line1": "கற்றீண்டு மெய்ப்பொருள் கண்டார் தலைப்படுவர்",
@@ -6759,9 +6888,9 @@
         "meaning": "Let it not be thought that there is another birth for him whose mind having thoroughly considered (all it has been taught) has known the True Being",
         "theme": "Realizing the Truth",
         "emotions": [
-          "Enlightenment",
-          "Peace",
-          "Freedom"
+          "Serenity",
+          "Wonder",
+          "Devotion"
         ],
         "emotion_detail": ", , ",
         "line1": "ஓர்த்துள்ளம் உள்ளது உணரின் ஒருதலையாப்",
@@ -6778,8 +6907,9 @@
         "meaning": "True knowledge consists in the removal of ignorance; which is (the cause of) births, and the perception of the True Being who is (the bestower of) heaven",
         "theme": "Realizing the Truth",
         "emotions": [
-          "Enlightenment – The realization of Self-Truth and the removal of ignorance implies a sense of awakening and deeper understanding.",
-          "Liberation – The removal of the “folly of birth” suggests"
+          "Wonder",
+          "Serenity",
+          "Devotion"
         ],
         "emotion_detail": ", ",
         "line1": "பிறப்பென்னும் பேதைமை நீங்கச் சிறப்பென்னும்",
@@ -6796,8 +6926,9 @@
         "meaning": "He who so lives as to know Him who is the support of all things and abandon all desire, will be freed from the evils which would otherwise cleave to him and destroy (his efforts after absorption)",
         "theme": "Realizing the Truth",
         "emotions": [
-          "Liberation (Freedom) – The desire and experience of breaking free from bondage and ills is central to the passage.",
-          "Realization (Enlightenment) – The text speaks of knowing"
+          "Wonder",
+          "Desire",
+          "Serenity"
         ],
         "emotion_detail": ", ",
         "line1": "சார்புணர்ந்து சார்பு கெடஒழுகின் மற்றழித்துச்",
@@ -6814,9 +6945,9 @@
         "meaning": "If the very names of these three things, desire, anger, and confusion of mind, be destroyed, then will also perish evils (which flow from them)",
         "theme": "Realizing the Truth",
         "emotions": [
-          "Desire",
           "Anger",
-          "Confusion"
+          "Desire",
+          "Wonder"
         ],
         "emotion_detail": "Lust, Wrath, Folly / Bewilderment",
         "line1": "காமம் வெகுளி மயக்கம் இவ்மூன்றன்",
@@ -6835,9 +6966,9 @@
         "meaning": "(The wise) say that the seed, which produces unceasing births, at all times, to all creatures, is desire",
         "theme": "Eradicating Desire",
         "emotions": [
+          "Serenity",
           "Desire",
-          "Restlessness",
-          "Wisdom/Insight"
+          "Courage"
         ],
         "emotion_detail": ", , from the understanding or acknowledgment of desire’s role",
         "line1": "அவாஎன்ப எல்லா உயிர்க்கும் எஞ்ஞான்றும்",
@@ -6854,9 +6985,9 @@
         "meaning": "If anything be desired, freedom from births should be desired; that (freedom from births) will be attained by desiring to be without desire",
         "theme": "Eradicating Desire",
         "emotions": [
-          "Detachment",
-          "Aspiration",
-          "Renunciation"
+          "Serenity",
+          "Devotion",
+          "Courage"
         ],
         "emotion_detail": ", for liberation/freedom, ",
         "line1": "வேண்டுங்கால் வேண்டும் பிறவாமை மற்றது",
@@ -6873,9 +7004,9 @@
         "meaning": "There is in this world no excellence equal to freedom from desire; and even in that world, there is nothing like it",
         "theme": "Eradicating Desire",
         "emotions": [
-          "Detachment",
-          "Contentment",
-          "Peace"
+          "Serenity",
+          "Courage",
+          "Devotion"
         ],
         "emotion_detail": ", , ",
         "line1": "வேண்டாமை அன்ன விழுச்செல்வம் ஈண்டில்லை",
@@ -6892,9 +7023,9 @@
         "meaning": "Purity (of mind) consists in freedom from desire; and that (freedom from desire) is the fruit of the love of truth",
         "theme": "Eradicating Desire",
         "emotions": [
-          "Purity",
-          "Detachment",
-          "Truthfulness (Sincerity) Explanation: The text discusses achieving purity by eradicating desire"
+          "Serenity",
+          "Desire",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "தூஉய்மை என்பது அவாவின்மை மற்றது",
@@ -6911,9 +7042,9 @@
         "meaning": "They are said to be free (from future birth) who are freed from desire; all others (who, whatever else they may be free from, are not freed from desire) are not thus free",
         "theme": "Eradicating Desire",
         "emotions": [
-          "Freedom",
+          "Serenity",
           "Desire",
-          "Attachment"
+          "Courage"
         ],
         "emotion_detail": "or Liberation, or Longing, leading to Bondage",
         "line1": "அற்றவர் என்பார் அவாஅற்றார் மற்றையார்",
@@ -6931,7 +7062,8 @@
         "theme": "Eradicating Desire",
         "emotions": [
           "Fear",
-          "Caution"
+          "Devotion",
+          "Serenity"
         ],
         "emotion_detail": "specifically dread and jealous fear regarding desire, ",
         "line1": "அஞ்சுவ தோரும் அறனே ஒருவனை",
@@ -6948,7 +7080,9 @@
         "meaning": "If a man thoroughly cut off all desire, the deeds, which confer immortality, will come to him, in the path in which he seeks them",
         "theme": "Eradicating Desire",
         "emotions": [
-          "Aspiration – The text references aspiration and striving for deliverance"
+          "Serenity",
+          "Courage",
+          "Devotion"
         ],
         "emotion_detail": "",
         "line1": "அவாவினை ஆற்ற அறுப்பின் தவாவினை",
@@ -6965,9 +7099,9 @@
         "meaning": "There is no sorrow to those who are without desire; but where that is, (sorrow) will incessantly come, more and more",
         "theme": "Eradicating Desire",
         "emotions": [
+          "Serenity",
           "Sorrow",
-          "Desire",
-          "Peace"
+          "Desire"
         ],
         "emotion_detail": ", longing/craving, as a result of being free from desire",
         "line1": "அவாஇல்லார்க் கில்லாகுந் துன்பம் அஃதுண்டேல்",
@@ -6984,9 +7118,9 @@
         "meaning": "Even while in this body, joy will never depart (from the mind, in which) desire, that sorrow of sorrows, has been destroyed",
         "theme": "Eradicating Desire",
         "emotions": [
+          "Serenity",
           "Joy",
-          "Relief",
-          "Peace These emotions are reflected in the emphasis on happiness after eradicating desire"
+          "Desire"
         ],
         "emotion_detail": ", , which is linked to sorrow",
         "line1": "இன்பம் இடையறா தீண்டும் அவாவென்னும்",
@@ -7003,9 +7137,9 @@
         "meaning": "The removal of desire, whose nature it is never to be satisfied, will immediately confer a nature that can never be changed",
         "theme": "Eradicating Desire",
         "emotions": [
-          "Contentment",
-          "Peace",
-          "Freedom"
+          "Serenity",
+          "Courage",
+          "Devotion"
         ],
         "emotion_detail": ", , ",
         "line1": "ஆரா இயற்கை அவாநீப்பின் அந்நிலையே",
@@ -7024,9 +7158,9 @@
         "meaning": "Perseverance comes from a prosperous fate, and idleness from an adverse fate",
         "theme": "Fate",
         "emotions": [
-          "Hope – Suggests that effort and perseverance can lead to success and prosperity.",
-          "Resignation – Reflects acceptance that adverse fate can lead to inactivity or loss.",
-          "Determ"
+          "Sorrow",
+          "Hope",
+          "Fear"
         ],
         "emotion_detail": ", , ",
         "line1": "ஆகூழால் தோன்றும் அசைவின்மை கைப்பொருள்",
@@ -7043,8 +7177,8 @@
         "meaning": "An adverse fate produces folly, and a prosperous fate produces enlarged knowledge",
         "theme": "Fate",
         "emotions": [
-          "Resignation",
-          "Frustration",
+          "Wonder",
+          "Sorrow",
           "Hope"
         ],
         "emotion_detail": "acceptance of fate, with loss and folly, linked to gain and improvement",
@@ -7062,7 +7196,9 @@
         "meaning": "Although (a man) may study the most polished treatises, the knowledge which fate has decreed to him will still prevail",
         "theme": "Fate",
         "emotions": [
-          "Acceptance – There is a sense of accepting that fate or destiny ultimately governs one's knowledge"
+          "Wonder",
+          "Sorrow",
+          "Fear"
         ],
         "emotion_detail": "",
         "line1": "நுண்ணிய நூல்பல கற்பினும் மற்றுந்தன்",
@@ -7079,7 +7215,9 @@
         "meaning": "There are (through fate) two different natures in the world, hence the difference (observable in men) in (their acquisition of) wealth, and in their attainment of knowledge",
         "theme": "Fate",
         "emotions": [
-          "Acceptance – Recognition of the differences in people’s fate"
+          "Wonder",
+          "Sorrow",
+          "Fear"
         ],
         "emotion_detail": "",
         "line1": "இருவேறு உலகத்து இயற்கை திருவேறு",
@@ -7096,9 +7234,9 @@
         "meaning": "In the acquisition of property, every thing favourable becomes unfavourable, and (on the other hand) everything unfavourable becomes favourable, (through the power of fate)",
         "theme": "Fate",
         "emotions": [
-          "Uncertainty – Reflecting the unpredictable nature of fate and fortune.",
-          "Acceptance – Recognizing and coming to terms with the power of fate over circumstances.",
-          "Hope – The possibility that"
+          "Hope",
+          "Sorrow",
+          "Fear"
         ],
         "emotion_detail": ", , ",
         "line1": "நல்லவை எல்லாஅந் தீயவாம் தீயவும்",
@@ -7115,8 +7253,9 @@
         "meaning": "Whatever is not conferred by fate cannot be preserved although it be guarded with most painful care; and that, which fate has made his, cannot be lost, although one should even take it and throw it away",
         "theme": "Fate",
         "emotions": [
-          "Acceptance – Recognizing and coming to terms with fate and what is destined.",
-          "Resignation – Letting go of personal control or effort in the face of fate."
+          "Sorrow",
+          "Fear",
+          "Wonder"
         ],
         "emotion_detail": ", ",
         "line1": "பரியினும் ஆகாவாம் பாலல்ல உய்த்துச்",
@@ -7133,9 +7272,9 @@
         "meaning": "Even those who gather together millions will only enjoy them, as it has been determined by the disposer (of all things)",
         "theme": "Fate",
         "emotions": [
-          "Acceptance – Acknowledging that outcomes are ultimately determined by fate.",
-          "Resignation – Recognizing that one's efforts are limited by forces beyond their control.",
-          "Humility – Realizing"
+          "Sorrow",
+          "Fear",
+          "Wonder"
         ],
         "emotion_detail": ", , ",
         "line1": "வகுத்தான் வகுத்த வகையல்லால் கோடி",
@@ -7152,9 +7291,9 @@
         "meaning": "The destitute will renounce desire (and become ascetics), if (fate) do not make them suffer the hindrances to which they are liable, and they pass away",
         "theme": "Fate",
         "emotions": [
-          "Resignation",
-          "Suffering",
-          "Hope"
+          "Sorrow",
+          "Hope",
+          "Fear"
         ],
         "emotion_detail": ", , for release or relief",
         "line1": "துறப்பார்மன் துப்புர வில்லார் உறற்பால",
@@ -7171,8 +7310,9 @@
         "meaning": "How is it that those, who are pleased with good fortune, trouble themselves when evil comes, (since both are equally the decree of fate) ?",
         "theme": "Fate",
         "emotions": [
-          "Acceptance – The text encourages accepting both good and bad times as decreed by fate.",
-          "Resignation – There is a sense of surrendering or yielding to the inevitability of fortune's"
+          "Sorrow",
+          "Courage",
+          "Fear"
         ],
         "emotion_detail": ", ",
         "line1": "நன்றாங்கால் நல்லவாக் காண்பவர் அன்றாங்கால்",
@@ -7189,9 +7329,9 @@
         "meaning": "What is stronger than fate ? If we think of an expedient (to avert it), it will itself be with us before (the thought)",
         "theme": "Fate",
         "emotions": [
-          "Powerlessness",
-          "Acceptance",
-          "Awe"
+          "Sorrow",
+          "Fear",
+          "Wonder"
         ],
         "emotion_detail": "or Helplessness, or Resignation, or Reverence",
         "line1": "ஊழிற் பெருவலி யாவுள மற்றொன்று",
@@ -7211,8 +7351,8 @@
         "theme": "The Greatness of a King",
         "emotions": [
           "Pride",
-          "Ambition",
-          "Security"
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": "in possessing great power and resources, desire to achieve greatness and dominance, feeling of safety and strength from having support and defenses",
         "line1": "படைகுடி கூழ்அமைச்சு நட்பரண் ஆறும்",
@@ -7230,8 +7370,8 @@
         "theme": "The Greatness of a King",
         "emotions": [
           "Courage",
-          "Generosity",
-          "Determination"
+          "Pride",
+          "Trust"
         ],
         "emotion_detail": "fearlessness, liberality/giving, zeal/energy",
         "line1": "அஞ்சாமை ஈகை அறிவூக்கம் இந்நான்கும்",
@@ -7248,9 +7388,9 @@
         "meaning": "These three things, viz, vigilance, learning, and bravery, should never be wanting in the ruler of a country",
         "theme": "The Greatness of a King",
         "emotions": [
-          "Responsibility",
-          "Determination",
-          "Confidence"
+          "Courage",
+          "Trust",
+          "Pride"
         ],
         "emotion_detail": ", , ",
         "line1": "தூங்காமை கல்வி துணிவுடைமை இம்மூன்றும்",
@@ -7267,9 +7407,9 @@
         "meaning": "He is a king who, with manly modesty, swerves not from virtue, and refrains from vice",
         "theme": "The Greatness of a King",
         "emotions": [
-          "Respect",
-          "Admiration",
-          "Integrity"
+          "Pride",
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": "for the noble and virtuous king, for the king's bravery and enterprise, the king's strong adherence to virtue",
         "line1": "அறனிழுக்கா தல்லவை நீக்கி மறனிழுக்கா",
@@ -7286,9 +7426,9 @@
         "meaning": "He is a king who is able to acquire (wealth), to lay it up, to guard, and to distribute it",
         "theme": "The Greatness of a King",
         "emotions": [
-          "Responsibility",
-          "Security",
-          "Generosity"
+          "Pride",
+          "Courage",
+          "Trust"
         ],
         "emotion_detail": ", , ",
         "line1": "இயற்றலும் ஈட்டலுங் காத்தலும் காத்த",
@@ -7305,9 +7445,9 @@
         "meaning": "The whole world will exalt the country of the king who is easy of access, and who is free from harsh language",
         "theme": "The Greatness of a King",
         "emotions": [
-          "Respect",
-          "Admiration",
-          "Serenity"
+          "Pride",
+          "Serenity",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "காட்சிக் கெளியன் கடுஞ்சொல்லன் அல்லனேல்",
@@ -7324,9 +7464,9 @@
         "meaning": "The world will praise and submit itself to the mind of the king who is able to give with affability, and to protect all who come to him",
         "theme": "The Greatness of a King",
         "emotions": [
-          "Admiration – The world commends and praises the king.",
-          "Gratitude – People feel thankful for his generosity and protection.",
-          "Respect – There is submission and reverence"
+          "Gratitude",
+          "Pride",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "இன்சொலால் ஈத்தளிக்க வல்லார்க்குத் தன்சொலால்",
@@ -7343,9 +7483,9 @@
         "meaning": "That king, will be esteemed a God among men, who performs his own duties, and protects (his subjects).",
         "theme": "The Greatness of a King",
         "emotions": [
-          "Respect",
-          "Admiration",
-          "Trust"
+          "Trust",
+          "Pride",
+          "Courage"
         ],
         "emotion_detail": ", , ",
         "line1": "முறைசெய்து காப்பாற்றும் மன்னவன் மக்கட்கு",
@@ -7362,9 +7502,9 @@
         "meaning": "The whole world will dwell under the umbrella of the king, who can bear words that embitter the ear",
         "theme": "The Greatness of a King",
         "emotions": [
-          "Endurance",
-          "Respect",
-          "Security"
+          "Courage",
+          "Pride",
+          "Trust"
         ],
         "emotion_detail": "the ability to bear bitter or bold remarks, for a king who shelters and protects the world, ",
         "line1": "செவிகைப்பச் சொற்பொறுக்கும் பண்புடை வேந்தன்",
@@ -7381,7 +7521,9 @@
         "meaning": "He is the light of kings who has there four things, beneficence, benevolence, rectitude, and care for his people",
         "theme": "The Greatness of a King",
         "emotions": [
-          "Admiration – The text reveres and respects the qualities of the king"
+          "Trust",
+          "Pride",
+          "Courage"
         ],
         "emotion_detail": "",
         "line1": "கொடையளி செங்கோல் குடியோம்பல் நான்கும்",
@@ -7400,9 +7542,9 @@
         "meaning": "Let a man learn thoroughly whatever he may learn, and let his conduct be worthy of his learning",
         "theme": "Learning",
         "emotions": [
-          "Aspiration – The text encourages striving for knowledge and self-improvement.",
-          "Respect – It emphasizes honoring knowledge through flawless learning and conduct.",
-          "Determination – There is a call for"
+          "Courage",
+          "Joy",
+          "Wonder"
         ],
         "emotion_detail": ", , ",
         "line1": "கற்க கசடறக் கற்பவை கற்றபின்",
@@ -7419,8 +7561,9 @@
         "meaning": "Letters and numbers are the two eyes of man",
         "theme": "Learning",
         "emotions": [
-          "Curiosity – The text invokes a sense of interest in learning and discovery.",
-          "Appreciation – There is a respect or valuing of knowledge"
+          "Joy",
+          "Wonder",
+          "Trust"
         ],
         "emotion_detail": ", ",
         "line1": "எண்ணென்ப ஏனை எழுத்தென்ப இவ்விரண்டும்",
@@ -7437,9 +7580,9 @@
         "meaning": "The learned are said to have eyes, but the unlearned have (merely) two sores in their face",
         "theme": "Learning",
         "emotions": [
-          "Respect",
-          "Disdain",
-          "Aspiration"
+          "Joy",
+          "Wonder",
+          "Trust"
         ],
         "emotion_detail": "towards the learned and the value of knowledge, towards ignorance and lack of learning, ",
         "line1": "கண்ணுடையர் என்பவர் கற்றோர் முகத்திரண்டு",
@@ -7457,8 +7600,8 @@
         "theme": "Learning",
         "emotions": [
           "Joy",
-          "Thoughtfulness",
-          "Longing"
+          "Longing",
+          "Wonder"
         ],
         "emotion_detail": ", , or yearning",
         "line1": "உவப்பத் தலைக்கூடி உள்ளப் பிரிதல்",
@@ -7475,8 +7618,9 @@
         "meaning": "The unlearned are inferior to the learned, before whom they stand begging, as the destitute before the wealthy",
         "theme": "Learning",
         "emotions": [
-          "Inferiority – The unlearned are described as inferior to the learned.",
-          "Yearning – There is a desire for knowledge"
+          "Joy",
+          "Desire",
+          "Wonder"
         ],
         "emotion_detail": ", ",
         "line1": "உடையார்முன் இல்லார்போல் ஏக்கற்றுங் கற்றார்",
@@ -7493,7 +7637,9 @@
         "meaning": "Water will flow from a well in the sand in proportion to the depth to which it is dug, and knowledge will flow from a man in proportion to his learning",
         "theme": "Learning",
         "emotions": [
-          "Curiosity – The desire to learn and discover more"
+          "Wonder",
+          "Joy",
+          "Desire"
         ],
         "emotion_detail": "",
         "line1": "தொட்டனைத் தூறும் மணற்கேணி மாந்தர்க்குக்",
@@ -7510,8 +7656,9 @@
         "meaning": "How is it that any one can remain without learning, even to his death, when (to the learned man) every country is his own (country), and every town his own (town) ?",
         "theme": "Learning",
         "emotions": [
-          "Curiosity – The text encourages continual learning and an inquisitive attitude towards knowledge.",
-          "Inspiration – It motivates individuals to embrace learning throughout their lives"
+          "Joy",
+          "Courage",
+          "Wonder"
         ],
         "emotion_detail": ", ",
         "line1": "யாதானும் நாடாமால் ஊராமால் என்னொருவன்",
@@ -7547,9 +7694,9 @@
         "meaning": "The learned will long (for more learning), when they see that while it gives pleasure to themselves, the world also derives pleasure from it",
         "theme": "Learning",
         "emotions": [
-          "Curiosity – The desire and eagerness to learn more.",
-          "Joy – The pleasure and satisfaction experienced from both learning and sharing knowledge.",
-          "Motivation – The drive or inspiration to"
+          "Joy",
+          "Desire",
+          "Wonder"
         ],
         "emotion_detail": ", , ",
         "line1": "தாமின் புறுவது உலகின் புறக்கண்டு",
@@ -7566,8 +7713,9 @@
         "meaning": "Learning is the true imperishable riches; all other things are not riches",
         "theme": "Learning",
         "emotions": [
-          "Joy – The text mentions \"genuine joy\" as a result of learning.",
-          "Admiration – There is a sense of reverence and high regard for learning as it is described as"
+          "Joy",
+          "Wonder",
+          "Trust"
         ],
         "emotion_detail": ", ",
         "line1": "கேடில் விழுச்செல்வம் கல்வி யொருவற்கு",

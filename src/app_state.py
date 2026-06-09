@@ -1,31 +1,8 @@
 """Application state: merged kural database and lookup helpers."""
 
 from kural_database import KURAL_DATABASE, THEME_KEYWORDS
-from comprehensive_kurals import KURAL_DATABASE as COMPREHENSIVE_KURALS
-from extended_kurals import KURAL_DATABASE as EXTENDED_KURALS
 
-
-def merge_all_kural_databases(core_db, comprehensive_db, extended_db):
-    """Merge all three kural databases into one comprehensive database."""
-    merged_db = {}
-    for theme, kurals in core_db.items():
-        merged_db[theme] = list(kurals)
-    for theme, kurals in comprehensive_db.items():
-        if theme in merged_db:
-            merged_db[theme].extend(kurals)
-        else:
-            merged_db[theme] = list(kurals)
-    for theme, kurals in extended_db.items():
-        if theme in merged_db:
-            merged_db[theme].extend(kurals)
-        else:
-            merged_db[theme] = list(kurals)
-    return merged_db
-
-
-COMPREHENSIVE_KURAL_DATABASE = merge_all_kural_databases(
-    KURAL_DATABASE, COMPREHENSIVE_KURALS, EXTENDED_KURALS
-)
+COMPREHENSIVE_KURAL_DATABASE = KURAL_DATABASE
 
 
 def get_kural_by_number_comprehensive(number):
