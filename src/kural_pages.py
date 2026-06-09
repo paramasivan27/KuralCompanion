@@ -242,13 +242,39 @@ def render_explore_themes():
             st.warning("Please enter Kural numbers to search")
 
 
+def _render_chapter_detail(chapter):
+    """Render full detail for a single chapter."""
+    kurals = chapter.get("Kurals", [])
+    summary = chapter.get("Summary", [])
+
+    st.markdown(f"### 📖 {chapter['Chapter']}")
+    st.caption(f"{len(kurals)} kurals in this chapter")
+
+    if summary:
+        st.markdown("**Key Insights:**")
+        for point in summary:
+            st.markdown(f"- {point}")
+
+    if kurals:
+        st.markdown("---")
+        st.markdown("**Kurals:**")
+        for kural in kurals:
+            num = kural.get("Number", "?")
+            translation = kural.get("Translation", "")
+            explanation = kural.get("Explanation", "")
+            couplet = kural.get("Couplet", "")
+            with st.expander(f"#{num} — {translation[:70]}{'…' if len(translation) > 70 else ''}"):
+                st.markdown(f"**Translation:** {translation}")
+                if explanation:
+                    st.markdown(f"**Explanation:** {explanation}")
+                if couplet:
+                    st.markdown(f"**Couplet:** {couplet}")
+
+
 def render_browse_summaries():
     st.markdown(
         '<h1 class="main-header">📚 Browse Chapter Summaries</h1>',
         unsafe_allow_html=True,
-    )
-    st.info(
-        "Explore all available themes and their wisdom summaries from the aggregated Thirukkural database"
     )
 
     all_chapters = get_aggregated_chapters()
@@ -256,80 +282,58 @@ def render_browse_summaries():
         st.warning("No chapters available in the aggregated database")
         return
 
-    chapter_search = st.text_input(
-        "🔍 Search chapters by name or content:",
-        placeholder="e.g., 'rain', 'friendship', 'leadership'",
+    # Thirukkural sections by chapter index (0-based)
+    SECTIONS = [
+        ("📿 Virtue", 0, 38),    # chapters 1–38
+        ("💰 Wealth", 38, 108),  # chapters 39–108
+        ("💕 Love", 108, 133),   # chapters 109–133
+    ]
+
+    search = st.text_input(
+        "🔍 Filter chapters by name:",
+        placeholder="e.g., rain, friendship, leadership",
+        key="browse_search",
     )
-    if chapter_search:
-        search_lower = chapter_search.lower()
-        display_chapters = [
-            ch
-            for ch in all_chapters
-            if search_lower in ch["Chapter"].lower()
-            or any(search_lower in point.lower() for point in ch.get("Summary", []))
-        ]
-    else:
-        display_chapters = all_chapters
+    search_lower = search.strip().lower()
 
-    cols = st.columns(3)
-    for i, chapter in enumerate(display_chapters):
-        col_idx = i % 3
-        with cols[col_idx]:
-            with st.expander(f"🎯 {chapter['Chapter']}", expanded=False):
-                st.markdown(f"**{chapter['Chapter']}**")
-                st.markdown(f"*{len(chapter.get('Kurals', []))} kurals*")
-                if chapter.get("Summary"):
-                    st.markdown("**Key Insights:**")
-                    for point in chapter["Summary"][:2]:
-                        st.markdown(f"• {point}")
-                if chapter.get("Kurals"):
-                    sample = chapter["Kurals"][0]
-                    st.markdown("**Sample Kural:**")
-                    st.markdown(
-                        f"**#{sample.get('Number', 'Unknown')}:** "
-                        f"{sample.get('Translation', 'No translation')[:100]}..."
-                    )
-                if st.button(f"View Details", key=f"browse_{i}"):
-                    st.session_state[f"browse_expanded_{i}"] = not st.session_state.get(
-                        f"browse_expanded_{i}", False
-                    )
-                    st.rerun()
+    tab_labels = [s[0] for s in SECTIONS]
+    tabs = st.tabs(tab_labels)
 
-                if st.session_state.get(f"browse_expanded_{i}", False):
-                    st.markdown("---")
-                    st.markdown("**📝 Full Chapter Summary:**")
-                    if chapter.get("Summary"):
-                        for j, point in enumerate(chapter["Summary"], 1):
-                            st.markdown(f"{j}. {point}")
-                    st.markdown("**📚 All Kurals in this Chapter:**")
-                    if chapter.get("Kurals"):
-                        for _, kural in enumerate(chapter["Kurals"][:5]):
-                            with st.expander(
-                                f"Kural #{kural.get('Number', 'Unknown')} - "
-                                f"{kural.get('Translation', 'No translation')[:50]}...",
-                                expanded=False,
-                            ):
-                                st.markdown(
-                                    f"**Kural #{kural.get('Number', 'Unknown')}**"
-                                )
-                                if kural.get("Translation"):
-                                    st.markdown(
-                                        f"**Translation:** {kural['Translation']}"
-                                    )
-                                if kural.get("Explanation"):
-                                    st.markdown(
-                                        f"**Explanation:** {kural['Explanation']}"
-                                    )
-                                if kural.get("Couplet"):
-                                    st.markdown(f"**Couplet:** {kural['Couplet']}")
-                        if len(chapter["Kurals"]) > 5:
-                            st.info(
-                                f"... and {len(chapter['Kurals']) - 5} more kurals"
-                            )
+    for tab, (label, start, end) in zip(tabs, SECTIONS):
+        section_chapters = all_chapters[start:end]
+        if search_lower:
+            section_chapters = [
+                ch for ch in section_chapters
+                if search_lower in ch["Chapter"].lower()
+                or any(search_lower in pt.lower() for pt in ch.get("Summary", []))
+            ]
 
-    if chapter_search and not display_chapters:
-        st.warning(f"No chapters found matching '{chapter_search}'")
-        st.info("💡 Try different keywords or browse all chapters above")
+        with tab:
+            if not section_chapters:
+                st.info(f"No chapters match '{search}' in this section.")
+                continue
+
+            chapter_names = [ch["Chapter"] for ch in section_chapters]
+            session_key = f"browse_selected_{label}"
+
+            # Preserve selection across reruns; reset if search changes
+            prev_search_key = f"browse_prev_search_{label}"
+            if st.session_state.get(prev_search_key) != search_lower:
+                st.session_state[session_key] = chapter_names[0]
+                st.session_state[prev_search_key] = search_lower
+
+            selected_name = st.selectbox(
+                "Choose a chapter:",
+                options=chapter_names,
+                key=session_key,
+            )
+
+            selected_chapter = next(
+                (ch for ch in section_chapters if ch["Chapter"] == selected_name), None
+            )
+            if selected_chapter:
+                st.markdown("---")
+                _render_chapter_detail(selected_chapter)
 
 
 def render_about():
