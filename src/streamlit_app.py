@@ -27,13 +27,38 @@ def main():
     st.markdown(get_app_css(), unsafe_allow_html=True)
 
     with st.sidebar:
-        st.markdown("## 🌟 KuralCompanion")
+        st.markdown(
+            "<h2 style='color:#D4AF37;font-family:\"EB Garamond\",serif;"
+            "text-align:center;letter-spacing:0.05em;margin-bottom:0.2rem;'>"
+            "🌟 KuralCompanion</h2>"
+            "<p style='color:#9A8A70;font-family:\"EB Garamond\",serif;"
+            "text-align:center;font-style:italic;font-size:0.9rem;margin-top:0;'>"
+            "Ancient Wisdom for Modern Life</p>"
+            "<hr style='border:none;border-top:1px solid #6B2525;margin:0.8rem 0;'>",
+            unsafe_allow_html=True,
+        )
         sidebar_selected = option_menu(
             menu_title=None,
             options=[o[0] for o in SIDEBAR_OPTIONS],
             icons=[o[1] for o in SIDEBAR_OPTIONS],
             menu_icon="cast",
             default_index=0,
+            styles={
+                "container": {"background-color": "#2B0A0A", "padding": "4px"},
+                "nav-link": {
+                    "font-family": '"EB Garamond", serif',
+                    "font-size": "1.05rem",
+                    "color": "#C9B99A",
+                    "border-radius": "4px",
+                },
+                "nav-link-selected": {
+                    "background-color": "#5C1A1A",
+                    "color": "#D4AF37",
+                    "font-weight": "600",
+                    "border-left": "3px solid #D4AF37",
+                },
+                "icon": {"color": "#D4AF37"},
+            },
         )
 
     if "last_sidebar_selection" not in st.session_state:

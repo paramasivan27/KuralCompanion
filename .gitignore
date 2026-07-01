@@ -187,8 +187,8 @@ $RECYCLE.BIN/
 *.swo
 *~
 
-# Streamlit
-.streamlit/
+# Streamlit — config.toml must be tracked for Docker build
+# .streamlit/
 
 # Large database files (if any)
 *.db
