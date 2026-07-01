@@ -15,8 +15,8 @@ def get_app_css():
         --gold-light:    #F0D060;
         --crimson-deep:  #3A0D0D;
         --crimson-darker:#2B0A0A;
-        --crimson-mid:   #4A1515;
-        --crimson-light: #5C1A1A;
+        --crimson-mid:   #5C1A1A;
+        --crimson-light: #6B2020;
         --cream:         #FDF5E6;
         --cream-dim:     #C9B99A;
         --cream-muted:   #9A8A70;
@@ -26,7 +26,7 @@ def get_app_css():
         --primary:    var(--gold);
         --accent:     var(--gold-dark);
         --surface:    var(--crimson-mid);
-        --background: var(--crimson-deep);
+        --background: var(--crimson-mid);
         --text:       var(--cream);
         --text-light: var(--cream-dim);
     }
@@ -124,7 +124,7 @@ def get_app_css():
 
     /* ── Kural Card — book page aesthetic ── */
     .kural-card {
-        background: var(--crimson-mid);
+        background: #3A0D0D;
         padding: 2rem 2.5rem;
         border-radius: 4px;
         color: var(--cream);
@@ -231,7 +231,7 @@ def get_app_css():
     /* ── Search / Text inputs ── */
     .stTextInput > div > div > input,
     .stTextArea > div > div > textarea {
-        background: var(--crimson-mid) !important;
+        background: #3A0D0D !important;
         color: var(--cream) !important;
         border: 1px solid var(--border) !important;
         border-radius: 4px !important;
@@ -253,7 +253,7 @@ def get_app_css():
 
     /* ── Selectbox ── */
     .stSelectbox > div > div {
-        background: var(--crimson-mid) !important;
+        background: #3A0D0D !important;
         color: var(--cream) !important;
         border: 1px solid var(--border) !important;
         border-radius: 4px !important;
@@ -262,7 +262,7 @@ def get_app_css():
 
     /* ── Expanders ── */
     details {
-        background: var(--crimson-mid) !important;
+        background: #3A0D0D !important;
         border: 1px solid var(--border) !important;
         border-radius: 4px !important;
     }
@@ -364,7 +364,7 @@ def get_app_css():
         text-align: center;
         margin: 2rem 0;
         padding: 2rem;
-        background: var(--crimson-mid);
+        background: #3A0D0D;
         border-radius: 4px;
         border: 1px solid var(--border);
         border-top: 3px solid var(--gold);
