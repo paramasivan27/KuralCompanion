@@ -424,5 +424,32 @@ def get_app_css():
         color: var(--crimson-mid) !important;
         font-style: italic !important;
     }
+
+    /* ── Sidebar collapse button — show << / >> instead of arrow SVG ── */
+    /* Hide the default SVG chevron */
+    section[data-testid="stSidebar"] button[data-testid="baseButton-headerNoPadding"] svg,
+    [data-testid="collapsedControl"] button[data-testid="baseButton-headerNoPadding"] svg {
+        display: none !important;
+    }
+
+    /* << when sidebar is open (collapse action) */
+    section[data-testid="stSidebar"] button[data-testid="baseButton-headerNoPadding"]::after {
+        content: '<<';
+        color: #D4AF37;
+        font-family: 'EB Garamond', serif;
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: -0.1em;
+    }
+
+    /* >> when sidebar is collapsed (expand action) */
+    [data-testid="collapsedControl"] button[data-testid="baseButton-headerNoPadding"]::after {
+        content: '>>';
+        color: #D4AF37;
+        font-family: 'EB Garamond', serif;
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: -0.1em;
+    }
 </style>
 """
