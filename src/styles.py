@@ -7,23 +7,23 @@ def get_app_css():
     /* Import Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Tamil:wght@300;400;500;600;700&family=Noto+Serif+Tamil:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
-    /* CSS Custom Properties for Palm Leaf Theme */
+    /* CSS Custom Properties for Temple/Earthy Theme */
     :root {
-        --palm-leaf: #DAC7A0;
-        --temple-stone: #2B2A28;
-        --kumkum-red: #A2322E;
-        --turmeric-gold: #D3A014;
-        --indigo-ink: #1F3C88;
-        --soft-sand: #F5EEDC;
-        --primary: var(--palm-leaf);
-        --secondary: var(--temple-stone);
-        --accent: var(--kumkum-red);
-        --accent-secondary: var(--turmeric-gold);
-        --link: var(--indigo-ink);
-        --surface: var(--soft-sand);
-        --text: var(--temple-stone);
-        --text-light: #666;
-        --background: #ffffff;
+        --terracotta: #C0621E;
+        --saffron: #E8940A;
+        --deep-brown: #1C1410;
+        --warm-cream: #FDF6EC;
+        --burnt-sienna: #8B3A1A;
+        --clay-tan: #D4956A;
+        --primary: var(--terracotta);
+        --secondary: var(--deep-brown);
+        --accent: var(--saffron);
+        --accent-secondary: var(--burnt-sienna);
+        --link: var(--terracotta);
+        --surface: var(--warm-cream);
+        --text: var(--deep-brown);
+        --text-light: #6B4C3B;
+        --background: #FFFBF5;
     }
 
     .stApp {
@@ -104,7 +104,7 @@ def get_app_css():
         letter-spacing: 0.5px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.15);
         transition: all 0.3s ease;
-        background: linear-gradient(135deg, #6c5ce7, #5f3dc4);
+        background: linear-gradient(135deg, var(--terracotta), var(--burnt-sienna));
         color: white;
     }
 
