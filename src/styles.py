@@ -47,6 +47,20 @@ def get_app_css():
         font-family: 'EB Garamond', serif !important;
     }
 
+    /* Sidebar brand heading — gold, more specific than wildcard */
+    section[data-testid="stSidebar"] h1,
+    section[data-testid="stSidebar"] h2,
+    section[data-testid="stSidebar"] h3 {
+        color: #D4AF37 !important;
+    }
+
+    /* Sidebar subtitle / small text — warm cream */
+    section[data-testid="stSidebar"] p,
+    section[data-testid="stSidebar"] small,
+    section[data-testid="stSidebar"] span {
+        color: #C9B99A !important;
+    }
+
     /* option_menu inside sidebar */
     section[data-testid="stSidebar"] .nav-link {
         color: #C9B99A !important;
