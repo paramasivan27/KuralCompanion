@@ -43,13 +43,13 @@ def get_app_css():
     }
 
     section[data-testid="stSidebar"] * {
-        color: var(--cream) !important;
+        color: #FDF5E6 !important;
         font-family: 'EB Garamond', serif !important;
     }
 
     /* option_menu inside sidebar */
     section[data-testid="stSidebar"] .nav-link {
-        color: var(--cream-dim) !important;
+        color: #C9B99A !important;
         border-radius: 8px !important;
         font-size: 1.05rem !important;
         transition: all 0.2s ease !important;

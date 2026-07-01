@@ -31,7 +31,7 @@ def main():
             "<h2 style='color:#D4AF37;font-family:\"EB Garamond\",serif;"
             "text-align:center;letter-spacing:0.05em;margin-bottom:0.2rem;'>"
             "🌟 KuralCompanion</h2>"
-            "<p style='color:#9A8A70;font-family:\"EB Garamond\",serif;"
+            "<p style='color:#C9B99A;font-family:\"EB Garamond\",serif;"
             "text-align:center;font-style:italic;font-size:0.9rem;margin-top:0;'>"
             "Ancient Wisdom for Modern Life</p>"
             "<hr style='border:none;border-top:1px solid #6B2525;margin:0.8rem 0;'>",
