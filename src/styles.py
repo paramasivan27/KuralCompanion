@@ -428,10 +428,18 @@ def get_app_css():
     /* ── Sidebar collapse/expand controls ── */
 
     /* Hide keyboard shortcut label ("keybo..." / "keyboard shortcut: [") */
+    /* kbd is only used by Streamlit for shortcut hints — safe to hide globally */
+    kbd { display: none !important; }
+
     [data-testid="collapsedControl"] kbd,
     [data-testid="collapsedControl"] label,
     [data-testid="collapsedControl"] span,
-    section[data-testid="stSidebar"] kbd {
+    section[data-testid="stSidebar"] kbd,
+    /* floating tooltip Streamlit renders on hover over the toggle button */
+    div[data-testid="stTooltipHoverTarget"],
+    div[role="tooltip"],
+    [data-testid*="Tooltip"],
+    button[data-testid*="headerNoPadding"] ~ div {
         display: none !important;
     }
 
