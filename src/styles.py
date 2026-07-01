@@ -427,33 +427,22 @@ def get_app_css():
 
     /* ── Sidebar collapse/expand controls ── */
 
-    /* Hide keyboard shortcut label ("keybo..." / "keyboard shortcut: [") */
-    /* kbd is only used by Streamlit for shortcut hints — safe to hide globally */
+    /* Hide ALL child content inside the toggle buttons (SVG + keyboard shortcut span) */
+    section[data-testid="stSidebar"] button[data-testid*="headerNoPadding"] *,
+    section[data-testid="stSidebar"] > div > button *,
+    [data-testid="collapsedControl"] button * {
+        display: none !important;
+    }
+
+    /* Also catch any floating tooltip/kbd rendered outside the button */
     kbd { display: none !important; }
+    [data-radix-popper-content-wrapper] { display: none !important; }
 
-    [data-testid="collapsedControl"] kbd,
-    [data-testid="collapsedControl"] label,
-    [data-testid="collapsedControl"] span,
-    section[data-testid="stSidebar"] kbd,
-    /* floating tooltip Streamlit renders on hover over the toggle button */
-    div[data-testid="stTooltipHoverTarget"],
-    div[role="tooltip"],
-    [data-testid*="Tooltip"],
-    button[data-testid*="headerNoPadding"] ~ div {
-        display: none !important;
-    }
-
-    /* Hide ALL SVG chevrons in both the open and collapsed controls */
-    section[data-testid="stSidebar"] button svg,
-    [data-testid="collapsedControl"] svg,
-    [data-testid="collapsedControl"] button svg {
-        display: none !important;
-    }
-
-    /* << when sidebar is open — target any button inside the sidebar header */
+    /* << when sidebar is open */
     section[data-testid="stSidebar"] button[data-testid*="headerNoPadding"]::after,
     section[data-testid="stSidebar"] > div > button::after {
         content: '<<';
+        display: block !important;
         color: #D4AF37;
         font-family: 'EB Garamond', serif;
         font-size: 1rem;
@@ -461,18 +450,15 @@ def get_app_css():
         letter-spacing: -0.1em;
     }
 
-    /* >> when sidebar is collapsed — target the collapsed control container */
-    [data-testid="collapsedControl"] button::after,
-    [data-testid="collapsedControl"]::after {
+    /* >> when sidebar is collapsed */
+    [data-testid="collapsedControl"] button::after {
         content: '>>';
+        display: block !important;
         color: #D4AF37;
         font-family: 'EB Garamond', serif;
         font-size: 1rem;
         font-weight: bold;
         letter-spacing: -0.1em;
-        display: block;
-        text-align: center;
-        padding: 4px 0;
     }
 </style>
 """
