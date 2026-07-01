@@ -425,15 +425,26 @@ def get_app_css():
         font-style: italic !important;
     }
 
-    /* ── Sidebar collapse button — show << / >> instead of arrow SVG ── */
-    /* Hide the default SVG chevron */
-    section[data-testid="stSidebar"] button[data-testid="baseButton-headerNoPadding"] svg,
-    [data-testid="collapsedControl"] button[data-testid="baseButton-headerNoPadding"] svg {
+    /* ── Sidebar collapse/expand controls ── */
+
+    /* Hide keyboard shortcut label ("keybo..." / "keyboard shortcut: [") */
+    [data-testid="collapsedControl"] kbd,
+    [data-testid="collapsedControl"] label,
+    [data-testid="collapsedControl"] span,
+    section[data-testid="stSidebar"] kbd {
         display: none !important;
     }
 
-    /* << when sidebar is open (collapse action) */
-    section[data-testid="stSidebar"] button[data-testid="baseButton-headerNoPadding"]::after {
+    /* Hide ALL SVG chevrons in both the open and collapsed controls */
+    section[data-testid="stSidebar"] button svg,
+    [data-testid="collapsedControl"] svg,
+    [data-testid="collapsedControl"] button svg {
+        display: none !important;
+    }
+
+    /* << when sidebar is open — target any button inside the sidebar header */
+    section[data-testid="stSidebar"] button[data-testid*="headerNoPadding"]::after,
+    section[data-testid="stSidebar"] > div > button::after {
         content: '<<';
         color: #D4AF37;
         font-family: 'EB Garamond', serif;
@@ -442,14 +453,18 @@ def get_app_css():
         letter-spacing: -0.1em;
     }
 
-    /* >> when sidebar is collapsed (expand action) */
-    [data-testid="collapsedControl"] button[data-testid="baseButton-headerNoPadding"]::after {
+    /* >> when sidebar is collapsed — target the collapsed control container */
+    [data-testid="collapsedControl"] button::after,
+    [data-testid="collapsedControl"]::after {
         content: '>>';
         color: #D4AF37;
         font-family: 'EB Garamond', serif;
         font-size: 1rem;
         font-weight: bold;
         letter-spacing: -0.1em;
+        display: block;
+        text-align: center;
+        padding: 4px 0;
     }
 </style>
 """
