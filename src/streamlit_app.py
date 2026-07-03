@@ -84,7 +84,7 @@ def main():
             render_ask_kural()
         elif selected == "Explore Themes":
             render_explore_themes()
-        elif selected == "Browse Chapter Summaries":
+        elif selected == "Browse Chapters":
             render_browse_summaries()
         elif selected == "About":
             render_about()

@@ -274,7 +274,7 @@ def _render_chapter_detail(chapter):
 
 def render_browse_summaries():
     st.markdown(
-        '<h1 class="main-header">📚 Browse Chapter Summaries</h1>',
+        '<h1 class="main-header">📖 Browse Chapters</h1>',
         unsafe_allow_html=True,
     )
 

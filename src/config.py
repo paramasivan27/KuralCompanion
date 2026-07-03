@@ -4,7 +4,7 @@ VALID_PAGES = [
     "Home",
     "Ask Kural",
     "Explore Themes",
-    "Browse Chapter Summaries",
+    "Browse Chapters",
     "About",
 ]
 
@@ -19,6 +19,6 @@ SIDEBAR_OPTIONS = [
     ("Home", "house"),
     ("Ask Kural", "lightbulb"),
     ("Explore Themes", "book"),
-    ("Browse Chapter Summaries", "book-open"),
+    ("Browse Chapters", "journal-bookmark"),
     ("About", "info-circle"),
 ]
