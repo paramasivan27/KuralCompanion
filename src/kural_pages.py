@@ -206,40 +206,41 @@ def render_explore_themes():
             placeholder="1, 2, 3",
             key="theme_number_search",
         )
-        if st.button("Search", key="number_search") and kural_numbers_input.strip():
-            try:
-                kural_numbers = [
-                    int(num.strip())
-                    for num in kural_numbers_input.split(",")
-                    if num.strip().isdigit()
-                ]
-                kural_numbers = [n for n in kural_numbers if 1 <= n <= 1330]
-                if kural_numbers:
-                    st.subheader(f"📖 Kurals #{', '.join(map(str, kural_numbers))}")
-                    found = []
-                    for num in kural_numbers:
-                        kural = get_kural_by_number_comprehensive(num)
-                        if kural:
-                            found.append(kural)
-                        else:
-                            st.warning(f"Kural #{num} not found in the current database")
-                    if found:
-                        st.info(
-                            f"Found {len(found)} out of {len(kural_numbers)} requested kurals"
-                        )
-                        for kural in found:
-                            display_kural(
-                                kural,
-                                show_transliteration=show_transliteration,
-                                show_english=True,
+        if st.button("Search", key="number_search"):
+            if not kural_numbers_input.strip():
+                st.warning("Please enter Kural numbers to search")
+            else:
+                try:
+                    kural_numbers = [
+                        int(num.strip())
+                        for num in kural_numbers_input.split(",")
+                        if num.strip().isdigit()
+                    ]
+                    kural_numbers = [n for n in kural_numbers if 1 <= n <= 1330]
+                    if kural_numbers:
+                        st.subheader(f"📖 Kurals #{', '.join(map(str, kural_numbers))}")
+                        found = []
+                        for num in kural_numbers:
+                            kural = get_kural_by_number_comprehensive(num)
+                            if kural:
+                                found.append(kural)
+                            else:
+                                st.warning(f"Kural #{num} not found in the current database")
+                        if found:
+                            st.info(
+                                f"Found {len(found)} out of {len(kural_numbers)} requested kurals"
                             )
-                            st.markdown("<br>", unsafe_allow_html=True)
-                else:
-                    st.warning("Please enter valid Kural numbers between 1 and 1330")
-            except ValueError:
-                st.error("Please enter valid numbers separated by commas")
-        elif st.button("Search", key="number_search"):
-            st.warning("Please enter Kural numbers to search")
+                            for kural in found:
+                                display_kural(
+                                    kural,
+                                    show_transliteration=show_transliteration,
+                                    show_english=True,
+                                )
+                                st.markdown("<br>", unsafe_allow_html=True)
+                    else:
+                        st.warning("Please enter valid Kural numbers between 1 and 1330")
+                except ValueError:
+                    st.error("Please enter valid numbers separated by commas")
 
 
 def _render_chapter_detail(chapter):
