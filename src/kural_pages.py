@@ -36,18 +36,30 @@ def render_home():
             """
         ### Welcome to Your Digital Sage
 
-        KuralCompanion is your guide to the timeless wisdom of Thiruvalluvar's Thirukkural.
-        Whether you're seeking advice, exploring themes, or asking life's deeper questions,
-        let the ancient verses illuminate your path.
+        Written over two thousand years ago, Thiruvalluvar's Thirukkural distils the whole
+        of human experience into 1,330 couplets — on virtue, wealth, love, leadership,
+        friendship, and the quiet dignity of everyday life. KuralCompanion brings these
+        verses to you, matched to whatever is on your mind.
 
-        **How it works:**
-        - Share your thoughts, feelings, or questions
-        - Our enhanced RAG system analyzes your input across multiple dimensions
-        - AI detects themes and contextual relevance
-        - Receive highly relevant Thirukkural verses with detailed explanations
-        - Understand why each verse was selected for your situation
+        ---
 
-        Start your journey by asking a question or sharing how you feel!
+        **💡 Ask Kural**
+        Type a question, a feeling, or a topic — *"What does Thirukkural say about patience?"*
+        or simply *"I feel lost."* The app finds the most relevant verses and explains why
+        each one was chosen. Optionally, let Claude AI weave them into a single insight.
+
+        **🔍 Explore Themes**
+        Browse by theme, search by keyword, or jump directly to a verse by number.
+        All 1,330 kurals are indexed and searchable.
+
+        **📖 Browse Chapters**
+        Navigate all 133 chapters organised into the three great books —
+        Virtue, Wealth, and Love. Each chapter includes a summary and the full
+        verses in Tamil, transliteration, and English.
+
+        ---
+
+        *Start your journey by asking a question or sharing how you feel.*
         """
         )
         st.image(
