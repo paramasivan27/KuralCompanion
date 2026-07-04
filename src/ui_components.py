@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-from app_state import get_sample_kural
+from kural_database import get_sample_kural
 
 
 def get_available_explanations():

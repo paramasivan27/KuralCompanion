@@ -5,7 +5,7 @@ import os
 import anthropic
 import streamlit as st
 
-from app_state import COMPREHENSIVE_KURAL_DATABASE, THEME_KEYWORDS
+from kural_database import KURAL_DATABASE as COMPREHENSIVE_KURAL_DATABASE, THEME_KEYWORDS
 
 
 def detect_theme(text):

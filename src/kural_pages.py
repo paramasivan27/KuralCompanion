@@ -9,7 +9,7 @@ import pandas as pd
 import plotly.express as px
 
 from aggregated_kurals import get_aggregated_chapters
-from app_state import COMPREHENSIVE_KURAL_DATABASE, get_kural_by_number_comprehensive
+from kural_database import KURAL_DATABASE as COMPREHENSIVE_KURAL_DATABASE, get_kural_by_number as get_kural_by_number_comprehensive
 from kural_logic import (
     detect_theme,
     find_relevant_kurals_rag,

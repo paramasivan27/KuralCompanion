@@ -114,6 +114,13 @@ def get_kural_by_number(number):
             return kural
     return None
 
+def get_sample_kural():
+    """Return the first available kural (used to probe available explanation fields)."""
+    for kurals in KURAL_DATABASE.values():
+        if kurals:
+            return kurals[0]
+    return None
+
 def get_kurals_by_theme(theme):
     """Get all kurals for a specific theme"""
     return KURAL_DATABASE.get(theme, [])
