@@ -376,7 +376,7 @@ def render_about():
         st.metric("Coverage", f"{(total_kurals / 1330) * 100:.1f}%")
     with c3:
         st.metric("Aggregated Chapters", total_chapters)
-        st.metric("Enhanced RAG", "✓ Active")
+        st.metric("AI Summary", "✓ Available")
 
     st.subheader("📊 Database Coverage by Theme")
     theme_data = pd.DataFrame(list(theme_counts.items()), columns=["Theme", "Count"])
@@ -393,50 +393,65 @@ def render_about():
 
     ### 🎯 Core Features
 
-    **Enhanced Kural Database**
-    - Comprehensive collection of Thirukkural verses
-    - Organized by themes for intelligent matching
-    - Multiple database files for better organization and scalability
-    - **NEW: Aggregated data with chapter-level summaries for enhanced wisdom insights**
+    **Complete Thirukkural Coverage**
+    All 1,330 verses are present — every couplet in Tamil, transliteration, and English,
+    with meanings drawn from three classical Tamil commentators
+    (மு.வரதராசனார், சாலமன் பாப்பையா, and மு.கருணாநிதி).
 
-    **Theme-Based Kural Discovery**
-    - Detects themes from your input for intelligent matching
-    - Maps to relevant Thirukkural verses
-    - Provides contextual meanings and reflections
+    **Ask Kural — Topic & Emotion Search**
+    Describe a situation, ask a question, or name a theme. The app matches your words
+    against verse content and chapter themes, then surfaces the most relevant kurals
+    with a plain-English explanation of why each was chosen.
 
-    **Enhanced RAG-Powered AI Mode**
-    - Interactive dialogue with ancient wisdom using advanced retrieval
-    - Personalized guidance based on multi-dimensional analysis
-    - Intelligent matching across themes and content
-    - Detailed explanations of why each verse is relevant
+    **Explore Themes — Three Ways to Search**
+    Browse by theme category, search by any keyword, or jump directly to a verse by number.
+    Results show the full verse with match reasoning.
+
+    **Browse Chapters — All 133 Chapters**
+    Navigate the complete text organised into its three books — Virtue, Wealth, and Love.
+    Each chapter includes a curated summary and every verse in full.
+
+    **Optional AI Summary (Claude)**
+    When you want deeper synthesis, enable the AI Summary on the Ask Kural page. Claude
+    reads the retrieved verses and writes a concise, grounded response — always tied
+    to the actual verse content, never invented.
 
     ### 📖 About Thirukkural
 
     Thirukkural is a classic Tamil text consisting of 1,330 couplets dealing with the everyday virtues of an individual.
     It is one of the most important works in Tamil literature and is considered a masterpiece of ethical literature.
 
-    The text is divided into three sections:
-    - **Aram (Virtue)** - 380 verses on moral values
-    - **Porul (Wealth)** - 700 verses on political and economic matters
-    - **Inbam (Love)** - 250 verses on human love and relationships
+    The text is divided into three books:
+    - **Aram (Virtue)** — 38 chapters, 380 verses on moral and ethical life
+    - **Porul (Wealth)** — 70 chapters, 700 verses on statecraft, economics, and conduct
+    - **Inbam (Love)** — 25 chapters, 250 verses on human love and relationships
 
     ### 🔍 How KuralCompanion Works
 
-    **Enhanced RAG (Retrieval-Augmented Guidance)**
-    - Multi-dimensional search across English, meaning, theme, and couplet fields
-    - Intelligent scoring based on thematic relevance and content matching
-    - Contextual understanding of user queries for better verse selection
-    - Detailed explanations of why each verse is relevant to the user's situation
-    - **NEW: Chapter-level summaries integration for deeper thematic insights and wisdom context**
+    **Verse Search**
+    Your query is broken into words and matched against four fields in every verse —
+    the English translation, the meaning, the Tamil couplet, and the chapter theme.
+    Each match contributes to a relevance score; the top five verses are returned.
 
-    ### 📁 Database Structure
+    **Theme Detection**
+    Before searching, your input is scanned against a curated list of theme keywords
+    (wisdom, courage, friendship, love, leadership, and more). A theme match adds a
+    stronger signal to the score, so topically aligned verses rank higher.
 
-    The Kural database is organized into multiple files for better maintainability:
-    - `kural_database.py` - Main database with core kurals
-    - `comprehensive_kurals.py` - Additional kurals for extended coverage
-    - `extended_kurals.py` - Further kurals for maximum coverage
-    - **NEW: `aggregated_thirukkural_with_summary.json` - Chapter-level data with wisdom summaries**
+    **AI Synthesis (optional)**
+    If the AI Summary option is enabled, the five retrieved verses are passed to Claude,
+    which writes a 3–4 sentence synthesis grounded strictly in those verses.
+    Responses are cached — the same query never calls the API twice.
 
-    This modular approach allows for easy expansion and maintenance of the database, with the new aggregated data providing enhanced thematic insights.
+    ### 📁 Data Sources
+
+    The app draws from two complementary datasets:
+
+    **Verse Database** — Three JSON files (`kural_database.json`, `comprehensive_kurals.json`,
+    `extended_kurals.json`) covering all 1,330 kurals, each with Tamil lines, transliteration,
+    English translation, meaning, three Tamil commentaries, couplet text, and emotion tags.
+
+    **Chapter Summaries** — `aggregated_thirukkural_with_summary.json` holds all 133 chapters
+    with curated key-insight bullets used in the Browse Chapters section.
     """
     )
