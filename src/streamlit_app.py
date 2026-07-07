@@ -19,12 +19,12 @@ from kural_pages import (
 
 
 def main():
+    st.set_page_config(**PAGE_CONFIG)
+    st.markdown(get_app_css(), unsafe_allow_html=True)
+
     clear_emotion_related_state()
     if "selected_page" not in st.session_state:
         st.session_state.selected_page = "Home"
-
-    st.set_page_config(**PAGE_CONFIG)
-    st.markdown(get_app_css(), unsafe_allow_html=True)
 
     with st.sidebar:
         st.markdown(
@@ -60,6 +60,10 @@ def main():
                 "icon": {"color": "#D4AF37"},
             },
         )
+
+    # option_menu returns None before its JS hydrates; ignore that transient state
+    if sidebar_selected is None:
+        sidebar_selected = st.session_state.get("last_sidebar_selection", "Home")
 
     if "last_sidebar_selection" not in st.session_state:
         st.session_state.last_sidebar_selection = sidebar_selected
