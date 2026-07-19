@@ -16,9 +16,9 @@ PAGE_CONFIG = {
 }
 
 SIDEBAR_OPTIONS = [
-    ("Home", "house"),
-    ("Ask Kural", "lightbulb"),
-    ("Explore Themes", "book"),
-    ("Browse Chapters", "journal-bookmark"),
-    ("About", "info-circle"),
+    ("Home", "🏠"),
+    ("Ask Kural", "💡"),
+    ("Explore Themes", "🔍"),
+    ("Browse Chapters", "📖"),
+    ("About", "ℹ️"),
 ]

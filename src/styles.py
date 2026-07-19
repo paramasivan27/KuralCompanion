@@ -61,29 +61,43 @@ def get_app_css():
         color: #C9B99A !important;
     }
 
-    /* option_menu inside sidebar */
-    section[data-testid="stSidebar"] .nav-link {
+    /* ── Sidebar navigation buttons ── */
+    section[data-testid="stSidebar"] .stButton > button {
+        background: transparent !important;
         color: #C9B99A !important;
-        border-radius: 8px !important;
+        border: none !important;
+        border-radius: 4px !important;
+        text-align: left !important;
+        justify-content: flex-start !important;
+        font-family: 'EB Garamond', serif !important;
         font-size: 1.05rem !important;
-        transition: all 0.2s ease !important;
+        font-weight: 400 !important;
+        padding: 10px 14px !important;
+        box-shadow: none !important;
+        letter-spacing: 0.02em !important;
+        transition: background 0.15s, color 0.15s !important;
     }
 
-    section[data-testid="stSidebar"] .nav-link:hover {
-        background: var(--crimson-light) !important;
-        color: var(--gold) !important;
+    section[data-testid="stSidebar"] .stButton > button:hover {
+        background: rgba(92, 26, 26, 0.6) !important;
+        color: #FDF5E6 !important;
+        transform: none !important;
+        box-shadow: none !important;
     }
 
-    section[data-testid="stSidebar"] .nav-link.active {
-        background: linear-gradient(135deg, var(--crimson-light), var(--crimson-mid)) !important;
-        color: var(--gold) !important;
-        border-left: 3px solid var(--gold) !important;
+    /* Active nav item */
+    section[data-testid="stSidebar"] [data-testid="baseButton-primary"] {
+        background: #5C1A1A !important;
+        color: #D4AF37 !important;
+        border-left: 3px solid #D4AF37 !important;
+        padding-left: 11px !important;
         font-weight: 600 !important;
     }
 
-    section[data-testid="stSidebar"] .nav-link-selected {
-        background: var(--crimson-light) !important;
-        color: var(--gold) !important;
+    section[data-testid="stSidebar"] [data-testid="baseButton-primary"]:hover {
+        background: #6B2020 !important;
+        transform: none !important;
+        box-shadow: none !important;
     }
 
     /* ── Main container ── */

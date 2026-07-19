@@ -4,7 +4,6 @@ Main entry point; delegates to modular pages and shared components.
 """
 
 import streamlit as st
-from streamlit_option_menu import option_menu
 
 from config import PAGE_CONFIG, SIDEBAR_OPTIONS, VALID_PAGES
 from styles import get_app_css
@@ -26,6 +25,11 @@ def main():
     if "selected_page" not in st.session_state:
         st.session_state.selected_page = "Home"
 
+    current_page = st.session_state.selected_page
+    if current_page not in VALID_PAGES:
+        current_page = "Home"
+        st.session_state.selected_page = "Home"
+
     with st.sidebar:
         st.markdown(
             "<h2 style='color:#D4AF37;font-family:\"EB Garamond\",serif;"
@@ -37,63 +41,27 @@ def main():
             "<hr style='border:none;border-top:1px solid #6B2525;margin:0.8rem 0;'>",
             unsafe_allow_html=True,
         )
-        sidebar_selected = option_menu(
-            menu_title=None,
-            options=[o[0] for o in SIDEBAR_OPTIONS],
-            icons=[o[1] for o in SIDEBAR_OPTIONS],
-            menu_icon="cast",
-            default_index=0,
-            styles={
-                "container": {"background-color": "#2B0A0A", "padding": "4px"},
-                "nav-link": {
-                    "font-family": '"EB Garamond", serif',
-                    "font-size": "1.05rem",
-                    "color": "#C9B99A",
-                    "border-radius": "4px",
-                },
-                "nav-link-selected": {
-                    "background-color": "#5C1A1A",
-                    "color": "#D4AF37",
-                    "font-weight": "600",
-                    "border-left": "3px solid #D4AF37",
-                },
-                "icon": {"color": "#D4AF37"},
-            },
-        )
+        for page_name, emoji in SIDEBAR_OPTIONS:
+            is_active = current_page == page_name
+            if st.button(
+                f"{emoji}  {page_name}",
+                key=f"nav_{page_name}",
+                use_container_width=True,
+                type="primary" if is_active else "secondary",
+            ):
+                if not is_active:
+                    st.session_state.selected_page = page_name
+                    clear_page_state()
+                    st.rerun()
 
-    # option_menu returns None before its JS hydrates; ignore that transient state
-    if sidebar_selected is None:
-        sidebar_selected = st.session_state.get("last_sidebar_selection", "Home")
-
-    if "last_sidebar_selection" not in st.session_state:
-        st.session_state.last_sidebar_selection = sidebar_selected
-
-    if sidebar_selected != st.session_state.last_sidebar_selection:
-        st.session_state.selected_page = sidebar_selected
-        st.session_state.last_sidebar_selection = sidebar_selected
-        clear_page_state()
-        st.rerun()
-
-    selected = st.session_state.selected_page
-    if selected not in VALID_PAGES:
-        st.session_state.selected_page = "Home"
-        selected = "Home"
-        st.rerun()
-
-    main_container = st.container()
-    with main_container:
-        if selected == "Home":
-            render_home()
-        elif selected == "Ask Kural":
-            render_ask_kural()
-        elif selected == "Explore Themes":
-            render_explore_themes()
-        elif selected == "Browse Chapters":
-            render_browse_summaries()
-        elif selected == "About":
-            render_about()
-        else:
-            st.error("Page not found. Please select a valid page from the sidebar.")
+    renderers = {
+        "Home": render_home,
+        "Ask Kural": render_ask_kural,
+        "Explore Themes": render_explore_themes,
+        "Browse Chapters": render_browse_summaries,
+        "About": render_about,
+    }
+    renderers.get(current_page, render_home)()
 
 
 if __name__ == "__main__":
