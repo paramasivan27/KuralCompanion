@@ -82,7 +82,7 @@ def find_relevant_kurals_rag(user_input, themes):
                 norm_db = _normalize_translit(translit_text)
                 translit_matches = [t for t in search_terms if _normalize_translit(t) in norm_db]
             if translit_matches:
-                score += sum(min(len(t), 4) for t in translit_matches)
+                score += sum(min(len(t), 5) for t in translit_matches)
                 match_details.append(f"Transliteration matches: {', '.join(translit_matches)}")
 
             if score > 0:
