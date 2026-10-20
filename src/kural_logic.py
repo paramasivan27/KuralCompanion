@@ -1,9 +1,22 @@
 """Kural search and relevance logic (RAG, theme detection, counts)."""
 
 import os
+import re
 
 import anthropic
 import streamlit as st
+
+
+def _normalize_translit(text):
+    """Collapse Tamil transliteration gemination for flexible matching.
+
+    Digraph doublings (thth→th) are collapsed before single-letter doublings
+    (kk→k) so the digraph boundary is respected.
+    """
+    text = text.lower()
+    text = re.sub(r'(th|zh|ch|ng|nd)\1', r'\1', text)
+    text = re.sub(r'([bcdfghjklmnpqrstvwxyz])\1+', r'\1', text)
+    return text
 
 from kural_database import KURAL_DATABASE as COMPREHENSIVE_KURAL_DATABASE, THEME_KEYWORDS
 
@@ -64,6 +77,10 @@ def find_relevant_kurals_rag(user_input, themes):
 
             translit_text = kural.get("transliteration", "").lower()
             translit_matches = [t for t in search_terms if t in translit_text]
+            if not translit_matches:
+                # Flexible fallback: collapse geminated consonants on both sides
+                norm_db = _normalize_translit(translit_text)
+                translit_matches = [t for t in search_terms if _normalize_translit(t) in norm_db]
             if translit_matches:
                 score += sum(min(len(t), 4) for t in translit_matches)
                 match_details.append(f"Transliteration matches: {', '.join(translit_matches)}")
