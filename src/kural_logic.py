@@ -62,6 +62,12 @@ def find_relevant_kurals_rag(user_input, themes):
                 score += sum(min(len(t), 4) for t in couplet_matches)
                 match_details.append(f"Couplet matches: {', '.join(couplet_matches)}")
 
+            translit_text = kural.get("transliteration", "").lower()
+            translit_matches = [t for t in search_terms if t in translit_text]
+            if translit_matches:
+                score += sum(min(len(t), 4) for t in translit_matches)
+                match_details.append(f"Transliteration matches: {', '.join(translit_matches)}")
+
             if score > 0:
                 if len(match_details) >= 4:
                     score += 5
